@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Head Spa Doetinchem</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,300;0,400;1,300&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout: deep spa hero with drifting warm light, "Enjoy Improve Relax", the 5-step ritual, treatments, booking. Single deliberate dark look. */
+:root{
+  --bg:#141613; --surface:#1c1f1b; --fg:#efe9df; --muted:#b4ad9f; --line:#2f332d;
+  --warm:#d9b98c; --accent:#d9b98c; --on-accent:#171511; --err:#ff9fae;
+  --display:"Noto Serif Display",Georgia,serif; --body:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif; --bk-r:20px;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 76px)}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.7 var(--body);-webkit-font-smoothing:antialiased}
+a{color:inherit}:focus-visible{outline:2px solid var(--warm);outline-offset:3px}
+.wrap{max-width:1160px;margin:0 auto;padding-inline:22px}
+h1,h2,h3{font-family:var(--display);font-weight:300;text-wrap:balance;margin:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 28px;border-radius:999px;font:600 15px var(--body);text-decoration:none;border:1px solid var(--line);color:var(--fg);background:transparent;cursor:pointer}
+.btn.pri{background:var(--warm);border-color:var(--warm);color:var(--on-accent)}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:rgba(20,22,19,.8);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;height:68px}
+.mark{text-decoration:none;font-family:var(--display);font-size:24px;letter-spacing:.04em;white-space:nowrap}
+.bar nav{display:flex;align-items:center;gap:24px;font-size:15px}.bar nav a:not(.btn){text-decoration:none;color:var(--muted)}
+.bar .btn{min-height:42px;padding:0 18px;font-size:14px}
+@media (max-width:760px){.bar nav a:not(.btn){display:none}}
+.hero{position:relative;overflow:hidden;padding-block:80px 96px;isolation:isolate}
+.glow{position:absolute;border-radius:50%;filter:blur(60px);opacity:.55;z-index:-1}
+.g1{width:480px;height:480px;background:#7d5f3a;left:-120px;top:-80px}
+.g2{width:420px;height:420px;background:#3f5446;right:-100px;top:120px}
+.g3{width:300px;height:300px;background:#9c7a52;left:40%;bottom:-140px}
+@media (prefers-reduced-motion:no-preference){.g1{animation:d1 18s ease-in-out infinite alternate}.g2{animation:d2 22s ease-in-out infinite alternate}.g3{animation:d1 26s ease-in-out infinite alternate-reverse}
+@keyframes d1{to{transform:translate(80px,60px) scale(1.1)}}@keyframes d2{to{transform:translate(-90px,-40px) scale(.9)}}}
+.hero .in{display:grid;gap:28px;max-width:820px}
+.hero h1{font-size:clamp(56px,11vw,128px);line-height:.95;letter-spacing:-.02em}
+.hero h1 i{color:var(--warm)}
+.hero p{color:var(--muted);font-size:19px;max-width:42ch;margin:0}
+.cta{display:flex;gap:10px;flex-wrap:wrap}
+.proof{display:flex;gap:28px;flex-wrap:wrap;margin-top:12px}
+.proof div{display:grid}.proof b{font-family:var(--display);font-weight:300;font-size:40px;line-height:1;color:var(--warm)}.proof span{font-size:14px;color:var(--muted)}
+.trio{border-block:1px solid var(--line)}
+.trio .wrap{display:grid}
+@media (min-width:760px){.trio .wrap{grid-template-columns:repeat(3,1fr)}}
+.trio div{padding:30px 0;display:grid;gap:4px}
+@media (min-width:760px){.trio div+div{border-left:1px solid var(--line);padding-left:32px}}
+@media (max-width:759px){.trio div+div{border-top:1px solid var(--line)}}
+.trio b{font-family:var(--display);font-weight:300;font-size:40px;font-style:italic;color:var(--warm)}
+.trio span{color:var(--muted)}
+section.s{padding-block:92px}
+.head{display:grid;gap:12px;margin-bottom:40px;max-width:640px}
+.head h2{font-size:clamp(42px,7vw,72px);line-height:1}
+.head p{color:var(--muted);margin:0}
+.ritual{list-style:none;margin:0;padding:0;display:grid;gap:0;counter-reset:r}
+.ritual li{counter-increment:r;display:grid;grid-template-columns:72px 1fr;gap:6px 20px;padding:24px 0;border-top:1px solid var(--line)}
+.ritual li::before{content:counter(r,decimal-leading-zero);grid-row:span 2;font-family:var(--display);font-size:40px;font-weight:300;color:var(--warm);line-height:1}
+.ritual b{font-family:var(--display);font-weight:400;font-size:26px}
+.ritual p{margin:0;color:var(--muted)}
+@media (min-width:900px){.rit-wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:72px;align-items:start}}
+.menu{display:grid;gap:12px}
+@media (min-width:760px){.menu{grid-template-columns:1fr 1fr}}
+.item{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:24px;display:grid;grid-template-columns:1fr auto;gap:4px 14px}
+.item b{font-family:var(--display);font-weight:400;font-size:26px}
+.item .pr{font-family:var(--display);font-size:24px;color:var(--warm);align-self:center;white-space:nowrap}
+.item p{grid-column:1/-1;margin:0;color:var(--muted);font-size:15.5px}
+.item small{grid-column:1/-1;color:var(--muted);font-size:13px}
+.gift{margin-top:16px;padding:28px;border-radius:22px;border:1px dashed var(--warm);display:grid;gap:8px}
+.gift h3{font-size:30px}.gift p{margin:0;color:var(--muted)}
+.book .head{margin-inline:auto;text-align:center;justify-items:center}.book .bk{margin:0 auto}
+.visit .wrap{display:grid;gap:40px}@media (min-width:860px){.visit .wrap{grid-template-columns:1fr 1fr}}
+.visit address{font-style:normal;font-family:var(--display);font-weight:300;font-size:34px;line-height:1.2;margin:18px 0 22px}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}.num{font-size:20px;font-weight:600;font-variant-numeric:tabular-nums}
+.hours{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:15.5px}.hours td{padding:9px 0;border-bottom:1px solid var(--line)}.hours td+td{text-align:right;color:var(--muted)}
+.hours tr.today td{color:var(--warm)}
+footer{border-top:1px solid var(--line);padding-block:28px;color:var(--muted);font-size:14px}footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+.bk{background:var(--surface);border:1px solid var(--line);border-radius:var(--bk-r,6px);overflow:hidden;max-width:760px;text-align:left}
+.bk-steps{display:grid;grid-template-columns:repeat(3,1fr);margin:0;padding:0;list-style:none;border-bottom:1px solid var(--line)}
+.bk-steps li{padding:14px 8px 12px;text-align:center;font-size:13px;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px}
+.bk-steps li b{display:block;font-family:var(--display);font-size:21px;font-weight:400;line-height:1.1}
+.bk-steps li.on{color:var(--fg);border-bottom-color:var(--accent)}
+.bk-steps li.done{color:var(--accent)}
+.bk-pane{padding:24px 20px 8px;min-height:320px}
+.bk-pane h3{font-family:var(--display);font-weight:400;font-size:27px;line-height:1.15;margin:0 0 6px}
+.bk-grp{font-size:12px;font-weight:600;color:var(--muted);margin:20px 0 8px;letter-spacing:.08em;text-transform:uppercase}
+.bk-opts{display:grid;gap:8px}
+@media (min-width:640px){.bk-opts{grid-template-columns:1fr 1fr}}
+.bk-opt{display:flex;justify-content:space-between;align-items:center;gap:12px;width:100%;text-align:left;padding:14px 16px;min-height:56px;border:1px solid var(--line);border-radius:4px;background:transparent;color:var(--fg);font:500 15px/1.3 var(--body);cursor:pointer}
+.bk-opt small{color:var(--muted);font-size:13px;white-space:nowrap;text-align:right;line-height:1.35;flex-shrink:0;font-variant-numeric:tabular-nums}
+.bk-opt:hover{border-color:var(--accent)}
+.bk-opt[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.bk-days{display:flex;gap:8px;overflow-x:auto;margin:14px -20px 16px;padding:0 20px 8px}
+.bk-day{flex:0 0 auto;width:62px;padding:10px 0;border:1px solid var(--line);border-radius:4px;background:transparent;color:var(--fg);font:500 12px/1.3 var(--body);cursor:pointer;text-align:center}
+.bk-day b{display:block;font-family:var(--display);font-size:22px;font-weight:400}
+.bk-day[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.bk-day:disabled{opacity:.35;cursor:not-allowed}
+.bk-slots{display:grid;grid-template-columns:repeat(auto-fill,minmax(80px,1fr));gap:8px}
+.bk-slot{min-height:44px;border:1px solid var(--line);border-radius:4px;background:transparent;color:var(--fg);font:500 15px var(--body);cursor:pointer;font-variant-numeric:tabular-nums}
+.bk-slot[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.bk-slot:disabled{opacity:.3;cursor:not-allowed;text-decoration:line-through}
+.bk-empty{color:var(--muted);font-size:15px;margin:0}
+.bk-field{display:grid;gap:6px;margin-bottom:14px}
+.bk-field label,.bk-field legend{font-size:14px;font-weight:600;padding:0}
+.bk-field input,.bk-field textarea{font:16px var(--body);padding:12px 14px;border:1px solid var(--line);border-radius:4px;background:var(--bg);color:var(--fg);width:100%;box-sizing:border-box}
+.bk-field textarea{min-height:76px;resize:vertical}
+fieldset.bk-field{border:0;margin:0 0 14px;padding:0;min-width:0}
+.bk-seg{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.bk-seg label{display:flex;align-items:center;gap:10px;padding:12px 14px;border:1px solid var(--line);border-radius:4px;font-weight:500;cursor:pointer;min-height:48px;box-sizing:border-box}
+.bk-seg label:has(input:checked){border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.bk-seg input{accent-color:var(--accent);margin:0}
+.bk-err{color:var(--err);font-size:14px;min-height:20px;margin:0}
+.bk-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 20px;border-top:1px solid var(--line)}
+.bk-sum{font-size:14px;color:var(--muted);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bk-btn{min-height:46px;padding:0 22px;border-radius:999px;font:600 15px var(--body);cursor:pointer;border:1px solid var(--line);background:transparent;color:var(--fg);white-space:nowrap}
+.bk-btn.pri{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.bk-btn:disabled{opacity:.35;cursor:not-allowed}
+@media (max-width:600px){.bk-foot{flex-wrap:wrap}.bk-sum{flex-basis:100%;order:-1;white-space:normal;color:var(--fg)}.bk-sum:empty{display:none}.bk-foot .pri{flex:1}}
+.bk-done dl{display:grid;grid-template-columns:auto 1fr;gap:8px 20px;margin:14px 0 18px}
+.bk-done dt{color:var(--muted);font-size:14px}.bk-done dd{margin:0;font-weight:600;min-width:0}
+.copy{font:600 13px var(--body);border:1px solid var(--line);background:transparent;color:var(--fg);border-radius:999px;padding:0 14px;min-height:36px;cursor:pointer}
+
+</style>
+</head>
+<body>
+
+<header class="bar"><div class="wrap"><a class="mark" href="#top">Head Spa</a>
+<nav aria-label="Hoofdmenu"><a href="#ritueel">Het ritueel</a><a href="#behandelingen">Behandelingen</a><a href="#contact">Contact</a><a class="btn pri" href="#afspraak">Afspraak maken</a></nav></div></header>
+<main id="top">
+<section class="hero" aria-label="Head Spa Doetinchem"><i class="glow g1"></i><i class="glow g2"></i><i class="glow g3"></i>
+  <div class="wrap"><div class="in">
+    <h1>Een uur lang <i>niets</i> hoeven.</h1>
+    <p>Head spa in Doetinchem. Een diepe reiniging van hoofdhuid en haar, met een hoofdmassage waar je helemaal stil van wordt.</p>
+    <div class="cta"><a class="btn pri" href="#afspraak">Plan je head spa</a><a class="btn" href="#ritueel">Zo gaat het</a></div>
+    <div class="proof"><div><b>10</b><span>uit 53 beoordelingen op Social Deal</span></div><div><b>60</b><span>minuten puur ontspannen</span></div><div><b>100%</b><span>natuurlijke producten</span></div></div>
+  </div></div>
+</section>
+<section class="trio" aria-label="Filosofie"><div class="wrap">
+  <div><b>Enjoy</b><span>Even helemaal uit je hoofd, in een rustige ruimte.</span></div>
+  <div><b>Improve</b><span>Een gezondere hoofdhuid en zachter, glanzend haar.</span></div>
+  <div><b>Relax</b><span>Minder spanning in nek, schouders en hoofd.</span></div>
+</div></section>
+<section class="s" id="ritueel"><div class="wrap rit-wrap">
+  <div class="head"><h2>Het ritueel</h2><p>Elk haar en elke hoofdhuid is anders. Daarom begint je behandeling altijd met kijken wat jij nodig hebt. Gewerkt wordt met producten van Hairborist.</p></div>
+  <ol class="ritual">
+    <li><b>Analyse</b><p>We bekijken je hoofdhuid en haar en stemmen de behandeling daarop af.</p></li>
+    <li><b>Hoofdmassage</b><p>Een rustige massage van hoofd, nek en schouders.</p></li>
+    <li><b>Reiniging</b><p>Een uitgebreide reiniging van hoofdhuid en haar, liggend onder warm water.</p></li>
+    <li><b>Conditioner</b><p>Voeding voor je haar, afgestemd op je haartype.</p></li>
+    <li><b>Drogen</b><p>Je haar wordt gedroogd, zodat je fris en ontspannen naar huis gaat.</p></li>
+  </ol>
+</div></section>
+<section class="s" id="behandelingen" style="padding-top:0"><div class="wrap">
+  <div class="head"><h2>Behandelingen</h2><p>Kies de tijd die je jezelf gunt.</p></div>
+  <div class="menu" id="menu"></div>
+  <div class="gift"><h3>Cadeaubon</h3><p>Ken je iemand die wel wat rust kan gebruiken? Een head spa is een cadeau dat echt binnenkomt. Cadeaubonnen zijn verkrijgbaar in de salon of worden thuisbezorgd.</p></div>
+</div></section>
+<section class="s book" id="afspraak" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap"><div class="head"><h2>Afspraak maken</h2><p>Kies je behandeling en een moment. Je ziet direct welke tijden nog vrij zijn.</p></div><div class="bk" id="bk"></div></div></section>
+<section class="s visit" id="contact"><div class="wrap">
+  <div><div class="head" style="margin-bottom:0"><h2>Salon</h2></div><address>Houtmolenstraat 16<br>7008 AR Doetinchem</address>
+  <div class="row"><a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Houtmolenstraat+16+Doetinchem" target="_blank" rel="noopener">Route plannen</a><a class="btn" href="https://wa.me/31617190304" target="_blank" rel="noopener">WhatsApp</a><a class="btn" href="https://www.instagram.com/headspadoetinchem/" target="_blank" rel="noopener">Instagram</a></div>
+  <p style="margin:24px 0 8px;color:var(--muted)">Bellen of appen</p><div class="row"><a class="num" href="tel:+31617190304">06 17 19 03 04</a><button type="button" class="copy" data-copy="0617190304">Kopieer</button></div></div>
+  <div><h3 style="font-size:28px;margin-bottom:8px">Openingstijden</h3><table class="hours"><tbody id="hours"></tbody></table></div>
+</div></section>
+</main>
+<footer><div class="wrap"><span>© Head Spa Doetinchem</span><span>Enjoy, improve and relax</span></div></footer>
+<script>
+const H={1:[['09:00','12:00'],['13:00','16:00']],2:[['18:30','21:15']],3:[['09:00','12:00'],['13:00','16:00']],4:[['09:00','12:00'],['13:00','17:00']],5:[['09:00','12:00'],['13:10','17:00']],6:[['10:45','14:00']]};
+const m=s=>{const[a,b]=s.split(':');return +a*60+ +b};
+window.BOOK={key:'headspa',phone:'06 17 19 03 04',step:15,hours:Object.fromEntries(Object.entries(H).map(([d,r])=>[d,[m(r[0][0]),m(r[r.length-1][1])]])),
+services:[
+{id:'hs60',g:'Head spa',name:'Head spa 60 minuten',min:60,price:'€70',d:'Het complete ritueel: analyse, hoofdmassage, reiniging, conditioner en drogen.'},
+{id:'hs90',g:'Head spa',name:'Head spa extra lang',min:90,d:'Meer tijd voor massage en verzorging. Voor wie echt wil landen.'},
+{id:'hs45',g:'Head spa',name:'Head spa kennismaking',min:45,d:'Proef het ritueel in een korte versie.'},
+{id:'duo',g:'Samen',name:'Duo head spa',min:60,d:'Samen ontspannen, met je partner of vriendin.'}]};
+document.getElementById('menu').innerHTML=BOOK.services.map(s=>`<div class="item"><b>${s.name}</b>${s.price?`<span class="pr">${s.price}</span>`:''}<p>${s.d}</p><small>${s.min} minuten</small></div>`).join('');
+(function(){const n=['Maandag','Dinsdag','Woensdag','Donderdag','Vrijdag','Zaterdag','Zondag'],t=new Date().getDay();
+document.getElementById('hours').innerHTML=[1,2,3,4,5,6,0].map((d,i)=>`<tr class="${d===t?'today':''}"><td>${n[i]}</td><td>${H[d]?H[d].map(r=>r.join(' – ')).join(', '):'Gesloten'}</td></tr>`).join('')})();
+</script>
+<script>(function(){
+const C=window.BOOK,root=document.getElementById('bk');if(!root)return;
+const pad=n=>String(n).padStart(2,'0'),hm=m=>pad(Math.floor(m/60))+':'+pad(m%60),ymd=d=>d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
+const DN=['zo','ma','di','wo','do','vr','za'],MN=['jan','feb','mrt','apr','mei','jun','jul','aug','sep','okt','nov','dec'];
+const KEY='bk-'+C.key;let list=[];try{list=JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(list))}catch(e){}};
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const st={step:0,svc:null,date:null,time:null,name:'',phone:'',note:'',loc:'salon',addr:'',done:null};
+const svc=()=>C.services.find(s=>s.id===st.svc);
+const fd=k=>{const[y,m,d]=k.split('-').map(Number),t=new Date(y,m-1,d);return DN[t.getDay()]+' '+d+' '+MN[m-1]};
+const meta=s=>(s.price?s.price+'<br>':'')+s.min+' min';
+function slots(k){const[y,m,d]=k.split('-').map(Number),h=C.hours[new Date(y,m-1,d).getDay()];if(!h)return[];
+ const len=svc().min,out=[],now=new Date(),today=ymd(now)===k,nm=now.getHours()*60+now.getMinutes();
+ for(let t=h[0];t+len<=h[1];t+=C.step||30){const busy=list.some(b=>b.date===k&&t<b.start+b.len&&b.start<t+len);out.push({t,ok:!busy&&!(today&&t<=nm+30)})}return out}
+root.innerHTML='<ol class="bk-steps" aria-label="Stappen"><li><b>1</b>Behandeling</li><li><b>2</b>Moment</li><li><b>3</b>Gegevens</li></ol><div class="bk-pane" aria-live="polite"></div><div class="bk-foot"><button class="bk-btn" type="button" data-back>Terug</button><span class="bk-sum"></span><button class="bk-btn pri" type="button" data-next>Ga verder</button></div>';
+const pane=root.querySelector('.bk-pane'),back=root.querySelector('[data-back]'),next=root.querySelector('[data-next]'),sum=root.querySelector('.bk-sum');
+function go(n){st.step=n;render();const t=root.getBoundingClientRect().top;if(t<0||t>innerHeight*.6)root.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})}
+function render(){
+ root.querySelectorAll('.bk-steps li').forEach((li,i)=>{li.className=st.done?'done':i===st.step?'on':i<st.step?'done':'';li.setAttribute('aria-current',i===st.step&&!st.done?'step':'false')});
+ if(st.done)return done();
+ back.style.visibility=st.step?'visible':'hidden';next.textContent=st.step===2?'Bevestigen':'Ga verder';
+ sum.textContent=[svc()&&svc().name,st.time!=null&&st.date&&fd(st.date)+' '+hm(st.time)].filter(Boolean).join(', ');
+ if(st.step===0){
+  const groups=[...new Set(C.services.map(s=>s.g))];
+  pane.innerHTML='<h3>Welke behandeling?</h3>'+groups.map(g=>'<p class="bk-grp">'+g+'</p><div class="bk-opts">'+C.services.filter(s=>s.g===g).map(s=>'<button type="button" class="bk-opt" data-s="'+s.id+'" aria-pressed="'+(st.svc===s.id)+'"><span>'+s.name+'</span><small>'+meta(s)+'</small></button>').join('')+'</div>').join('');
+  pane.querySelectorAll('[data-s]').forEach(b=>b.onclick=()=>{st.svc=b.dataset.s;st.time=null;go(1)});next.disabled=!st.svc;
+ }else if(st.step===1){
+  const days=[],d0=new Date();d0.setHours(0,0,0,0);for(let i=0;i<21;i++){const d=new Date(d0);d.setDate(d0.getDate()+i);days.push(d)}
+  if(!st.date||!slots(st.date).some(s=>s.ok)){const f=days.find(d=>slots(ymd(d)).some(s=>s.ok));st.date=f?ymd(f):null}
+  const sl=st.date?slots(st.date):[];
+  pane.innerHTML='<h3>Wanneer komt het je uit?</h3><div class="bk-days" role="group" aria-label="Kies een dag">'+days.map(d=>{const k=ymd(d),open=!!C.hours[d.getDay()];return '<button type="button" class="bk-day" data-d="'+k+'" aria-pressed="'+(st.date===k)+'"'+(open?'':' disabled aria-label="'+DN[d.getDay()]+' '+d.getDate()+' '+MN[d.getMonth()]+', gesloten"')+'>'+DN[d.getDay()]+'<b>'+d.getDate()+'</b>'+MN[d.getMonth()]+'</button>'}).join('')+'</div>'+
+   (sl.some(s=>s.ok)?'<div class="bk-slots" role="group" aria-label="Kies een tijd">'+sl.map(s=>'<button type="button" class="bk-slot" data-t="'+s.t+'" aria-pressed="'+(st.time===s.t)+'"'+(s.ok?'':' disabled')+'>'+hm(s.t)+'</button>').join('')+'</div>':'<p class="bk-empty">Op deze dag is niets meer vrij. Kies een andere dag.</p>');
+  pane.querySelectorAll('[data-d]').forEach(b=>b.onclick=()=>{st.date=b.dataset.d;st.time=null;render()});
+  pane.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{st.time=+b.dataset.t;render()});
+  const sel=pane.querySelector('.bk-day[aria-pressed="true"]');if(sel)sel.scrollIntoView({block:'nearest',inline:'nearest'});
+  next.disabled=st.time==null;
+ }else{
+  pane.innerHTML='<h3>Je gegevens</h3>'+
+   (C.location?'<fieldset class="bk-field"><legend>Waar?</legend><div class="bk-seg"><label><input type="radio" name="bk-loc" id="bk-loc-s" value="salon"'+(st.loc==='salon'?' checked':'')+'>In de salon</label><label><input type="radio" name="bk-loc" id="bk-loc-h" value="thuis"'+(st.loc==='thuis'?' checked':'')+'>Bij mij thuis</label></div></fieldset>'+
+    '<div class="bk-field" id="bk-addr-w"'+(st.loc==='thuis'?'':' hidden')+'><label for="bk-addr">Adres</label><input id="bk-addr" autocomplete="street-address" value="'+esc(st.addr)+'"></div>':'')+
+   '<div class="bk-field"><label for="bk-name">Naam</label><input id="bk-name" autocomplete="name" value="'+esc(st.name)+'"></div>'+
+   '<div class="bk-field"><label for="bk-phone">Telefoonnummer</label><input id="bk-phone" type="tel" inputmode="tel" autocomplete="tel" value="'+esc(st.phone)+'"></div>'+
+   '<div class="bk-field"><label for="bk-note">Opmerking (optioneel)</label><textarea id="bk-note">'+esc(st.note)+'</textarea></div><p class="bk-err" id="bk-err"></p>';
+  const bind=(id,k)=>{const el=pane.querySelector('#'+id);if(el)el.oninput=e=>st[k]=e.target.value};
+  bind('bk-name','name');bind('bk-phone','phone');bind('bk-note','note');bind('bk-addr','addr');
+  pane.querySelectorAll('[name="bk-loc"]').forEach(r=>r.onchange=()=>{st.loc=r.value;pane.querySelector('#bk-addr-w').hidden=st.loc!=='thuis'});
+  next.disabled=false;
+ }
+}
+back.onclick=()=>{if(st.step)go(st.step-1)};
+next.onclick=()=>{
+ if(st.done){Object.assign(st,{step:0,svc:null,date:null,time:null,note:'',done:null});return go(0)}
+ if(st.step<2)return go(st.step+1);
+ const er=pane.querySelector('#bk-err');
+ if(st.name.trim().length<2){er.textContent='Vul je naam in.';return pane.querySelector('#bk-name').focus()}
+ if(st.phone.replace(/\D/g,'').length<9){er.textContent='Vul een geldig telefoonnummer in, bijvoorbeeld 06 12345678.';return pane.querySelector('#bk-phone').focus()}
+ if(C.location&&st.loc==='thuis'&&st.addr.trim().length<5){er.textContent='Vul het adres in waar we langskomen.';return pane.querySelector('#bk-addr').focus()}
+ const s=svc();if(!slots(st.date).some(x=>x.t===st.time&&x.ok)){st.time=null;return go(1)}
+ const b={date:st.date,start:st.time,len:s.min,svc:s.id,name:st.name.trim(),phone:st.phone.trim(),loc:st.loc,addr:st.addr.trim()};list.push(b);save();st.done=b;render();
+};
+function done(){const b=st.done,s=C.services.find(x=>x.id===b.svc);
+ pane.innerHTML='<div class="bk-done"><h3>Je afspraak staat genoteerd</h3><dl><dt>Behandeling</dt><dd>'+s.name+'</dd>'+(s.price?'<dt>Prijs</dt><dd>'+s.price+'</dd>':'')+'<dt>Wanneer</dt><dd>'+fd(b.date)+', '+hm(b.start)+' tot '+hm(b.start+b.len)+'</dd>'+(C.location?'<dt>Waar</dt><dd>'+(b.loc==='thuis'?esc(b.addr):'In de salon')+'</dd>':'')+'<dt>Naam</dt><dd>'+esc(b.name)+'</dd></dl><p class="bk-empty">Lukt het toch niet? Laat het even weten via '+C.phone+'.</p></div>';
+ back.style.visibility='hidden';sum.textContent='';next.disabled=false;next.textContent='Nog een afspraak';
+}
+render();
+document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{const t=b.dataset.copy,o=b.textContent;const ok=()=>{b.textContent='Gekopieerd';setTimeout(()=>b.textContent=o,1600)};
+ try{navigator.clipboard.writeText(t).then(ok,()=>sel(b))}catch(e){sel(b)}}));
+function sel(b){const n=b.previousElementSibling;if(!n)return;const r=document.createRange();r.selectNodeContents(n);const s=getSelection();s.removeAllRanges();s.addRange(r)}
+})();
+</script>
+
+</body>
+</html>
