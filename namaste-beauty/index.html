@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Namasté Beauty</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout: calm blush-and-forest nail studio — slow-turning mandala of nails in the hero, hands/feet menus, booking */
+:root{
+  --bg:#f6eeec; --surface:#fdf8f7; --fg:#1f2b25; --muted:#5f6a63; --line:#e8dad6;
+  --forest:#22392f; --blush:#e8c6c0; --accent:var(--forest); --on-accent:#f7f1ef; --err:#a3243a;
+  --display:"DM Serif Text",Georgia,serif; --body:"Outfit",system-ui,-apple-system,"Segoe UI",sans-serif; --bk-r:16px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1411;--surface:#161d19;--fg:#ecf1ee;--muted:#a3ada7;--line:#26302b;--forest:#a8cdb9;--blush:#5c3d3a;--on-accent:#0f1712;--err:#ff9fae;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0f1411;--surface:#161d19;--fg:#ecf1ee;--muted:#a3ada7;--line:#26302b;--forest:#a8cdb9;--blush:#5c3d3a;--on-accent:#0f1712;--err:#ff9fae;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 76px)}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.65 var(--body);-webkit-font-smoothing:antialiased}
+a{color:inherit}:focus-visible{outline:2px solid var(--forest);outline-offset:3px}
+.wrap{max-width:1160px;margin:0 auto;padding-inline:22px}
+h1,h2,h3{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 26px;border-radius:999px;font:600 15px var(--body);text-decoration:none;border:1px solid var(--fg);color:var(--fg);background:transparent;cursor:pointer}
+.btn.pri{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;height:68px}
+.mark{text-decoration:none;font-family:var(--display);font-size:26px;white-space:nowrap}
+.bar nav{display:flex;align-items:center;gap:24px;font-size:15px}.bar nav a:not(.btn){text-decoration:none;color:var(--muted)}
+.bar .btn{min-height:42px;padding:0 18px;font-size:14px}
+@media (max-width:760px){.bar nav a:not(.btn){display:none}}
+.hero{padding-block:48px 80px;overflow:hidden}
+.hero .wrap{display:grid;gap:36px;align-items:center}
+@media (min-width:920px){.hero .wrap{grid-template-columns:1.05fr .95fr;gap:56px}}
+.hero h1{font-size:clamp(50px,9vw,104px);line-height:.98}
+.hero h1 i{color:var(--forest)}
+.hero p{color:var(--muted);font-size:19px;max-width:38ch;margin:22px 0 28px}
+.cta{display:flex;gap:10px;flex-wrap:wrap}
+.badge{display:inline-flex;align-items:center;gap:10px;margin-top:26px;font-size:15px;color:var(--muted)}
+.badge b{color:var(--fg)}
+.mandala{position:relative;aspect-ratio:1;width:min(100%,440px);margin-inline:auto;border-radius:50%;background:radial-gradient(circle,var(--surface) 0 32%,var(--blush) 33% 100%)}
+.ring{position:absolute;inset:0}
+.ring i{position:absolute;left:50%;top:50%;width:11%;height:21%;margin:-10.5% 0 0 -5.5%;border-radius:50% 50% 44% 44%/62% 62% 38% 38%;background:var(--forest);transform:rotate(var(--a)) translateY(-150%);box-shadow:inset -4px -6px 10px rgba(0,0,0,.25),inset 3px 4px 6px rgba(255,255,255,.2)}
+.ring i::after{content:"";position:absolute;left:24%;top:10%;width:22%;height:40%;border-radius:50%;background:linear-gradient(rgba(255,255,255,.6),transparent)}
+.mandala .om{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--display);font-style:italic;font-size:clamp(22px,3vw,30px);color:var(--forest)}
+@media (prefers-reduced-motion:no-preference){.ring{animation:turn 60s linear infinite}@keyframes turn{to{transform:rotate(360deg)}}}
+section.s{padding-block:88px}
+.head{display:grid;gap:12px;margin-bottom:36px;max-width:640px}
+.head h2{font-size:clamp(40px,6vw,62px);line-height:1}.head h2 i{color:var(--forest)}
+.head p{color:var(--muted);margin:0}
+.cols{display:grid;gap:16px}
+@media (min-width:860px){.cols{grid-template-columns:1fr 1fr}}
+.col{background:var(--surface);border:1px solid var(--line);border-radius:24px;padding:28px}
+.col h3{font-size:34px;margin-bottom:6px}
+.col ul{list-style:none;margin:0;padding:0}
+.col li{display:grid;grid-template-columns:1fr auto;gap:2px 14px;padding:14px 0;border-top:1px solid var(--line)}
+.col li b{font-weight:600}
+.col li span{color:var(--muted);font-size:14px;white-space:nowrap;align-self:center;font-variant-numeric:tabular-nums}
+.col li p{grid-column:1/-1;margin:0;color:var(--muted);font-size:15px}
+.care{background:var(--accent);color:var(--on-accent)}
+.care .wrap{display:grid;gap:24px}
+@media (min-width:900px){.care .wrap{grid-template-columns:1fr 1fr;gap:72px;align-items:center}}
+.care h2{font-size:clamp(36px,5.4vw,58px)}
+.care ul{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.care li{padding-bottom:12px;border-bottom:1px solid color-mix(in srgb,var(--on-accent) 25%,transparent)}
+.book .head{margin-inline:auto;text-align:center;justify-items:center}.book .bk{margin:0 auto}
+.visit .wrap{display:grid;gap:40px}@media (min-width:860px){.visit .wrap{grid-template-columns:1fr 1fr}}
+.visit address{font-style:normal;font-family:var(--display);font-size:32px;line-height:1.25;margin:18px 0 22px}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}.num{font-size:20px;font-weight:600;font-variant-numeric:tabular-nums}
+.visit .note{color:var(--muted);max-width:44ch;margin:18px 0 0}
+footer{border-top:1px solid var(--line);padding-block:28px;color:var(--muted);font-size:14px}footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+.bk{background:var(--surface);border:1px solid var(--line);border-radius:var(--bk-r,6px);overflow:hidden;max-width:760px;text-align:left}
+.bk-steps{display:grid;grid-template-columns:repeat(3,1fr);margin:0;padding:0;list-style:none;border-bottom:1px solid var(--line)}
+.bk-steps li{padding:14px 8px 12px;text-align:center;font-size:13px;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px}
+.bk-steps li b{display:block;font-family:var(--display);font-size:21px;font-weight:400;line-height:1.1}
+.bk-steps li.on{color:var(--fg);border-bottom-color:var(--accent)}
+.bk-steps li.done{color:var(--accent)}
+.bk-pane{padding:24px 20px 8px;min-height:320px}
+.bk-pane h3{font-family:var(--display);font-weight:400;font-size:27px;line-height:1.15;margin:0 0 6px}
+.bk-grp{font-size:12px;font-weight:600;color:var(--muted);margin:20px 0 8px;letter-spacing:.08em;text-transform:uppercase}
+.bk-opts{display:grid;gap:8px}
+@media (min-width:640px){.bk-opts{grid-template-columns:1fr 1fr}}
+.bk-opt{display:flex;justify-content:space-between;align-items:center;gap:12px;width:100%;text-align:left;padding:14px 16px;min-height:56px;border:1px solid var(--line);border-radius:4px;background:transparent;color:var(--fg);font:500 15px/1.3 var(--body);cursor:pointer}
+.bk-opt small{color:var(--muted);font-size:13px;white-space:nowrap;text-align:right;line-height:1.35;flex-shrink:0;font-variant-numeric:tabular-nums}
+.bk-opt:hover{border-color:var(--accent)}
+.bk-opt[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.bk-days{display:flex;gap:8px;overflow-x:auto;margin:14px -20px 16px;padding:0 20px 8px}
+.bk-day{flex:0 0 auto;width:62px;padding:10px 0;border:1px solid var(--line);border-radius:4px;background:transparent;color:var(--fg);font:500 12px/1.3 var(--body);cursor:pointer;text-align:center}
+.bk-day b{display:block;font-family:var(--display);font-size:22px;font-weight:400}
+.bk-day[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.bk-day:disabled{opacity:.35;cursor:not-allowed}
+.bk-slots{display:grid;grid-template-columns:repeat(auto-fill,minmax(80px,1fr));gap:8px}
+.bk-slot{min-height:44px;border:1px solid var(--line);border-radius:4px;background:transparent;color:var(--fg);font:500 15px var(--body);cursor:pointer;font-variant-numeric:tabular-nums}
+.bk-slot[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.bk-slot:disabled{opacity:.3;cursor:not-allowed;text-decoration:line-through}
+.bk-empty{color:var(--muted);font-size:15px;margin:0}
+.bk-field{display:grid;gap:6px;margin-bottom:14px}
+.bk-field label,.bk-field legend{font-size:14px;font-weight:600;padding:0}
+.bk-field input,.bk-field textarea{font:16px var(--body);padding:12px 14px;border:1px solid var(--line);border-radius:4px;background:var(--bg);color:var(--fg);width:100%;box-sizing:border-box}
+.bk-field textarea{min-height:76px;resize:vertical}
+fieldset.bk-field{border:0;margin:0 0 14px;padding:0;min-width:0}
+.bk-seg{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.bk-seg label{display:flex;align-items:center;gap:10px;padding:12px 14px;border:1px solid var(--line);border-radius:4px;font-weight:500;cursor:pointer;min-height:48px;box-sizing:border-box}
+.bk-seg label:has(input:checked){border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.bk-seg input{accent-color:var(--accent);margin:0}
+.bk-err{color:var(--err);font-size:14px;min-height:20px;margin:0}
+.bk-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 20px;border-top:1px solid var(--line)}
+.bk-sum{font-size:14px;color:var(--muted);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bk-btn{min-height:46px;padding:0 22px;border-radius:999px;font:600 15px var(--body);cursor:pointer;border:1px solid var(--line);background:transparent;color:var(--fg);white-space:nowrap}
+.bk-btn.pri{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.bk-btn:disabled{opacity:.35;cursor:not-allowed}
+@media (max-width:600px){.bk-foot{flex-wrap:wrap}.bk-sum{flex-basis:100%;order:-1;white-space:normal;color:var(--fg)}.bk-sum:empty{display:none}.bk-foot .pri{flex:1}}
+.bk-done dl{display:grid;grid-template-columns:auto 1fr;gap:8px 20px;margin:14px 0 18px}
+.bk-done dt{color:var(--muted);font-size:14px}.bk-done dd{margin:0;font-weight:600;min-width:0}
+.copy{font:600 13px var(--body);border:1px solid var(--line);background:transparent;color:var(--fg);border-radius:999px;padding:0 14px;min-height:36px;cursor:pointer}
+
+</style>
+</head>
+<body>
+
+<header class="bar"><div class="wrap"><a class="mark" href="#top">Namasté Beauty</a>
+<nav aria-label="Hoofdmenu"><a href="#behandelingen">Behandelingen</a><a href="#contact">Contact</a><a class="btn pri" href="#afspraak">Afspraak maken</a></nav></div></header>
+<main id="top">
+<section class="hero" aria-label="Namasté Beauty"><div class="wrap">
+  <div><h1>Rust in je hoofd, <i>mooi</i> aan je handen.</h1>
+  <p>Professionele hand- en nagelverzorging in Ulft. Door een gecertificeerd allround nagelstyliste, met aandacht voor elk detail.</p>
+  <div class="cta"><a class="btn pri" href="#afspraak">Afspraak maken</a><a class="btn" href="#behandelingen">Behandelingen</a></div>
+  <div class="badge"><b>Gecertificeerd</b> allround nagelstyliste</div></div>
+  <div class="mandala" aria-hidden="true"><div class="ring" id="ring"></div><div class="om">namasté</div></div>
+</div></section>
+<section class="s" id="behandelingen" style="padding-top:24px"><div class="wrap">
+  <div class="head"><h2>Handen <i>&amp;</i> voeten</h2><p>Van een verzorgende manicure tot gelnagels met nail art. Kom met een voorbeeld of laat je adviseren.</p></div>
+  <div class="cols"><div class="col"><h3>Handen</h3><ul id="m-h"></ul></div><div class="col"><h3>Voeten</h3><ul id="m-v"></ul></div></div>
+</div></section>
+<section class="s care"><div class="wrap">
+  <h2>Langer plezier van je nagels</h2>
+  <ul><li>Smeer dagelijks nagelriemolie, dan blijft alles soepel en sterk.</li><li>Draag handschoenen bij schoonmaken en afwassen.</li><li>Kom op tijd opvullen, na drie tot vier weken.</li></ul>
+</div></section>
+<section class="s book" id="afspraak"><div class="wrap"><div class="head"><h2>Afspraak maken</h2><p>Kies een behandeling en een moment. Je ziet direct welke tijden nog vrij zijn.</p></div><div class="bk" id="bk"></div></div></section>
+<section class="s visit" id="contact" style="border-top:1px solid var(--line)"><div class="wrap">
+  <div><div class="head" style="margin-bottom:0"><h2>Studio</h2></div><address>Vendeliers 58<br>7071 KN Ulft</address>
+  <div class="row"><a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Vendeliers+58+Ulft" target="_blank" rel="noopener">Route plannen</a><a class="btn" href="https://wa.me/31618400415" target="_blank" rel="noopener">WhatsApp</a><a class="btn" href="https://www.instagram.com/namaste_beauty_ulft/" target="_blank" rel="noopener">Instagram</a></div></div>
+  <div><p style="margin:0 0 8px;color:var(--muted)">Bellen of appen</p><div class="row"><a class="num" href="tel:+31618400415">06 18 40 04 15</a><button type="button" class="copy" data-copy="0618400415">Kopieer</button></div>
+  <p class="note">Nieuwe klant? Stuur even een appje, dan plannen we samen je eerste afspraak.</p></div>
+</div></section>
+</main>
+<footer><div class="wrap"><span>© Namasté Beauty, Ulft</span><span>Vendeliers 58</span></div></footer>
+<script>
+window.BOOK={key:'namaste',phone:'06 18 40 04 15',step:30,hours:{1:[540,1050],2:[540,1050],3:[540,1050],4:[540,1200],5:[540,1050],6:[540,840]},
+services:[
+{id:'mani',g:'Handen',name:'Manicure',min:30,d:'Nagelriemen verzorgen, vijlen en zachte handen.'},
+{id:'gel',g:'Handen',name:'Gellak',min:45,d:'Glanzende kleur die weken blijft.'},
+{id:'biab',g:'Handen',name:'BIAB',min:60,d:'Versterking voor je eigen nagels.'},
+{id:'set',g:'Handen',name:'Gelnagels nieuwe set',min:90,d:'Verlenging in jouw lengte en vorm.'},
+{id:'opv',g:'Handen',name:'Opvullen',min:75,d:'Uitgroei bijwerken met nieuwe kleur.'},
+{id:'art',g:'Handen',name:'Nail art',min:15,d:'Accent of compleet ontwerp.'},
+{id:'pedi',g:'Voeten',name:'Esthetische pedicure',min:45,d:'Verzorgde, zachte voeten.'},
+{id:'gelv',g:'Voeten',name:'Gellak op de tenen',min:30,d:'Een mooie kleur die lang blijft.'},
+{id:'combo',g:'Voeten',name:'Pedicure met gellak',min:75,d:'Verzorgd én in kleur.'}]};
+const li=s=>`<li><b>${s.name}</b><span>${s.min} min</span><p>${s.d}</p></li>`;
+document.getElementById('m-h').innerHTML=BOOK.services.filter(s=>s.g==='Handen').map(li).join('');
+document.getElementById('m-v').innerHTML=BOOK.services.filter(s=>s.g==='Voeten').map(li).join('');
+document.getElementById('ring').innerHTML=Array.from({length:12},(_,i)=>`<i style="--a:${i*30}deg"></i>`).join('');
+</script>
+<script>(function(){
+const C=window.BOOK,root=document.getElementById('bk');if(!root)return;
+const pad=n=>String(n).padStart(2,'0'),hm=m=>pad(Math.floor(m/60))+':'+pad(m%60),ymd=d=>d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
+const DN=['zo','ma','di','wo','do','vr','za'],MN=['jan','feb','mrt','apr','mei','jun','jul','aug','sep','okt','nov','dec'];
+const KEY='bk-'+C.key;let list=[];try{list=JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(list))}catch(e){}};
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const st={step:0,svc:null,date:null,time:null,name:'',phone:'',note:'',loc:'salon',addr:'',done:null};
+const svc=()=>C.services.find(s=>s.id===st.svc);
+const fd=k=>{const[y,m,d]=k.split('-').map(Number),t=new Date(y,m-1,d);return DN[t.getDay()]+' '+d+' '+MN[m-1]};
+const meta=s=>(s.price?s.price+'<br>':'')+s.min+' min';
+function slots(k){const[y,m,d]=k.split('-').map(Number),h=C.hours[new Date(y,m-1,d).getDay()];if(!h)return[];
+ const len=svc().min,out=[],now=new Date(),today=ymd(now)===k,nm=now.getHours()*60+now.getMinutes();
+ for(let t=h[0];t+len<=h[1];t+=C.step||30){const busy=list.some(b=>b.date===k&&t<b.start+b.len&&b.start<t+len);out.push({t,ok:!busy&&!(today&&t<=nm+30)})}return out}
+root.innerHTML='<ol class="bk-steps" aria-label="Stappen"><li><b>1</b>Behandeling</li><li><b>2</b>Moment</li><li><b>3</b>Gegevens</li></ol><div class="bk-pane" aria-live="polite"></div><div class="bk-foot"><button class="bk-btn" type="button" data-back>Terug</button><span class="bk-sum"></span><button class="bk-btn pri" type="button" data-next>Ga verder</button></div>';
+const pane=root.querySelector('.bk-pane'),back=root.querySelector('[data-back]'),next=root.querySelector('[data-next]'),sum=root.querySelector('.bk-sum');
+function go(n){st.step=n;render();const t=root.getBoundingClientRect().top;if(t<0||t>innerHeight*.6)root.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})}
+function render(){
+ root.querySelectorAll('.bk-steps li').forEach((li,i)=>{li.className=st.done?'done':i===st.step?'on':i<st.step?'done':'';li.setAttribute('aria-current',i===st.step&&!st.done?'step':'false')});
+ if(st.done)return done();
+ back.style.visibility=st.step?'visible':'hidden';next.textContent=st.step===2?'Bevestigen':'Ga verder';
+ sum.textContent=[svc()&&svc().name,st.time!=null&&st.date&&fd(st.date)+' '+hm(st.time)].filter(Boolean).join(', ');
+ if(st.step===0){
+  const groups=[...new Set(C.services.map(s=>s.g))];
+  pane.innerHTML='<h3>Welke behandeling?</h3>'+groups.map(g=>'<p class="bk-grp">'+g+'</p><div class="bk-opts">'+C.services.filter(s=>s.g===g).map(s=>'<button type="button" class="bk-opt" data-s="'+s.id+'" aria-pressed="'+(st.svc===s.id)+'"><span>'+s.name+'</span><small>'+meta(s)+'</small></button>').join('')+'</div>').join('');
+  pane.querySelectorAll('[data-s]').forEach(b=>b.onclick=()=>{st.svc=b.dataset.s;st.time=null;go(1)});next.disabled=!st.svc;
+ }else if(st.step===1){
+  const days=[],d0=new Date();d0.setHours(0,0,0,0);for(let i=0;i<21;i++){const d=new Date(d0);d.setDate(d0.getDate()+i);days.push(d)}
+  if(!st.date||!slots(st.date).some(s=>s.ok)){const f=days.find(d=>slots(ymd(d)).some(s=>s.ok));st.date=f?ymd(f):null}
+  const sl=st.date?slots(st.date):[];
+  pane.innerHTML='<h3>Wanneer komt het je uit?</h3><div class="bk-days" role="group" aria-label="Kies een dag">'+days.map(d=>{const k=ymd(d),open=!!C.hours[d.getDay()];return '<button type="button" class="bk-day" data-d="'+k+'" aria-pressed="'+(st.date===k)+'"'+(open?'':' disabled aria-label="'+DN[d.getDay()]+' '+d.getDate()+' '+MN[d.getMonth()]+', gesloten"')+'>'+DN[d.getDay()]+'<b>'+d.getDate()+'</b>'+MN[d.getMonth()]+'</button>'}).join('')+'</div>'+
+   (sl.some(s=>s.ok)?'<div class="bk-slots" role="group" aria-label="Kies een tijd">'+sl.map(s=>'<button type="button" class="bk-slot" data-t="'+s.t+'" aria-pressed="'+(st.time===s.t)+'"'+(s.ok?'':' disabled')+'>'+hm(s.t)+'</button>').join('')+'</div>':'<p class="bk-empty">Op deze dag is niets meer vrij. Kies een andere dag.</p>');
+  pane.querySelectorAll('[data-d]').forEach(b=>b.onclick=()=>{st.date=b.dataset.d;st.time=null;render()});
+  pane.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{st.time=+b.dataset.t;render()});
+  const sel=pane.querySelector('.bk-day[aria-pressed="true"]');if(sel)sel.scrollIntoView({block:'nearest',inline:'nearest'});
+  next.disabled=st.time==null;
+ }else{
+  pane.innerHTML='<h3>Je gegevens</h3>'+
+   (C.location?'<fieldset class="bk-field"><legend>Waar?</legend><div class="bk-seg"><label><input type="radio" name="bk-loc" id="bk-loc-s" value="salon"'+(st.loc==='salon'?' checked':'')+'>In de salon</label><label><input type="radio" name="bk-loc" id="bk-loc-h" value="thuis"'+(st.loc==='thuis'?' checked':'')+'>Bij mij thuis</label></div></fieldset>'+
+    '<div class="bk-field" id="bk-addr-w"'+(st.loc==='thuis'?'':' hidden')+'><label for="bk-addr">Adres</label><input id="bk-addr" autocomplete="street-address" value="'+esc(st.addr)+'"></div>':'')+
+   '<div class="bk-field"><label for="bk-name">Naam</label><input id="bk-name" autocomplete="name" value="'+esc(st.name)+'"></div>'+
+   '<div class="bk-field"><label for="bk-phone">Telefoonnummer</label><input id="bk-phone" type="tel" inputmode="tel" autocomplete="tel" value="'+esc(st.phone)+'"></div>'+
+   '<div class="bk-field"><label for="bk-note">Opmerking (optioneel)</label><textarea id="bk-note">'+esc(st.note)+'</textarea></div><p class="bk-err" id="bk-err"></p>';
+  const bind=(id,k)=>{const el=pane.querySelector('#'+id);if(el)el.oninput=e=>st[k]=e.target.value};
+  bind('bk-name','name');bind('bk-phone','phone');bind('bk-note','note');bind('bk-addr','addr');
+  pane.querySelectorAll('[name="bk-loc"]').forEach(r=>r.onchange=()=>{st.loc=r.value;pane.querySelector('#bk-addr-w').hidden=st.loc!=='thuis'});
+  next.disabled=false;
+ }
+}
+back.onclick=()=>{if(st.step)go(st.step-1)};
+next.onclick=()=>{
+ if(st.done){Object.assign(st,{step:0,svc:null,date:null,time:null,note:'',done:null});return go(0)}
+ if(st.step<2)return go(st.step+1);
+ const er=pane.querySelector('#bk-err');
+ if(st.name.trim().length<2){er.textContent='Vul je naam in.';return pane.querySelector('#bk-name').focus()}
+ if(st.phone.replace(/\D/g,'').length<9){er.textContent='Vul een geldig telefoonnummer in, bijvoorbeeld 06 12345678.';return pane.querySelector('#bk-phone').focus()}
+ if(C.location&&st.loc==='thuis'&&st.addr.trim().length<5){er.textContent='Vul het adres in waar we langskomen.';return pane.querySelector('#bk-addr').focus()}
+ const s=svc();if(!slots(st.date).some(x=>x.t===st.time&&x.ok)){st.time=null;return go(1)}
+ const b={date:st.date,start:st.time,len:s.min,svc:s.id,name:st.name.trim(),phone:st.phone.trim(),loc:st.loc,addr:st.addr.trim()};list.push(b);save();st.done=b;render();
+};
+function done(){const b=st.done,s=C.services.find(x=>x.id===b.svc);
+ pane.innerHTML='<div class="bk-done"><h3>Je afspraak staat genoteerd</h3><dl><dt>Behandeling</dt><dd>'+s.name+'</dd>'+(s.price?'<dt>Prijs</dt><dd>'+s.price+'</dd>':'')+'<dt>Wanneer</dt><dd>'+fd(b.date)+', '+hm(b.start)+' tot '+hm(b.start+b.len)+'</dd>'+(C.location?'<dt>Waar</dt><dd>'+(b.loc==='thuis'?esc(b.addr):'In de salon')+'</dd>':'')+'<dt>Naam</dt><dd>'+esc(b.name)+'</dd></dl><p class="bk-empty">Lukt het toch niet? Laat het even weten via '+C.phone+'.</p></div>';
+ back.style.visibility='hidden';sum.textContent='';next.disabled=false;next.textContent='Nog een afspraak';
+}
+render();
+document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{const t=b.dataset.copy,o=b.textContent;const ok=()=>{b.textContent='Gekopieerd';setTimeout(()=>b.textContent=o,1600)};
+ try{navigator.clipboard.writeText(t).then(ok,()=>sel(b))}catch(e){sel(b)}}));
+function sel(b){const n=b.previousElementSibling;if(!n)return;const r=document.createRange();r.selectNodeContents(n);const s=getSelection();s.removeAllRanges();s.addRange(r)}
+})();
+</script>
+
+</body>
+</html>
