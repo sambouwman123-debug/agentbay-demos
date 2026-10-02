@@ -1,0 +1,125 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Pedicure Salon Weerkamp | Enschede</title><meta name="description" content="Pedicure en voetverzorging in Enschede. Vakkundig, rustig en met aandacht voor jouw voeten."><meta name="theme-color" content="#1d1f22">
+<link rel="preconnect" href="https://images.unsplash.com"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet"><style>
+:root{--bg:#f3f4ef;--surface:#fffffb;--fg:#1e231d;--muted:#5b6358;--line:#dfe2d8;--accent:#4f6b4a;--on-accent:#fff;--accent-text:#455e41;--alt:#e9ebe3;--ink:#181c17;--hero-accent:#cfe3b8;--err:#b3261e;--r:999px;--r2:18px;--display:"Cormorant Garamond",Georgia,serif;--body:"Inter",system-ui,sans-serif;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#111214;--surface:#1a1b1e;--fg:#eeeeec;--muted:#a6a8ab;--line:#2a2c30;--accent:#cfe3b8;--on-accent:#111214;--accent-text:#dbebc9;--alt:#16171a;--ink:#0a0b0c;--err:#ffb4ab;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#111214;--surface:#1a1b1e;--fg:#eeeeec;--muted:#a6a8ab;--line:#2a2c30;--accent:#cfe3b8;--on-accent:#111214;--accent-text:#dbebc9;--alt:#16171a;--ink:#0a0b0c;--err:#ffb4ab;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+a{color:inherit}:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance;letter-spacing:-.01em}
+.wrap{max-width:1180px;margin:0 auto;padding-inline:20px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 24px;border-radius:var(--r);font:700 16px var(--body);text-decoration:none;border:2px solid transparent;cursor:pointer;white-space:nowrap}
+.btn svg{width:20px;height:20px;flex:none}
+.btn.pri{background:var(--accent);color:var(--on-accent)}
+.btn.wa{background:#1f8f4e;color:#fff}
+.btn.ghost{border-color:rgba(255,255,255,.7);color:#fff}
+.btn.line{border-color:var(--fg);color:var(--fg)}
+/* nav */
+.nav{position:fixed;inset:0 0 auto;z-index:20;transition:background .25s,box-shadow .25s;color:#fff}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:14px;height:72px}
+.nav.solid{background:var(--surface);color:var(--fg);box-shadow:0 1px 0 var(--line)}
+.logo{text-decoration:none;display:grid;line-height:1.05}
+.logo b{font:600 20px/1.05 var(--display);letter-spacing:-.01em}
+.logo small{font-size:12px;opacity:.8;letter-spacing:.04em}
+.nav nav{display:flex;align-items:center;gap:26px;font-size:15px;font-weight:600}
+.nav nav a:not(.btn){text-decoration:none;opacity:.9}
+.nav .btn{min-height:44px;padding:0 16px;font-size:15px}
+@media (max-width:860px){.nav nav a:not(.btn){display:none}}
+@media (max-width:420px){.nav .btn .t{display:none}.nav .btn{padding:0 13px}}
+/* hero */
+.hero{position:relative;min-height:92svh;display:grid;align-items:end;color:#fff;background:#1d1f22;overflow:hidden}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 30%}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,12,14,.72) 0%,rgba(10,12,14,.4) 50%,rgba(10,12,14,0) 85%),linear-gradient(180deg,rgba(10,12,14,.55) 0%,rgba(10,12,14,.15) 30%,rgba(10,12,14,.55) 62%,rgba(10,12,14,.92) 100%)}
+.hero .wrap{position:relative;z-index:1;padding-block:120px 56px;width:100%}
+.kick{display:inline-flex;align-items:center;gap:10px;font-size:14px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin:0 0 18px}
+.kick::before{content:"";width:28px;height:3px;background:var(--hero-accent)}
+.hero h1{font-size:clamp(42px,8vw,96px);line-height:.98;font-weight:500;max-width:14ch}
+.hero h1 em{font-style:italic;color:var(--hero-accent)}
+.hero p.lead{font-size:clamp(17px,1.6vw,20px);max-width:46ch;margin:22px 0 30px;color:rgba(255,255,255,.88)}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.proof{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:40px;padding-top:22px;border-top:1px solid rgba(255,255,255,.22);font-size:15px;color:rgba(255,255,255,.85)}
+.proof b{color:#fff}
+
+section.s{padding-block:88px}
+.head{display:grid;gap:12px;margin-bottom:40px;max-width:680px}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-text)}
+.head h2{font-size:clamp(34px,5vw,56px);line-height:1.02;font-weight:500}
+.head p{margin:0;color:var(--muted)}
+.svcs{display:grid;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--r2);overflow:hidden}
+@media (min-width:700px){.svcs{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1020px){.svcs{grid-template-columns:repeat(3,1fr)}}
+.svc{background:var(--surface);padding:30px 26px;display:grid;gap:8px;align-content:start}
+.svc .n{font:700 13px var(--body);color:var(--accent-text);letter-spacing:.08em}
+.svc h3{font-size:23px;font-weight:600;line-height:1.15}
+.svc p{margin:0;color:var(--muted);font-size:16px}
+.about{background:var(--alt);}
+.about .wrap{display:grid;gap:44px}
+@media (min-width:920px){.about .wrap{grid-template-columns:1.1fr 1fr;gap:80px;align-items:start}}
+.about blockquote{margin:0;font:500 clamp(28px,3.6vw,42px)/1.15 var(--display);letter-spacing:-.01em}
+.about blockquote::before{content:"";display:block;width:48px;height:4px;background:var(--accent);margin-bottom:24px}
+.about .txt p{margin:0 0 16px;color:var(--muted)}
+.usps{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin-top:28px}
+.usps div{display:grid;gap:2px;border-top:2px solid var(--fg);padding-top:12px}
+.usps b{font:500 30px/1.1 var(--display)}
+.usps span{font-size:14px;color:var(--muted)}
+.steps{list-style:none;margin:0;padding:0;display:grid;gap:14px;counter-reset:st}
+@media (min-width:860px){.steps{grid-template-columns:repeat(3,1fr)}}
+.steps li{counter-increment:st;background:var(--surface);border:1px solid var(--line);border-radius:var(--r2);padding:28px 24px;display:grid;gap:6px}
+.steps li::before{content:counter(st);width:40px;height:40px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:var(--on-accent);font-weight:800;margin-bottom:8px}
+.steps b{font:600 21px var(--display)}
+.steps span{color:var(--muted);font-size:16px}
+.quote{background:var(--ink);color:#fff}
+.quote .wrap{display:grid;gap:40px}
+@media (min-width:920px){.quote .wrap{grid-template-columns:1fr 1.1fr;gap:72px}}
+.quote .head h2{color:#fff}.quote .head p{color:rgba(255,255,255,.75)}.quote .eyebrow{color:var(--hero-accent)}
+.direct{display:grid;gap:10px;margin-top:8px}
+.direct a.num{font:500 clamp(30px,4vw,40px)/1.1 var(--display);text-decoration:none;font-variant-numeric:tabular-nums}
+form{background:var(--surface);color:var(--fg);border-radius:var(--r2);padding:26px;display:grid;gap:14px}
+label{display:grid;gap:6px;font-size:14px;font-weight:700}
+input,select,textarea{font:16px var(--body);color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:min(calc(var(--r) * .7),12px);padding:13px 14px;width:100%}
+textarea{min-height:110px;resize:vertical}
+.two{display:grid;gap:14px}@media (min-width:560px){.two{grid-template-columns:1fr 1fr}}
+form .btn{width:100%}
+form small{color:var(--muted);font-size:13px;text-align:center}
+.err{color:var(--err);font-size:14px;margin:0;min-height:1em}
+.visit .wrap{display:grid;gap:40px}
+@media (min-width:860px){.visit .wrap{grid-template-columns:1fr 1fr}}
+address{font-style:normal;font:500 30px/1.2 var(--display);margin:6px 0 20px}
+.area{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:8px}
+.area li{border:1px solid var(--line);border-radius:999px;padding:7px 14px;font-size:15px;background:var(--surface)}
+footer{border-top:1px solid var(--line);padding-block:28px;color:var(--muted);font-size:14px}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.float{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:30;width:58px;height:58px;border-radius:50%;background:#1f8f4e;color:#fff;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.25)}
+.float svg{width:28px;height:28px}
+</style></head><body><header class="nav" id="nav"><div class="wrap"><a class="logo" href="#top"><b>Weerkamp</b><small>Schoonheidssalon · Enschede</small></a>
+<nav aria-label="Hoofdmenu"><a href="#diensten">Diensten</a><a href="#over">Over ons</a><a href="#werkwijze">Werkwijze</a><a href="#contact">Contact</a><a class="btn pri" href="tel:+31624187042"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span class="t">06 24187042</span></a></nav></div></header>
+<main id="top">
+<section class="hero" aria-label="Pedicure Salon Weerkamp">
+<img src="https://images.unsplash.com/photo-1787651344170-c2f81514934d?auto=format&fit=crop&w=1600&q=72" srcset="https://images.unsplash.com/photo-1787651344170-c2f81514934d?auto=format&fit=crop&w=800&q=72 800w, https://images.unsplash.com/photo-1787651344170-c2f81514934d?auto=format&fit=crop&w=1400&q=72 1400w, https://images.unsplash.com/photo-1787651344170-c2f81514934d?auto=format&fit=crop&w=2200&q=72 2200w" sizes="100vw" alt="Behandelstoel met voetenbad in een rustige pedicuresalon" fetchpriority="high">
+<div class="wrap"><p class="kick">Schoonheidssalon · Enschede</p><h1>Gezonde voeten, <em>lichte stap.</em></h1><p class="lead">Pedicure en voetverzorging in Enschede. Vakkundig, rustig en met aandacht voor jouw voeten.</p>
+<div class="cta"><a class="btn pri" href="#offerte">Afspraak maken</a><a class="btn wa" href="https://wa.me/31624187042" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4a.5.5 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.7a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg>WhatsApp</a></div>
+<div class="proof"><span><b>5,0</b> beoordeling</span><span><b>Pedicure</b> &amp; voetzorg</span><span><b>Enschede</b></span></div></div></section>
+<section class="s" id="diensten"><div class="wrap"><div class="head"><span class="eyebrow">Diensten</span><h2>Voetzorg</h2><p>Van cosmetisch tot medisch, altijd met aandacht.</p></div><div class="svcs"><article class="svc"><span class="n">01</span><h3>Medisch pedicure</h3><p>Vakkundige voetzorg, ook bij klachten en pijn.</p></article><article class="svc"><span class="n">02</span><h3>Diabetische voet</h3><p>Veilige, zorgvuldige zorg voor de diabetische voet.</p></article><article class="svc"><span class="n">03</span><h3>Cosmetische pedicure</h3><p>Verzorgde voeten, met voetbad, massage en lak.</p></article><article class="svc"><span class="n">04</span><h3>Nagelreparatie</h3><p>Beschadigde of ingegroeide nagels hersteld.</p></article><article class="svc"><span class="n">05</span><h3>Schimmelnagels</h3><p>Diagnose en behandeling van schimmelnagels.</p></article><article class="svc"><span class="n">06</span><h3>Voetmassage</h3><p>Ontspannen en doorbloeden, van hiel tot teen.</p></article></div></div></section>
+<section class="s about" id="over"><div class="wrap"><blockquote>Een mooie huid begint bij aandacht. Daar neem ik de tijd voor.</blockquote><div class="txt"><p>Pedicure Salon Weerkamp in Enschede zorgt voor gezonde, verzorgde voeten. Van een cosmetische pedicure tot nagelreparatie.</p><p>Rustig, hygiënisch en met aandacht.</p><div class="usps"><div><b>5,0</b><span>beoordeling</span></div><div><b>Voetzorg</b><span>vakkundig</span></div><div><b>Hygiënisch</b><span>gewerkt</span></div><div><b>Op</b><span>afspraak</span></div></div></div></div></section>
+<section class="s" id="werkwijze"><div class="wrap"><div class="head"><span class="eyebrow">Werkwijze</span><h2>Zo werkt het</h2></div><ol class="steps"><li><b>Afspraak maken</b><span>App of bel voor een moment dat jou past, ook voor vragen vooraf.</span></li><li><b>Persoonlijk advies</b><span>We bespreken je huid en wensen, en kiezen samen de behandeling.</span></li><li><b>Tijd voor jezelf</b><span>Ontspannen genieten, met advies voor thuis.</span></li></ol></div></section>
+<section class="s quote" id="offerte"><div class="wrap"><div><div class="head"><span class="eyebrow">Afspraak</span><h2>Plan je behandeling</h2><p>Vertel waar je behoefte aan hebt. Het bericht gaat via WhatsApp naar Weerkamp.</p></div>
+<div class="direct"><span style="color:rgba(255,255,255,.7);font-size:15px">Liever direct bellen?</span><a class="num" href="tel:+31624187042">06 24187042</a></div></div>
+<form id="f" novalidate><div class="two"><label>Naam<input name="naam" autocomplete="name" required></label><label>Plaats<input name="plaats" autocomplete="address-level2"></label></div>
+<label>Behandeling<select name="soort"><option>Medisch pedicure</option><option>Diabetische voet</option><option>Cosmetische pedicure</option><option>Nagelreparatie</option><option>Schimmelnagels</option><option>Voetmassage</option><option>Iets anders</option></select></label>
+<label>Omschrijving<textarea name="tekst" placeholder="Bijvoorbeeld: gezichtsbehandeling met massage, graag op een avond."></textarea></label>
+<p class="err" id="ferr" role="alert"></p><button class="btn wa" type="submit"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4a.5.5 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.7a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg>Verstuur via WhatsApp</button><small>Stuur gerust een foto mee in WhatsApp.</small></form></div></section>
+<section class="s visit" id="contact"><div class="wrap"><div><div class="head" style="margin-bottom:8px"><span class="eyebrow">Contact</span><h2>Contact</h2></div><address>Enschede<br>en omgeving</address></div>
+<div><p style="margin:0 0 12px;font-weight:700">Werkgebied</p><ul class="area"><li>Enschede</li><li>Glanerbrug</li><li>Hengelo</li><li>Boekelo</li><li>Lonneker</li><li>Usselo</li><li>Losser</li><li>Haaksbergen</li></ul><p style="color:var(--muted);margin:18px 0 0;max-width:44ch">Na het maken van een afspraak ontvang je alle praktische info.</p></div></div></section>
+</main>
+<footer><div class="wrap"><span>© Pedicure Salon Weerkamp, Enschede</span><span><a href="tel:+31624187042">06 24187042</a></span></div></footer>
+<a class="float" href="https://wa.me/31624187042" target="_blank" rel="noopener" aria-label="WhatsApp Pedicure Salon Weerkamp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4a.5.5 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.7a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg></a>
+<script>
+const nav=document.getElementById('nav');const on=()=>nav.classList.toggle('solid',scrollY>innerHeight*.6);addEventListener('scroll',on,{passive:true});on();
+document.getElementById('f').addEventListener('submit',e=>{e.preventDefault();const f=e.target,v=n=>f.elements[n].value.trim();const err=document.getElementById('ferr');
+if(!v('naam')){err.textContent='Vul je naam in.';f.elements.naam.focus();return}err.textContent='';
+const msg='Hoi, ik ben '+v('naam')+(v('plaats')?' uit '+v('plaats'):'')+'. Ik wil graag een afspraak voor '+v('soort').toLowerCase()+'.'+(v('tekst')?'\n\n'+v('tekst'):'');
+window.open('https://wa.me/31624187042?text='+encodeURIComponent(msg),'_blank','noopener')});
+</script></body></html>
