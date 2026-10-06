@@ -21,6 +21,8 @@ H1 = {
  'antonina-beauty-nails':'Nagels en pedicure, <em>met aandacht.</em>', 'nails-beauty-aridj':'Nagels, brows en lashes, <em>één adres.</em>',
  'vikkis-beauty-world':'Lashes, brows <em>en nails.</em>', 'ruiter-tuin-timmer':'Tuinwerk en houtwerk, <em>in één hand.</em>',
  'lashmazing-enschede':'Wimpers, <em>helemaal lashmazing.</em>',
+ 'barbershop-de-schaar':'Strak geknipt <em>in \'s-Heerenberg.</em>', 'barbershop-tiel':'Strak geknipt <em>in Tiel.</em>',
+ 'salon-blush-gendt':'Mooi worden, <em>in Gendt.</em>', 'petra-pedicure-arnhem':'Zorg voor je voeten, <em>met aandacht.</em>',
  'nima-schildersbedrijf':'Strak geschilderd, <em>binnen en buiten.</em>', 'unique-barber-ede':'Uniek geknipt <em>in Ede.</em>',
  'maryam-pedicure-oss':'Medisch pedicure, <em>met zorg.</em>', 'redka-stucadoors':'Strakke wanden <em>en plafonds.</em>',
 }
