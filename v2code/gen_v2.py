@@ -1,9 +1,10 @@
 """AgentBay v2 site generator — multi-page, Richard-style.
 Input: normalized config dict per site (see normalize.py). Output: folder with index.html + subpages."""
-import os, re, html as H, json
+import os, re, html as H, json, urllib.parse as up
 
 U='https://images.unsplash.com/'
 def img(src, w):
+    if 'googleusercontent.com' in src: return f'{src.split("=")[0]}=w{w}'
     if src.startswith('http'): return src
     return f'{U}{src}?auto=format&fit=crop&w={w}&q=72'
 
@@ -12,6 +13,10 @@ WA='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12
 STAR='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.7-5.4 4.8 1.6 7.1L12 17.6 5.6 21.2l1.6-7.1L1.8 9.3 9 8.6z"/></svg>'
 ARROW='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>'
 PIN='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg>'
+FB='<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H8v4h2v8h4v-8h3l1-4h-4V8.5c0-.3.2-.5.5-.5Z"/></svg>'
+IG='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>'
+MAIL='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>'
+CLOCK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>'
 GRAIN="url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.08'/%3E%3C/svg%3E\")"
 
 def esc(s): return H.escape(s, quote=True)
@@ -156,8 +161,21 @@ form .btn{{width:100%}} .fine{{font-size:13px;color:var(--muted);text-align:cent
 .dl p{{color:var(--muted)}}
 .dl .pr{{font:600 18px var(--display);white-space:nowrap}}
 /* gallery + reviews */
-.gal{{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}} @media (min-width:860px){{.gal{{grid-template-columns:repeat(3,1fr)}}}}
-.gal img{{width:100%;aspect-ratio:1;object-fit:cover;border-radius:var(--r2)}}
+.gal{{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}} @media (min-width:860px){{.gal{{grid-template-columns:repeat(4,1fr)}}}}
+.gal a{{display:block;overflow:hidden;border-radius:var(--r2);background:var(--alt)}}
+.gal img{{width:100%;height:100%;aspect-ratio:1;object-fit:cover;transition:transform .4s}}
+.gal a:hover img{{transform:scale(1.04)}}
+@media (min-width:860px){{.gal a:first-child{{grid-column:span 2;grid-row:span 2}}}}
+.gal.few{{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}} .gal.few a:first-child{{grid-column:auto;grid-row:auto}}
+.rvhead .stars{{display:flex;gap:3px;color:#f5b301;margin-bottom:6px}} .rvhead .stars svg{{width:20px;height:20px}}
+.rv .meta{{display:flex;justify-content:space-between;align-items:center;gap:10px}}
+.rv .g{{font-size:12.5px;color:var(--muted);letter-spacing:.04em}}
+/* hours + map */
+.hm .wrap{{display:grid;gap:28px}} @media (min-width:900px){{.hm .wrap{{grid-template-columns:1fr 1.2fr;gap:56px;align-items:stretch}}}}
+.hrs{{width:100%;border-collapse:collapse;font-size:16.5px}} .hrs td{{padding:11px 0;border-bottom:1px solid var(--line)}} .hrs td+td{{text-align:right;font-variant-numeric:tabular-nums}}
+.hrs tr.today td{{font-weight:700;color:var(--accent-text)}} .hrs .closed{{color:var(--muted)}}
+.map{{border:0;width:100%;min-height:340px;height:100%;border-radius:var(--r2);filter:grayscale(.15)}}
+.soc{{display:flex;gap:10px;margin-top:16px}} .soc a{{display:inline-grid;place-items:center;width:42px;height:42px;border-radius:999px;border:1px solid rgba(255,255,255,.2);color:#fff}} .soc svg{{width:19px;height:19px}}
 .rvs{{display:grid;gap:14px}} @media (min-width:860px){{.rvs{{grid-template-columns:repeat(3,1fr)}}}}
 .rv{{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--r2);padding:26px;display:grid;gap:14px;align-content:start}}
 .rv .stars{{display:flex;color:#f5b301}} .rv .stars svg{{width:16px;height:16px}}
@@ -186,6 +204,8 @@ footer ul{{list-style:none;margin:0;padding:0;display:grid;gap:8px}} footer a{{t
 '''
 
 def rating_of(c):
+    if c.get('g_rating'): return c['g_rating'], str(c['g_count'])
+    if c.get('no_rating'): return None, None
     m=re.search(r'<b>([\d,]+)</b>\s*uit\s*([\d.]+)\s*(?:Google-)?reviews',c.get('proof',''))
     if m: return m.group(1), m.group(2)
     m=re.search(r'<b>([\d,]+)</b>\s*op Google',c.get('proof',''))
@@ -217,7 +237,7 @@ def page(c, pg, title, body, prefix):
 <main>{body}</main>
 <footer><div class="wrap"><div><b>{c["name"]}</b><p>{esc(strip(c["lead"]))}</p>{f'<p style="margin-top:14px">{STAR.replace("<svg","<svg style=\"width:15px;height:15px;color:#f5b301;display:inline;vertical-align:-2px\"")} <strong style="color:#fff">{rt}</strong> {"uit "+rc+" reviews op Google" if rc else "op Google"}</p>' if rt else ''}</div>
 <div><h4>Pagina’s</h4><ul>{''.join(f'<li><a href="{prefix}{h or "./"}">{t}</a></li>' for h,t in nav)}</ul></div>
-<div><h4>Contact</h4><ul>{foot_contact}</ul></div></div>
+<div><h4>Contact</h4><ul>{foot_contact}</ul>{socials(c)}</div></div>
 <div class="wrap"><div class="legal"><span>© {c["name"]}{", "+c["place"] if c.get("place") else ""}</span><span>Website door AgentBay</span></div></div></footer>
 {f'<div class="mbar"><a class="btn light" href="tel:+{intl}">{PH}Bellen</a><a class="btn wa" href="https://wa.me/{intl}" target="_blank" rel="noopener">{WA}WhatsApp</a></div>' if intl else ''}
 <script>
@@ -267,6 +287,10 @@ def contact_block(c, prefix, page=False):
     if intl:
         cards+=f'<a class="card" href="tel:+{intl}">{PH}<span><small>Bellen</small><b>{c["phone"]}</b></span></a>'
         cards+=f'<a class="card" href="https://wa.me/{intl}" target="_blank" rel="noopener">{WA}<span><small>WhatsApp</small><b>Stuur een bericht</b></span></a>'
+    S=c.get('socials') or {}
+    if S.get('email'): cards+=f'<a class="card" href="mailto:{S["email"]}">{MAIL}<span><small>E-mail</small><b>{S["email"]}</b></span></a>'
+    if S.get('instagram'): cards+=f'<a class="card" href="{S["instagram"]}" target="_blank" rel="noopener">{IG}<span><small>Instagram</small><b>Bekijk ons werk</b></span></a>'
+    if S.get('facebook'): cards+=f'<a class="card" href="{S["facebook"]}" target="_blank" rel="noopener">{FB}<span><small>Facebook</small><b>Volg ons</b></span></a>'
     if c.get('addr'):
         cards+=f'<a class="card" href="{c["maps"]}" target="_blank" rel="noopener">{PIN}<span><small>Adres</small><b>{c["addr"][0]}, {c["addr"][1]}</b></span></a>'
     h=f'<h1 style="font-size:clamp(38px,5.4vw,60px);line-height:1.05;margin:14px 0 16px">{c["form_h"]}</h1>' if page else f'<h2 style="font-size:clamp(32px,4.4vw,50px);line-height:1.06;margin:14px 0 16px">{c["form_h"]}</h2>'
@@ -283,15 +307,44 @@ def area_block(c):
 def gallery(c):
     g=c.get('gallery') or []
     if not g: return ''
-    return '<section class="s"><div class="wrap"><div class="sh"><span class="eyebrow">Recent werk</span><h2>'+c.get('gallery_h','Een greep uit ons werk.')+'</h2></div><div class="gal">'+''.join(f'<img src="{u}" alt="Foto van {esc(c["name"])}" loading="lazy">' for u in g[:9])+'</div></div></section>'
+    few=' few' if len(g)<5 else ''
+    tiles=''.join(f'<a href="{img(u,1600)}" target="_blank" rel="noopener"><img src="{img(u,800 if k==0 and not few else 600)}" alt="Foto van {esc(c["name"])}" loading="lazy"></a>' for k,u in enumerate(g[:9]))
+    src=c.get('gallery_src','Foto’s van Google Maps')
+    return f'<section class="s" id="fotos"><div class="wrap"><div class="sh"><span class="eyebrow">{c.get("gallery_label","Foto’s")}</span><h2>{c.get("gallery_h","Een kijkje binnen.")}</h2></div><div class="gal{few}">{tiles}</div><p class="muted" style="font-size:13px;margin-top:14px">{src}</p></div></section>'
 
 def reviews(c, prefix):
     R=c.get('reviews') or []
     if not R: return rating_block(c,prefix)
     rt,rc=rating_of(c)
-    head=f'<div class="big" style="font-size:clamp(56px,7vw,84px)">{rt}</div><div>{stars()}<p class="muted">{(rc+" reviews op Google") if rc else "op Google"}</p></div>' if rt else ''
-    cards=''.join(f'<figure class="rv"><span class="stars">{STAR*5}</span><blockquote>“{esc(t)}”</blockquote><figcaption><b>{esc(n)}</b>{(" · "+esc(w)) if w else ""}</figcaption></figure>' for t,n,w in R[:6])
-    return f'''<section class="s" id="reviews"><div class="wrap"><div class="sh"><span class="eyebrow">Reviews</span><h2>Wat klanten zelf schrijven.</h2></div><div style="display:flex;gap:18px;align-items:center;margin-bottom:30px">{head}</div><div class="rvs">{cards}</div><a class="more" href="{c["maps"]}" target="_blank" rel="noopener">Alle reviews op Google {ARROW}</a></div></section>'''
+    head=f'<div class="big" style="font-size:clamp(56px,7vw,84px)">{rt}</div><div>{stars()}<p class="muted">{("uit "+rc+" reviews op Google") if rc else "op Google"}</p></div>' if rt else ''
+    def card(r):
+        if isinstance(r,dict): t,n,w,k=r['text'],r['name'],r.get('year',''),r.get('stars',5)
+        else: t,n,w=r; k=5
+        body='<br>'.join(esc(x) for x in t.split('\n') if x.strip())
+        return f'<figure class="rv"><div class="meta"><span class="stars" aria-label="{k} sterren">{STAR*k}</span><span class="g">Google</span></div><blockquote>“{body}”</blockquote><figcaption><b>{esc(n)}</b>{(" · "+esc(w)) if w else ""}</figcaption></figure>'
+    cards=''.join(card(r) for r in R[:6])
+    h=c.get('reviews_h') or ('Wat klanten zelf schrijven.' if len(R)>1 else 'Wat een klant schreef.')
+    return f'''<section class="s" id="reviews" style="background:var(--alt)"><div class="wrap"><div class="sh"><span class="eyebrow">Reviews</span><h2>{h}</h2></div><div class="rvhead" style="display:flex;gap:18px;align-items:center;margin-bottom:30px">{head}</div><div class="rvs">{cards}</div><a class="more" href="{c["maps"]}" target="_blank" rel="noopener">Alle reviews op Google {ARROW}</a></div></section>'''
+
+def hours_map(c, light=True):
+    H=c.get('hours'); addr=c.get('addr')
+    if not H and not addr: return ''
+    rows=''
+    if H:
+        rows='<table class="hrs" id="hrs">'+''.join(f'<tr data-d="{k}"><td>{d}</td><td{" class=closed" if "gesloten" in t.lower() else ""}>{t}</td></tr>' for k,(d,t) in enumerate(H))+'</table><script>(function(){var d=(new Date().getDay()+6)%7,r=document.querySelector(\'#hrs tr[data-d="\'+d+\'"]\');if(r)r.className="today"})()</script>'
+    q=up.quote(f'{c["name"]} {addr[0]} {addr[1]}' if addr else f'{c["name"]} {c.get("place","")}')
+    mp=f'<iframe class="map" loading="lazy" title="Kaart" src="https://www.google.com/maps?q={q}&output=embed" referrerpolicy="no-referrer-when-downgrade"></iframe>'
+    adr=f'<p style="margin-top:22px"><b>{addr[0]}</b><br>{addr[1]}</p><a class="more" href="{c["maps"]}" target="_blank" rel="noopener">Route plannen {ARROW}</a>' if addr else ''
+    title='Openingstijden' if H else 'Hier vind je ons'
+    return f'''<section class="s hm" id="openingstijden"><div class="wrap"><div><div class="sh" style="margin-bottom:24px"><span class="eyebrow">{"Openingstijden &amp; adres" if H else "Adres"}</span><h2>{c.get("hm_h") or ("Wanneer je welkom bent." if H else "Hier vind je ons.")}</h2></div>{rows}{adr}</div>{mp}</div></section>'''
+
+def socials(c, cls='soc'):
+    S=c.get('socials') or {}
+    out=''
+    if S.get('instagram'): out+=f'<a href="{S["instagram"]}" target="_blank" rel="noopener" aria-label="Instagram">{IG}</a>'
+    if S.get('facebook'): out+=f'<a href="{S["facebook"]}" target="_blank" rel="noopener" aria-label="Facebook">{FB}</a>'
+    if S.get('email'): out+=f'<a href="mailto:{S["email"]}" aria-label="E-mail">{MAIL}</a>'
+    return f'<div class="{cls}">{out}</div>' if out else ''
 
 def faq(c):
     items=c.get('faq') or []
@@ -310,7 +363,7 @@ def build(c, outdir):
     body+=f'''<section class="s" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap"><div class="sh"><span class="eyebrow">{c["svc_label"]}</span><h2>{c["svc_h"]}</h2><p class="muted">{c["svc_p"]}</p></div><div class="svcs">{svc_cards(c)}</div><a class="more" href="diensten/">{c["svc_more"]} {ARROW}</a></div></section>'''
     body+=f'<section class="band grain"><div class="wrap"><blockquote>“{strip(c["band"])}”</blockquote><small>{c["name"]}</small></div></section>'
     body+=f'''<section class="s dark grain"><div class="wrap"><div class="sh"><span class="eyebrow">Werkwijze</span><h2>{c["steps_h"]}</h2></div>{steps(c)}</div></section>'''
-    body+=gallery(c)+reviews(c,pre)
+    body+=reviews(c,pre)+gallery(c)+hours_map(c)
     body+=contact_block(c,pre)
     open(P(''),'w').write(page(c,'',c['title'],body,pre))
     # DIENSTEN
@@ -327,15 +380,13 @@ def build(c, outdir):
     open(P('diensten'),'w').write(page(c,'diensten/',f'Diensten | {c["name"]}',body,pre))
     # OVER ONS
     body=f'''<section class="ph dark grain"><div class="wrap"><span class="crumbs"><a href="../">Home</a> / Over ons</span><h1>{c["quote"]}</h1></div></section>
-<section class="s about"><div class="wrap"><div><span class="eyebrow">{c["over_label"]}</span><div class="txt" style="margin-top:18px">{c["about"]}{c.get("about_more","")}</div></div><div><img src="{img(c["photo"],1100)}" alt="{esc(c["alt"])}" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:calc(var(--r2) * 1.4)" loading="lazy">{stats}</div></div></section>
+<section class="s about"><div class="wrap"><div><span class="eyebrow">{c["over_label"]}</span><div class="txt" style="margin-top:18px">{c["about"]}{c.get("about_more","")}</div></div><div><img src="{img(c.get("about_photo") or c["photo"],1100)}" alt="{esc(c.get("about_alt") or c["alt"])}" style="width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:calc(var(--r2) * 1.4)" loading="lazy">{stats}</div></div></section>
 <section class="band grain"><div class="wrap"><blockquote>“{strip(c["band"])}”</blockquote><small>{c["name"]}</small></div></section>
 <section class="s"><div class="wrap light"><div class="sh"><span class="eyebrow">Werkwijze</span><h2>{c["steps_h"]}</h2></div>{steps(c)}</div></section>'''+area_block(c)+faq(c)+rating_block(c,pre)+contact_block(c,pre)
     os.makedirs(os.path.dirname(P('over-ons')),exist_ok=True)
     open(P('over-ons'),'w').write(page(c,'over-ons/',f'Over ons | {c["name"]}',body,pre))
     # CONTACT
-    body=contact_block(c,pre,page=True)+area_block(c)
-    if c.get('hours'):
-        body+='<section class="s" style="padding-top:0"><div class="wrap" style="max-width:900px"><div class="sh"><span class="eyebrow">Openingstijden</span><h2>Wanneer je ons bereikt.</h2></div><table style="width:100%;border-collapse:collapse;font-size:17px">'+''.join(f'<tr style="border-bottom:1px solid var(--line)"><td style="padding:12px 0">{d}</td><td style="text-align:right">{t}</td></tr>' for d,t in c['hours'])+'</table></div></section>'
+    body=contact_block(c,pre,page=True)+hours_map(c)+area_block(c)
     os.makedirs(os.path.dirname(P('contact')),exist_ok=True)
     open(P('contact'),'w').write(page(c,'contact/',f'Contact | {c["name"]}',body,pre))
     # AFSPRAAK (booking)
