@@ -1,0 +1,49 @@
+{
+ "slug": "buitenhuis-onderhoud-montage",
+ "status": "ok",
+ "checked": "2026-10-06",
+ "maps_url": "https://www.google.com/maps/place/D.+Buitenhuis+onderhoud%26montage/@51.9169797,5.9352233,17z",
+ "maps_name": "",
+ "maps_category": "",
+ "address": "Steenbergerveld 9, 6851 EA Huissen",
+ "phone_maps": "",
+ "rating": "5,0",
+ "rating_count": 1,
+ "reviews": [],
+ "hero": null,
+ "gallery": [],
+ "about_photo": null,
+ "hours": [
+  [
+   "Maandag",
+   "06:00–17:30"
+  ],
+  [
+   "Dinsdag",
+   "06:00–17:30"
+  ],
+  [
+   "Woensdag",
+   "06:00–17:30"
+  ],
+  [
+   "Donderdag",
+   "06:00–17:30"
+  ],
+  [
+   "Vrijdag",
+   "06:00–17:30"
+  ],
+  [
+   "Zaterdag",
+   "gesloten"
+  ],
+  [
+   "Zondag",
+   "gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "http://www.dbklussenbedrijf.nl/",
+ "note": ""
+}

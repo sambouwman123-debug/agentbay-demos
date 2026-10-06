@@ -1,0 +1,49 @@
+{
+ "slug": "mooi-bij-rianne",
+ "status": "ok",
+ "checked": "2026-10-06",
+ "maps_url": "https://www.google.com/maps/place/Kapsalon+mooi+bij+RIanne/@51.9362494,6.1288015,17z",
+ "maps_name": "Kapsalon mooi bij RIanne",
+ "maps_category": "Kapper",
+ "address": "Wilhelminastraat 42b, 6942 BM Didam",
+ "phone_maps": "06 12780606",
+ "rating": "5,0",
+ "rating_count": 2,
+ "reviews": [],
+ "hero": null,
+ "gallery": [],
+ "about_photo": null,
+ "hours": [
+  [
+   "Maandag",
+   "09:00–13:00"
+  ],
+  [
+   "Dinsdag",
+   "09:00–21:00"
+  ],
+  [
+   "Woensdag",
+   "09:00–17:00"
+  ],
+  [
+   "Donderdag",
+   "09:00–18:00"
+  ],
+  [
+   "Vrijdag",
+   "09:00–21:00"
+  ],
+  [
+   "Zaterdag",
+   "08:00–13:00"
+  ],
+  [
+   "Zondag",
+   "gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "https://www.kapsalon-mooibijrianne.nl/",
+ "note": ""
+}

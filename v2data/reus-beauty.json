@@ -1,0 +1,28 @@
+{
+ "slug": "reus-beauty",
+ "status": "ok",
+ "checked": "2026-10-06",
+ "maps_url": "https://www.google.com/maps/place/Reus+Beauty+Liesbeth+de/@51.9366816,6.1391417,17z",
+ "maps_name": "Reus Beauty Liesbeth de",
+ "maps_category": "Schoonheidssalon",
+ "address": "Karrewiel 7, 6942 LK Didam",
+ "phone_maps": "06 34206787",
+ "rating": "5,0",
+ "rating_count": 3,
+ "reviews": [
+  {
+   "text": "Snel en vakkundig , haar  knippen .",
+   "name": "Henk W.",
+   "year": "2019",
+   "date_rel": "7 jaar geleden",
+   "stars": 5
+  }
+ ],
+ "hero": null,
+ "gallery": [],
+ "about_photo": null,
+ "hours": null,
+ "socials": {},
+ "website": "",
+ "note": ""
+}

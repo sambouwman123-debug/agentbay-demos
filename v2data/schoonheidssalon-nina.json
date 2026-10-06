@@ -1,0 +1,28 @@
+{
+ "slug": "schoonheidssalon-nina",
+ "status": "ok",
+ "checked": "2026-10-06",
+ "maps_url": "https://www.google.com/maps/place/Schoonheidssalon+Nina/@50.888825,6.0646196,17z",
+ "maps_name": "Schoonheidssalon Nina",
+ "maps_category": "Schoonheidssalon",
+ "address": "Kerkraderstraat 39, 6471 BK Eygelshoven",
+ "phone_maps": "",
+ "rating": "5,0",
+ "rating_count": 5,
+ "reviews": [
+  {
+   "text": "Altijd deskundig advies, fijne sfeer en gezelligheid. Je voelt je na een behandeling als herboren!",
+   "name": "Jolina H.",
+   "year": "2025",
+   "date_rel": "een jaar geleden",
+   "stars": 5
+  }
+ ],
+ "hero": null,
+ "gallery": [],
+ "about_photo": null,
+ "hours": null,
+ "socials": {},
+ "website": "",
+ "note": ""
+}

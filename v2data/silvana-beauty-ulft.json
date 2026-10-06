@@ -1,0 +1,72 @@
+{
+ "slug": "silvana-beauty-ulft",
+ "status": "ok",
+ "checked": "2026-10-06",
+ "maps_url": "https://www.google.com/maps/place/Silvana+Beauty/@51.8879036,6.3757058,17z",
+ "maps_name": "Silvana Beauty",
+ "maps_category": "Schoonheidssalon",
+ "address": "Pol 51, 7071 PM Ulft",
+ "phone_maps": "06 15091719",
+ "rating": "5,0",
+ "rating_count": 43,
+ "reviews": [
+  {
+   "text": "Ervaren en professioneel. Neemt de tijd. Alles relaxed. Perfect resultaat. Aanrader.",
+   "name": "Marco H.",
+   "year": "2026",
+   "date_rel": "6 dagen geleden",
+   "stars": 5
+  },
+  {
+   "text": "Mijn ervaring was ongelooflijk, weet je.",
+   "name": "Eliabe O.",
+   "year": "2026",
+   "date_rel": "een dag geleden",
+   "stars": 5
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TvhSEKgyOtUNmBgJvIeUvpZlyDnVso_7d5A3UcS8WCxfn3n6IftE6rfUu9XKswe_513ELJSeqYFKQZCyLlqtMOxW5yOpSPT3hIhuPelBJMrAeo82h0shvH57i3UjFq0eZoxPba1C13NhA",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TvhSEKgyOtUNmBgJvIeUvpZlyDnVso_7d5A3UcS8WCxfn3n6IftE6rfUu9XKswe_513ELJSeqYFKQZCyLlqtMOxW5yOpSPT3hIhuPelBJMrAeo82h0shvH57i3UjFq0eZoxPba1C13NhA",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R11oLpnZ7U8WPh5wX4Qeb8szDTFC0ciDTcz2Puv07o3Ecw5WOToUcF_fi0wI74E-OFyF2Djm7OkdlMt4Hpy0J4wcM7_3jkc2dI1D5DAY8baqeQgJ66okh7SnuozFuOoXFSRFFbD4HYmEgF",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RPJ33h15OtwkLBmJb0AB5IrTrdawN4JcuD-Ii7nIpJ2UVAfNkHL8g969i6B8IvNEGCATLOaDx5wo38aJ-Tsj5cXYJSUqV8zseGrLCXZmyHM2DTOl8H37jMaNRjftX3WTkLFL0y6Q4GW4E",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QdmRCiriTak91o7v5k_bDeaKDQdHSL0YkgdTLAP1jlSgToNJ51qZWCIFurwymEdtcqvd0qmX7A2nDEBv3t3QaNANIZKl7zkjsURRG6KvzVOB9mtA7VfINqVxYtTlkKmIS5GBSgySrdkyda",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SAyQ7pylukyCj0q14N-nshpwZepvWvbk9gVqM2qYDhMqbcfjW6sseukrzZGeCHgMJ4VJCprBIKXF_kpfiMfXbq8UEACQ1XIgVdtuS0c2Ph-G9RviyNSKOv92EmH7WrubD3gYkX2cEjirBk",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RhbL6Dkm40phfhtf9x3J8ansnPM0w0emueEhp4D0CE_sBLE5gWvgZVImw-ZXMTU9VFsXuxUpoznJL_Uzu8DfVDgaGA1D9XoAJqEIlb_fHPYHsav_toaoL2sR4edSSdX4QiDaX47Oh6MTe_",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QgXMwEo0WAo5LdE6weV5fX6lp_i7PwQCQQlzxll6YfY_sev0dFBUxsMu8wtpCDbf9cv6lvfDCWLNBPU53rljeK0bHxJqFBuFp4oPa634hH8_RpWc7peUe8n-jteRsqLJU-t8NgQgfy2H8"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R11oLpnZ7U8WPh5wX4Qeb8szDTFC0ciDTcz2Puv07o3Ecw5WOToUcF_fi0wI74E-OFyF2Djm7OkdlMt4Hpy0J4wcM7_3jkc2dI1D5DAY8baqeQgJ66okh7SnuozFuOoXFSRFFbD4HYmEgF",
+ "hours": [
+  [
+   "Maandag",
+   "gesloten"
+  ],
+  [
+   "Dinsdag",
+   "gesloten"
+  ],
+  [
+   "Woensdag",
+   "09:00–19:00"
+  ],
+  [
+   "Donderdag",
+   "gesloten"
+  ],
+  [
+   "Vrijdag",
+   "09:00–19:00"
+  ],
+  [
+   "Zaterdag",
+   "gesloten"
+  ],
+  [
+   "Zondag",
+   "gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "",
+ "note": ""
+}

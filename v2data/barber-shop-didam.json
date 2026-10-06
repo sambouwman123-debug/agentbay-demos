@@ -1,0 +1,97 @@
+{
+ "slug": "barber-shop-didam",
+ "status": "ok",
+ "checked": "2026-10-06",
+ "maps_url": "https://www.google.com/maps/place/BARBER+SHOP+DIDAM/@51.9379174,6.1293311,17z",
+ "maps_name": "BARBER SHOP DIDAM",
+ "maps_category": "Kapper",
+ "address": "Hoofdstraat 14A, 6942 AT Didam",
+ "phone_maps": "06 83150779",
+ "rating": "4,7",
+ "rating_count": 85,
+ "reviews": [
+  {
+   "text": "Prima kapper. Er wordt snel en secuur gewerkt tegen een goede prijs!",
+   "name": "Rob S.",
+   "year": "2026",
+   "date_rel": "3 maanden geleden",
+   "stars": 5
+  },
+  {
+   "text": "Zeer tevreden over de kwaliteit van het knippen 👌\nVriendelijk personeel\nDe zaak altijd netjes schoon\nZeer Tevreden over de prijs!\nZonder afspraak en anders de zelfde dag nog een afspraak inplannen\nKom er 3x per maand voor mij geen andere kapper!!!",
+   "name": "Richard V.",
+   "year": "2026",
+   "date_rel": "3 maanden geleden",
+   "stars": 5
+  },
+  {
+   "text": "Supper kapper.\nBen altijd tevreden met het resultaat.\nIk ga nergens anders meer heen.👌🏼",
+   "name": "Jeffrey H.",
+   "year": "2026",
+   "date_rel": "5 maanden geleden",
+   "stars": 5
+  },
+  {
+   "text": "Fijne kapper waar je zonder afspraak binnen kunt lopen. ik kom slechts 1 keer per 2 maanden en ze weten ongevraagd precies hoe ik geknipt wil worden. Altijd vriendelijk geholpen voor een nette prijs. Ondanks m’n verhuizing blijf ik hier klant!",
+   "name": "Jesper J.",
+   "year": "2025",
+   "date_rel": "een jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Amer en zijn collega’s zijn goede en vriendelijke kappers.\nIk kom hier al vanaf het begin. Ze kennen je en weten precies wat je wilt. De prijs is ook goed! Ik kan het iedereen aanbevelen! Voor mij geen andere kapper meer.",
+   "name": "Frank U.",
+   "year": "2025",
+   "date_rel": "Bewerkt: een jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "De beste kappers, erg fijne behandeling, rustige muziek, leuk gesprek met hen, ze knippen zoals je wilt en goede behandeling",
+   "name": "Shendar S.",
+   "year": "2025",
+   "date_rel": "een jaar geleden",
+   "stars": 5
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk_cxzJZvCDxVZsoSdBTpGY-UvIpHJ60iHqkqcC9ZGNMO3rXCTOfRtnpaZAHqpE6LsujQZpOLFzzv2_WF5J80H7Pg4D_ISqjjO2SAx_vc7WYuYlxHCAsU2RHY_xRsNNIpy3AZwvJw",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWk_cxzJZvCDxVZsoSdBTpGY-UvIpHJ60iHqkqcC9ZGNMO3rXCTOfRtnpaZAHqpE6LsujQZpOLFzzv2_WF5J80H7Pg4D_ISqjjO2SAx_vc7WYuYlxHCAsU2RHY_xRsNNIpy3AZwvJw",
+  "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmgj1rE23D4HYT8KyLHK3VNeGYZALbgm2vbrN9CyugHpfgrMiPhygbkLqr-IjC2d-TEPMJ1yx1IWgxB92HAqdBwGyPqdyYPlU-5529ASVi_3ZjCiN4eKGj3DRfzj_8TqEkKPczTsg",
+  "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmhlkZD9tsNPKoVzB87lgSC4iFlIcHmXSP6b7vdPqOXXCtqp7z2-JQDbt13vKOcq9yGERSqYtMadA6vrkhODOyHuH8gI-011Q579kJL36abWvRC7Zg9VgGlblq3V3HoRtRiTSpP",
+  "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWl5mIKPU54HbKiRmkjdhCpdCkbdpLK-qp3w_puTGSovNRKE-XjSB6c0luUpBDhJxQxZzq7yuxwt0dAVr7W6VkLIQDPAx066ewZfGtaPtZIfBpp7Hmr5CNBgLCLN80TNktHor25Wsw"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmgj1rE23D4HYT8KyLHK3VNeGYZALbgm2vbrN9CyugHpfgrMiPhygbkLqr-IjC2d-TEPMJ1yx1IWgxB92HAqdBwGyPqdyYPlU-5529ASVi_3ZjCiN4eKGj3DRfzj_8TqEkKPczTsg",
+ "hours": [
+  [
+   "Maandag",
+   "12:00–18:00"
+  ],
+  [
+   "Dinsdag",
+   "10:00–18:00"
+  ],
+  [
+   "Woensdag",
+   "10:00–18:00"
+  ],
+  [
+   "Donderdag",
+   "10:00–18:00"
+  ],
+  [
+   "Vrijdag",
+   "10:00–19:00"
+  ],
+  [
+   "Zaterdag",
+   "09:00–17:00"
+  ],
+  [
+   "Zondag",
+   "gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "",
+ "note": ""
+}

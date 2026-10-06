@@ -1,0 +1,80 @@
+{
+ "slug": "pedicure-monique-grefte",
+ "status": "ok",
+ "checked": "2026-10-06",
+ "maps_url": "https://www.google.com/maps/place/PedicurePraktijk+Monique+Grefte/@52.1440723,6.6113131,17z",
+ "maps_name": "PedicurePraktijk Monique Grefte",
+ "maps_category": "Nagelstudio",
+ "address": "Diepenheimseweg 16, 7161 MH Neede",
+ "phone_maps": "06 13747718",
+ "rating": "4,9",
+ "rating_count": 16,
+ "reviews": [
+  {
+   "text": "Goed geholpen met professionele advies. De wond geneest goed en snel na de behandeling. Ik ben dankbaar . 😄",
+   "name": "Bin O.",
+   "year": "2025",
+   "date_rel": "een jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Ikhad erge last van mijn grote teen ingegroeide teennagel ze heeft hem heel professioneel weggehaald ze is erg gezellig en neemt alle tijd voor jou ben echt blij met haar",
+   "name": "Loesje L.",
+   "year": "2022",
+   "date_rel": "4 jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Altijd prettig om de likdoorns weg te laten halen",
+   "name": "Wim K.",
+   "year": "2021",
+   "date_rel": "5 jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Vakvrouw, vriendelijk, deskundig en bovenal gezellig.",
+   "name": "Annet G.",
+   "year": "2023",
+   "date_rel": "3 jaar geleden",
+   "stars": 5
+  }
+ ],
+ "hero": null,
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmcEEhBaO1dSQ-C_SGHNUnzjzf5TmaZmnP-UtWRjSlaQsZnOmZPuQhJTLXpBOavvxag0AhtHZod0H-U75R4p_hpcXAo8Oeh3Z68Fe4uiQDZhoQrIjJWZx53c9xLYibU22oueRcIDg"
+ ],
+ "about_photo": null,
+ "hours": [
+  [
+   "Maandag",
+   "08:30–21:00"
+  ],
+  [
+   "Dinsdag",
+   "08:30–21:00"
+  ],
+  [
+   "Woensdag",
+   "08:30–21:00"
+  ],
+  [
+   "Donderdag",
+   "08:30–17:00"
+  ],
+  [
+   "Vrijdag",
+   "08:30–13:00"
+  ],
+  [
+   "Zaterdag",
+   "gesloten"
+  ],
+  [
+   "Zondag",
+   "gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "",
+ "note": ""
+}

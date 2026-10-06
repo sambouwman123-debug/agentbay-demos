@@ -1,0 +1,80 @@
+{
+ "slug": "trimsalon-diana-winterswijk",
+ "status": "ok",
+ "checked": "2026-10-06",
+ "maps_url": "https://www.google.com/maps/place/Trimsalon+Diana/@51.968936,6.738124,17z",
+ "maps_name": "Trimsalon Diana",
+ "maps_category": "Dierentrimmer",
+ "address": "Jasmijnlaan 9, 7101 ZE Winterswijk",
+ "phone_maps": "06 38035629",
+ "rating": "5,0",
+ "rating_count": 7,
+ "reviews": [
+  {
+   "text": "Vanochtend voor de eerste keer bij Diana geweest. Ons hondje is heel mooi geworden, super blij hiermee.",
+   "name": "Christien B.",
+   "year": "2026",
+   "date_rel": "5 maanden geleden",
+   "stars": 5
+  },
+  {
+   "text": "Langs geweest om een grote klit weg te halen bij mijn kat. Was zo gepiept!\nHele aardige vrouw, ook heel lief voor mijn kat die behoorlijk bang was.",
+   "name": "Kelly J.",
+   "year": "2025",
+   "date_rel": "10 maanden geleden",
+   "stars": 5
+  },
+  {
+   "text": "Diana heeft ons netjes geholpen met onze jonge springer om de klitjes bij haar oren weg te halen. Netjes hoor.Bedankt nog Diana. Vakkundig en snel opgelost, een aanrader hoor.",
+   "name": "W&W",
+   "year": "2022",
+   "date_rel": "4 jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Super trimsalon, een echte dierenvriend. Mijn honden komen er graag.  Top eigenaresse Diana.",
+   "name": "Reinold",
+   "year": "2025",
+   "date_rel": "een jaar geleden",
+   "stars": 5
+  }
+ ],
+ "hero": null,
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TK4Qy_L3jxhCtKQwvKLuMPdlWrOeIFnEP0l1BGGRvfn-AoXmVP7D5_dNnGBiYsS132SXzObRDvL_EXOHFp8_b1KGShE3hjj1pyQt8lcbafOEwVYlaLvesl_4AAq2tSvB3w51g"
+ ],
+ "about_photo": null,
+ "hours": [
+  [
+   "Maandag",
+   "08:30–16:00"
+  ],
+  [
+   "Dinsdag",
+   "08:30–16:00"
+  ],
+  [
+   "Woensdag",
+   "gesloten"
+  ],
+  [
+   "Donderdag",
+   "08:30–16:00"
+  ],
+  [
+   "Vrijdag",
+   "gesloten"
+  ],
+  [
+   "Zaterdag",
+   "gesloten"
+  ],
+  [
+   "Zondag",
+   "gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "",
+ "note": ""
+}

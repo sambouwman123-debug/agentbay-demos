@@ -1,0 +1,56 @@
+{
+ "slug": "skindy",
+ "status": "ok",
+ "checked": "2026-10-06",
+ "maps_url": "https://www.google.com/maps/place/Schoonheidssalon+Skindy/@51.9598613,6.2528957,17z",
+ "maps_name": "Schoonheidssalon Skindy",
+ "maps_category": "Schoonheidssalon",
+ "address": "Kersebloesem 74, 7006 MC Doetinchem",
+ "phone_maps": "06 17439761",
+ "rating": "4,0",
+ "rating_count": 1,
+ "reviews": [],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QkewCa5gqnOyKCQA5xTx1yYOGL5y60jx8z_uuJhKU5zFnS5nUPGnAjiy2OzPIv2NZ9pItGS2DUDkqBdxVGVy-24-trSq-l-9g9tfNP0FeuK2PAyNkFJG09x_jujluuk3cwOVSDnAwp8yh5",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QkewCa5gqnOyKCQA5xTx1yYOGL5y60jx8z_uuJhKU5zFnS5nUPGnAjiy2OzPIv2NZ9pItGS2DUDkqBdxVGVy-24-trSq-l-9g9tfNP0FeuK2PAyNkFJG09x_jujluuk3cwOVSDnAwp8yh5",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QNmAjDcwh3xbD94zWEltSVCFpjB0E_BFCdYi4xRPNNDt7eE45S0iVgJPfbooYfNHQgvrsFz1Q-Wl641evw5jnrFl5A31jZxViTYPyx2PdLeLM4xsQrLGU9FfODFQGEI7T7LPbyh689FXw",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QyNU1VYw0K5A8fRDX4HU66msXIAVa1dvia5tVbYWNX90iBTN0ngNjr4wB2-3Ju1dUpvPlRdMXWOHHVLUzegXMv4Za_9abZEfbOj2Nmw15xW6gekS5h_M3J1GHDzBm0Uoc6fogfblYad-2F",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QZqfFKhXFM4O1Xo0eGePM_uv8ccd048cDGxvfrYks18zNPhyBVulB0g6wup3RCJQglGZxChdr4vlBNnp0_pBhCtk9iuFBDA-1zbuujPWl4WXfr8To9vs_ymw6SPyziKts3n5sLzHyqcVk",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SJzilkJDEj_PXCkAROyikDEoDvu1t-4sHvEkL1YNwxQkrGAbuYb1s5grFDsHF2ZDE6hcjJtY9KN-h8JfFl3aUpqXStvbdc-9ha73tjZDyiM_2-llzjFhyX90Pd0qv32euJ5ou3buxWmMw",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RtXNie2deUEtp6c-V7mUKQrjV5j7ndZDZwcwiKUZBn8bDWLT8oqOaYCxhOk_aze2EfqLApqtsyBaIcL_kbv9jJN9MJZOPmKXJYQ7t0kKs9F7Ch-JW3yJv6aUZhqwTKJ_OzcucUkDrFO40D"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QNmAjDcwh3xbD94zWEltSVCFpjB0E_BFCdYi4xRPNNDt7eE45S0iVgJPfbooYfNHQgvrsFz1Q-Wl641evw5jnrFl5A31jZxViTYPyx2PdLeLM4xsQrLGU9FfODFQGEI7T7LPbyh689FXw",
+ "hours": [
+  [
+   "Maandag",
+   "09:00–15:00"
+  ],
+  [
+   "Dinsdag",
+   "09:00–16:00"
+  ],
+  [
+   "Woensdag",
+   "09:00–16:00"
+  ],
+  [
+   "Donderdag",
+   "18:30–21:00"
+  ],
+  [
+   "Vrijdag",
+   "gesloten"
+  ],
+  [
+   "Zaterdag",
+   "09:00–17:00"
+  ],
+  [
+   "Zondag",
+   "gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "http://www.skindy.nl/",
+ "note": ""
+}

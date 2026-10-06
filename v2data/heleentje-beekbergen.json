@@ -1,0 +1,52 @@
+{
+ "slug": "heleentje-beekbergen",
+ "status": "ok",
+ "checked": "2026-10-06",
+ "maps_url": "https://www.google.com/maps/place/H%C3%A9Leentje/@52.1608788,5.9607562,17z",
+ "maps_name": "HéLeentje",
+ "maps_category": "Kledingwinkel",
+ "address": "Arnhemseweg 525, 7361 CJ Beekbergen",
+ "phone_maps": "06 51201536",
+ "rating": "5,0",
+ "rating_count": 1,
+ "reviews": [],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkNVD0D1rjSOq8QYYMm4V8OvqrQAiQvueFOtE_fQ-7-RR98AVGQx_8ewgH34_HcFxyFDU7R9m_8FFnrkFuGjnCPutVUgmDVtedwVnDLuJTZpc02wdC2x-ApS8mgfxZEi72Tdr9I",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkNVD0D1rjSOq8QYYMm4V8OvqrQAiQvueFOtE_fQ-7-RR98AVGQx_8ewgH34_HcFxyFDU7R9m_8FFnrkFuGjnCPutVUgmDVtedwVnDLuJTZpc02wdC2x-ApS8mgfxZEi72Tdr9I",
+  "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmvIzRRZqktTaUNAxWAe92lIj_eDsNvz_nl1NTOo33721qh0EfBZ0HmCZscUqqG1UGARfi4ZxdytrlvwAEFPNzIwq8fyHME5ys0jCvKaYdZrYkfooWgg-SxZhkv3dgQF7Avs_z9"
+ ],
+ "about_photo": null,
+ "hours": [
+  [
+   "Maandag",
+   "gesloten"
+  ],
+  [
+   "Dinsdag",
+   "gesloten"
+  ],
+  [
+   "Woensdag",
+   "10:00–17:00"
+  ],
+  [
+   "Donderdag",
+   "10:00–17:00"
+  ],
+  [
+   "Vrijdag",
+   "10:00–17:00"
+  ],
+  [
+   "Zaterdag",
+   "10:00–16:00"
+  ],
+  [
+   "Zondag",
+   "gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "",
+ "note": ""
+}

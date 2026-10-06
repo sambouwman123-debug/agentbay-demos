@@ -1,0 +1,96 @@
+{
+ "slug": "aks-barbershop-almelo",
+ "status": "ok",
+ "checked": "2026-10-06",
+ "maps_url": "https://www.google.com/maps/place/AK's+Barbershop/@52.3547118,6.6658181,17z",
+ "maps_name": "AK's Barbershop",
+ "maps_category": "Barbier",
+ "address": "Grotestraat 119, 7607 CH Almelo",
+ "phone_maps": "06 57111531",
+ "rating": "5,0",
+ "rating_count": 39,
+ "reviews": [
+  {
+   "text": "Zeker een plek die zijn werk goed doet, ik raad het aan.",
+   "name": "Halil G.",
+   "year": "2026",
+   "date_rel": "8 maanden geleden",
+   "stars": 5
+  },
+  {
+   "text": "Ben al jaren een vaste klant bij hem. Altijd tevreden en hele goede gesprekken gehad. Hij neemt de tijd voor jou en heeft de beste opscheertjes in heel Nederland. Zaak is makkelijk bereikbaar en binnen heb je ook gratis eten en drinken wat heel fijn is. Daarom geef ik aks barbershop 5 sterren.\n\nDik verdiend!",
+   "name": "Yousri E.",
+   "year": "2023",
+   "date_rel": "3 jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Zeer tevreden over deze kapper.\nHij is erg precies en beheerd goed zijn vak.\nHij maakt altijd een vriendelijk praatje.\nBij binnenkomst krijg je kostenloos een drankje aangeboden.\nMijn kapsel was bij buitenkomst weer super netjes.",
+   "name": "Gijs B.",
+   "year": "2023",
+   "date_rel": "3 jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Bij AK’s Barbershop loop je altijd fris naar buiten! Getalenteerde kerel die ook lekker een praatje met je maakt. Hij maakt altijd ruimte voor je en zorgt dat je niks tekort komt!",
+   "name": "Ruben N.",
+   "year": "2023",
+   "date_rel": "3 jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Beste opscheer die ik heb gehad kapper is heel vriendelijk knipt met passie en plezier ik kom zeker nog een keer",
+   "name": "Wesley J.",
+   "year": "2023",
+   "date_rel": "3 jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Hele goede service hij zorgt ervoor dat je zo fris mogelijk de zaak uit gaat, Ik ben heel erg tevreden met hem.",
+   "name": "Tamer",
+   "year": "2023",
+   "date_rel": "3 jaar geleden",
+   "stars": 5
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R7RzzobwuVEVgKyANWr-ypbiM14wg1CxuhAXDpFn-XMX0gqiV8_xkcVC4Kmbt3APiU1-zGncLxZ9qaKoYUmJrUuawdMxNz6KZWUsQv71SkR-YnbYNTcTE7X1y2pWwTQ7lRXhC5gQ",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R7RzzobwuVEVgKyANWr-ypbiM14wg1CxuhAXDpFn-XMX0gqiV8_xkcVC4Kmbt3APiU1-zGncLxZ9qaKoYUmJrUuawdMxNz6KZWUsQv71SkR-YnbYNTcTE7X1y2pWwTQ7lRXhC5gQ",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TVjF3QuugePWP3MefwoV2rvV1uGX6t7VS7taTtMTOv1_ZVVxmL5F7XfLkMNDMG3ZSe0d9Mc_lEqonmklpuhNWAMa4jImJfPvXmhbrSJmuJNZL12KHHhHJQUABEsTez9olgqABCljzrq1Cn",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TjQt0RmptqANgc93PIh12aVXDsVZDHwfQPoqDKkte-ic4Yq4LugJhZm5zatrNmFZsIbBtiD1P5jnKBfeJq8nQP6jY3ZxVgnvrgaoG9hM6yAe8ovG9_mvk3Uveo5fZ2_0kXG5jz7jAS5PpR"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TVjF3QuugePWP3MefwoV2rvV1uGX6t7VS7taTtMTOv1_ZVVxmL5F7XfLkMNDMG3ZSe0d9Mc_lEqonmklpuhNWAMa4jImJfPvXmhbrSJmuJNZL12KHHhHJQUABEsTez9olgqABCljzrq1Cn",
+ "hours": [
+  [
+   "Maandag",
+   "10:00–19:00"
+  ],
+  [
+   "Dinsdag",
+   "10:00–19:00"
+  ],
+  [
+   "Woensdag",
+   "10:00–19:00"
+  ],
+  [
+   "Donderdag",
+   "10:00–21:00"
+  ],
+  [
+   "Vrijdag",
+   "10:00–20:00"
+  ],
+  [
+   "Zaterdag",
+   "10:00–18:00"
+  ],
+  [
+   "Zondag",
+   "12:00–17:00"
+  ]
+ ],
+ "socials": {},
+ "website": "https://knipklok.nl/kapperszaak/aks-barbershop",
+ "note": ""
+}

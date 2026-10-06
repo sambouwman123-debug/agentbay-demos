@@ -1,355 +1,204 @@
-<!doctype html>
-<html lang="nl">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Reus Beauty</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Reus Beauty | Behandelingen in Didam</title><meta name="description" content="Gezichtsverzorging, pedicure en kappersbehandelingen met rust en aandacht. In de salon aan het Karrewiel, of gewoon bij jou thuis."><meta name="theme-color" content="#111">
+<meta property="og:title" content="Reus Beauty | Behandelingen in Didam"><meta property="og:description" content="Gezichtsverzorging, pedicure en kappersbehandelingen met rust en aandacht. In de salon aan het Karrewiel, of gewoon bij jou thuis."><meta property="og:image" content="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1200&q=72">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Karla:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-/* Layout: arch hero with botanical drawing, "salon or at home" split, grouped menu, booking with location choice */
-:root{
-  --bg:#eef0ea; --surface:#f8f9f5; --fg:#1d2822; --muted:#57655c; --line:#d3dacf;
-  --sage:#3c5a49; --mauve:#8a5869; --accent:var(--sage); --on-accent:#f4f7f2; --err:#a3243a;
-  --display:"Marcellus","Trajan Pro",Georgia,serif;
-  --body:"Karla",system-ui,-apple-system,"Segoe UI",sans-serif;
-  --bk-r:4px;
-}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#131915; --surface:#1a211c; --fg:#e8eee6; --muted:#a3b0a6; --line:#2d3830;
-  --sage:#a4c4ae; --mauve:#cf9cad; --on-accent:#122017; --err:#ff9fae; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#131915; --surface:#1a211c; --fg:#e8eee6; --muted:#a3b0a6; --line:#2d3830;
-  --sage:#a4c4ae; --mauve:#cf9cad; --on-accent:#122017; --err:#ff9fae; color-scheme:dark}
+:root{--bg:#eef0ea;--surface:#f8f9f5;--fg:#1d2822;--muted:#57655c;--line:#d3dacf;--accent:#8a5869;--on-accent:#fff;--accent-text:#613e4a;--alt:#e6e8e2;--ink:#19221d;--hero-accent:#d3c0c6;--err:#b3261e;--r:999px;--r2:18px;--bk-r:14px;--display:"Marcellus","Trajan Pro",Georgia,serif;--body:"Karla",system-ui,-apple-system,"Segoe UI",sans-serif;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#101613;--surface:#151d19;--fg:#f1eee9;--muted:#aba59d;--line:#303834;--accent:#bfa3ac;--on-accent:#141414;--accent-text:#cfbac1;--alt:#131a16;--ink:#0c110e;--err:#ffb4ab;color-scheme:dark}}
 *,*::before,*::after{box-sizing:border-box}
-html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 76px)}
-body{margin:0;background:var(--bg);color:var(--fg);font:400 17.5px/1.65 var(--body);-webkit-font-smoothing:antialiased}
-a{color:inherit}
-:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
-.wrap{max-width:1160px;margin:0 auto;padding-inline:22px}
-h1,h2,h3{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0}
-.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 26px;border-radius:2px;font:600 15px var(--body);letter-spacing:.02em;text-decoration:none;border:1px solid var(--fg);color:var(--fg);background:transparent;cursor:pointer;transition:background .25s,color .25s}
-.btn.pri{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
-.btn:hover{background:var(--fg);color:var(--bg)}
-.btn.pri:hover{background:var(--fg);border-color:var(--fg)}
+html{scroll-behavior:smooth;scroll-padding-top:90px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.65 var(--body);-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit} :focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance;letter-spacing:-.015em;font-weight:600}
+p{margin:0}
+.wrap{max-width:1200px;margin:0 auto;padding-inline:20px}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font:600 13px var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--accent-text)}
+.eyebrow::before{content:"";width:22px;height:2px;background:currentColor}
+.dark .eyebrow{color:var(--hero-accent)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 24px;border-radius:var(--r);font:600 16px var(--body);text-decoration:none;border:1.5px solid transparent;cursor:pointer;white-space:nowrap;transition:transform .15s,background .2s}
+.btn:hover{transform:translateY(-1px)} .btn svg{width:19px;height:19px;flex:none}
+.btn.pri{background:var(--accent);color:var(--on-accent)}
+.btn.light{border-color:rgba(255,255,255,.45);color:#fff}
+.btn.line{border-color:var(--fg);color:var(--fg)}
+.btn.wa{background:#1f8f4e;color:#fff}
+.grain{position:relative;isolation:isolate}
+.grain::before{content:"";position:absolute;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.08'/%3E%3C/svg%3E");pointer-events:none;z-index:-1;mix-blend-mode:overlay}
+.dark{background:var(--ink);color:#f3f1ec}
+.dark .muted{color:rgba(255,255,255,.72)}
+.muted{color:var(--muted)}
+section.s{padding-block:clamp(72px,9vw,112px)}
+.sh{display:grid;gap:14px;max-width:720px;margin-bottom:44px}
+.sh h2{font-size:clamp(32px,4.6vw,52px);line-height:1.06}
+.sh p{font-size:18px}
+/* header */
+.top{position:fixed;inset:0 0 auto;z-index:50;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:76px}
+.logo{text-decoration:none;display:grid;line-height:1.08}
+.logo b{font:700 21px var(--display);letter-spacing:-.015em}
+.logo small{font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.nav{display:flex;align-items:center;gap:30px;font-size:15px;font-weight:500}
+.nav a:not(.btn){text-decoration:none;color:var(--muted);padding:6px 0;border-bottom:2px solid transparent}
+.nav a[aria-current]{color:var(--fg);border-color:var(--accent)}
+.nav .btn{min-height:44px;padding:0 18px;font-size:15px}
+.burger{display:none;background:none;border:0;padding:8px;color:var(--fg);cursor:pointer}
+.burger svg{width:26px;height:26px}
+@media (max-width:900px){.nav a:not(.btn){display:none}.burger{display:block}.nav .btn .t{display:none}.nav .btn{padding:0 14px}}
+.drawer{position:fixed;inset:76px 0 auto;z-index:49;background:var(--bg);border-bottom:1px solid var(--line);padding:12px 20px 22px;display:none}
+.drawer.open{display:grid;gap:4px}
+.drawer a{text-decoration:none;font:600 20px var(--display);padding:12px 0;border-bottom:1px solid var(--line)}
+main{padding-top:76px}
+/* hero */
+.hero .wrap{display:grid;gap:40px;padding-block:clamp(56px,8vw,104px)}
+@media (min-width:980px){.hero .wrap{grid-template-columns:1.05fr .95fr;align-items:center;gap:64px}}
+.hero h1{font-size:clamp(42px,6.2vw,78px);line-height:1.02;margin:18px 0 22px}
+.hero h1 em{font-style:italic;color:var(--hero-accent)}
+.hero .lead{font-size:clamp(17px,1.5vw,19.5px);max-width:52ch;color:rgba(255,255,255,.82)}
+.hero .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+.chip{display:inline-flex;align-items:center;gap:12px;margin-top:30px;padding:10px 16px 10px 12px;border-radius:999px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);text-decoration:none;font-size:15px}
+.chip b{font:600 22px var(--display)} .chip .stars{display:flex;color:#f5b301} .chip .stars svg{width:15px;height:15px}
+.hero figure{margin:0;position:relative}
+.hero figure img{width:100%;aspect-ratio:4/4.6;object-fit:cover;object-position:center;border-radius:calc(var(--r2) * 1.6)}
+@media (max-width:979px){.hero figure img{aspect-ratio:4/3}}
+.hero figure figcaption{position:absolute;left:16px;bottom:16px;right:16px;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.tag{background:color-mix(in srgb,var(--ink) 78%,transparent);backdrop-filter:blur(8px);color:#fff;font-size:13.5px;padding:8px 13px;border-radius:999px}
+/* trust */
+.trust{background:var(--alt);border-bottom:1px solid var(--line)}
+.trust .wrap{display:grid;grid-template-columns:repeat(2,1fr);gap:18px 24px;padding-block:24px}
+@media (min-width:860px){.trust .wrap{grid-template-columns:repeat(4,1fr)}}
+.trust div{display:grid;gap:2px;font-size:14.5px;color:var(--muted)} .trust b{color:var(--fg);font:600 18px var(--display)}
+/* about */
+.about .wrap{display:grid;gap:44px}
+@media (min-width:960px){.about .wrap{grid-template-columns:1fr 1fr;gap:80px;align-items:start}}
+.about h2{font-size:clamp(30px,4vw,46px);line-height:1.08;margin-top:14px}
+.about .txt{display:grid;gap:16px;font-size:18px}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:26px 22px;margin-top:30px;padding-top:28px;border-top:1px solid var(--line)}
+@media (min-width:600px){.stats.s4{grid-template-columns:repeat(4,1fr)}}
+.stats b{display:block;font:600 clamp(30px,3.6vw,40px)/1 var(--display);color:var(--accent-text)}
+.stats span{font-size:14px;color:var(--muted)}
+.more{display:inline-flex;align-items:center;gap:8px;font-weight:600;text-decoration:none;color:var(--accent-text);margin-top:26px}
+.more svg{width:18px;height:18px}
+/* services */
+.svcs{display:grid;gap:14px}
+@media (min-width:720px){.svcs{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1040px){.svcs{grid-template-columns:repeat(3,1fr)}}
+.svc{background:var(--surface);border:1px solid var(--line);border-radius:var(--r2);padding:30px 26px;display:grid;gap:10px;align-content:start;transition:border-color .2s,transform .2s}
+.svc:hover{border-color:var(--accent);transform:translateY(-2px)}
+.svc .n{font:600 14px var(--body);color:var(--accent-text);letter-spacing:.06em}
+.svc h3{font-size:24px;line-height:1.15}
+.svc p{color:var(--muted);font-size:16px}
+.svc .meta{display:flex;gap:14px;font-size:14px;font-weight:600;color:var(--fg);margin-top:4px}
+/* band */
+.band{background:var(--accent);color:var(--on-accent)}
+.band .wrap{padding-block:clamp(56px,7vw,88px);display:grid;gap:18px;max-width:980px;text-align:center;justify-items:center}
+.band blockquote{margin:0;font:500 clamp(28px,3.8vw,44px)/1.18 var(--display);font-style:italic}
+.band small{font-size:13px;letter-spacing:.16em;text-transform:uppercase;opacity:.75}
+/* steps */
+.steps{list-style:none;margin:0;padding:0;display:grid;gap:14px;counter-reset:st}
+@media (min-width:860px){.steps{grid-template-columns:repeat(3,1fr)}}
+.steps li{counter-increment:st;border-top:1px solid rgba(255,255,255,.18);padding-top:22px;display:grid;gap:8px}
+.steps li::before{content:counter(st,decimal-leading-zero);font:600 15px var(--body);color:var(--hero-accent);letter-spacing:.08em}
+.steps b{font:600 22px var(--display);color:#fff}
+.steps span{color:rgba(255,255,255,.75);font-size:16px}
+.light .steps li{border-color:var(--line)} .light .steps b{color:var(--fg)} .light .steps span{color:var(--muted)} .light .steps li::before{color:var(--accent-text)}
+/* rating */
+.rate .wrap{display:grid;gap:30px;align-items:center}
+@media (min-width:900px){.rate .wrap{grid-template-columns:auto 1fr auto;gap:56px}}
+.big{font:600 clamp(72px,10vw,120px)/.9 var(--display);color:var(--accent-text)}
+.rate .stars{display:flex;gap:3px;color:#f5b301;margin-bottom:8px} .rate .stars svg{width:22px;height:22px}
+.rate h2{font-size:clamp(28px,3.4vw,40px);line-height:1.12}
+/* area */
+.areas{list-style:none;padding:0;margin:20px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+.areas li{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 15px;font-size:15px}
+/* contact */
+.contact .wrap{display:grid;gap:44px}
+@media (min-width:980px){.contact .wrap{grid-template-columns:.9fr 1.1fr;gap:72px;align-items:start}}
+.cards{display:grid;gap:12px;margin-top:30px}
+.card{display:flex;gap:16px;align-items:center;padding:18px 20px;border-radius:var(--r2);background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);text-decoration:none}
+.card svg{width:22px;height:22px;flex:none;color:var(--hero-accent)}
+.card small{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;opacity:.7}
+.card b{font:600 19px var(--display)}
+form{background:var(--surface);color:var(--fg);border-radius:calc(var(--r2) * 1.3);padding:clamp(22px,3vw,34px);display:grid;gap:16px;box-shadow:0 30px 60px -30px rgba(0,0,0,.45)}
+form h3{font-size:24px}
+label{display:grid;gap:7px;font-size:14px;font-weight:600}
+input,select,textarea{font:16px var(--body);color:var(--fg);background:var(--bg);border:1px solid var(--line);border-radius:min(var(--r),12px);padding:14px;width:100%}
+textarea{min-height:120px;resize:vertical}
+.two{display:grid;gap:16px} @media (min-width:560px){.two{grid-template-columns:1fr 1fr}}
+form .btn{width:100%} .fine{font-size:13px;color:var(--muted);text-align:center}
+.err{color:#c0392b;font-size:14px;min-height:1em}
+/* page head */
+.ph .wrap{padding-block:clamp(56px,7vw,92px);display:grid;gap:16px;max-width:900px}
+.ph h1{font-size:clamp(38px,5.4vw,64px);line-height:1.05}
+.ph p{font-size:19px;max-width:60ch}
+.crumbs{font-size:14px;color:rgba(255,255,255,.6)} .crumbs a{text-decoration:none}
+/* detail list */
+.dl{display:grid;gap:0;border-top:1px solid var(--line)}
+.dl article{display:grid;gap:10px;padding:30px 0;border-bottom:1px solid var(--line)}
+@media (min-width:860px){.dl article{grid-template-columns:90px 1fr 1.3fr auto;gap:30px;align-items:baseline}}
+.dl .n{font:600 15px var(--body);color:var(--accent-text)}
+.dl h3{font-size:26px;line-height:1.15}
+.dl p{color:var(--muted)}
+.dl .pr{font:600 18px var(--display);white-space:nowrap}
+/* gallery + reviews */
+.gal{display:grid;grid-template-columns:repeat(2,1fr);gap:10px} @media (min-width:860px){.gal{grid-template-columns:repeat(4,1fr)}}
+.gal a{display:block;overflow:hidden;border-radius:var(--r2);background:var(--alt)}
+.gal img{width:100%;height:100%;aspect-ratio:1;object-fit:cover;transition:transform .4s}
+.gal a:hover img{transform:scale(1.04)}
+@media (min-width:860px){.gal a:first-child{grid-column:span 2;grid-row:span 2}}
+.gal.few{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))} .gal.few a:first-child{grid-column:auto;grid-row:auto}
+.rvhead .stars{display:flex;gap:3px;color:#f5b301;margin-bottom:6px} .rvhead .stars svg{width:20px;height:20px}
+.rv .meta{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.rv .g{font-size:12.5px;color:var(--muted);letter-spacing:.04em}
+/* hours + map */
+.hm .wrap{display:grid;gap:28px} @media (min-width:900px){.hm .wrap{grid-template-columns:1fr 1.2fr;gap:56px;align-items:stretch}}
+.hrs{width:100%;border-collapse:collapse;font-size:16.5px} .hrs td{padding:11px 0;border-bottom:1px solid var(--line)} .hrs td+td{text-align:right;font-variant-numeric:tabular-nums}
+.hrs tr.today td{font-weight:700;color:var(--accent-text)} .hrs .closed{color:var(--muted)}
+.map{border:0;width:100%;min-height:340px;height:100%;border-radius:var(--r2);filter:grayscale(.15)}
+.soc{display:flex;gap:10px;margin-top:16px} .soc a{display:inline-grid;place-items:center;width:42px;height:42px;border-radius:999px;border:1px solid rgba(255,255,255,.2);color:#fff} .soc svg{width:19px;height:19px}
+.rvs{display:grid;gap:14px} @media (min-width:860px){.rvs{grid-template-columns:repeat(3,1fr)}}
+.rv{margin:0;background:var(--surface);border:1px solid var(--line);border-radius:var(--r2);padding:26px;display:grid;gap:14px;align-content:start}
+.rv .stars{display:flex;color:#f5b301} .rv .stars svg{width:16px;height:16px}
+.rv blockquote{margin:0;font-size:17px} .rv figcaption{font-size:14px;color:var(--muted)} .rv b{color:var(--fg)}
+/* faq */
+details{border-bottom:1px solid var(--line);padding:20px 0}
+summary{cursor:pointer;font:600 20px var(--display);list-style:none;display:flex;justify-content:space-between;gap:20px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--accent-text);font-size:26px;line-height:1}
+details[open] summary::after{content:"–"}
+details p{margin-top:12px;color:var(--muted);max-width:70ch}
+/* footer */
+footer{background:var(--ink);color:rgba(255,255,255,.72);padding:64px 0 110px;font-size:15px}
+@media (min-width:900px){footer{padding-bottom:48px}}
+footer .wrap{display:grid;gap:36px}
+@media (min-width:860px){footer .wrap{grid-template-columns:1.4fr 1fr 1fr}}
+footer b{display:block;color:#fff;font:600 22px var(--display);margin-bottom:10px}
+footer h4{margin:0 0 12px;color:#fff;font:600 13px var(--body);letter-spacing:.14em;text-transform:uppercase}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px} footer a{text-decoration:none} footer a:hover{color:#fff}
+.legal{border-top:1px solid rgba(255,255,255,.12);margin-top:44px;padding-top:22px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:13.5px}
+/* mobile bar */
+.mbar{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:40;display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:8px;border-radius:18px;background:color-mix(in srgb,var(--ink) 92%,transparent);backdrop-filter:blur(10px);box-shadow:0 12px 30px rgba(0,0,0,.3)}
+.mbar .btn{min-height:48px;font-size:15px;padding:0 12px}
+@media (min-width:900px){.mbar{display:none}}
 
-.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
-.bar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;height:70px;border-bottom:1px solid var(--line)}
-.mark{text-decoration:none;display:grid;line-height:1.1}
-.mark b{font-family:var(--display);font-weight:400;font-size:23px;letter-spacing:.06em}
-.mark small{font-size:12px;color:var(--muted);letter-spacing:.04em}
-.bar nav{display:flex;align-items:center;gap:26px;font-size:15px}
-.bar nav a:not(.btn){text-decoration:none;color:var(--muted)}
-.bar nav a:not(.btn):hover{color:var(--fg)}
-.bar .btn{min-height:42px;padding:0 18px;font-size:14px}
-@media (max-width:760px){.bar nav a:not(.btn){display:none}}
-
-.hero{padding-block:48px 80px}
-.hero .wrap{display:grid;gap:44px;align-items:end}
-@media (min-width:920px){.hero .wrap{grid-template-columns:1.15fr .85fr;gap:64px}.hero{padding-block:72px 112px}}
-.hero h1{font-size:clamp(56px,12.5vw,132px);line-height:.95;letter-spacing:.01em}
-.hero h1 span{display:block;font-size:.34em;letter-spacing:.08em;color:var(--mauve);margin-top:14px}
-.hero .lead{font-size:20px;max-width:36ch;color:var(--muted);margin:26px 0 32px}
-.cta{display:flex;gap:12px;flex-wrap:wrap}
-.arch{position:relative;aspect-ratio:3/4;max-width:420px;width:100%;margin-inline:auto;border-radius:999px 999px 6px 6px;background:var(--accent);overflow:hidden}
-.arch svg{position:absolute;inset:0;width:100%;height:100%}
-.arch svg *{stroke:var(--on-accent)}
-.arch .cap{position:absolute;left:0;right:0;bottom:22px;text-align:center;color:var(--on-accent);font-family:var(--display);font-size:20px;letter-spacing:.06em}
-@media (prefers-reduced-motion:no-preference){
-  .arch .draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 2.4s .2s cubic-bezier(.4,0,.2,1) forwards}
-  .arch .leaf{opacity:0;animation:fade .8s forwards}
-  @keyframes draw{to{stroke-dashoffset:0}}
-  @keyframes fade{to{opacity:1}}
-}
-
-.where{border-block:1px solid var(--line)}
-.where .wrap{display:grid}
-@media (min-width:760px){.where .wrap{grid-template-columns:1fr 1fr}}
-.where article{padding-block:40px;display:grid;gap:10px;align-content:start}
-@media (min-width:760px){.where article+article{border-left:1px solid var(--line);padding-left:48px}.where article:first-child{padding-right:48px}}
-@media (max-width:759px){.where article+article{border-top:1px solid var(--line)}}
-.where h2{font-size:30px}
-.where p{margin:0;color:var(--muted);max-width:44ch}
-.where .tag{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--mauve);font-weight:600}
-
-section.s{padding-block:92px}
-.head{display:grid;gap:12px;margin-bottom:44px;max-width:620px}
-.head h2{font-size:clamp(38px,6vw,58px);line-height:1.05}
-.head p{color:var(--muted);margin:0}
-.menu{display:grid;gap:48px}
-@media (min-width:860px){.menu{grid-template-columns:repeat(2,1fr);gap:56px 72px}}
-.menu h3{font-size:15px;font-family:var(--body);font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--mauve);padding-bottom:12px;border-bottom:1px solid var(--fg)}
-.menu ul{list-style:none;margin:0;padding:0}
-.menu li{padding:18px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:1fr auto;gap:2px 16px}
-.menu li b{font-family:var(--display);font-weight:400;font-size:23px}
-.menu li span{align-self:center;font-size:14px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
-.menu li p{grid-column:1/-1;margin:0;color:var(--muted);font-size:15.5px}
-
-.about{background:var(--surface)}
-.about .wrap{display:grid;gap:40px}
-@media (min-width:860px){.about .wrap{grid-template-columns:.9fr 1.1fr;gap:80px;align-items:center}}
-.about blockquote{margin:0;font-family:var(--display);font-size:clamp(28px,4vw,40px);line-height:1.25;text-wrap:balance}
-.about p{color:var(--muted);margin:0 0 14px;max-width:56ch}
-.facts{display:flex;flex-wrap:wrap;gap:28px;margin-top:24px}
-.facts div{display:grid}
-.facts b{font-family:var(--display);font-weight:400;font-size:30px}
-.facts span{font-size:14px;color:var(--muted)}
-
-.book .head{margin-inline:auto;text-align:center;justify-items:center}
-.book .bk{margin:0 auto}
-
-.visit .wrap{display:grid;gap:40px}
-@media (min-width:860px){.visit .wrap{grid-template-columns:1fr 1fr}}
-.visit address{font-style:normal;font-family:var(--display);font-size:32px;line-height:1.25;margin:18px 0 22px}
-.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
-.num{font-size:20px;font-weight:600;font-variant-numeric:tabular-nums}
-.visit .note{color:var(--muted);max-width:44ch;margin:18px 0 0}
-footer{border-top:1px solid var(--line);padding-block:28px;color:var(--muted);font-size:14px}
-footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
-@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
-.bk{background:var(--surface);border:1px solid var(--line);border-radius:var(--bk-r,6px);overflow:hidden;max-width:760px;text-align:left}
-.bk-steps{display:grid;grid-template-columns:repeat(3,1fr);margin:0;padding:0;list-style:none;border-bottom:1px solid var(--line)}
-.bk-steps li{padding:14px 8px 12px;text-align:center;font-size:13px;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px}
-.bk-steps li b{display:block;font-family:var(--display);font-size:21px;font-weight:400;line-height:1.1}
-.bk-steps li.on{color:var(--fg);border-bottom-color:var(--accent)}
-.bk-steps li.done{color:var(--accent)}
-.bk-pane{padding:24px 20px 8px;min-height:320px}
-.bk-pane h3{font-family:var(--display);font-weight:400;font-size:27px;line-height:1.15;margin:0 0 6px}
-.bk-grp{font-size:12px;font-weight:600;color:var(--muted);margin:20px 0 8px;letter-spacing:.08em;text-transform:uppercase}
-.bk-opts{display:grid;gap:8px}
-@media (min-width:640px){.bk-opts{grid-template-columns:1fr 1fr}}
-.bk-opt{display:flex;justify-content:space-between;align-items:center;gap:12px;width:100%;text-align:left;padding:14px 16px;min-height:56px;border:1px solid var(--line);border-radius:4px;background:transparent;color:var(--fg);font:500 15px/1.3 var(--body);cursor:pointer}
-.bk-opt small{color:var(--muted);font-size:13px;white-space:nowrap;text-align:right;line-height:1.35;flex-shrink:0;font-variant-numeric:tabular-nums}
-.bk-opt:hover{border-color:var(--accent)}
-.bk-opt[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
-.bk-days{display:flex;gap:8px;overflow-x:auto;margin:14px -20px 16px;padding:0 20px 8px}
-.bk-day{flex:0 0 auto;width:62px;padding:10px 0;border:1px solid var(--line);border-radius:4px;background:transparent;color:var(--fg);font:500 12px/1.3 var(--body);cursor:pointer;text-align:center}
-.bk-day b{display:block;font-family:var(--display);font-size:22px;font-weight:400}
-.bk-day[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
-.bk-day:disabled{opacity:.35;cursor:not-allowed}
-.bk-slots{display:grid;grid-template-columns:repeat(auto-fill,minmax(80px,1fr));gap:8px}
-.bk-slot{min-height:44px;border:1px solid var(--line);border-radius:4px;background:transparent;color:var(--fg);font:500 15px var(--body);cursor:pointer;font-variant-numeric:tabular-nums}
-.bk-slot[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
-.bk-slot:disabled{opacity:.3;cursor:not-allowed;text-decoration:line-through}
-.bk-empty{color:var(--muted);font-size:15px;margin:0}
-.bk-field{display:grid;gap:6px;margin-bottom:14px}
-.bk-field label,.bk-field legend{font-size:14px;font-weight:600;padding:0}
-.bk-field input,.bk-field textarea{font:16px var(--body);padding:12px 14px;border:1px solid var(--line);border-radius:4px;background:var(--bg);color:var(--fg);width:100%;box-sizing:border-box}
-.bk-field textarea{min-height:76px;resize:vertical}
-fieldset.bk-field{border:0;margin:0 0 14px;padding:0;min-width:0}
-.bk-seg{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.bk-seg label{display:flex;align-items:center;gap:10px;padding:12px 14px;border:1px solid var(--line);border-radius:4px;font-weight:500;cursor:pointer;min-height:48px;box-sizing:border-box}
-.bk-seg label:has(input:checked){border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
-.bk-seg input{accent-color:var(--accent);margin:0}
-.bk-err{color:var(--err);font-size:14px;min-height:20px;margin:0}
-.bk-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 20px;border-top:1px solid var(--line)}
-.bk-sum{font-size:14px;color:var(--muted);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.bk-btn{min-height:46px;padding:0 22px;border-radius:999px;font:600 15px var(--body);cursor:pointer;border:1px solid var(--line);background:transparent;color:var(--fg);white-space:nowrap}
-.bk-btn.pri{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
-.bk-btn:disabled{opacity:.35;cursor:not-allowed}
-@media (max-width:600px){.bk-foot{flex-wrap:wrap}.bk-sum{flex-basis:100%;order:-1;white-space:normal;color:var(--fg)}.bk-sum:empty{display:none}.bk-foot .pri{flex:1}}
-.bk-done dl{display:grid;grid-template-columns:auto 1fr;gap:8px 20px;margin:14px 0 18px}
-.bk-done dt{color:var(--muted);font-size:14px}.bk-done dd{margin:0;font-weight:600;min-width:0}
-.copy{font:600 13px var(--body);border:1px solid var(--line);background:transparent;color:var(--fg);border-radius:999px;padding:0 14px;min-height:36px;cursor:pointer}
-
-</style>
-</head>
-<body>
-
-
-<header class="bar">
-  <div class="wrap">
-    <a class="mark" href="#top"><b>REUS BEAUTY</b><small>Liesbeth de Reus</small></a>
-    <nav aria-label="Hoofdmenu">
-      <a href="#behandelingen">Behandelingen</a>
-      <a href="#over">Over Liesbeth</a>
-      <a href="#contact">Contact</a>
-      <a class="btn pri" href="#afspraak">Afspraak maken</a>
-    </nav>
-  </div>
-</header>
-
-<main id="top">
-  <section class="hero" aria-label="Reus Beauty">
-    <div class="wrap">
-      <div>
-        <h1>Reus Beauty<span>Liesbeth de Reus, Didam</span></h1>
-        <p class="lead">Gezichtsverzorging, pedicure en kappersbehandelingen met rust en aandacht. In de salon aan het Karrewiel, of gewoon bij jou thuis.</p>
-        <div class="cta">
-          <a class="btn pri" href="#afspraak">Afspraak maken</a>
-          <a class="btn" href="#behandelingen">Bekijk behandelingen</a>
-        </div>
-      </div>
-      <div class="arch" aria-hidden="true">
-        <svg viewBox="0 0 300 400" fill="none" stroke-width="1.4" stroke-linecap="round">
-          <path class="draw" pathLength="1" d="M150 392 C 148 320, 160 250, 146 180 S 150 70, 168 28"/>
-          <g id="leaves"></g>
-        </svg>
-        <span class="cap">sinds 2012</span>
-      </div>
-    </div>
-  </section>
-
-  <section class="where" aria-label="Waar">
-    <div class="wrap">
-      <article>
-        <span class="tag">In de salon</span>
-        <h2>Karrewiel 7, Didam</h2>
-        <p>Een rustige ruimte waar je even helemaal niets hoeft. Je bent de enige klant, dus er is alle tijd voor jou.</p>
-      </article>
-      <article>
-        <span class="tag">Aan huis</span>
-        <h2>Bij jou thuis</h2>
-        <p>Liever niet de deur uit, of lastig om te komen? Liesbeth komt ook langs voor knippen, pedicure en verzorging aan huis.</p>
-      </article>
-    </div>
-  </section>
-
-  <section class="s" id="behandelingen">
-    <div class="wrap">
-      <div class="head">
-        <h2>Behandelingen</h2>
-        <p>Elke behandeling begint met even kijken en luisteren. Wat heeft je huid, je haar of je voeten vandaag nodig?</p>
-      </div>
-      <div class="menu" id="menu"></div>
-    </div>
-  </section>
-
-  <section class="s about" id="over">
-    <div class="wrap">
-      <blockquote>Mooi worden mag ontspannen voelen.</blockquote>
-      <div>
-        <p>Liesbeth de Reus begon in 2012 haar eigen salon in Didam. Ze combineert schoonheidsverzorging en pedicure met het kappersvak, en neemt die kennis ook mee naar mensen thuis.</p>
-        <p>Geen lopende band, maar één persoon die je kent en die weet wat je fijn vindt.</p>
-        <div class="facts">
-          <div><b>2012</b><span>Eigen salon</span></div>
-          <div><b>3 vakken</b><span>Huid, voeten, haar</span></div>
-          <div><b>Aan huis</b><span>Didam en omgeving</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="s book" id="afspraak">
-    <div class="wrap">
-      <div class="head">
-        <h2>Afspraak maken</h2>
-        <p>Kies je behandeling en een moment. Bij de laatste stap geef je aan of het in de salon of bij jou thuis is.</p>
-      </div>
-      <div class="bk" id="bk"></div>
-    </div>
-  </section>
-
-  <section class="s visit" id="contact" style="border-top:1px solid var(--line)">
-    <div class="wrap">
-      <div>
-        <div class="head" style="margin-bottom:0"><h2>Contact</h2></div>
-        <address>Karrewiel 7<br>6942 LK Didam</address>
-        <div class="row">
-          <a class="btn" href="https://www.google.com/maps/search/?api=1&amp;query=Karrewiel+7+Didam" target="_blank" rel="noopener">Route plannen</a>
-          <a class="btn" href="https://wa.me/31634206787" target="_blank" rel="noopener">WhatsApp</a>
-        </div>
-      </div>
-      <div>
-        <p style="margin:0 0 8px;color:var(--muted)">Bellen of appen</p>
-        <div class="row"><a class="num" href="tel:+31634206787">06 34 20 67 87</a><button type="button" class="copy" data-copy="0634206787">Kopieer</button></div>
-        <p class="note">Alleen op afspraak. Voor een behandeling aan huis spreken we samen een tijd af die jou goed uitkomt.</p>
-      </div>
-    </div>
-  </section>
-</main>
-<footer><div class="wrap"><span>© Reus Beauty, Didam</span><span>KvK 56090323</span></div></footer>
-
+</style></head><body>
+<header class="top"><div class="wrap"><a class="logo" href="./"><b>Reus Beauty</b><small>Schoonheid, pedicure & kapper · Didam</small></a>
+<nav class="nav" aria-label="Hoofdmenu"><a href="./" aria-current="page">Home</a><a href="diensten/">Diensten</a><a href="over-ons/">Over ons</a><a href="afspraak/">Afspraak</a><a href="contact/">Contact</a><a class="btn pri" href="tel:+31634206787"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span class="t">06 34206787</span></a><button class="burger" aria-label="Menu" aria-expanded="false" onclick="var d=document.getElementById('dr');d.classList.toggle('open');this.setAttribute('aria-expanded',d.classList.contains('open'))"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></nav></div></header>
+<div class="drawer" id="dr"><a href="./">Home</a><a href="diensten/">Diensten</a><a href="over-ons/">Over ons</a><a href="afspraak/">Afspraak</a><a href="contact/">Contact</a></div>
+<main><section class="hero dark grain"><div class="wrap"><div><span class="eyebrow">Schoonheid, pedicure & kapper</span><h1>Rust en aandacht, <em>in de salon of thuis.</em></h1><p class="lead">Gezichtsverzorging, pedicure en kappersbehandelingen met rust en aandacht. In de salon aan het Karrewiel, of gewoon bij jou thuis.</p>
+<div class="cta"><a class="btn pri" href="contact/">Plan je afspraak<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a class="btn light" href="tel:+31634206787"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>06 34206787</a></div><a class="chip" href="https://www.google.com/maps/place/Reus+Beauty+Liesbeth+de/@51.9366816,6.1391417,17z" target="_blank" rel="noopener"><span class="stars"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.7-5.4 4.8 1.6 7.1L12 17.6 5.6 21.2l1.6-7.1L1.8 9.3 9 8.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.7-5.4 4.8 1.6 7.1L12 17.6 5.6 21.2l1.6-7.1L1.8 9.3 9 8.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.7-5.4 4.8 1.6 7.1L12 17.6 5.6 21.2l1.6-7.1L1.8 9.3 9 8.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.7-5.4 4.8 1.6 7.1L12 17.6 5.6 21.2l1.6-7.1L1.8 9.3 9 8.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.7-5.4 4.8 1.6 7.1L12 17.6 5.6 21.2l1.6-7.1L1.8 9.3 9 8.6z"/></svg></span><b>5,0</b><span>3 reviews op Google</span></a></div>
+<figure><img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1400&q=72" srcset="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=700&q=72 700w, https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1100&q=72 1100w, https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?auto=format&fit=crop&w=1600&q=72 1600w" sizes="(min-width:980px) 46vw, 100vw" alt="Vrouw ontspant met een verzorgend masker" fetchpriority="high"><figcaption><span class="tag">Didam</span><span class="tag">Gezichtsbehandeling</span></figcaption></figure></div></section><section class="trust"><div class="wrap"><div><b>5,0</b>uit 3 Google-reviews</div><div><b>Online</b>afspraak plannen</div><div><b>Direct</b>contact via WhatsApp</div><div><b>Didam</b>en omgeving</div></div></section><section class="s about"><div class="wrap"><div><span class="eyebrow">Over Liesbeth</span><h2>Rust en aandacht, in de salon of thuis.</h2></div><div><div class="txt"><p>sinds 2012 In de salon Karrewiel 7, Didam Een rustige ruimte waar je even helemaal niets hoeft. Je bent de enige klant, dus er is alle tijd voor jou.</p><p>Liever niet de deur uit, of lastig om te komen? Liesbeth komt ook langs voor knippen, pedicure en verzorging aan huis.</p><p>Elke behandeling begint met even kijken en luisteren. Wat heeft je huid, je haar of je voeten vandaag nodig?</p></div><div class="stats s4"><div><b>5,0</b><span>op Google</span></div><div><b>3</b><span>reviews</span></div><div><b>Online</b><span>afspraak plannen</span></div><div><b>Lokaal</b><span>in Didam</span></div></div><a class="more" href="over-ons/">Meer over Liesbeth <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></div></section><section class="s" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap"><div class="sh"><span class="eyebrow">Behandelingen</span><h2>Behandelingen</h2><p class="muted">Kies wat bij je past. Je ziet direct de duur van elke behandeling.</p></div><div class="svcs"><article class="svc"><span class="n">01</span><h3>Gezichtsbehandeling</h3><p>Reinigen, peeling, masker en een ontspannende massage, afgestemd op je huid.</p><div class="meta"><span class="muted">75 min</span></div></article><article class="svc"><span class="n">02</span><h3>Wenkbrauwen epileren & verven</h3><p>Een verzorgde vorm die bij je gezicht past.</p><div class="meta"><span class="muted">30 min</span></div></article><article class="svc"><span class="n">03</span><h3>Wimpers verven</h3><p>Meer diepte in je oogopslag, zonder mascara.</p><div class="meta"><span class="muted">20 min</span></div></article><article class="svc"><span class="n">04</span><h3>Pedicure</h3><p>Nagels knippen, eelt verwijderen en voeten verzorgen. Ook aan huis.</p><div class="meta"><span class="muted">60 min</span></div></article><article class="svc"><span class="n">05</span><h3>Manicure</h3><p>Verzorgde nagelriemen, mooi gevijlde nagels en zachte handen.</p><div class="meta"><span class="muted">45 min</span></div></article><article class="svc"><span class="n">06</span><h3>Harsen</h3><p>Benen, oksels, bovenlip of gezicht. Glad voor weken.</p><div class="meta"><span class="muted">30 min</span></div></article></div><a class="more" href="diensten/">Alle behandelingen bekijken <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></section><section class="band grain"><div class="wrap"><blockquote>“Je loopt lichter naar buiten dan je binnenkwam.”</blockquote><small>Reus Beauty</small></div></section><section class="s dark grain"><div class="wrap"><div class="sh"><span class="eyebrow">Werkwijze</span><h2>Zo eenvoudig plan je het</h2></div><ol class="steps"><li><b>Kies je behandeling</b><span>Bekijk wat er mogelijk is en kies wat bij je past.</span></li><li><b>Plan een moment</b><span>Kies online een vrije tijd, of stuur een berichtje.</span></li><li><b>Even voor jezelf</b><span>Je wordt rustig en met aandacht geholpen.</span></li></ol></div></section><section class="s" id="reviews" style="background:var(--alt)"><div class="wrap"><div class="sh"><span class="eyebrow">Reviews</span><h2>Wat een klant schreef.</h2></div><div class="rvhead" style="display:flex;gap:18px;align-items:center;margin-bottom:30px"><div class="big" style="font-size:clamp(56px,7vw,84px)">5,0</div><div><span class="stars"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.7-5.4 4.8 1.6 7.1L12 17.6 5.6 21.2l1.6-7.1L1.8 9.3 9 8.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.7-5.4 4.8 1.6 7.1L12 17.6 5.6 21.2l1.6-7.1L1.8 9.3 9 8.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.7-5.4 4.8 1.6 7.1L12 17.6 5.6 21.2l1.6-7.1L1.8 9.3 9 8.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.7-5.4 4.8 1.6 7.1L12 17.6 5.6 21.2l1.6-7.1L1.8 9.3 9 8.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.7-5.4 4.8 1.6 7.1L12 17.6 5.6 21.2l1.6-7.1L1.8 9.3 9 8.6z"/></svg></span><p class="muted">uit 3 reviews op Google</p></div></div><div class="rvs"><figure class="rv"><div class="meta"><span class="stars" aria-label="5 sterren"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.7-5.4 4.8 1.6 7.1L12 17.6 5.6 21.2l1.6-7.1L1.8 9.3 9 8.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.7-5.4 4.8 1.6 7.1L12 17.6 5.6 21.2l1.6-7.1L1.8 9.3 9 8.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.7-5.4 4.8 1.6 7.1L12 17.6 5.6 21.2l1.6-7.1L1.8 9.3 9 8.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.7-5.4 4.8 1.6 7.1L12 17.6 5.6 21.2l1.6-7.1L1.8 9.3 9 8.6z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.7-5.4 4.8 1.6 7.1L12 17.6 5.6 21.2l1.6-7.1L1.8 9.3 9 8.6z"/></svg></span><span class="g">Google</span></div><blockquote>“Snel en vakkundig , haar  knippen .”</blockquote><figcaption><b>Henk W.</b> · 2019</figcaption></figure></div><a class="more" href="https://www.google.com/maps/place/Reus+Beauty+Liesbeth+de/@51.9366816,6.1391417,17z" target="_blank" rel="noopener">Alle reviews op Google <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></section><section class="s hm" id="openingstijden"><div class="wrap"><div><div class="sh" style="margin-bottom:24px"><span class="eyebrow">Adres</span><h2>Hier vind je ons.</h2></div><p style="margin-top:22px"><b>Karrewiel 7</b><br>6942 LK Didam</p><a class="more" href="https://www.google.com/maps/place/Reus+Beauty+Liesbeth+de/@51.9366816,6.1391417,17z" target="_blank" rel="noopener">Route plannen <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div><iframe class="map" loading="lazy" title="Kaart" src="https://www.google.com/maps?q=Reus%20Beauty%20Karrewiel%207%206942%20LK%20Didam&output=embed" referrerpolicy="no-referrer-when-downgrade"></iframe></div></section><section class="s contact dark grain"><div class="wrap"><div><span class="eyebrow">Contact</span><h2 style="font-size:clamp(32px,4.4vw,50px);line-height:1.06;margin:14px 0 16px">Liever eerst even vragen?</h2><p class="muted" style="font-size:18px">Stuur een berichtje via WhatsApp. Je krijgt zo snel mogelijk antwoord.</p><div class="cards"><a class="card" href="tel:+31634206787"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><span><small>Bellen</small><b>06 34206787</b></span></a><a class="card" href="https://wa.me/31634206787" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4a.5.5 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.7a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg><span><small>WhatsApp</small><b>Stuur een bericht</b></span></a><a class="card" href="https://www.google.com/maps/place/Reus+Beauty+Liesbeth+de/@51.9366816,6.1391417,17z" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg><span><small>Adres</small><b>Karrewiel 7, 6942 LK Didam</b></span></a></div></div>
+<form data-wa novalidate><h3>Vertel kort wat je zoekt</h3><div class="two"><label>Naam *<input name="naam" autocomplete="name" required></label><label>Plaats<input name="plaats" autocomplete="address-level2"></label></div>
+<label>Behandeling<select name="soort"><option>Gezichtsbehandeling</option><option>Wenkbrauwen epileren & verven</option><option>Wimpers verven</option><option>Pedicure</option><option>Manicure</option><option>Harsen</option><option>Knippen</option><option>Wassen, knippen & föhnen</option><option>Iets anders</option></select></label><label>Omschrijving<textarea name="tekst" placeholder="Bijvoorbeeld: wanneer kan ik terecht, of welke behandeling past bij mij?"></textarea></label>
+<p class="err" role="alert"></p><button class="btn wa" type="submit"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4a.5.5 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.7a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg>Verstuur via WhatsApp</button><p class="fine">Je bericht opent in WhatsApp.</p></form></div></section></main>
+<footer><div class="wrap"><div><b>Reus Beauty</b><p>Gezichtsverzorging, pedicure en kappersbehandelingen met rust en aandacht. In de salon aan het Karrewiel, of gewoon bij jou thuis.</p><p style="margin-top:14px"><svg style="width:15px;height:15px;color:#f5b301;display:inline;vertical-align:-2px" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7.2.7-5.4 4.8 1.6 7.1L12 17.6 5.6 21.2l1.6-7.1L1.8 9.3 9 8.6z"/></svg> <strong style="color:#fff">5,0</strong> uit 3 reviews op Google</p></div>
+<div><h4>Pagina’s</h4><ul><li><a href="./">Home</a></li><li><a href="diensten/">Diensten</a></li><li><a href="over-ons/">Over ons</a></li><li><a href="afspraak/">Afspraak</a></li><li><a href="contact/">Contact</a></li></ul></div>
+<div><h4>Contact</h4><ul><li><a href="tel:+31634206787">06 34206787</a></li><li><a href="https://wa.me/31634206787" target="_blank" rel="noopener">WhatsApp</a></li><li>Karrewiel 7<br>6942 LK Didam</li></ul></div></div>
+<div class="wrap"><div class="legal"><span>© Reus Beauty, Didam</span><span>Website door AgentBay</span></div></div></footer>
+<div class="mbar"><a class="btn light" href="tel:+31634206787"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg>Bellen</a><a class="btn wa" href="https://wa.me/31634206787" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4a.5.5 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.7a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3Z"/></svg>WhatsApp</a></div>
 <script>
-window.BOOK={key:'reus',phone:'06 34 20 67 87',step:30,location:true,
-  hours:{1:[540,1050],2:[540,1050],3:[540,1050],4:[540,1050],5:[540,1050]},
-  services:[
-    {id:'gezicht',g:'Gezicht',name:'Gezichtsbehandeling',min:75,d:'Reinigen, peeling, masker en een ontspannende massage, afgestemd op je huid.'},
-    {id:'brauw',g:'Gezicht',name:'Wenkbrauwen epileren & verven',min:30,d:'Een verzorgde vorm die bij je gezicht past.'},
-    {id:'wimper',g:'Gezicht',name:'Wimpers verven',min:20,d:'Meer diepte in je oogopslag, zonder mascara.'},
-    {id:'pedi',g:'Handen & voeten',name:'Pedicure',min:60,d:'Nagels knippen, eelt verwijderen en voeten verzorgen. Ook aan huis.'},
-    {id:'mani',g:'Handen & voeten',name:'Manicure',min:45,d:'Verzorgde nagelriemen, mooi gevijlde nagels en zachte handen.'},
-    {id:'hars',g:'Ontharen',name:'Harsen',min:30,d:'Benen, oksels, bovenlip of gezicht. Glad voor weken.'},
-    {id:'knip',g:'Haar, ook aan huis',name:'Knippen',min:30,d:'Een frisse coupe, in de salon of thuis in je eigen stoel.'},
-    {id:'fohn',g:'Haar, ook aan huis',name:'Wassen, knippen & föhnen',min:45,d:'Compleet verzorgd en in model gebracht.'}
-  ]};
-document.getElementById('menu').innerHTML=[...new Set(BOOK.services.map(s=>s.g))].map(g=>`<div><h3>${g}</h3><ul>${BOOK.services.filter(s=>s.g===g).map(s=>`<li><b>${s.name}</b><span>${s.min} min</span><p>${s.d}</p></li>`).join('')}</ul></div>`).join('');
-(function(){
-  const g=document.getElementById('leaves'),pts=[[150,330,-1],[154,280,1],[150,232,-1],[148,190,1],[147,148,-1],[152,104,1],[160,66,-1]];
-  g.innerHTML=pts.map(([x,y,s],i)=>{const r=s*(38+i*2),len=46-i*3;return `<ellipse class="leaf" style="animation-delay:${(0.5+i*.22).toFixed(2)}s" cx="${x+s*len*.55}" cy="${y-8}" rx="${len*.55}" ry="${len*.2}" transform="rotate(${-r} ${x} ${y})"/>`}).join('');
-})();
-</script>
-<script>(function(){
-const C=window.BOOK,root=document.getElementById('bk');if(!root)return;
-const pad=n=>String(n).padStart(2,'0'),hm=m=>pad(Math.floor(m/60))+':'+pad(m%60),ymd=d=>d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate());
-const DN=['zo','ma','di','wo','do','vr','za'],MN=['jan','feb','mrt','apr','mei','jun','jul','aug','sep','okt','nov','dec'];
-const KEY='bk-'+C.key;let list=[];try{list=JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){}
-const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(list))}catch(e){}};
-const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const st={step:0,svc:null,date:null,time:null,name:'',phone:'',note:'',loc:'salon',addr:'',done:null};
-const svc=()=>C.services.find(s=>s.id===st.svc);
-const fd=k=>{const[y,m,d]=k.split('-').map(Number),t=new Date(y,m-1,d);return DN[t.getDay()]+' '+d+' '+MN[m-1]};
-const meta=s=>(s.price?s.price+'<br>':'')+s.min+' min';
-function slots(k){const[y,m,d]=k.split('-').map(Number),h=C.hours[new Date(y,m-1,d).getDay()];if(!h)return[];
- const len=svc().min,out=[],now=new Date(),today=ymd(now)===k,nm=now.getHours()*60+now.getMinutes();
- for(let t=h[0];t+len<=h[1];t+=C.step||30){const busy=list.some(b=>b.date===k&&t<b.start+b.len&&b.start<t+len);out.push({t,ok:!busy&&!(today&&t<=nm+30)})}return out}
-root.innerHTML='<ol class="bk-steps" aria-label="Stappen"><li><b>1</b>Behandeling</li><li><b>2</b>Moment</li><li><b>3</b>Gegevens</li></ol><div class="bk-pane" aria-live="polite"></div><div class="bk-foot"><button class="bk-btn" type="button" data-back>Terug</button><span class="bk-sum"></span><button class="bk-btn pri" type="button" data-next>Ga verder</button></div>';
-const pane=root.querySelector('.bk-pane'),back=root.querySelector('[data-back]'),next=root.querySelector('[data-next]'),sum=root.querySelector('.bk-sum');
-function go(n){st.step=n;render();const t=root.getBoundingClientRect().top;if(t<0||t>innerHeight*.6)root.scrollIntoView({block:'start',behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'})}
-function render(){
- root.querySelectorAll('.bk-steps li').forEach((li,i)=>{li.className=st.done?'done':i===st.step?'on':i<st.step?'done':'';li.setAttribute('aria-current',i===st.step&&!st.done?'step':'false')});
- if(st.done)return done();
- back.style.visibility=st.step?'visible':'hidden';next.textContent=st.step===2?'Bevestigen':'Ga verder';
- sum.textContent=[svc()&&svc().name,st.time!=null&&st.date&&fd(st.date)+' '+hm(st.time)].filter(Boolean).join(', ');
- if(st.step===0){
-  const groups=[...new Set(C.services.map(s=>s.g))];
-  pane.innerHTML='<h3>Welke behandeling?</h3>'+groups.map(g=>'<p class="bk-grp">'+g+'</p><div class="bk-opts">'+C.services.filter(s=>s.g===g).map(s=>'<button type="button" class="bk-opt" data-s="'+s.id+'" aria-pressed="'+(st.svc===s.id)+'"><span>'+s.name+'</span><small>'+meta(s)+'</small></button>').join('')+'</div>').join('');
-  pane.querySelectorAll('[data-s]').forEach(b=>b.onclick=()=>{st.svc=b.dataset.s;st.time=null;go(1)});next.disabled=!st.svc;
- }else if(st.step===1){
-  const days=[],d0=new Date();d0.setHours(0,0,0,0);for(let i=0;i<21;i++){const d=new Date(d0);d.setDate(d0.getDate()+i);days.push(d)}
-  if(!st.date||!slots(st.date).some(s=>s.ok)){const f=days.find(d=>slots(ymd(d)).some(s=>s.ok));st.date=f?ymd(f):null}
-  const sl=st.date?slots(st.date):[];
-  pane.innerHTML='<h3>Wanneer komt het je uit?</h3><div class="bk-days" role="group" aria-label="Kies een dag">'+days.map(d=>{const k=ymd(d),open=!!C.hours[d.getDay()];return '<button type="button" class="bk-day" data-d="'+k+'" aria-pressed="'+(st.date===k)+'"'+(open?'':' disabled aria-label="'+DN[d.getDay()]+' '+d.getDate()+' '+MN[d.getMonth()]+', gesloten"')+'>'+DN[d.getDay()]+'<b>'+d.getDate()+'</b>'+MN[d.getMonth()]+'</button>'}).join('')+'</div>'+
-   (sl.some(s=>s.ok)?'<div class="bk-slots" role="group" aria-label="Kies een tijd">'+sl.map(s=>'<button type="button" class="bk-slot" data-t="'+s.t+'" aria-pressed="'+(st.time===s.t)+'"'+(s.ok?'':' disabled')+'>'+hm(s.t)+'</button>').join('')+'</div>':'<p class="bk-empty">Op deze dag is niets meer vrij. Kies een andere dag.</p>');
-  pane.querySelectorAll('[data-d]').forEach(b=>b.onclick=()=>{st.date=b.dataset.d;st.time=null;render()});
-  pane.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{st.time=+b.dataset.t;render()});
-  const sel=pane.querySelector('.bk-day[aria-pressed="true"]');if(sel)sel.scrollIntoView({block:'nearest',inline:'nearest'});
-  next.disabled=st.time==null;
- }else{
-  pane.innerHTML='<h3>Je gegevens</h3>'+
-   (C.location?'<fieldset class="bk-field"><legend>Waar?</legend><div class="bk-seg"><label><input type="radio" name="bk-loc" id="bk-loc-s" value="salon"'+(st.loc==='salon'?' checked':'')+'>In de salon</label><label><input type="radio" name="bk-loc" id="bk-loc-h" value="thuis"'+(st.loc==='thuis'?' checked':'')+'>Bij mij thuis</label></div></fieldset>'+
-    '<div class="bk-field" id="bk-addr-w"'+(st.loc==='thuis'?'':' hidden')+'><label for="bk-addr">Adres</label><input id="bk-addr" autocomplete="street-address" value="'+esc(st.addr)+'"></div>':'')+
-   '<div class="bk-field"><label for="bk-name">Naam</label><input id="bk-name" autocomplete="name" value="'+esc(st.name)+'"></div>'+
-   '<div class="bk-field"><label for="bk-phone">Telefoonnummer</label><input id="bk-phone" type="tel" inputmode="tel" autocomplete="tel" value="'+esc(st.phone)+'"></div>'+
-   '<div class="bk-field"><label for="bk-note">Opmerking (optioneel)</label><textarea id="bk-note">'+esc(st.note)+'</textarea></div><p class="bk-err" id="bk-err"></p>';
-  const bind=(id,k)=>{const el=pane.querySelector('#'+id);if(el)el.oninput=e=>st[k]=e.target.value};
-  bind('bk-name','name');bind('bk-phone','phone');bind('bk-note','note');bind('bk-addr','addr');
-  pane.querySelectorAll('[name="bk-loc"]').forEach(r=>r.onchange=()=>{st.loc=r.value;pane.querySelector('#bk-addr-w').hidden=st.loc!=='thuis'});
-  next.disabled=false;
- }
-}
-back.onclick=()=>{if(st.step)go(st.step-1)};
-next.onclick=()=>{
- if(st.done){Object.assign(st,{step:0,svc:null,date:null,time:null,note:'',done:null});return go(0)}
- if(st.step<2)return go(st.step+1);
- const er=pane.querySelector('#bk-err');
- if(st.name.trim().length<2){er.textContent='Vul je naam in.';return pane.querySelector('#bk-name').focus()}
- if(st.phone.replace(/\D/g,'').length<9){er.textContent='Vul een geldig telefoonnummer in, bijvoorbeeld 06 12345678.';return pane.querySelector('#bk-phone').focus()}
- if(C.location&&st.loc==='thuis'&&st.addr.trim().length<5){er.textContent='Vul het adres in waar we langskomen.';return pane.querySelector('#bk-addr').focus()}
- const s=svc();if(!slots(st.date).some(x=>x.t===st.time&&x.ok)){st.time=null;return go(1)}
- const b={date:st.date,start:st.time,len:s.min,svc:s.id,name:st.name.trim(),phone:st.phone.trim(),loc:st.loc,addr:st.addr.trim()};list.push(b);save();st.done=b;render();
-};
-function done(){const b=st.done,s=C.services.find(x=>x.id===b.svc);
- pane.innerHTML='<div class="bk-done"><h3>Je afspraak staat genoteerd</h3><dl><dt>Behandeling</dt><dd>'+s.name+'</dd>'+(s.price?'<dt>Prijs</dt><dd>'+s.price+'</dd>':'')+'<dt>Wanneer</dt><dd>'+fd(b.date)+', '+hm(b.start)+' tot '+hm(b.start+b.len)+'</dd>'+(C.location?'<dt>Waar</dt><dd>'+(b.loc==='thuis'?esc(b.addr):'In de salon')+'</dd>':'')+'<dt>Naam</dt><dd>'+esc(b.name)+'</dd></dl><p class="bk-empty">Lukt het toch niet? Laat het even weten via '+C.phone+'.</p></div>';
- back.style.visibility='hidden';sum.textContent='';next.disabled=false;next.textContent='Nog een afspraak';
-}
-render();
-document.querySelectorAll('[data-copy]').forEach(b=>b.addEventListener('click',()=>{const t=b.dataset.copy,o=b.textContent;const ok=()=>{b.textContent='Gekopieerd';setTimeout(()=>b.textContent=o,1600)};
- try{navigator.clipboard.writeText(t).then(ok,()=>sel(b))}catch(e){sel(b)}}));
-function sel(b){const n=b.previousElementSibling;if(!n)return;const r=document.createRange();r.selectNodeContents(n);const s=getSelection();s.removeAllRanges();s.addRange(r)}
-})();
-</script>
-
-</body>
-</html>
+document.querySelectorAll('form[data-wa]').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();const v=n=>(f.elements[n]?.value||'').trim();const er=f.querySelector('.err');
+if(!v('naam')){er.textContent='Vul je naam in.';f.elements.naam.focus();return}er.textContent='';
+const msg='Hoi, ik ben '+v('naam')+(v('plaats')?' uit '+v('plaats'):'')+'. Ik heb een vraag over '+v('soort').toLowerCase()+'.'+(v('tekst')?'\n\n'+v('tekst'):'');
+window.open('https://wa.me/31634206787?text='+encodeURIComponent(msg),'_blank','noopener')}));
+</script></body></html>

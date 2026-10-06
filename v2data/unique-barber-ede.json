@@ -1,0 +1,93 @@
+{
+ "slug": "unique-barber-ede",
+ "status": "ok",
+ "checked": "2026-10-06",
+ "maps_url": "https://www.google.com/maps/place/Unique+Barber/@52.0269959,5.6631584,17z",
+ "maps_name": "Unique Barber",
+ "maps_category": "Barbier",
+ "address": "Parkweg 135-A, 6717 HR Ede",
+ "phone_maps": "06 43533445",
+ "rating": "4,7",
+ "rating_count": 186,
+ "reviews": [
+  {
+   "text": "Zonder afspraak naar binnen. Altijd welkom. Uitstekende koffie. Goede kappers, besteden echt zowel aandacht als tijd vor je. Kwaliteit knippen en baard prima.",
+   "name": "Henk V.",
+   "year": "2026",
+   "date_rel": "2 maanden geleden",
+   "stars": 5
+  },
+  {
+   "text": "Super vriendelijk, goede kappers en niet al te duur.",
+   "name": "Rempe S.",
+   "year": "2026",
+   "date_rel": "5 maanden geleden",
+   "stars": 5
+  },
+  {
+   "text": "Ik was op zoek naar een nieuwe kapper in Ede na mijn verhuizing. Kon gelijk langskomen en perfect geknipt. Geen koetjes en kalvjes, maar gewoon goede kwaliteit en concentratie. Kapper helpte me zelfs met bril op doen om te kijken of alles goed zat. Perfect",
+   "name": "Lèvin d. H.",
+   "year": "2025",
+   "date_rel": "een jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Hele fijne kapper. Altijd de beste service. Luisteren goed naar wat ik vraag. Ze zijn niet gehaast maar ook niet traag. Ze willen het beste geven aan hen klanten",
+   "name": "Onur",
+   "year": "2025",
+   "date_rel": "een jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "top. kom hier graag. snel en altijd goed.",
+   "name": "Robert L.",
+   "year": "2026",
+   "date_rel": "7 maanden geleden",
+   "stars": 5
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RFv9xgAHfxIF2e-YotOIUgtOI6tWuxV1DBVBsjyh4JsVpOPVmJB3fKIocQ4z9bFo5gKPUJ37IFXEd4RuU1ZX8j206-c3iXfrYcCYdP9pSo5flT7AM4xljXPQXfr31F65Doe491",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RFv9xgAHfxIF2e-YotOIUgtOI6tWuxV1DBVBsjyh4JsVpOPVmJB3fKIocQ4z9bFo5gKPUJ37IFXEd4RuU1ZX8j206-c3iXfrYcCYdP9pSo5flT7AM4xljXPQXfr31F65Doe491",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S51_yzJ5Lq5zdrEfLktJA5W0ugk9aEYD9ROUUlFWXn9xBTSijBJiAEARH34mxJgzYDN6AmiEdJi_-fYshtmcX0ioiIijgv2CNBjihjd4Hasyfb0D93IZW_bv-6FN351ORknPAZ",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SEk-u3no9Tj2bg4yUIwqKehs9BauNE1Ol6NTbeqpBHYxZFC2MpxTm1dZtm67QOoSp5SWukj-rbDiFpC8jDq5VxTV5HFdL6hXMisFHWNH57u6bnzHM_jwZATM2m8DOg21_yV2jovA",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SVbZpM8Uieu4d8a14_ySmZDuhrAkHdNZOPy0dvXCiutR7H0VDu-DhiYsNnw2hOdSmoZTy77DncxVFUdstX3JL_8tiaGOrWucyyB1YDhM7Sno7cWarUMMHha5hu3zkB6Pu-r-8",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SZ5ccZDLF73EaIhnqwWffLqZ6isKD9dOyCByec-wEGW_wbh4MU7MF7XgNwYs5_mWnyF_0xFHaS4LXeJCbXayslTZDl_3_b7sRhC4_DvewrgT6kHaETjz4zkvw6ybbKGIqG2pRb-A"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S51_yzJ5Lq5zdrEfLktJA5W0ugk9aEYD9ROUUlFWXn9xBTSijBJiAEARH34mxJgzYDN6AmiEdJi_-fYshtmcX0ioiIijgv2CNBjihjd4Hasyfb0D93IZW_bv-6FN351ORknPAZ",
+ "hours": [
+  [
+   "Maandag",
+   "10:00–18:00"
+  ],
+  [
+   "Dinsdag",
+   "09:00–18:00"
+  ],
+  [
+   "Woensdag",
+   "09:00–18:00"
+  ],
+  [
+   "Donderdag",
+   "09:00–18:00"
+  ],
+  [
+   "Vrijdag",
+   "09:00–20:00"
+  ],
+  [
+   "Zaterdag",
+   "09:00–18:00"
+  ],
+  [
+   "Zondag",
+   "gesloten"
+  ]
+ ],
+ "socials": {
+  "facebook": "https://www.facebook.com/profile.php?id=100018932700423"
+ },
+ "website": "",
+ "note": ""
+}

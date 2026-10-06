@@ -1,0 +1,91 @@
+{
+ "slug": "barbershop-13-nijmegen",
+ "status": "ok",
+ "checked": "2026-10-06",
+ "maps_url": "https://www.google.com/maps/place/Barbershop+13%F0%9F%92%88/@51.8449797,5.8602076,17z",
+ "maps_name": "Barbershop 13💈",
+ "maps_category": "Barbier",
+ "address": "Bloemerstraat 27, 6511 EB Nijmegen",
+ "phone_maps": "06 13955857",
+ "rating": "4,7",
+ "rating_count": 83,
+ "reviews": [
+  {
+   "text": "Superstrak geknipt bij Barbershop 13! Topservice, relaxte vibe en echt barbers die hun vak verstaan. Aanrader! 💈✨",
+   "name": "Julian W.",
+   "year": "2026",
+   "date_rel": "9 maanden geleden",
+   "stars": 5
+  },
+  {
+   "text": "De beste kapper van Nijmegen. Ik ben een paar keer geknipt bij de FourBrothers (wat ook een hele goede kapper is) maar bij Barbershop 13 nemen ze nog meer de tijd en geven ze nog meer de aandacht om het echt perfect te doen.",
+   "name": "VVE V.",
+   "year": "2021",
+   "date_rel": "5 jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Deze barber neemt echt de tijd om er voor te zorgen dat je er weer goed uit ziet. Zijn oog voor detail en liefde voor zijn werk zie je terug in hoe je geknipt wordt. Zeker een aanrader !",
+   "name": "Erik B.",
+   "year": "2025",
+   "date_rel": "een jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "De Beste Antillianse kaper in Omgeving Nijmgen. E ta Dal e pelanan Kaki Kaki. Hij is erg goed is wat hij doet en heel klant vriendelijke. Ik vind barbershop 13 gewoon TOP. 👍👍👍",
+   "name": "Julishka M.",
+   "year": "2019",
+   "date_rel": "7 jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Voor mij persoonlijk de beste kapperszaak in Nijmegen! goede service, vriendelijke sfeer, leuke muziek en het belangrijkste natuurlijk KWALITEIT KAPPERS!",
+   "name": "Udi M.",
+   "year": "2025",
+   "date_rel": "een jaar geleden",
+   "stars": 5
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S7YimEUY1FvnrIrxraF-fsYSLDFjq48d-5GSa11qGyndCA_67FEbDMLqyi3fJOm2gWbdTW7cGLCBWjh0i5FVuTEKzJxxUxnHvcEDa-l8sAOrNACGrk75sjK_LukAd9v29LQUZZqg",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S7YimEUY1FvnrIrxraF-fsYSLDFjq48d-5GSa11qGyndCA_67FEbDMLqyi3fJOm2gWbdTW7cGLCBWjh0i5FVuTEKzJxxUxnHvcEDa-l8sAOrNACGrk75sjK_LukAd9v29LQUZZqg",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RVgu-JVdKemZXrq5-QUCgkj6eB_5cHbgWNdZFHUDf408LRw57PME9V1HH_QFAq97FxAjrdMMrK6hUyDXP6xKo5h-AWPPr_DOd6WejX2_ptlzUVPyebZA0X7AC2AllQ8Thu48QjPZE39NMp",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TkqAIgjWNI4Avj_lVydQUcdQGORYyBvJOTqfXT3dlvbArv95KDUt6GAcdBmMjV6f6lOFDaV51OC1nskz8VSfMLSTQjiqzciPsdusjhCwzl22h4WoweuxqTOlkAnZe5R7EObPL5",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RdMYxwyPAQRN57IPctTxDatVTgLtQ-87VEgCfO8JCNmW5IsRnW74Re_E0E7RVDytvGNBvQm7Nu19M-yLBONH5wpM9G4Xh9YaYnkoTX8ekVEEAyqwZl7kTg8E611nzmkfykjXEfXqaMMhk",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TtWuMx9yIZaCJoxYD6x4mtOL4rqK5Bz6o_F14-fA9Foh63GTXtfgJWWeOU1m4Niywjs4qVlu42mXHnP1QudJ9uAjyZUHMp1ERhSGGQM06pbPa2oV7HemQo7_whx0uHq-qOGKTOvDfy0nyn"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RVgu-JVdKemZXrq5-QUCgkj6eB_5cHbgWNdZFHUDf408LRw57PME9V1HH_QFAq97FxAjrdMMrK6hUyDXP6xKo5h-AWPPr_DOd6WejX2_ptlzUVPyebZA0X7AC2AllQ8Thu48QjPZE39NMp",
+ "hours": [
+  [
+   "Maandag",
+   "10:00–19:00"
+  ],
+  [
+   "Dinsdag",
+   "10:00–18:00"
+  ],
+  [
+   "Woensdag",
+   "10:00–18:00"
+  ],
+  [
+   "Donderdag",
+   "10:00–19:30"
+  ],
+  [
+   "Vrijdag",
+   "10:00–19:30"
+  ],
+  [
+   "Zaterdag",
+   "10:00–17:30"
+  ],
+  [
+   "Zondag",
+   "gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "https://barbershop-13.salonized.com/#business_hours",
+ "note": ""
+}

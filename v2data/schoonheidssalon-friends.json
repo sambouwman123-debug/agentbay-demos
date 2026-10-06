@@ -1,0 +1,35 @@
+{
+ "slug": "schoonheidssalon-friends",
+ "status": "ok",
+ "checked": "2026-10-06",
+ "maps_url": "https://www.google.com/maps/place/Schoonheidssalon+Friends/@52.2011046,5.97696,17z",
+ "maps_name": "Schoonheidssalon Friends",
+ "maps_category": "Schoonheidssalon",
+ "address": "Thorbeckestraat 34, 7331 RJ Apeldoorn",
+ "phone_maps": "055 533 7615",
+ "rating": "4,8",
+ "rating_count": 5,
+ "reviews": [
+  {
+   "text": "Super gezellig weer.\nFijne behandeling gehad.\nZe neemt alle tijd.\nZomer lekker koel, en in de winter heerlijk warm.",
+   "name": "Marion T.",
+   "year": "2021",
+   "date_rel": "Bewerkt: 5 jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Weer heerlijke behandeling gehad. Voor een schappelijke prijs",
+   "name": "Carla S.",
+   "year": "2020",
+   "date_rel": "Bewerkt: 6 jaar geleden",
+   "stars": 5
+  }
+ ],
+ "hero": null,
+ "gallery": [],
+ "about_photo": null,
+ "hours": null,
+ "socials": {},
+ "website": "",
+ "note": ""
+}

@@ -1,0 +1,35 @@
+{
+ "slug": "schoonheidssalon-t-egeltje",
+ "status": "ok",
+ "checked": "2026-10-06",
+ "maps_url": "https://www.google.com/maps/place/Schoonheidssalon+het+Egeltje/@53.2337919,6.8713437,17z",
+ "maps_name": "Schoonheidssalon het Egeltje",
+ "maps_category": "Schoonheidssalon",
+ "address": "Eideweg 51, 9628 AP Siddeburen",
+ "phone_maps": "0598 431 124",
+ "rating": "4,9",
+ "rating_count": 8,
+ "reviews": [
+  {
+   "text": "Onze dochter heeft hier gellak laten doen. Zeer vriendelijk en zeer flexibel! Onze dochter heeft nu weer prachtige nagels!",
+   "name": "Diana S.",
+   "year": "2019",
+   "date_rel": "7 jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Heerlijke gezichtsbehandeling gehad. Verstand van zaken en dat merk je in alles.",
+   "name": "Saskia",
+   "year": "2021",
+   "date_rel": "5 jaar geleden",
+   "stars": 5
+  }
+ ],
+ "hero": null,
+ "gallery": [],
+ "about_photo": null,
+ "hours": null,
+ "socials": {},
+ "website": "",
+ "note": ""
+}
