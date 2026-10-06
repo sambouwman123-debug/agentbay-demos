@@ -1,7 +1,9 @@
 """v3 build: normalize.py configs + echte Google Maps-gegevens uit v2data/<slug>.json.
 Gebruik: python3 build_v3.py [slug ...]   -> bouwt naar out/<slug>/ en schrijft v2b/<slug>.json (deploy-payload).
 Alleen feiten uit v2data; niets wordt verzonnen. Ontbreekt iets, dan blijft die sectie weg."""
-import sys, os, json, re, shutil
+import sys, os, json, re, shutil, hashlib, base64, urllib.request, concurrent.futures as cf
+CACHE = '/home/claude/imgcache'
+os.makedirs(CACHE, exist_ok=True)
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
@@ -84,6 +86,15 @@ def overlay(c, d):
     if d.get('gallery'): c['gallery'] = d['gallery']
     if d.get('about_photo'):
         c['about_photo'] = d['about_photo']; c['about_alt'] = f"{c['name']}"
+    P = []
+    for u in [d.get('hero')] + (d.get('gallery') or []) + [d.get('about_photo')]:
+        if u and u not in P: P.append(u)
+    if d.get('hero') and len(P) >= 3: c['hero2'] = P[1]
+    if len(P) >= 2: c['home_about_photo'] = d.get('about_photo') or P[1]
+    if len(P) >= 5: c['svc_photo'] = P[3]
+    if len(P) >= 6: c['steps_photo'] = P[4]
+    rv = [r for r in (d.get('reviews') or []) if 40 <= len(r['text']) <= 170 and '\n' not in r['text'].strip()]
+    if rv: c['band_review'] = sorted(rv, key=lambda r: abs(len(r['text']) - 100))[0]
     if d.get('hours'): c['hours'] = d['hours']
     if d.get('socials'): c['socials'] = d['socials']
     c['trust'] = [(a, b.lstrip(', ').capitalize() if b.startswith(',') else b) for a, b in c.get('trust', [])]
@@ -97,8 +108,65 @@ def pack(outdir):
     for r, _, fs in os.walk(outdir):
         for f in sorted(fs):
             p = os.path.join(r, f)
-            files.append({'file': os.path.relpath(p, outdir), 'data': open(p).read()})
+            if f.endswith('.jpg'):
+                files.append({'file': os.path.relpath(p, outdir), 'data': base64.b64encode(open(p, 'rb').read()).decode(), 'encoding': 'base64'})
+            else:
+                files.append({'file': os.path.relpath(p, outdir), 'data': open(p).read()})
     return files
+
+IMG_KEYS = ('photo', 'hero2', 'about_photo', 'home_about_photo', 'svc_photo', 'steps_photo')
+
+def fetch(u, w):
+    base = u.split('=')[0]
+    fn = os.path.join(CACHE, hashlib.md5(base.encode()).hexdigest() + f'_{w}.jpg')
+    if not os.path.exists(fn) or os.path.getsize(fn) < 2000:
+        for _ in range(3):
+            try:
+                data = urllib.request.urlopen(urllib.request.Request(f'{base}=w{w}', headers={'User-Agent': 'Mozilla/5.0'}), timeout=30).read()
+                if data[:2] == b'\xff\xd8' or data[:4] == b'\x89PNG' or data[:4] == b'RIFF':
+                    open(fn, 'wb').write(data)
+                    try:
+                        from PIL import Image
+                        im = Image.open(fn).convert('RGB'); im.save(fn, 'JPEG', quality=76, optimize=True, progressive=True)
+                    except Exception: pass
+                    break
+            except Exception as e:
+                err = e
+    return fn if os.path.exists(fn) else None
+
+def localize(c):
+    """Google-foto's downloaden en lokaal in de site zetten (images/pN.jpg) — zoals Richard."""
+    urls = []
+    for k in IMG_KEYS:
+        if 'googleusercontent' in (c.get(k) or '') and c[k] not in urls: urls.append(c[k])
+    for u in c.get('gallery') or []:
+        if 'googleusercontent' in u and u not in urls: urls.append(u)
+    if not urls: return c, {}
+    jobs = {}
+    with cf.ThreadPoolExecutor(8) as ex:
+        for i, u in enumerate(urls):
+            jobs[u] = (i, ex.submit(fetch, u, 1400), ex.submit(fetch, u, 700))
+    m, files = {}, {}
+    for u, (i, big, small) in jobs.items():
+        b, sm = big.result(), small.result()
+        if b and sm:
+            m[u] = f'images/p{i}.jpg'; files[f'images/p{i}.jpg'] = b; files[f'images/p{i}-s.jpg'] = sm
+    c = dict(c)
+    for k in IMG_KEYS:
+        if c.get(k) in m: c[k] = m[c[k]]
+        elif 'googleusercontent' in (c.get(k) or ''): c.pop(k) if k != 'photo' else None
+    if c.get('gallery'): c['gallery'] = [m[u] for u in c['gallery'] if u in m]
+    return c, files
+
+def finish(out, files):
+    os.makedirs(os.path.join(out, 'images'), exist_ok=True)
+    for rel, src in files.items(): shutil.copy(src, os.path.join(out, rel))
+    for r, _, fs in os.walk(out):
+        for f in fs:
+            if not f.endswith('.html'): continue
+            p = os.path.join(r, f); depth = os.path.relpath(r, out).count('/') + (0 if r == out else 1)
+            t = open(p).read().replace('IMGROOT/', '../' * depth)
+            open(p, 'w').write(t)
 
 def main(only):
     cfgs = normalize.all_configs()
@@ -111,7 +179,9 @@ def main(only):
         c = overlay(c, d)
         out = os.path.join(HERE, 'out', slug)
         shutil.rmtree(out, ignore_errors=True)
+        c, files = localize(c)
         gen_v2.build(c, out)
+        finish(out, files)
         json.dump(pack(out), open(os.path.join(ROOT, 'v2b', slug + '.json'), 'w'), ensure_ascii=False)
         print(slug, 'ok', 'reviews', len(c.get('reviews') or []), 'fotos', len(c.get('gallery') or []), 'score', c.get('g_rating'))
 

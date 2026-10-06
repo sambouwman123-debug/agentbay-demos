@@ -4,6 +4,8 @@ import os, re, html as H, json, urllib.parse as up
 
 U='https://images.unsplash.com/'
 def img(src, w):
+    if src.startswith('images/'):
+        return 'IMGROOT/' + (src.replace('.jpg', '-s.jpg') if w <= 800 else src)
     if 'googleusercontent.com' in src: return f'{src.split("=")[0]}=w{w}'
     if src.startswith('http'): return src
     return f'{U}{src}?auto=format&fit=crop&w={w}&q=72'
@@ -18,6 +20,22 @@ IG='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" 
 MAIL='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>'
 CLOCK='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>'
 GRAIN="url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.08'/%3E%3C/svg%3E\")"
+
+XCSS='''
+.hero figure.duo{padding:0 0 46px 0}
+.hero figure.duo .p2{position:absolute;left:-28px;bottom:0;width:42%;aspect-ratio:4/5;object-fit:cover;border-radius:calc(var(--r2) * 1.2);border:6px solid var(--ink);box-shadow:0 18px 40px rgba(0,0,0,.35)}
+@media (max-width:979px){.hero figure.duo .p2{left:10px;width:38%}}
+.about.ph2 .wrap{align-items:center}
+.about .aimg{width:100%;aspect-ratio:4/4.4;object-fit:cover;border-radius:calc(var(--r2) * 1.4)}
+.svcwrap{display:grid;gap:40px}
+@media (min-width:1000px){.svcwrap.hasimg{grid-template-columns:.8fr 1.2fr;gap:56px;align-items:start}.svcwrap.hasimg .svcs{grid-template-columns:repeat(2,1fr)}}
+.svcwrap .simg{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:calc(var(--r2) * 1.4);position:sticky;top:96px}
+@media (max-width:999px){.svcwrap .simg{aspect-ratio:4/3;position:static}}
+.wk{display:grid;gap:40px}
+@media (min-width:980px){.wk.hasimg{grid-template-columns:.75fr 1.25fr;gap:64px;align-items:start}.wk.hasimg .steps{grid-template-columns:1fr}}
+.wk .wimg{width:100%;aspect-ratio:4/4.6;object-fit:cover;border-radius:calc(var(--r2) * 1.4)}
+.band.rq small{opacity:.85}
+'''
 
 def esc(s): return H.escape(s, quote=True)
 def strip(s): return re.sub('<[^>]+>','',s or '')
@@ -230,7 +248,7 @@ def page(c, pg, title, body, prefix):
 <meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{desc}"><meta property="og:image" content="{img(c["photo"],1200)}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?{c["fonts"]}&display=swap" rel="stylesheet">
-<style>{css(c)}</style></head><body>
+<style>{css(c)}{XCSS}</style></head><body>
 <header class="top"><div class="wrap"><a class="logo" href="{prefix or './'}"><b>{c["logo"]}</b><small>{c["logo_sub"]}</small></a>
 <nav class="nav" aria-label="Hoofdmenu">{links}{callbtn}<button class="burger" aria-label="Menu" aria-expanded="false" onclick="var d=document.getElementById('dr');d.classList.toggle('open');this.setAttribute('aria-expanded',d.classList.contains('open'))"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></nav></div></header>
 <div class="drawer" id="dr">{drawer}</div>
@@ -256,7 +274,7 @@ def hero(c, prefix):
     tags=''.join(f'<span class="tag">{strip(t)}</span>' for t in c.get('tags',[])[:2])
     return f'''<section class="hero dark grain"><div class="wrap"><div><span class="eyebrow">{c["kick"]}</span><h1>{c["h1"]}</h1><p class="lead">{c["lead"]}</p>
 <div class="cta"><a class="btn pri" href="{prefix}contact/">{c["cta"]}{ARROW}</a>{f'<a class="btn light" href="tel:+{intl}">{PH}{c["phone"]}</a>' if intl else ''}</div>{chip}</div>
-<figure><img src="{img(c["photo"],1400)}" srcset="{img(c["photo"],700)} 700w, {img(c["photo"],1100)} 1100w, {img(c["photo"],1600)} 1600w" sizes="(min-width:980px) 46vw, 100vw" alt="{esc(c["alt"])}" fetchpriority="high"><figcaption>{tags}</figcaption></figure></div></section>'''
+<figure{' class="duo"' if c.get("hero2") else ''}><img src="{img(c["photo"],1400)}" srcset="{img(c["photo"],700)} 700w, {img(c["photo"],1100)} 1100w, {img(c["photo"],1600)} 1600w" sizes="(min-width:980px) 46vw, 100vw" alt="{esc(c["alt"])}" fetchpriority="high">{f'<img class="p2" src="{img(c["hero2"],700)}" alt="Foto van {esc(c["name"])}">' if c.get("hero2") else ''}<figcaption>{tags}</figcaption></figure></div></section>'''
 
 def trust(c):
     items=c['trust'][:4]
@@ -359,11 +377,18 @@ def build(c, outdir):
     # HOME
     pre=''
     body=hero(c,pre)+trust(c)
-    body+=f'''<section class="s about"><div class="wrap"><div><span class="eyebrow">{c["over_label"]}</span><h2>{c["quote"]}</h2></div><div><div class="txt">{c["about"]}</div>{stats}<a class="more" href="over-ons/">Meer over {c["short"]} {ARROW}</a></div></div></section>'''
-    body+=f'''<section class="s" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap"><div class="sh"><span class="eyebrow">{c["svc_label"]}</span><h2>{c["svc_h"]}</h2><p class="muted">{c["svc_p"]}</p></div><div class="svcs">{svc_cards(c)}</div><a class="more" href="diensten/">{c["svc_more"]} {ARROW}</a></div></section>'''
-    body+=f'<section class="band grain"><div class="wrap"><blockquote>“{strip(c["band"])}”</blockquote><small>{c["name"]}</small></div></section>'
-    body+=f'''<section class="s dark grain"><div class="wrap"><div class="sh"><span class="eyebrow">Werkwijze</span><h2>{c["steps_h"]}</h2></div>{steps(c)}</div></section>'''
-    body+=reviews(c,pre)+gallery(c)+hours_map(c)
+    if c.get('home_about_photo'):
+        body+=f'''<section class="s about ph2"><div class="wrap"><img class="aimg" src="{img(c["home_about_photo"],1100)}" alt="Foto van {esc(c["name"])}" loading="lazy"><div><span class="eyebrow">{c["over_label"]}</span><h2>{c["quote"]}</h2><div class="txt" style="margin-top:22px">{c["about"]}</div>{stats}<a class="more" href="over-ons/">Meer over {c["short"]} {ARROW}</a></div></div></section>'''
+    else:
+        body+=f'''<section class="s about"><div class="wrap"><div><span class="eyebrow">{c["over_label"]}</span><h2>{c["quote"]}</h2></div><div><div class="txt">{c["about"]}</div>{stats}<a class="more" href="over-ons/">Meer over {c["short"]} {ARROW}</a></div></div></section>'''
+    body+=f'''<section class="s" style="background:var(--surface);border-block:1px solid var(--line)"><div class="wrap"><div class="sh"><span class="eyebrow">{c["svc_label"]}</span><h2>{c["svc_h"]}</h2><p class="muted">{c["svc_p"]}</p></div><div class="svcwrap{' hasimg' if c.get('svc_photo') else ''}">{f'<img class="simg" src="{img(c["svc_photo"],1100)}" alt="Foto van {esc(c["name"])}" loading="lazy">' if c.get('svc_photo') else ''}<div class="svcs">{svc_cards(c)}</div></div><a class="more" href="diensten/">{c["svc_more"]} {ARROW}</a></div></section>'''
+    rq=c.get('band_review')
+    if rq: body+=f'<section class="band rq grain"><div class="wrap"><blockquote>“{esc(rq["text"])}”</blockquote><small>{esc(rq["name"])} · Google-review</small></div></section>'
+    else: body+=f'<section class="band grain"><div class="wrap"><blockquote>“{strip(c["band"])}”</blockquote><small>{c["name"]}</small></div></section>'
+    body+=gallery(c)
+    wimg=f'<img class="wimg" src="{img(c["steps_photo"],900)}" alt="Foto van {esc(c["name"])}" loading="lazy">' if c.get('steps_photo') else ''
+    body+=f'''<section class="s dark grain"><div class="wrap"><div class="wk{' hasimg' if wimg else ''}"><div><div class="sh"><span class="eyebrow">Werkwijze</span><h2>{c["steps_h"]}</h2></div>{wimg}</div>{steps(c)}</div></div></section>'''
+    body+=reviews(c,pre)+hours_map(c)
     body+=contact_block(c,pre)
     open(P(''),'w').write(page(c,'',c['title'],body,pre))
     # DIENSTEN
