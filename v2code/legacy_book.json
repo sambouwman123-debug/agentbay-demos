@@ -1,0 +1,2201 @@
+{
+ "ashleys-haar-nagels": {
+  "key": "ashley",
+  "phone": "06 21 64 26 27",
+  "step": 30,
+  "hours": {
+   "2": [
+    540,
+    1050
+   ],
+   "3": [
+    540,
+    1050
+   ],
+   "4": [
+    540,
+    1200
+   ],
+   "5": [
+    540,
+    1050
+   ],
+   "6": [
+    540,
+    960
+   ]
+  },
+  "services": [
+   {
+    "id": "d",
+    "g": "Haar",
+    "name": "Dames wassen, knippen & föhnen",
+    "min": 60,
+    "d": "Een frisse coupe met een mooie afwerking."
+   },
+   {
+    "id": "h",
+    "g": "Haar",
+    "name": "Heren knippen",
+    "min": 30,
+    "d": "Strak en verzorgd."
+   },
+   {
+    "id": "k",
+    "g": "Haar",
+    "name": "Kinderen knippen",
+    "min": 30,
+    "d": "Vlot en ontspannen."
+   },
+   {
+    "id": "kl",
+    "g": "Haar",
+    "name": "Kleuren",
+    "min": 90,
+    "d": "Uitgroei of volledig, in een tint die bij je past."
+   },
+   {
+    "id": "hl",
+    "g": "Haar",
+    "name": "Highlights",
+    "min": 120,
+    "d": "Licht en diepte voor een natuurlijk effect."
+   },
+   {
+    "id": "op",
+    "g": "Haar",
+    "name": "Opsteken & stylen",
+    "min": 45,
+    "d": "Voor een feest of bruiloft."
+   },
+   {
+    "id": "gl",
+    "g": "Nagels",
+    "name": "Gellak",
+    "min": 45,
+    "d": "Glanzende kleur die weken mooi blijft."
+   },
+   {
+    "id": "biab",
+    "g": "Nagels",
+    "name": "BIAB",
+    "min": 60,
+    "d": "Versterkende gel voor je eigen nagels."
+   },
+   {
+    "id": "set",
+    "g": "Nagels",
+    "name": "Gelnagels nieuwe set",
+    "min": 90,
+    "d": "Sterke nagels met verlenging, in jouw vorm."
+   },
+   {
+    "id": "opv",
+    "g": "Nagels",
+    "name": "Opvullen",
+    "min": 75,
+    "d": "Uitgroei bijwerken met nieuwe kleur."
+   },
+   {
+    "id": "art",
+    "g": "Nagels",
+    "name": "Nail art",
+    "min": 15,
+    "d": "Van een accentnagel tot een volledig ontwerp."
+   }
+  ]
+ },
+ "beauty-by-aniek": {
+  "key": "aniek",
+  "phone": "06 36 20 03 27",
+  "step": 30,
+  "hours": {
+   "1": [
+    540,
+    1050
+   ],
+   "2": [
+    540,
+    1050
+   ],
+   "3": [
+    540,
+    1050
+   ],
+   "4": [
+    540,
+    1200
+   ],
+   "5": [
+    540,
+    1050
+   ],
+   "6": [
+    540,
+    900
+   ]
+  },
+  "services": [
+   {
+    "id": "gel",
+    "g": "Nails",
+    "name": "Gellak",
+    "min": 45,
+    "d": "Glanzende kleur op je eigen nagels."
+   },
+   {
+    "id": "biab",
+    "g": "Nails",
+    "name": "BIAB",
+    "min": 60,
+    "d": "Versterking voor zwakke nagels."
+   },
+   {
+    "id": "set",
+    "g": "Nails",
+    "name": "Gelnagels nieuwe set",
+    "min": 90,
+    "d": "Verlenging in jouw vorm."
+   },
+   {
+    "id": "opv",
+    "g": "Nails",
+    "name": "Opvullen",
+    "min": 75,
+    "d": "Weer strak na drie tot vier weken."
+   },
+   {
+    "id": "obo",
+    "g": "Lashes",
+    "name": "Wimperextensions one by one",
+    "min": 120,
+    "d": "Natuurlijk en verzorgd."
+   },
+   {
+    "id": "vol",
+    "g": "Lashes",
+    "name": "Wimperextensions volume",
+    "min": 150,
+    "d": "Vol en donker, toch licht."
+   },
+   {
+    "id": "fill",
+    "g": "Lashes",
+    "name": "Wimpers opvullen",
+    "min": 60,
+    "d": "Na twee tot drie weken."
+   },
+   {
+    "id": "lvl",
+    "g": "Lashes",
+    "name": "LVL lash volume lifting",
+    "min": 60,
+    "d": "Je eigen wimpers gelift en gekleurd."
+   }
+  ]
+ },
+ "ellens-puur-voet": {
+  "key": "ellen",
+  "phone": "06 12 90 83 03",
+  "step": 30,
+  "hours": {
+   "1": [
+    540,
+    1020
+   ],
+   "2": [
+    540,
+    1020
+   ],
+   "3": [
+    540,
+    1020
+   ],
+   "4": [
+    540,
+    1200
+   ],
+   "5": [
+    540,
+    1020
+   ],
+   "6": [
+    600,
+    720
+   ]
+  },
+  "services": [
+   {
+    "id": "pedi",
+    "g": "Pedicure",
+    "name": "Pedicure",
+    "min": 45,
+    "d": "Nagels knippen en vijlen, eelt verwijderen en voeten verzorgen."
+   },
+   {
+    "id": "uitgebreid",
+    "g": "Pedicure",
+    "name": "Uitgebreide pedicure met massage",
+    "min": 60,
+    "d": "Met voetbad en een ontspannende voetmassage."
+   },
+   {
+    "id": "eelt",
+    "g": "Specifiek",
+    "name": "Eelt & likdoorns",
+    "min": 30,
+    "d": "Gerichte behandeling van drukplekken."
+   },
+   {
+    "id": "nagel",
+    "g": "Specifiek",
+    "name": "Ingegroeide nagel",
+    "min": 30,
+    "d": "Pijnloos verhelpen van een ingegroeide nagel."
+   },
+   {
+    "id": "mas",
+    "g": "Ontspanning",
+    "name": "Voetmassage",
+    "min": 30,
+    "d": "Even helemaal tot rust komen."
+   },
+   {
+    "id": "lak",
+    "g": "Ontspanning",
+    "name": "Lak op de tenen",
+    "min": 15,
+    "d": "Een mooie kleur als afwerking."
+   }
+  ]
+ },
+ "head-spa-doetinchem": {
+  "key": "headspa",
+  "phone": "06 17 19 03 04",
+  "step": 15,
+  "hours": {},
+  "services": [
+   {
+    "id": "hs60",
+    "g": "Head spa",
+    "name": "Head spa 60 minuten",
+    "min": 60,
+    "price": "€70",
+    "d": "Het complete ritueel: analyse, hoofdmassage, reiniging, conditioner en drogen."
+   },
+   {
+    "id": "hs90",
+    "g": "Head spa",
+    "name": "Head spa extra lang",
+    "min": 90,
+    "d": "Meer tijd voor massage en verzorging. Voor wie echt wil landen."
+   },
+   {
+    "id": "hs45",
+    "g": "Head spa",
+    "name": "Head spa kennismaking",
+    "min": 45,
+    "d": "Proef het ritueel in een korte versie."
+   },
+   {
+    "id": "duo",
+    "g": "Samen",
+    "name": "Duo head spa",
+    "min": 60,
+    "d": "Samen ontspannen, met je partner of vriendin."
+   }
+  ]
+ },
+ "marlou-beauty-salon": {
+  "key": "marlou",
+  "phone": "06 30 44 83 70",
+  "step": 30,
+  "hours": {
+   "1": [
+    540,
+    1080
+   ],
+   "2": [
+    540,
+    1080
+   ],
+   "3": [
+    540,
+    1080
+   ],
+   "4": [
+    540,
+    1260
+   ],
+   "5": [
+    540,
+    1080
+   ],
+   "6": [
+    540,
+    960
+   ]
+  },
+  "services": [
+   {
+    "id": "lc",
+    "g": "Wimpers",
+    "name": "Wimperextensions nieuwe set",
+    "min": 120
+   },
+   {
+    "id": "lv",
+    "g": "Wimpers",
+    "name": "Volume set",
+    "min": 150
+   },
+   {
+    "id": "lf",
+    "g": "Wimpers",
+    "name": "Opvullen",
+    "min": 60
+   },
+   {
+    "id": "ll",
+    "g": "Lift",
+    "name": "Lash volume lifting",
+    "min": 60
+   },
+   {
+    "id": "bl",
+    "g": "Lift",
+    "name": "Brow lift",
+    "min": 45
+   },
+   {
+    "id": "bv",
+    "g": "Lift",
+    "name": "Wenkbrauwen verven & epileren",
+    "min": 30
+   },
+   {
+    "id": "st",
+    "g": "Spraytan",
+    "name": "Spraytan full body",
+    "min": 30
+   },
+   {
+    "id": "sh",
+    "g": "Spraytan",
+    "name": "Spraytan halve body",
+    "min": 20
+   }
+  ]
+ },
+ "medisch-pedicure-verhoeven": {
+  "key": "verhoeven",
+  "phone": "06 22 83 56 49",
+  "step": 30,
+  "hours": {
+   "1": [
+    540,
+    1020
+   ],
+   "2": [
+    540,
+    1020
+   ],
+   "3": [
+    540,
+    1020
+   ],
+   "4": [
+    540,
+    1020
+   ],
+   "5": [
+    540,
+    1020
+   ]
+  },
+  "services": [
+   {
+    "id": "pedi",
+    "g": "Pedicure",
+    "name": "Pedicure",
+    "min": 45,
+    "d": "Nagels knippen en vijlen, eelt verwijderen en voeten verzorgen."
+   },
+   {
+    "id": "med",
+    "g": "Pedicure",
+    "name": "Medische pedicure",
+    "min": 60,
+    "d": "Voor diabetische, reumatische of andere risicovoeten."
+   },
+   {
+    "id": "corr",
+    "g": "Specialistisch",
+    "name": "Nagelcorrectie",
+    "min": 45,
+    "d": "Hulp bij ingegroeide of krullende nagels."
+   },
+   {
+    "id": "schim",
+    "g": "Specialistisch",
+    "name": "Schimmelnagels",
+    "min": 30,
+    "d": "Onderzoek en behandeladvies bij verdikte of verkleurde nagels."
+   },
+   {
+    "id": "lik",
+    "g": "Specialistisch",
+    "name": "Likdoorns & drukplekken",
+    "min": 30,
+    "d": "Gerichte behandeling voor pijnvrij lopen."
+   },
+   {
+    "id": "onto",
+    "g": "Specialistisch",
+    "name": "Ontlasten met orthese",
+    "min": 30,
+    "d": "Een op maat gemaakt hulpmiddel tegen drukplekken."
+   }
+  ]
+ },
+ "melody-beauty": {
+  "key": "melody",
+  "phone": "06 19 48 00 29",
+  "step": 30,
+  "hours": {
+   "1": [
+    600,
+    1080
+   ],
+   "2": [
+    600,
+    1080
+   ],
+   "3": [
+    600,
+    1080
+   ],
+   "4": [
+    600,
+    1080
+   ],
+   "5": [
+    600,
+    1080
+   ]
+  },
+  "services": [
+   {
+    "id": "knip",
+    "g": "Knippen",
+    "name": "Wassen, knippen & föhnen",
+    "min": 60,
+    "d": "Complete beurt met een mooie afwerking."
+   },
+   {
+    "id": "fohn",
+    "g": "Knippen",
+    "name": "Föhnen & stylen",
+    "min": 30,
+    "d": "Strak of met volume."
+   },
+   {
+    "id": "uitgroei",
+    "g": "Kleur",
+    "name": "Uitgroei kleuren",
+    "min": 90,
+    "d": "Je eigen kleur weer egaal tot aan de punten."
+   },
+   {
+    "id": "volledig",
+    "g": "Kleur",
+    "name": "Volledige kleuring",
+    "min": 105,
+    "d": "Een nieuwe kleur van wortel tot punt."
+   },
+   {
+    "id": "balayage",
+    "g": "Kleur",
+    "name": "Balayage",
+    "min": 180,
+    "d": "Zachte, natuurlijke overgang die mooi uitgroeit."
+   },
+   {
+    "id": "high",
+    "g": "Kleur",
+    "name": "Highlights",
+    "min": 150,
+    "d": "Licht en diepte met folie."
+   },
+   {
+    "id": "toner",
+    "g": "Kleur",
+    "name": "Toner & glans",
+    "min": 45,
+    "d": "Frist je kleur op en geeft glans."
+   },
+   {
+    "id": "corr",
+    "g": "Kleur",
+    "name": "Kleuradvies & correctie",
+    "min": 120,
+    "d": "Een kleur die niet goed uitpakte weer mooi maken."
+   },
+   {
+    "id": "verz",
+    "g": "Verzorging",
+    "name": "Herstellende haarbehandeling",
+    "min": 30,
+    "d": "Voor droog of gekleurd haar."
+   }
+  ]
+ },
+ "merie-spijker": {
+  "key": "merie",
+  "phone": "06 34 17 67 63",
+  "step": 30,
+  "hours": {
+   "1": [
+    540,
+    1020
+   ],
+   "2": [
+    540,
+    1020
+   ],
+   "3": [
+    540,
+    1020
+   ],
+   "4": [
+    540,
+    1020
+   ]
+  },
+  "services": [
+   {
+    "id": "gezicht",
+    "g": "Huid",
+    "name": "Gezichtsbehandeling",
+    "min": 75,
+    "d": "Reinigen, peelen, onzuiverheden verwijderen, masker en massage."
+   },
+   {
+    "id": "diep",
+    "g": "Huid",
+    "name": "Dieptereiniging",
+    "min": 60,
+    "d": "Grondige reiniging voor een frisse, heldere huid."
+   },
+   {
+    "id": "advies",
+    "g": "Huid",
+    "name": "Huidanalyse & advies",
+    "min": 30,
+    "d": "Wat heeft jouw huid nodig? Een eerlijk advies met plan."
+   },
+   {
+    "id": "brauw",
+    "g": "Huid",
+    "name": "Wenkbrauwen & wimpers verven",
+    "min": 30,
+    "d": "Epileren in model en verven voor meer definitie."
+   },
+   {
+    "id": "pedi",
+    "g": "Voet",
+    "name": "Pedicure",
+    "min": 45,
+    "d": "Nagels knippen en vijlen, eelt verwijderen en voeten verzorgen."
+   },
+   {
+    "id": "eelt",
+    "g": "Voet",
+    "name": "Eelt & likdoorns",
+    "min": 45,
+    "d": "Gerichte behandeling van drukplekken voor pijnvrij lopen."
+   },
+   {
+    "id": "nagel",
+    "g": "Voet",
+    "name": "Probleemnagels",
+    "min": 30,
+    "d": "Hulp bij ingegroeide, verdikte of kalknagels."
+   },
+   {
+    "id": "luxe",
+    "g": "Voet",
+    "name": "Luxe voetbehandeling",
+    "min": 75,
+    "d": "Pedicure met voetbad, scrub, masker en voetmassage."
+   }
+  ]
+ },
+ "mooi-bij-rianne": {
+  "key": "rianne",
+  "phone": "06 12 78 06 06",
+  "step": 30,
+  "hours": {
+   "2": [
+    540,
+    1050
+   ],
+   "3": [
+    540,
+    1050
+   ],
+   "4": [
+    540,
+    1200
+   ],
+   "5": [
+    540,
+    1050
+   ],
+   "6": [
+    510,
+    960
+   ]
+  },
+  "services": [
+   {
+    "id": "d-knip",
+    "g": "Dames",
+    "name": "Dames knippen",
+    "min": 45
+   },
+   {
+    "id": "d-fohn",
+    "g": "Dames",
+    "name": "Wassen, knippen & föhnen",
+    "min": 60
+   },
+   {
+    "id": "h-knip",
+    "g": "Heren",
+    "name": "Heren knippen",
+    "min": 30
+   },
+   {
+    "id": "h-baard",
+    "g": "Heren",
+    "name": "Knippen & baard",
+    "min": 45
+   },
+   {
+    "id": "k-knip",
+    "g": "Kinderen",
+    "name": "Kinderen knippen",
+    "min": 30
+   },
+   {
+    "id": "kleur",
+    "g": "Kleur & verzorging",
+    "name": "Kleuren",
+    "min": 90
+   },
+   {
+    "id": "high",
+    "g": "Kleur & verzorging",
+    "name": "Highlights of balayage",
+    "min": 150
+   },
+   {
+    "id": "verz",
+    "g": "Kleur & verzorging",
+    "name": "Haarverzorging",
+    "min": 30
+   },
+   {
+    "id": "trans",
+    "g": "Kleur & verzorging",
+    "name": "Transformatie (met advies)",
+    "min": 180
+   }
+  ]
+ },
+ "moon-en-more": {
+  "key": "moon",
+  "phone": "06 33 69 62 92",
+  "step": 30,
+  "hours": {
+   "1": [
+    540,
+    1050
+   ],
+   "2": [
+    540,
+    1050
+   ],
+   "3": [
+    540,
+    1050
+   ],
+   "4": [
+    540,
+    1200
+   ],
+   "5": [
+    540,
+    1050
+   ],
+   "6": [
+    540,
+    900
+   ]
+  },
+  "services": [
+   {
+    "id": "pedi",
+    "g": "Voeten",
+    "name": "Pedicure",
+    "min": 45,
+    "d": "Nagels knippen en vijlen, eelt verwijderen en voeten verzorgen."
+   },
+   {
+    "id": "luxe",
+    "g": "Voeten",
+    "name": "Luxe pedicure",
+    "min": 60,
+    "d": "Met voetbad, scrub en massage."
+   },
+   {
+    "id": "eelt",
+    "g": "Voeten",
+    "name": "Eelt & likdoorns",
+    "min": 30,
+    "d": "Gerichte behandeling van drukplekken."
+   },
+   {
+    "id": "kalk",
+    "g": "Voeten",
+    "name": "Kalk- en schimmelnagels",
+    "min": 30,
+    "d": "Advies en behandeling van verdikte nagels."
+   },
+   {
+    "id": "ingr",
+    "g": "Voeten",
+    "name": "Ingegroeide teennagel",
+    "min": 30,
+    "d": "Pijnloos verhelpen."
+   },
+   {
+    "id": "mas",
+    "g": "Voeten",
+    "name": "Voetmassage",
+    "min": 30,
+    "d": "Even helemaal tot rust komen."
+   }
+  ]
+ },
+ "nails-by-jose": {
+  "key": "jose",
+  "phone": "06 10 81 18 07",
+  "step": 30,
+  "hours": {
+   "1": [
+    540,
+    1050
+   ],
+   "2": [
+    540,
+    1050
+   ],
+   "3": [
+    540,
+    1050
+   ],
+   "4": [
+    540,
+    1200
+   ],
+   "5": [
+    540,
+    1050
+   ],
+   "6": [
+    540,
+    900
+   ]
+  },
+  "services": [
+   {
+    "id": "gel",
+    "g": "Nagels",
+    "name": "Gellak",
+    "min": 45,
+    "d": "Glanzende kleur op je eigen nagels."
+   },
+   {
+    "id": "biab",
+    "g": "Nagels",
+    "name": "BIAB",
+    "min": 60,
+    "d": "Versterkende gel, ideaal voor zwakke nagels."
+   },
+   {
+    "id": "set",
+    "g": "Nagels",
+    "name": "Gelnagels nieuwe set",
+    "min": 90,
+    "d": "Verlenging in de vorm die je wilt."
+   },
+   {
+    "id": "opv",
+    "g": "Nagels",
+    "name": "Opvullen",
+    "min": 75,
+    "d": "Na drie tot vier weken weer strak."
+   },
+   {
+    "id": "art",
+    "g": "Nagels",
+    "name": "Nail art",
+    "min": 15,
+    "d": "Van accentnagel tot volledig ontwerp."
+   },
+   {
+    "id": "weg",
+    "g": "Nagels",
+    "name": "Verwijderen & manicure",
+    "min": 30,
+    "d": "Netjes verwijderen en verzorgen."
+   }
+  ]
+ },
+ "namaste-beauty": {
+  "key": "namaste",
+  "phone": "06 18 40 04 15",
+  "step": 30,
+  "hours": {
+   "1": [
+    540,
+    1050
+   ],
+   "2": [
+    540,
+    1050
+   ],
+   "3": [
+    540,
+    1050
+   ],
+   "4": [
+    540,
+    1200
+   ],
+   "5": [
+    540,
+    1050
+   ],
+   "6": [
+    540,
+    840
+   ]
+  },
+  "services": [
+   {
+    "id": "mani",
+    "g": "Handen",
+    "name": "Manicure",
+    "min": 30,
+    "d": "Nagelriemen verzorgen, vijlen en zachte handen."
+   },
+   {
+    "id": "gel",
+    "g": "Handen",
+    "name": "Gellak",
+    "min": 45,
+    "d": "Glanzende kleur die weken blijft."
+   },
+   {
+    "id": "biab",
+    "g": "Handen",
+    "name": "BIAB",
+    "min": 60,
+    "d": "Versterking voor je eigen nagels."
+   },
+   {
+    "id": "set",
+    "g": "Handen",
+    "name": "Gelnagels nieuwe set",
+    "min": 90,
+    "d": "Verlenging in jouw lengte en vorm."
+   },
+   {
+    "id": "opv",
+    "g": "Handen",
+    "name": "Opvullen",
+    "min": 75,
+    "d": "Uitgroei bijwerken met nieuwe kleur."
+   },
+   {
+    "id": "art",
+    "g": "Handen",
+    "name": "Nail art",
+    "min": 15,
+    "d": "Accent of compleet ontwerp."
+   },
+   {
+    "id": "pedi",
+    "g": "Voeten",
+    "name": "Esthetische pedicure",
+    "min": 45,
+    "d": "Verzorgde, zachte voeten."
+   },
+   {
+    "id": "gelv",
+    "g": "Voeten",
+    "name": "Gellak op de tenen",
+    "min": 30,
+    "d": "Een mooie kleur die lang blijft."
+   },
+   {
+    "id": "combo",
+    "g": "Voeten",
+    "name": "Pedicure met gellak",
+    "min": 75,
+    "d": "Verzorgd én in kleur."
+   }
+  ]
+ },
+ "natasja-hair-nails": {
+  "key": "natasja",
+  "phone": "06 45 73 47 19",
+  "step": 30,
+  "hours": {
+   "2": [
+    540,
+    1050
+   ],
+   "3": [
+    540,
+    1050
+   ],
+   "4": [
+    540,
+    1200
+   ],
+   "5": [
+    540,
+    1050
+   ],
+   "6": [
+    540,
+    960
+   ]
+  },
+  "services": [
+   {
+    "id": "d-knip",
+    "g": "Hair",
+    "name": "Dames wassen, knippen & föhnen",
+    "min": 60,
+    "d": "Complete beurt met een mooie afwerking."
+   },
+   {
+    "id": "h-knip",
+    "g": "Hair",
+    "name": "Heren knippen",
+    "min": 30,
+    "d": "Strak en verzorgd."
+   },
+   {
+    "id": "k-knip",
+    "g": "Hair",
+    "name": "Kinderen knippen",
+    "min": 30,
+    "d": "Vlot en ontspannen."
+   },
+   {
+    "id": "kleur",
+    "g": "Hair",
+    "name": "Kleuren",
+    "min": 90,
+    "d": "Uitgroei of volledig, in een tint die bij je past."
+   },
+   {
+    "id": "high",
+    "g": "Hair",
+    "name": "Highlights",
+    "min": 120,
+    "d": "Licht en diepte voor een natuurlijk effect."
+   },
+   {
+    "id": "style",
+    "g": "Hair",
+    "name": "Opsteken & stylen",
+    "min": 45,
+    "d": "Voor een feest of bruiloft."
+   },
+   {
+    "id": "mani",
+    "g": "Nails",
+    "name": "Manicure",
+    "min": 30,
+    "d": "Verzorgde nagelriemen en mooi gevijlde nagels."
+   },
+   {
+    "id": "gellak",
+    "g": "Nails",
+    "name": "Gellak",
+    "min": 45,
+    "d": "Glanzende kleur die weken blijft."
+   },
+   {
+    "id": "gel",
+    "g": "Nails",
+    "name": "Gelnagels nieuwe set",
+    "min": 90,
+    "d": "Sterke nagels met verlenging."
+   },
+   {
+    "id": "opv",
+    "g": "Nails",
+    "name": "Gelnagels opvullen",
+    "min": 75,
+    "d": "Uitgroei bijwerken met nieuwe kleur."
+   },
+   {
+    "id": "art",
+    "g": "Nails",
+    "name": "Nail art",
+    "min": 15,
+    "d": "Accentnagel of compleet ontwerp."
+   }
+  ]
+ },
+ "nathies-nails": {
+  "key": "nathie",
+  "phone": "06 49 83 38 31",
+  "step": 30,
+  "hours": {
+   "2": [
+    540,
+    1050
+   ],
+   "3": [
+    540,
+    1050
+   ],
+   "4": [
+    540,
+    1050
+   ],
+   "5": [
+    540,
+    1050
+   ],
+   "6": [
+    540,
+    840
+   ]
+  },
+  "services": [
+   {
+    "id": "gellak",
+    "g": "Natuurlijke nagels",
+    "name": "Gellak",
+    "min": 45,
+    "d": "Glanzende kleur die tot drie weken mooi blijft, op je eigen nagels."
+   },
+   {
+    "id": "biab",
+    "g": "Natuurlijke nagels",
+    "name": "BIAB",
+    "min": 60,
+    "d": "Versterkende builder gel voor dunne of zwakke nagels, zonder verlenging."
+   },
+   {
+    "id": "manicure",
+    "g": "Natuurlijke nagels",
+    "name": "Manicure",
+    "min": 30,
+    "d": "Nagelriemen verzorgen, vijlen en een verzorgende afwerking."
+   },
+   {
+    "id": "set",
+    "g": "Kunstnagels",
+    "name": "Nieuwe set met verlenging",
+    "min": 90,
+    "d": "Acryl of gel op tips, in de lengte en vorm die jij wilt."
+   },
+   {
+    "id": "opvullen",
+    "g": "Kunstnagels",
+    "name": "Opvullen",
+    "min": 75,
+    "d": "Uitgroei bijwerken na drie tot vier weken, inclusief nieuwe kleur."
+   },
+   {
+    "id": "art",
+    "g": "Extra",
+    "name": "Nail art",
+    "min": 15,
+    "d": "Van een subtiel accent tot een volledig ontwerp. Per nagel of per set."
+   },
+   {
+    "id": "weg",
+    "g": "Extra",
+    "name": "Verwijderen",
+    "min": 30,
+    "d": "Gellak of kunstnagels voorzichtig verwijderen, met verzorging na."
+   }
+  ]
+ },
+ "noor-pedicure-manicure": {
+  "key": "noor",
+  "phone": "06 57 54 94 86",
+  "step": 30,
+  "location": true,
+  "hours": {
+   "1": [
+    540,
+    1020
+   ],
+   "2": [
+    540,
+    1020
+   ],
+   "3": [
+    540,
+    1020
+   ],
+   "4": [
+    540,
+    1020
+   ],
+   "5": [
+    540,
+    1020
+   ]
+  },
+  "services": [
+   {
+    "id": "pedi",
+    "g": "Voeten",
+    "name": "Pedicure",
+    "min": 45,
+    "d": "Nagels knippen en vijlen, eelt verwijderen en voeten verzorgen."
+   },
+   {
+    "id": "cos",
+    "g": "Voeten",
+    "name": "Cosmetische pedicure",
+    "min": 60,
+    "d": "Verzorgde voeten met lak of nail art."
+   },
+   {
+    "id": "sport",
+    "g": "Voeten",
+    "name": "Sportpedicure",
+    "min": 45,
+    "d": "Voor eelt, blaren en nagels door sport."
+   },
+   {
+    "id": "onco",
+    "g": "Voeten",
+    "name": "Pedicure bij oncologie",
+    "min": 60,
+    "d": "Extra voorzichtige zorg tijdens of na behandeling."
+   },
+   {
+    "id": "drukv",
+    "g": "Voeten",
+    "name": "Drukvrij maken",
+    "min": 30,
+    "d": "Ontlasten van pijnlijke drukplekken."
+   },
+   {
+    "id": "mas",
+    "g": "Voeten",
+    "name": "Voetmassage",
+    "min": 30,
+    "d": "Even helemaal tot rust komen."
+   },
+   {
+    "id": "mani",
+    "g": "Handen",
+    "name": "Manicure",
+    "min": 30,
+    "d": "Verzorgde nagelriemen en zachte handen."
+   },
+   {
+    "id": "rep",
+    "g": "Handen",
+    "name": "Nagelreparatie",
+    "min": 20,
+    "d": "Een gescheurde of beschadigde nagel herstellen."
+   }
+  ]
+ },
+ "pedicure-framoni": {
+  "key": "framoni",
+  "phone": "06 22 52 40 14",
+  "step": 30,
+  "hours": {
+   "1": [
+    540,
+    1050
+   ],
+   "2": [
+    540,
+    1050
+   ],
+   "3": [
+    540,
+    1050
+   ],
+   "4": [
+    540,
+    1200
+   ],
+   "5": [
+    540,
+    1050
+   ],
+   "6": [
+    540,
+    900
+   ]
+  },
+  "services": [
+   {
+    "id": "pedi",
+    "g": "Voeten",
+    "name": "Pedicure",
+    "min": 45,
+    "d": "Nagels knippen en vijlen, eelt verwijderen en voeten verzorgen."
+   },
+   {
+    "id": "med",
+    "g": "Voeten",
+    "name": "Pedicure bij risicovoet",
+    "min": 60,
+    "d": "Zorgvuldige behandeling bij diabetes of reuma."
+   },
+   {
+    "id": "beugel",
+    "g": "Voeten",
+    "name": "Nagelbeugel",
+    "min": 30,
+    "d": "Corrigeert ingegroeide of krullende nagels."
+   },
+   {
+    "id": "orth",
+    "g": "Voeten",
+    "name": "Orthese op maat",
+    "min": 30,
+    "d": "Ontlast drukplekken en kromme tenen."
+   },
+   {
+    "id": "onth",
+    "g": "Ontharen & nagels",
+    "name": "Definitief ontharen",
+    "min": 30,
+    "d": "Per zone, voor een blijvend gladde huid."
+   },
+   {
+    "id": "art",
+    "g": "Ontharen & nagels",
+    "name": "Lak & nail art op de tenen",
+    "min": 20,
+    "d": "Een mooie afwerking na je pedicure."
+   }
+  ]
+ },
+ "pedicuresalon-jeannette": {
+  "key": "jeannette",
+  "phone": "06 20 84 53 88",
+  "step": 30,
+  "location": true,
+  "hours": {
+   "1": [
+    540,
+    1050
+   ],
+   "2": [
+    540,
+    1050
+   ],
+   "3": [
+    540,
+    1050
+   ],
+   "4": [
+    540,
+    1050
+   ],
+   "5": [
+    540,
+    1050
+   ]
+  },
+  "services": [
+   {
+    "id": "basis",
+    "g": "Pedicure",
+    "name": "Pedicure",
+    "min": 45,
+    "d": "Nagels knippen en vijlen, eelt verwijderen en voeten verzorgen."
+   },
+   {
+    "id": "med",
+    "g": "Pedicure",
+    "name": "Medische pedicure",
+    "min": 60,
+    "d": "Voor diabetische, reumatische of oncologische voeten."
+   },
+   {
+    "id": "sport",
+    "g": "Pedicure",
+    "name": "Sportpedicure",
+    "min": 45,
+    "d": "Eelt, blaren en nagelproblemen door sport."
+   },
+   {
+    "id": "corr",
+    "g": "Specialistisch",
+    "name": "Nagelcorrectie",
+    "min": 45,
+    "d": "Hulp bij ingegroeide of krullende nagels, zonder snijden."
+   },
+   {
+    "id": "schim",
+    "g": "Specialistisch",
+    "name": "Schimmelnagels",
+    "min": 30,
+    "d": "Onderzoek en behandeladvies bij verkleurde of verdikte nagels."
+   },
+   {
+    "id": "herst",
+    "g": "Specialistisch",
+    "name": "Nagelreparatie",
+    "min": 30,
+    "d": "Een beschadigde of ontbrekende nagel herstellen."
+   },
+   {
+    "id": "reflex",
+    "g": "Ontspanning",
+    "name": "Voetreflexmassage",
+    "min": 45,
+    "d": "Ontspannende massage van de reflexzones."
+   },
+   {
+    "id": "mas",
+    "g": "Ontspanning",
+    "name": "Voetmassage",
+    "min": 30,
+    "d": "Even helemaal tot rust komen."
+   },
+   {
+    "id": "cos",
+    "g": "Ontspanning",
+    "name": "Cosmetische pedicure met lak",
+    "min": 60,
+    "d": "Verzorgde voeten met een mooie kleur op de tenen."
+   },
+   {
+    "id": "mani",
+    "g": "Ontspanning",
+    "name": "Manicure",
+    "min": 30,
+    "d": "Verzorgde handen en nagels."
+   }
+  ]
+ },
+ "reus-beauty": {
+  "key": "reus",
+  "phone": "06 34 20 67 87",
+  "step": 30,
+  "location": true,
+  "hours": {
+   "1": [
+    540,
+    1050
+   ],
+   "2": [
+    540,
+    1050
+   ],
+   "3": [
+    540,
+    1050
+   ],
+   "4": [
+    540,
+    1050
+   ],
+   "5": [
+    540,
+    1050
+   ]
+  },
+  "services": [
+   {
+    "id": "gezicht",
+    "g": "Gezicht",
+    "name": "Gezichtsbehandeling",
+    "min": 75,
+    "d": "Reinigen, peeling, masker en een ontspannende massage, afgestemd op je huid."
+   },
+   {
+    "id": "brauw",
+    "g": "Gezicht",
+    "name": "Wenkbrauwen epileren & verven",
+    "min": 30,
+    "d": "Een verzorgde vorm die bij je gezicht past."
+   },
+   {
+    "id": "wimper",
+    "g": "Gezicht",
+    "name": "Wimpers verven",
+    "min": 20,
+    "d": "Meer diepte in je oogopslag, zonder mascara."
+   },
+   {
+    "id": "pedi",
+    "g": "Handen & voeten",
+    "name": "Pedicure",
+    "min": 60,
+    "d": "Nagels knippen, eelt verwijderen en voeten verzorgen. Ook aan huis."
+   },
+   {
+    "id": "mani",
+    "g": "Handen & voeten",
+    "name": "Manicure",
+    "min": 45,
+    "d": "Verzorgde nagelriemen, mooi gevijlde nagels en zachte handen."
+   },
+   {
+    "id": "hars",
+    "g": "Ontharen",
+    "name": "Harsen",
+    "min": 30,
+    "d": "Benen, oksels, bovenlip of gezicht. Glad voor weken."
+   },
+   {
+    "id": "knip",
+    "g": "Haar, ook aan huis",
+    "name": "Knippen",
+    "min": 30,
+    "d": "Een frisse coupe, in de salon of thuis in je eigen stoel."
+   },
+   {
+    "id": "fohn",
+    "g": "Haar, ook aan huis",
+    "name": "Wassen, knippen & föhnen",
+    "min": 45,
+    "d": "Compleet verzorgd en in model gebracht."
+   }
+  ]
+ },
+ "richelle-pedicure": {
+  "key": "richelle",
+  "phone": "06 12 23 21 64",
+  "step": 30,
+  "hours": {},
+  "services": [
+   {
+    "id": "pedi",
+    "g": "Voeten",
+    "name": "Pedicure",
+    "min": 45,
+    "d": "Nagels knippen en vijlen, eelt verwijderen en voeten verzorgen."
+   },
+   {
+    "id": "med",
+    "g": "Voeten",
+    "name": "Medische pedicure",
+    "min": 60,
+    "d": "Zorgvuldige behandeling bij diabetes, reuma of kwetsbare voeten."
+   },
+   {
+    "id": "luxe",
+    "g": "Voeten",
+    "name": "Luxe pedicure met massage",
+    "min": 75,
+    "d": "Pedicure met voetbad, scrub en voetmassage."
+   },
+   {
+    "id": "lak",
+    "g": "Voeten",
+    "name": "Lak of gellak op de tenen",
+    "min": 20,
+    "d": "Een mooie kleur als afwerking."
+   },
+   {
+    "id": "gez",
+    "g": "Huid",
+    "name": "Gezichtsbehandeling",
+    "min": 60,
+    "d": "Reinigen, peeling, masker en ontspannende massage."
+   },
+   {
+    "id": "brauw",
+    "g": "Huid",
+    "name": "Wenkbrauwen & wimpers verven",
+    "min": 30,
+    "d": "Epileren in model en verven."
+   },
+   {
+    "id": "hars",
+    "g": "Huid",
+    "name": "Harsen",
+    "min": 30,
+    "d": "Bovenlip, gezicht, oksels of benen."
+   },
+   {
+    "id": "mani",
+    "g": "Huid",
+    "name": "Manicure",
+    "min": 30,
+    "d": "Verzorgde handen en nagels."
+   }
+  ]
+ },
+ "salon-binnenstebuiten": {
+  "key": "binnen",
+  "phone": "06 49 96 55 21",
+  "step": 30,
+  "hours": {
+   "1": [
+    540,
+    1050
+   ],
+   "2": [
+    540,
+    1050
+   ],
+   "3": [
+    540,
+    1050
+   ],
+   "4": [
+    540,
+    1200
+   ],
+   "5": [
+    540,
+    1050
+   ],
+   "6": [
+    540,
+    900
+   ]
+  },
+  "services": [
+   {
+    "id": "gez",
+    "g": "Buiten",
+    "name": "Gezichtsbehandeling",
+    "min": 60,
+    "d": "Reinigen, masker en verzorging voor een stralende huid."
+   },
+   {
+    "id": "brauw",
+    "g": "Buiten",
+    "name": "Wenkbrauwen & wimpers",
+    "min": 30,
+    "d": "Epileren en verven."
+   },
+   {
+    "id": "mani",
+    "g": "Buiten",
+    "name": "Manicure",
+    "min": 30,
+    "d": "Verzorgde handen en nagels."
+   },
+   {
+    "id": "pedi",
+    "g": "Buiten",
+    "name": "Pedicure",
+    "min": 45,
+    "d": "Verzorgde, zachte voeten."
+   },
+   {
+    "id": "mas",
+    "g": "Binnen",
+    "name": "Ontspanningsmassage",
+    "min": 60,
+    "d": "Spanning eruit, rust erin."
+   },
+   {
+    "id": "combi",
+    "g": "Binnen",
+    "name": "Binnen & buiten combi",
+    "min": 90,
+    "d": "Gezichtsbehandeling met massage."
+   }
+  ]
+ },
+ "skindy": {
+  "key": "skindy",
+  "phone": "06 17 43 97 61",
+  "step": 30,
+  "hours": {
+   "1": [
+    540,
+    900
+   ],
+   "2": [
+    540,
+    960
+   ],
+   "3": [
+    540,
+    960
+   ],
+   "4": [
+    1110,
+    1260
+   ],
+   "6": [
+    540,
+    1020
+   ]
+  },
+  "services": [
+   {
+    "id": "pure",
+    "g": "Gezicht",
+    "name": "Skin Pure gezichtsbehandeling",
+    "min": 60,
+    "d": "Diepe reiniging voor een frisse, heldere huid."
+   },
+   {
+    "id": "acne",
+    "g": "Gezicht",
+    "name": "Anti-acnebehandeling",
+    "min": 60,
+    "d": "Gerichte aanpak van onzuiverheden en ontstekingen."
+   },
+   {
+    "id": "peel",
+    "g": "Gezicht",
+    "name": "Peeling",
+    "min": 45,
+    "d": "Een gladdere, stralende huid door exfoliatie."
+   },
+   {
+    "id": "combi",
+    "g": "Gezicht",
+    "name": "Combideal gezicht + massage",
+    "min": 75,
+    "price": "€83",
+    "d": "45 min gezicht, 30 min massage en een drankje."
+   },
+   {
+    "id": "hot",
+    "g": "Lichaam",
+    "name": "Hot-stone massage",
+    "min": 60,
+    "d": "Warme stenen voor diepe ontspanning."
+   },
+   {
+    "id": "mas",
+    "g": "Lichaam",
+    "name": "Ontspanningsmassage",
+    "min": 45,
+    "d": "Spanning eruit, rust erin."
+   },
+   {
+    "id": "bind",
+    "g": "Lichaam",
+    "name": "Bindweefselmassage",
+    "min": 45,
+    "d": "Gerichte massage van het bindweefsel."
+   },
+   {
+    "id": "elek",
+    "g": "Ontharen",
+    "name": "Elektrisch ontharen",
+    "min": 30,
+    "d": "Blijvend resultaat, per haartje behandeld."
+   },
+   {
+    "id": "hars",
+    "g": "Ontharen",
+    "name": "Harsen",
+    "min": 30,
+    "d": "Snel en glad voor weken."
+   },
+   {
+    "id": "lash",
+    "g": "Ogen & visagie",
+    "name": "Wimperlifting",
+    "min": 60,
+    "d": "Een mooie krul in je eigen wimpers, weken lang."
+   },
+   {
+    "id": "visa",
+    "g": "Ogen & visagie",
+    "name": "Visagie",
+    "min": 45,
+    "d": "Make-up voor een gelegenheid."
+   },
+   {
+    "id": "coag",
+    "g": "Huidtherapie",
+    "name": "Coagulatie",
+    "min": 30,
+    "d": "Verwijderen van kleine huidoneffenheden zoals couperose en steelwratjes."
+   },
+   {
+    "id": "camo",
+    "g": "Huidtherapie",
+    "name": "Camouflagetherapie",
+    "min": 60,
+    "d": "Advies en techniek om vlekken of littekens onzichtbaar te maken."
+   }
+  ]
+ },
+ "styling-84": {
+  "key": "styling84",
+  "phone": "06 17 36 48 09",
+  "step": 30,
+  "hours": {
+   "2": [
+    540,
+    1050
+   ],
+   "3": [
+    540,
+    1050
+   ],
+   "4": [
+    540,
+    1200
+   ],
+   "5": [
+    540,
+    1050
+   ],
+   "6": [
+    510,
+    960
+   ]
+  },
+  "services": [
+   {
+    "id": "d-knip",
+    "g": "Dames",
+    "name": "Wassen, knippen & föhnen",
+    "min": 60,
+    "d": "Complete beurt met een mooie afwerking."
+   },
+   {
+    "id": "d-fohn",
+    "g": "Dames",
+    "name": "Föhnen & stylen",
+    "min": 30,
+    "d": "Strak gefoehnd of met volume en krul."
+   },
+   {
+    "id": "h-knip",
+    "g": "Heren",
+    "name": "Heren knippen",
+    "min": 30,
+    "d": "Klassiek of modern, altijd strak afgewerkt."
+   },
+   {
+    "id": "k-knip",
+    "g": "Kinderen",
+    "name": "Kinderen knippen",
+    "min": 30,
+    "d": "Vlot en ontspannen, ook voor de kleinsten."
+   },
+   {
+    "id": "kleur",
+    "g": "Kleur",
+    "name": "Kleuren",
+    "min": 90,
+    "d": "Uitgroei of volledig, in een tint die bij je past."
+   },
+   {
+    "id": "high",
+    "g": "Kleur",
+    "name": "Highlights of lowlights",
+    "min": 120,
+    "d": "Licht en diepte voor een natuurlijk effect."
+   },
+   {
+    "id": "mu",
+    "g": "Make-up",
+    "name": "Make-up voor een gelegenheid",
+    "min": 45,
+    "d": "Feest, gala of fotoshoot."
+   },
+   {
+    "id": "op",
+    "g": "Make-up",
+    "name": "Opsteken & stylen",
+    "min": 45,
+    "d": "Een opgestoken kapsel dat de hele dag blijft zitten."
+   }
+  ]
+ },
+ "wendys-beauty-nails": {
+  "key": "wendy",
+  "phone": "06 44 19 77 70",
+  "step": 30,
+  "hours": {
+   "2": [
+    540,
+    1050
+   ],
+   "3": [
+    540,
+    1050
+   ],
+   "4": [
+    540,
+    1200
+   ],
+   "5": [
+    540,
+    1050
+   ],
+   "6": [
+    540,
+    960
+   ]
+  },
+  "services": [
+   {
+    "id": "gez",
+    "g": "Gezicht",
+    "name": "Gezichtsbehandeling",
+    "min": 75,
+    "d": "Reinigen, peeling, masker en een ontspannende massage, afgestemd op je huid."
+   },
+   {
+    "id": "gez-k",
+    "g": "Gezicht",
+    "name": "Korte opfrisbehandeling",
+    "min": 45,
+    "d": "Een frisse huid in een korte tijd."
+   },
+   {
+    "id": "brauw",
+    "g": "Gezicht",
+    "name": "Wenkbrauwen & wimpers",
+    "min": 30,
+    "d": "Epileren in model en verven."
+   },
+   {
+    "id": "mas",
+    "g": "Massage",
+    "name": "Ontspanningsmassage",
+    "min": 60,
+    "d": "Rug, nek en schouders los na een drukke week."
+   },
+   {
+    "id": "mas-k",
+    "g": "Massage",
+    "name": "Rug-, nek- en schoudermassage",
+    "min": 30,
+    "d": "Kort en doeltreffend."
+   },
+   {
+    "id": "mani",
+    "g": "Nagels",
+    "name": "Manicure",
+    "min": 45,
+    "d": "Verzorgde nagelriemen, gevijlde nagels en zachte handen."
+   },
+   {
+    "id": "gellak",
+    "g": "Nagels",
+    "name": "Gellak",
+    "min": 45,
+    "d": "Glanzende kleur die weken blijft."
+   },
+   {
+    "id": "gel",
+    "g": "Nagels",
+    "name": "Gelnagels nieuwe set",
+    "min": 90,
+    "d": "Sterke nagels in de lengte en vorm die je wilt."
+   },
+   {
+    "id": "gel-o",
+    "g": "Nagels",
+    "name": "Gelnagels opvullen",
+    "min": 75,
+    "d": "Uitgroei bijwerken, inclusief nieuwe kleur."
+   },
+   {
+    "id": "mu",
+    "g": "Make-up",
+    "name": "Make-up voor een gelegenheid",
+    "min": 45,
+    "d": "Feest, gala of fotoshoot."
+   },
+   {
+    "id": "bruid",
+    "g": "Make-up",
+    "name": "Bruidsmake-up met proefsessie",
+    "min": 90,
+    "d": "Rustig samen je bruidslook bepalen."
+   },
+   {
+    "id": "ws",
+    "g": "Workshops",
+    "name": "Workshop make-up of nagels",
+    "min": 120,
+    "d": "Alleen of in een klein groepje."
+   }
+  ]
+ },
+ "wimpers-by-laurie": {
+  "key": "laurie",
+  "phone": "06 57 54 95 94",
+  "step": 30,
+  "hours": {
+   "1": [
+    540,
+    1080
+   ],
+   "2": [
+    540,
+    1080
+   ],
+   "3": [
+    540,
+    1080
+   ],
+   "4": [
+    540,
+    1260
+   ],
+   "5": [
+    540,
+    1080
+   ],
+   "6": [
+    540,
+    960
+   ]
+  },
+  "services": [
+   {
+    "id": "classic",
+    "g": "Nieuwe set",
+    "name": "Classic set",
+    "min": 120,
+    "d": "Eén extension per wimper, natuurlijk resultaat."
+   },
+   {
+    "id": "hybrid",
+    "g": "Nieuwe set",
+    "name": "Hybrid set",
+    "min": 135,
+    "d": "Mix van classic en volume, voller met textuur."
+   },
+   {
+    "id": "volume",
+    "g": "Nieuwe set",
+    "name": "Volume set",
+    "min": 150,
+    "d": "Handgemaakte waaiers voor een vol, donker effect."
+   },
+   {
+    "id": "fill2",
+    "g": "Opvullen",
+    "name": "Opvullen na 2 weken",
+    "min": 60,
+    "d": "Je set weer helemaal vol en strak."
+   },
+   {
+    "id": "fill3",
+    "g": "Opvullen",
+    "name": "Opvullen na 3 weken",
+    "min": 75,
+    "d": "Iets meer werk, hetzelfde volle resultaat."
+   },
+   {
+    "id": "weg",
+    "g": "Overig",
+    "name": "Extensions verwijderen",
+    "min": 30,
+    "d": "Veilig verwijderen, zonder je eigen wimpers te beschadigen."
+   }
+  ]
+ },
+ "y-style": {
+  "key": "ystyle",
+  "phone": "de studio",
+  "step": 30,
+  "hours": {
+   "2": [
+    570,
+    1080
+   ],
+   "3": [
+    570,
+    1080
+   ],
+   "4": [
+    570,
+    1200
+   ],
+   "5": [
+    570,
+    1080
+   ],
+   "6": [
+    570,
+    960
+   ]
+  },
+  "services": [
+   {
+    "id": "mani",
+    "g": "Nagels",
+    "name": "Manicure",
+    "min": 30,
+    "d": "Verzorgde nagelriemen, vijlen en zachte handen."
+   },
+   {
+    "id": "french",
+    "g": "Nagels",
+    "name": "French manicure",
+    "min": 60,
+    "d": "Tijdloos en strak, op eigen nagels of verlenging."
+   },
+   {
+    "id": "gel",
+    "g": "Nagels",
+    "name": "Gelnagels",
+    "min": 90,
+    "d": "Sterk en glanzend, in jouw lengte en vorm."
+   },
+   {
+    "id": "acryl",
+    "g": "Nagels",
+    "name": "Acrylnagels",
+    "min": 90,
+    "d": "Extra sterk, ideaal voor lange sets."
+   },
+   {
+    "id": "art",
+    "g": "Nagels",
+    "name": "Nail art & 3D nail art",
+    "min": 30,
+    "d": "Van fijne lijntjes tot 3D-details."
+   },
+   {
+    "id": "paraf",
+    "g": "Nagels",
+    "name": "Paraffinebehandeling & handmassage",
+    "min": 30,
+    "d": "Warme paraffine voor zijdezachte handen."
+   },
+   {
+    "id": "pedi",
+    "g": "Nagels",
+    "name": "Pedicure",
+    "min": 45,
+    "d": "Verzorgde voeten, ook met kleur op de tenen."
+   },
+   {
+    "id": "bruid",
+    "g": "Nagels",
+    "name": "Bruidsnagels",
+    "min": 90,
+    "d": "Ontwerp op maat voor je trouwdag."
+   },
+   {
+    "id": "lash-c",
+    "g": "Wimpers",
+    "name": "Wimperextensions nieuwe set",
+    "min": 120,
+    "d": "Natuurlijk of vol, op maat."
+   },
+   {
+    "id": "lash-f",
+    "g": "Wimpers",
+    "name": "Wimperextensions opvullen",
+    "min": 60,
+    "d": "Na twee tot drie weken."
+   }
+  ]
+ },
+ "yomy-pedicure": {
+  "key": "yomy",
+  "phone": "06 12 60 53 04",
+  "step": 30,
+  "hours": {
+   "1": [
+    540,
+    1050
+   ],
+   "2": [
+    540,
+    1050
+   ],
+   "3": [
+    540,
+    1050
+   ],
+   "4": [
+    540,
+    1050
+   ],
+   "5": [
+    540,
+    1050
+   ],
+   "6": [
+    540,
+    780
+   ]
+  },
+  "services": [
+   {
+    "id": "basis",
+    "g": "Voeten",
+    "name": "Basis pedicure",
+    "min": 45,
+    "d": "Voetbad, nagels knippen en vijlen, eelt verwijderen en verzorgende crème."
+   },
+   {
+    "id": "luxe",
+    "g": "Voeten",
+    "name": "Luxe pedicure",
+    "min": 75,
+    "d": "Alles van de basis, met scrub, masker en een uitgebreide voetmassage."
+   },
+   {
+    "id": "eelt",
+    "g": "Voeten",
+    "name": "Eelt & likdoorns",
+    "min": 30,
+    "d": "Gerichte behandeling van drukplekken voor pijnvrij lopen."
+   },
+   {
+    "id": "gel-t",
+    "g": "Voeten",
+    "name": "Gellak op de tenen",
+    "min": 30,
+    "d": "Glanzende kleur die weken mooi blijft, los of na je pedicure."
+   },
+   {
+    "id": "mani",
+    "g": "Handen",
+    "name": "Manicure",
+    "min": 30,
+    "d": "Nagelriemen verzorgen, vijlen en zachte handen."
+   },
+   {
+    "id": "gel-h",
+    "g": "Handen",
+    "name": "Gellak op de handen",
+    "min": 45,
+    "d": "Een strakke gellaklaag op je eigen nagels."
+   }
+  ]
+ }
+}

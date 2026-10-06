@@ -1,0 +1,473 @@
+{
+ "ashleys-haar-nagels": {
+  "slug": "ashleys-haar-nagels",
+  "legacy": true,
+  "title": "Ashley's Haarmode & Nagelstudio",
+  "tel": "31621642627",
+  "addr": "Rodingsveen 108\n7041 VM 's-Heerenberg",
+  "book": "{key:'ashley',phone:'06 21 64 26 27',step:30,hours:{2:[540,1050],3:[540,1050],4:[540,1200],5:[540,1050],6:[540,960]},\nservices:[\n{id:'d',g:'Haar',name:'Dames wassen, knippen & föhnen',min:60,d:'Een frisse coupe met een mooie afwerking.'},\n{id:'h',g:'Haar',name:'Heren knippen',min:30,d:'Strak en verzorgd.'},\n{id:'k',g:'Haar',name:'Kinderen knippen',min:30,d:'Vlot en ontspannen.'},\n{id:'kl',g:'Haar',name:'Kleuren',min:90,d:'Uitgroei of volledig, in een tint die bij je past.'},\n{id:'hl',g:'Haar',name:'Highlights',min:120,d:'Licht en diepte voor een natuurlijk effect.'},\n{id:'op',g:'Haar',name:'Opsteken & stylen',min:45,d:'Voor een feest of bruiloft.'},\n{id:'gl',g:'Nagels',name:'Gellak',min:45,d:'Glanzende kleur die weken mooi blijft.'},\n{id:'biab',g:'Nagels',name:'BIAB',min:60,d:'Versterkende gel voor je eigen nagels.'},\n{id:'set',g:'Nagels',name:'Gelnagels nieuwe set',min:90,d:'Sterke nagels met verlenging, in jouw vorm.'},\n{id:'opv',g:'Nagels',name:'Opvullen',min:75,d:'Uitgroei bijwerken met nieuwe kleur.'},\n{id:'art',g:'Nagels',name:'Nail art',min:15,d:'Van een accentnagel tot een volledig ontwerp.'}]}",
+  "h1": "Ashley's",
+  "fonts": "family=Prata&family=Plus+Jakarta+Sans:wght@400;500;600;700",
+  "root": "\n  --bg:#f4f1ec; --surface:#fcfaf7; --fg:#171513; --muted:#66605a; --line:#e2ddd5;\n  --taupe:#9c7653; --accent:var(--fg); --on-accent:#f7f3ee; --err:#a3243a;\n  --display:\"Prata\",Georgia,serif; --body:\"Plus Jakarta Sans\",system-ui,-apple-system,\"Segoe UI\",sans-serif; --bk-r:2px;\n",
+  "paras": [
+   "Knippen en kleuren, en meteen je nagels laten doen. Eén keer de deur uit en helemaal verzorgd. Ideaal voor een feest, bruiloft of gewoon voor jezelf.",
+   "Kies een behandeling en een moment. Je ziet direct welke tijden nog vrij zijn.",
+   "Werken op afspraak. Stuur gerust een foto van het kapsel of de nagels die je mooi vindt."
+  ]
+ },
+ "beauty-by-aniek": {
+  "slug": "beauty-by-aniek",
+  "legacy": true,
+  "title": "Beauty by Aniek",
+  "tel": "31636200327",
+  "addr": "Uranus 42\n6922 LN Duiven",
+  "book": "{\"key\": \"aniek\", \"phone\": \"06 36 20 03 27\", \"step\": 30, \"hours\": {\"1\": [540, 1050], \"2\": [540, 1050], \"3\": [540, 1050], \"4\": [540, 1200], \"5\": [540, 1050], \"6\": [540, 900]}, \"services\": [{\"id\": \"gel\", \"g\": \"Nails\", \"name\": \"Gellak\", \"min\": 45, \"d\": \"Glanzende kleur op je eigen nagels.\"}, {\"id\": \"biab\", \"g\": \"Nails\", \"name\": \"BIAB\", \"min\": 60, \"d\": \"Versterking voor zwakke nagels.\"}, {\"id\": \"set\", \"g\": \"Nails\", \"name\": \"Gelnagels nieuwe set\", \"min\": 90, \"d\": \"Verlenging in jouw vorm.\"}, {\"id\": \"opv\", \"g\": \"Nails\", \"name\": \"Opvullen\", \"min\": 75, \"d\": \"Weer strak na drie tot vier weken.\"}, {\"id\": \"obo\", \"g\": \"Lashes\", \"name\": \"Wimperextensions one by one\", \"min\": 120, \"d\": \"Natuurlijk en verzorgd.\"}, {\"id\": \"vol\", \"g\": \"Lashes\", \"name\": \"Wimperextensions volume\", \"min\": 150, \"d\": \"Vol en donker, toch licht.\"}, {\"id\": \"fill\", \"g\": \"Lashes\", \"name\": \"Wimpers opvullen\", \"min\": 60, \"d\": \"Na twee tot drie weken.\"}, {\"id\": \"lvl\", \"g\": \"Lashes\", \"name\": \"LVL lash volume lifting\", \"min\": 60, \"d\": \"Je eigen wimpers gelift en gekleurd.\"}]}",
+  "h1": "",
+  "fonts": "family=Rufina:wght@400;700&family=Karla:wght@400;500;600",
+  "root": "--bg:#f6f0f1;--surface:#fffafb;--fg:#24171c;--muted:#6b5a61;--line:#e8dadd;--mauve:#8c5468;--accent:#24171c;--on-accent:#fbf5f6;--err:#a3243a;--display:'Rufina',Georgia,serif;--body:'Karla',system-ui,sans-serif;--bk-r:14px",
+  "paras": [
+   "Gecertificeerd in nagels, wimperextensions en lash lifting. Persoonlijk en precies, in Duiven.",
+   "Van natuurlijk one by one tot vol volume, of een lift van je eigen wimpers.",
+   "Kies een behandeling en een moment. Je ziet direct welke tijden nog vrij zijn."
+  ]
+ },
+ "ellens-puur-voet": {
+  "slug": "ellens-puur-voet",
+  "legacy": true,
+  "title": "Ellen's Puur Voet",
+  "tel": "31612908303",
+  "addr": "Airbornestraat 5\n7002 ET Doetinchem",
+  "book": "{key:'ellen',phone:'06 12 90 83 03',step:30,hours:{1:[540,1020],2:[540,1020],3:[540,1020],4:[540,1200],5:[540,1020],6:[600,720]},\nservices:[\n{id:'pedi',g:'Pedicure',name:'Pedicure',min:45,d:'Nagels knippen en vijlen, eelt verwijderen en voeten verzorgen.'},\n{id:'uitgebreid',g:'Pedicure',name:'Uitgebreide pedicure met massage',min:60,d:'Met voetbad en een ontspannende voetmassage.'},\n{id:'eelt',g:'Specifiek',name:'Eelt & likdoorns',min:30,d:'Gerichte behandeling van drukplekken.'},\n{id:'nagel',g:'Specifiek',name:'Ingegroeide nagel',min:30,d:'Pijnloos verhelpen van een ingegroeide nagel.'},\n{id:'mas',g:'Ontspanning',name:'Voetmassage',min:30,d:'Even helemaal tot rust komen.'},\n{id:'lak',g:'Ontspanning',name:'Lak op de tenen',min:15,d:'Een mooie kleur als afwerking.'}]}",
+  "h1": "Even je voeten in goede handen.",
+  "fonts": "family=Lora:ital,wght@0,400;0,500;1,400&family=Nunito:wght@400;600;700",
+  "root": "\n  --bg:#f3efe6; --surface:#fbf8f2; --fg:#2b2a22; --muted:#66624f; --line:#e0d9c8;\n  --olive:#5d6b3a; --oat:#e6dcc6; --accent:var(--olive); --on-accent:#f8f6ee; --err:#a3243a;\n  --display:\"Lora\",Georgia,serif; --body:\"Nunito\",system-ui,-apple-system,\"Segoe UI\",sans-serif; --bk-r:18px;\n",
+  "paras": [
+   "Pedicure in Doetinchem met persoonlijke aandacht. Van eelt tot ingegroeide nagels, in een warme sfeer waar je meteen op je gemak bent.",
+   "Je wordt welkom geheten met een kopje koffie of thee. Eerst even zitten en vertellen.",
+   "Eelt, likdoorns of een ingegroeide nagel worden zorgvuldig en zonder pijn behandeld.",
+   "Verzorgde voeten en tips om ze thuis zo te houden. Je loopt letterlijk lichter naar huis.",
+   "Zo omschrijven klanten Ellen. Persoonlijk, betrokken en altijd met aandacht voor wat jouw voeten nodig hebben.",
+   "Kies een behandeling en een moment. Je ziet direct welke tijden nog vrij zijn."
+  ]
+ },
+ "head-spa-doetinchem": {
+  "slug": "head-spa-doetinchem",
+  "legacy": true,
+  "title": "Head Spa Doetinchem",
+  "tel": "31617190304",
+  "addr": "Houtmolenstraat 16\n7008 AR Doetinchem",
+  "book": "{key:'headspa',phone:'06 17 19 03 04',step:15,hours:Object.fromEntries(Object.entries(H).map(([d,r])=>[d,[m(r[0][0]),m(r[r.length-1][1])]])),\nservices:[\n{id:'hs60',g:'Head spa',name:'Head spa 60 minuten',min:60,price:'€70',d:'Het complete ritueel: analyse, hoofdmassage, reiniging, conditioner en drogen.'},\n{id:'hs90',g:'Head spa',name:'Head spa extra lang',min:90,d:'Meer tijd voor massage en verzorging. Voor wie echt wil landen.'},\n{id:'hs45',g:'Head spa',name:'Head spa kennismaking',min:45,d:'Proef het ritueel in een korte versie.'},\n{id:'duo',g:'Samen',name:'Duo head spa',min:60,d:'Samen ontspannen, met je partner of vriendin.'}]}",
+  "h1": "Een uur lang niets hoeven.",
+  "fonts": "family=Noto+Serif+Display:ital,wght@0,300;0,400;1,300&family=Manrope:wght@400;500;600",
+  "root": "\n  --bg:#141613; --surface:#1c1f1b; --fg:#efe9df; --muted:#b4ad9f; --line:#2f332d;\n  --warm:#d9b98c; --accent:#d9b98c; --on-accent:#171511; --err:#ff9fae;\n  --display:\"Noto Serif Display\",Georgia,serif; --body:\"Manrope\",system-ui,-apple-system,\"Segoe UI\",sans-serif; --bk-r:20px;\n  color-scheme:dark;\n",
+  "paras": [
+   "Head spa in Doetinchem. Een diepe reiniging van hoofdhuid en haar, met een hoofdmassage waar je helemaal stil van wordt.",
+   "Elk haar en elke hoofdhuid is anders. Daarom begint je behandeling altijd met kijken wat jij nodig hebt. Gewerkt wordt met producten van Hairborist.",
+   "We bekijken je hoofdhuid en haar en stemmen de behandeling daarop af.",
+   "Een uitgebreide reiniging van hoofdhuid en haar, liggend onder warm water.",
+   "Je haar wordt gedroogd, zodat je fris en ontspannen naar huis gaat.",
+   "Ken je iemand die wel wat rust kan gebruiken? Een head spa is een cadeau dat echt binnenkomt. Cadeaubonnen zijn verkrijgbaar in de salon of worden thuisbezorgd."
+  ]
+ },
+ "marlou-beauty-salon": {
+  "slug": "marlou-beauty-salon",
+  "legacy": true,
+  "title": "Marlou Beauty Salon",
+  "tel": "31630448370",
+  "addr": "De Oldenoord 28\nZelhem",
+  "book": "{key:'marlou',phone:'06 30 44 83 70',step:30,hours:{1:[540,1080],2:[540,1080],3:[540,1080],4:[540,1260],5:[540,1080],6:[540,960]},\nservices:[\n{id:'lc',g:'Wimpers',name:'Wimperextensions nieuwe set',min:120},\n{id:'lv',g:'Wimpers',name:'Volume set',min:150},\n{id:'lf',g:'Wimpers',name:'Opvullen',min:60},\n{id:'ll',g:'Lift',name:'Lash volume lifting',min:60},\n{id:'bl',g:'Lift',name:'Brow lift',min:45},\n{id:'bv',g:'Lift',name:'Wenkbrauwen verven & epileren',min:30},\n{id:'st',g:'Spraytan',name:'Spraytan full body',min:30},\n{id:'sh',g:'Spraytan',name:'Spraytan halve body',min:20}]}",
+  "h1": "Lashes, brows en een zomerse glow.",
+  "fonts": "family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Work+Sans:wght@400;500;600",
+  "root": "\n  --bg:#f5efe8; --surface:#fdf9f4; --fg:#2a1c13; --muted:#6d5c50; --line:#e7dacd;\n  --bronze:#a8683a; --accent:var(--fg); --on-accent:#fbf5ee; --err:#a3243a;\n  --t1:#e9c7a5; --t2:#c78f63;\n  --display:\"Bricolage Grotesque\",system-ui,sans-serif; --body:\"Work Sans\",system-ui,-apple-system,\"Segoe UI\",sans-serif; --bk-r:22px;\n",
+  "paras": [
+   "Beautysalon in Zelhem, gespecialiseerd en gediplomeerd in wimperextensions, lash volume lifting en spraytanning.",
+   "Drie specialiteiten, uitgevoerd met precisie en de beste materialen.",
+   "Kies een behandeling en een moment. Je ziet direct welke tijden nog vrij zijn.",
+   "Werken op afspraak. Kom bij een lash-behandeling zonder mascara, en bij spraytanning gescrubd en zonder bodylotion."
+  ]
+ },
+ "medisch-pedicure-verhoeven": {
+  "slug": "medisch-pedicure-verhoeven",
+  "legacy": true,
+  "title": "Medisch Pedicure Verhoeven",
+  "tel": "31622835649",
+  "addr": "Newtonstraat\nLichtenvoorde",
+  "book": "{key:'verhoeven',phone:'06 22 83 56 49',step:30,hours:{1:[540,1020],2:[540,1020],3:[540,1020],4:[540,1020],5:[540,1020]},\nservices:[\n{id:'pedi',g:'Pedicure',name:'Pedicure',min:45,d:'Nagels knippen en vijlen, eelt verwijderen en voeten verzorgen.'},\n{id:'med',g:'Pedicure',name:'Medische pedicure',min:60,d:'Voor diabetische, reumatische of andere risicovoeten.'},\n{id:'corr',g:'Specialistisch',name:'Nagelcorrectie',min:45,d:'Hulp bij ingegroeide of krullende nagels.'},\n{id:'schim',g:'Specialistisch',name:'Schimmelnagels',min:30,d:'Onderzoek en behandeladvies bij verdikte of verkleurde nagels.'},\n{id:'lik',g:'Specialistisch',name:'Likdoorns & drukplekken',min:30,d:'Gerichte behandeling voor pijnvrij lopen.'},\n{id:'onto',g:'Specialistisch',name:'Ontlasten met orthese',min:30,d:'Een op maat gemaakt hulpmiddel tegen drukplekken.'}]}",
+  "h1": "Zorg voor uw voeten, met medische kennis.",
+  "fonts": "family=Spectral:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Sans:wght@400;500;600",
+  "root": "\n  --bg:#f3f6f6; --surface:#ffffff; --fg:#142a31; --muted:#4f6268; --line:#d8e2e3;\n  --petrol:#0f4a5a; --mint:#cfe7df; --accent:var(--petrol); --on-accent:#f2f8f8; --err:#a3243a;\n  --display:\"Spectral\",Georgia,serif; --body:\"IBM Plex Sans\",system-ui,-apple-system,\"Segoe UI\",sans-serif; --bk-r:10px;\n",
+  "paras": [
+   "Medisch pedicure in Lichtenvoorde. Voor gezonde, verzorgde voeten, ook bij diabetes, reuma en andere risicovoeten.",
+   "Medisch pedicure voor risicovoeten\n      Hygiënisch werken, steriel instrumentarium\n      Rustig en persoonlijk, met tijd voor uitleg\n    \n  \n\n\n  Zo gaat een behandelingU weet altijd vooraf wat er gebeurt en waarom.",
+   "We bespreken uw klachten, medicijngebruik en eventuele aandoeningen.",
+   "Nagels, eelt en likdoorns worden veilig en pijnloos behandeld.",
+   "Van een reguliere pedicure tot gespecialiseerde zorg voor kwetsbare voeten.",
+   "Vergoeding: heeft u diabetes of reuma? Voetzorg wordt soms (deels) vergoed vanuit uw zorgverzekering of via een verwijzing. Vraag het gerust, dan kijken we samen naar de mogelijkheden."
+  ]
+ },
+ "melody-beauty": {
+  "slug": "melody-beauty",
+  "legacy": true,
+  "title": "Melody Beauty",
+  "tel": "31619480029",
+  "addr": "Dr. Huber Noodtstraat 73-23\n7001 DV Doetinchem",
+  "book": "{key:'melody',phone:'06 19 48 00 29',step:30,hours:{1:[600,1080],2:[600,1080],3:[600,1080],4:[600,1080],5:[600,1080]},\nservices:[\n{id:'knip',g:'Knippen',name:'Wassen, knippen & föhnen',min:60,d:'Complete beurt met een mooie afwerking.'},\n{id:'fohn',g:'Knippen',name:'Föhnen & stylen',min:30,d:'Strak of met volume.'},\n{id:'uitgroei',g:'Kleur',name:'Uitgroei kleuren',min:90,d:'Je eigen kleur weer egaal tot aan de punten.'},\n{id:'volledig',g:'Kleur',name:'Volledige kleuring',min:105,d:'Een nieuwe kleur van wortel tot punt.'},\n{id:'balayage',g:'Kleur',name:'Balayage',min:180,d:'Zachte, natuurlijke overgang die mooi uitgroeit.'},\n{id:'high',g:'Kleur',name:'Highlights',min:150,d:'Licht en diepte met folie.'},\n{id:'toner',g:'Kleur',name:'Toner & glans',min:45,d:'Frist je kleur op en geeft glans.'},\n{id:'corr',g:'Kleur',name:'Kleuradvies & correctie',min:120,d:'Een kleur die niet goed uitpakte weer mooi maken.'},\n{id:'verz',g:'Verzorging',name:'Herstellende haarbehandeling',min:30,d:'Voor droog of gekleurd haar.'}]}",
+  "h1": "Kleur die leeft.",
+  "fonts": "family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Karla:wght@400;500;600",
+  "root": "\n  --bg:#f7f2f0; --surface:#fffbfa; --fg:#2a1519; --muted:#6c5559; --line:#e8dbd8;\n  --brand:#b22242; --accent:var(--brand); --on-accent:#fff6f6; --err:#a3243a;\n  --r1:#2b1a14; --r2:#6b4026; --r3:#c08a52; --r4:#ecd3a4;\n  --display:\"Playfair Display\",Georgia,serif; --body:\"Karla\",system-ui,-apple-system,\"Segoe UI\",sans-serif; --bk-r:6px;\n",
+  "paras": [
+   "Dameskapsalon in Doetinchem, gespecialiseerd in professionele kleurtechnieken. Van zachte balayage tot een complete kleurverandering.",
+   "Elke kleurbehandeling begint met een gesprek: wat wil je, wat past bij je huid en hoeveel onderhoud vind je prettig?",
+   "Natuurlijk doorgroeiend of juist opvallend. We werken met technieken die je haar gezond houden.",
+   "Mooie kleur verdient gezond haar. Na elke behandeling krijg je advies om je kleur langer mooi te houden.",
+   "Speciaal voor dames. Neem gerust een foto mee van de kleur die je mooi vindt.",
+   "Kies een behandeling en een moment. Je ziet direct welke tijden nog vrij zijn."
+  ]
+ },
+ "merie-spijker": {
+  "slug": "merie-spijker",
+  "legacy": true,
+  "title": "Mérie Spijker",
+  "tel": "31634176763",
+  "addr": "Dunantstraat 13\n6941 BW Didam",
+  "book": "{key:'merie',phone:'06 34 17 67 63',step:30,\n  hours:{1:[540,1020],2:[540,1020],3:[540,1020],4:[540,1020]},\n  services:[\n    {id:'gezicht',g:'Huid',name:'Gezichtsbehandeling',min:75,d:'Reinigen, peelen, onzuiverheden verwijderen, masker en massage.'},\n    {id:'diep',g:'Huid',name:'Dieptereiniging',min:60,d:'Grondige reiniging voor een frisse, heldere huid.'},\n    {id:'advies',g:'Huid',name:'Huidanalyse & advies',min:30,d:'Wat heeft jouw huid nodig? Een eerlijk advies met plan.'},\n    {id:'brauw',g:'Huid',name:'Wenkbrauwen & wimpers verven',min:30,d:'Epileren in model en verven voor meer definitie.'},\n    {id:'pedi',g:'Voet',name:'Pedicure',min:45,d:'Nagels knippen en vijlen, eelt verwijderen en voeten verzorgen.'},\n    {id:'eelt',g:'Voet',name:'Eelt & likdoorns',min:45,d:'Gerichte behandeling van drukplekken voor pijnvrij lopen.'},\n    {id:'nagel',g:'Voet',name:'Probleemnagels',min:30,d:'Hulp bij ingegroeide, verdikte of kalknagels.'},\n    {id:'luxe',g:'Voet',name:'Luxe voetbehandeling',min:75,d:'Pedicure met voetbad, scrub, masker en voetmassage.'}\n  ]}",
+  "h1": "Mérie SpijkerHuid- en voetverzorging in Didam",
+  "fonts": "family=Libre+Caslon+Display&family=Libre+Franklin:wght@400;500;600",
+  "root": "\n  --bg:#f3f3f0; --surface:#fbfbf9; --fg:#18212f; --muted:#596273; --line:#d8dbe0;\n  --ink:#2c4668; --mist:#dfe6ee; --accent:var(--ink); --on-accent:#f5f8fb; --err:#a3243a;\n  --display:\"Libre Caslon Display\",\"Big Caslon\",Georgia,serif;\n  --body:\"Libre Franklin\",system-ui,-apple-system,\"Segoe UI\",sans-serif;\n  --bk-r:2px;\n",
+  "paras": [
+   "Dertig jaar vakmanschap in gezicht en voeten. Persoonlijke behandelingen in een rustige praktijk aan de Dunantstraat.",
+   "Twee vakgebieden onder één dak. Elke behandeling begint met kijken naar wat jouw huid of voeten nodig hebben.",
+   "Een gezonde, verzorgde huid met behandelingen en producten die passen bij jouw huidtype.",
+   "Verzorgde, pijnvrije voeten. Van een ontspannende pedicure tot hulp bij eelt en likdoorns.",
+   "Je begint met een gesprek en een blik op je huid of voeten. Zo weet je vooraf wat er gebeurt en waarom.",
+   "Sinds 1996 behandelt Mérie zelf. Je hoeft je verhaal niet steeds opnieuw te vertellen."
+  ]
+ },
+ "mooi-bij-rianne": {
+  "slug": "mooi-bij-rianne",
+  "legacy": true,
+  "title": "Mooi bij Rianne",
+  "tel": "31612780606",
+  "addr": "Mooi bij Rianne\nDidam",
+  "book": "{key:'rianne',phone:'06 12 78 06 06',step:30,\n  hours:{2:[540,1050],3:[540,1050],4:[540,1200],5:[540,1050],6:[510,960]},\n  services:[\n    {id:'d-knip',g:'Dames',name:'Dames knippen',min:45},\n    {id:'d-fohn',g:'Dames',name:'Wassen, knippen & föhnen',min:60},\n    {id:'h-knip',g:'Heren',name:'Heren knippen',min:30},\n    {id:'h-baard',g:'Heren',name:'Knippen & baard',min:45},\n    {id:'k-knip',g:'Kinderen',name:'Kinderen knippen',min:30},\n    {id:'kleur',g:'Kleur & verzorging',name:'Kleuren',min:90},\n    {id:'high',g:'Kleur & verzorging',name:'Highlights of balayage',min:150},\n    {id:'verz',g:'Kleur & verzorging',name:'Haarverzorging',min:30},\n    {id:'trans',g:'Kleur & verzorging',name:'Transformatie (met advies)',min:180}\n  ]}",
+  "h1": "Mooibij Rianne",
+  "fonts": "family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Work+Sans:wght@400;500;600",
+  "root": "\n  --bg:#f5f0ec; --surface:#fbf8f5; --fg:#2b1729; --muted:#6c5867; --line:#e3d8d6;\n  --plum:#4a2146; --apricot:#b0622f; --accent:var(--plum); --on-accent:#fbf3ee; --err:#a3243a;\n  --display:\"Fraunces\",\"Didot\",Georgia,serif;\n  --body:\"Work Sans\",system-ui,-apple-system,\"Segoe UI\",sans-serif;\n  --bk-r:4px;\n",
+  "paras": [
+   "Dames, heren en kinderen zijn welkom. Elke behandeling begint met even rustig kijken naar wat je wilt en wat bij je past.",
+   "Sinds Mooi bij Rianne in 2020 de deuren opende in Didam, draait alles om kwaliteit tegen een eerlijke prijs.",
+   "Rianne Rijkse en haar team nemen de tijd voor je, werken met een breed pakket aan technieken en denken mee over wat je haar nodig heeft.",
+   "Kies een behandeling en een moment. Je ziet direct welke tijden nog vrij zijn."
+  ]
+ },
+ "moon-en-more": {
+  "slug": "moon-en-more",
+  "legacy": true,
+  "title": "Pedicuresalon Moon & More",
+  "tel": "31633696292",
+  "addr": "Eikenstraat 29\n6851 HA Huissen",
+  "book": "{\"key\": \"moon\", \"phone\": \"06 33 69 62 92\", \"step\": 30, \"hours\": {\"1\": [540, 1050], \"2\": [540, 1050], \"3\": [540, 1050], \"4\": [540, 1200], \"5\": [540, 1050], \"6\": [540, 900]}, \"services\": [{\"id\": \"pedi\", \"g\": \"Voeten\", \"name\": \"Pedicure\", \"min\": 45, \"d\": \"Nagels knippen en vijlen, eelt verwijderen en voeten verzorgen.\"}, {\"id\": \"luxe\", \"g\": \"Voeten\", \"name\": \"Luxe pedicure\", \"min\": 60, \"d\": \"Met voetbad, scrub en massage.\"}, {\"id\": \"eelt\", \"g\": \"Voeten\", \"name\": \"Eelt & likdoorns\", \"min\": 30, \"d\": \"Gerichte behandeling van drukplekken.\"}, {\"id\": \"kalk\", \"g\": \"Voeten\", \"name\": \"Kalk- en schimmelnagels\", \"min\": 30, \"d\": \"Advies en behandeling van verdikte nagels.\"}, {\"id\": \"ingr\", \"g\": \"Voeten\", \"name\": \"Ingegroeide teennagel\", \"min\": 30, \"d\": \"Pijnloos verhelpen.\"}, {\"id\": \"mas\", \"g\": \"Voeten\", \"name\": \"Voetmassage\", \"min\": 30, \"d\": \"Even helemaal tot rust komen.\"}]}",
+  "h1": "Voeten die weer lichter voelen",
+  "fonts": "family=Josefin+Sans:wght@300;400;600&family=Lora:ital,wght@0,400;1,400",
+  "root": "--bg:#0d1226;--surface:#141a33;--fg:#eef0f8;--muted:#a7adc6;--line:#252c4a;--moon:#f4e7c3;--accent:#f4e7c3;--on-accent:#12162a;--err:#ff9fae;--display:'Josefin Sans',system-ui,sans-serif;--body:'Lora',Georgia,serif;--bk-r:14px;color-scheme:dark",
+  "paras": [
+   "Pedicuresalon in Huissen. Voor iedereen die van zijn voeten houdt, vrouwen én mannen.",
+   "Voor Moederdag, Vaderdag of zomaar. Een cadeau dat iedereen kan gebruiken.",
+   "Veel mannen hebben last van eelt, kalknagels of ingegroeide teennagels, maar stellen een pedicure uit. Zonde, want het is snel verholpen en u loopt weer fijn.",
+   "Kies een behandeling en een moment. Je ziet direct welke tijden nog vrij zijn."
+  ]
+ },
+ "nails-by-jose": {
+  "slug": "nails-by-jose",
+  "legacy": true,
+  "title": "Nails By José",
+  "tel": "31610811807",
+  "addr": "Geulstraat 32\n7071 VV Ulft",
+  "book": "{key:'jose',phone:'06 10 81 18 07',step:30,hours:{1:[540,1050],2:[540,1050],3:[540,1050],4:[540,1200],5:[540,1050],6:[540,900]},\nservices:[\n{id:'gel',g:'Nagels',name:'Gellak',min:45,d:'Glanzende kleur op je eigen nagels.'},\n{id:'biab',g:'Nagels',name:'BIAB',min:60,d:'Versterkende gel, ideaal voor zwakke nagels.'},\n{id:'set',g:'Nagels',name:'Gelnagels nieuwe set',min:90,d:'Verlenging in de vorm die je wilt.'},\n{id:'opv',g:'Nagels',name:'Opvullen',min:75,d:'Na drie tot vier weken weer strak.'},\n{id:'art',g:'Nagels',name:'Nail art',min:15,d:'Van accentnagel tot volledig ontwerp.'},\n{id:'weg',g:'Nagels',name:'Verwijderen & manicure',min:30,d:'Netjes verwijderen en verzorgen.'}]}",
+  "h1": "Strakke nagels, gezet door een allround nagelstyliste in Ulft.",
+  "fonts": "family=Archivo:wdth,wght@62..125,400..900",
+  "root": "\n  --bg:#f3f5fb; --surface:#ffffff; --fg:#0f1638; --muted:#525a7a; --line:#dde1ee;\n  --cobalt:#2340d9; --accent:var(--cobalt); --on-accent:#ffffff; --err:#a3243a;\n  --display:\"Archivo\",\"Arial Narrow\",sans-serif; --body:\"Archivo\",system-ui,-apple-system,\"Segoe UI\",sans-serif; --bk-r:14px;\n",
+  "paras": [
+   "Gellak, BIAB, gelnagels en nail art. Netjes afgewerkt, met aandacht voor de vorm en kleur die bij jou passen.",
+   "Kom met een voorbeeld of laat je adviseren. Alles wordt op maat gezet.",
+   "Plan je eerste afspraak en vertel wat je wilt: natuurlijk, lang, strak of juist met nail art. Samen kijken we wat het beste bij je nagels past.",
+   "Kies een behandeling en een moment. Je ziet direct welke tijden nog vrij zijn.",
+   "Werken op afspraak. Stuur gerust een foto van de nagels die je mooi vindt."
+  ]
+ },
+ "namaste-beauty": {
+  "slug": "namaste-beauty",
+  "legacy": true,
+  "title": "Namasté Beauty",
+  "tel": "31618400415",
+  "addr": "Vendeliers 58\n7071 KN Ulft",
+  "book": "{key:'namaste',phone:'06 18 40 04 15',step:30,hours:{1:[540,1050],2:[540,1050],3:[540,1050],4:[540,1200],5:[540,1050],6:[540,840]},\nservices:[\n{id:'mani',g:'Handen',name:'Manicure',min:30,d:'Nagelriemen verzorgen, vijlen en zachte handen.'},\n{id:'gel',g:'Handen',name:'Gellak',min:45,d:'Glanzende kleur die weken blijft.'},\n{id:'biab',g:'Handen',name:'BIAB',min:60,d:'Versterking voor je eigen nagels.'},\n{id:'set',g:'Handen',name:'Gelnagels nieuwe set',min:90,d:'Verlenging in jouw lengte en vorm.'},\n{id:'opv',g:'Handen',name:'Opvullen',min:75,d:'Uitgroei bijwerken met nieuwe kleur.'},\n{id:'art',g:'Handen',name:'Nail art',min:15,d:'Accent of compleet ontwerp.'},\n{id:'pedi',g:'Voeten',name:'Esthetische pedicure',min:45,d:'Verzorgde, zachte voeten.'},\n{id:'gelv',g:'Voeten',name:'Gellak op de tenen',min:30,d:'Een mooie kleur die lang blijft.'},\n{id:'combo',g:'Voeten',name:'Pedicure met gellak',min:75,d:'Verzorgd én in kleur.'}]}",
+  "h1": "Rust in je hoofd, mooi aan je handen.",
+  "fonts": "family=DM+Serif+Text:ital@0;1&family=Outfit:wght@400;500;600",
+  "root": "\n  --bg:#f6eeec; --surface:#fdf8f7; --fg:#1f2b25; --muted:#5f6a63; --line:#e8dad6;\n  --forest:#22392f; --blush:#e8c6c0; --accent:var(--forest); --on-accent:#f7f1ef; --err:#a3243a;\n  --display:\"DM Serif Text\",Georgia,serif; --body:\"Outfit\",system-ui,-apple-system,\"Segoe UI\",sans-serif; --bk-r:16px;\n",
+  "paras": [
+   "Professionele hand- en nagelverzorging in Ulft. Door een gecertificeerd allround nagelstyliste, met aandacht voor elk detail.",
+   "Van een verzorgende manicure tot gelnagels met nail art. Kom met een voorbeeld of laat je adviseren.",
+   "Kies een behandeling en een moment. Je ziet direct welke tijden nog vrij zijn.",
+   "Nieuwe klant? Stuur even een appje, dan plannen we samen je eerste afspraak."
+  ]
+ },
+ "natasja-hair-nails": {
+  "slug": "natasja-hair-nails",
+  "legacy": true,
+  "title": "Natasja Hair & Nailstyling",
+  "tel": "31645734719",
+  "addr": "Hof van Florence 40\n7007 KB Doetinchem",
+  "book": "{key:'natasja',phone:'06 45 73 47 19',step:30,hours:{2:[540,1050],3:[540,1050],4:[540,1200],5:[540,1050],6:[540,960]},\nservices:[\n{id:'d-knip',g:'Hair',name:'Dames wassen, knippen & föhnen',min:60,d:'Complete beurt met een mooie afwerking.'},\n{id:'h-knip',g:'Hair',name:'Heren knippen',min:30,d:'Strak en verzorgd.'},\n{id:'k-knip',g:'Hair',name:'Kinderen knippen',min:30,d:'Vlot en ontspannen.'},\n{id:'kleur',g:'Hair',name:'Kleuren',min:90,d:'Uitgroei of volledig, in een tint die bij je past.'},\n{id:'high',g:'Hair',name:'Highlights',min:120,d:'Licht en diepte voor een natuurlijk effect.'},\n{id:'style',g:'Hair',name:'Opsteken & stylen',min:45,d:'Voor een feest of bruiloft.'},\n{id:'mani',g:'Nails',name:'Manicure',min:30,d:'Verzorgde nagelriemen en mooi gevijlde nagels.'},\n{id:'gellak',g:'Nails',name:'Gellak',min:45,d:'Glanzende kleur die weken blijft.'},\n{id:'gel',g:'Nails',name:'Gelnagels nieuwe set',min:90,d:'Sterke nagels met verlenging.'},\n{id:'opv',g:'Nails',name:'Gelnagels opvullen',min:75,d:'Uitgroei bijwerken met nieuwe kleur.'},\n{id:'art',g:'Nails',name:'Nail art',min:15,d:'Accentnagel of compleet ontwerp.'}]}",
+  "h1": "Haar en nagels in één afspraak, in Doetinchem.",
+  "fonts": "family=Young+Serif&family=Albert+Sans:wght@400;500;600",
+  "root": "\n  --bg:#f4f5f7; --surface:#ffffff; --fg:#1d2433; --muted:#5a6273; --line:#dde1e8;\n  --hair:#34507a; --nails:#d9a23b; --accent:var(--hair); --on-accent:#f7f9fc; --err:#a3243a;\n  --display:\"Young Serif\",Georgia,serif; --body:\"Albert Sans\",system-ui,-apple-system,\"Segoe UI\",sans-serif; --bk-r:12px;\n",
+  "paras": [
+   "HairKnippen, kleuren en stylen. Een look die bij je past en makkelijk zit.",
+   "NailsGellak, gelnagels en nail art. Verzorgde handen die weken mooi blijven.",
+   "Natasja Hair &amp; Nailstyling aan het Hof van Florence. Persoonlijk, vakkundig en zonder haast.",
+   "Voor dames, heren en kinderen. Je krijgt eerlijk advies over snit, kleur en verzorging.",
+   "Van een verzorgende manicure tot een volledige set met nail art.",
+   "Plan je knipbeurt en je nagels achter elkaar. Eén afspraak, helemaal verzorgd de deur uit. Handig voor een feest, bruiloft of gewoon voor jezelf."
+  ]
+ },
+ "nathies-nails": {
+  "slug": "nathies-nails",
+  "legacy": true,
+  "title": "Nathie's Nails",
+  "tel": "31649833831",
+  "addr": "Wilhelminastraat 75\n6942 ES Didam",
+  "book": "{key:'nathie',phone:'06 49 83 38 31',step:30,\n  hours:{2:[540,1050],3:[540,1050],4:[540,1050],5:[540,1050],6:[540,840]},\n  services:[\n    {id:'gellak',g:'Natuurlijke nagels',name:'Gellak',min:45,d:'Glanzende kleur die tot drie weken mooi blijft, op je eigen nagels.'},\n    {id:'biab',g:'Natuurlijke nagels',name:'BIAB',min:60,d:'Versterkende builder gel voor dunne of zwakke nagels, zonder verlenging.'},\n    {id:'manicure',g:'Natuurlijke nagels',name:'Manicure',min:30,d:'Nagelriemen verzorgen, vijlen en een verzorgende afwerking.'},\n    {id:'set',g:'Kunstnagels',name:'Nieuwe set met verlenging',min:90,d:'Acryl of gel op tips, in de lengte en vorm die jij wilt.'},\n    {id:'opvullen',g:'Kunstnagels',name:'Opvullen',min:75,d:'Uitgroei bijwerken na drie tot vier weken, inclusief nieuwe kleur.'},\n    {id:'art',g:'Extra',name:'Nail art',min:15,d:'Van een subtiel accent tot een volledig ontwerp. Per nagel of per set.'},\n    {id:'weg',g:'Extra',name:'Verwijderen',min:30,d:'Gellak of kunstnagels voorzichtig verwijderen, met verzorging na.'}\n  ]}",
+  "h1": "Mooie handen, sterke nagels.",
+  "fonts": "family=Gloock&family=Hanken+Grotesk:wght@400;500;600",
+  "root": "\n  --bg:#f7efec; --surface:#fffaf8; --fg:#2a1418; --muted:#76585d; --line:#e7d6d2;\n  --lacquer:#8e1330; --accent:var(--lacquer); --on-accent:#fff7f5; --err:#a3142c;\n  --display:\"Gloock\",\"Didot\",\"Bodoni 72\",Georgia,serif;\n  --body:\"Hanken Grotesk\",system-ui,-apple-system,\"Segoe UI\",sans-serif;\n  --bk-r:14px;\n",
+  "paras": [
+   "Nagelstudio van Nathalie van Halteren in Didam. Sinds 2009 vakwerk met kwaliteitsproducten, zodat je nagels weken mooi blijven.",
+   "Nathalie is breed opgeleid als allround nagelstyliste en blijft zich bijscholen. Ze won prijzen op de Nationale Nagelcompetitie en werkt alleen met kwaliteitsproducten, waaronder Young Nails.",
+   "Van een strakke gellaklaag tot een complete set met verlenging. Twijfel je wat bij je nagels past? Nathalie geeft je eerlijk advies.",
+   "In de studio vind je ook verzorgende nagelproducten, zoals nagelriemolie en handcrème. Zo houd je het resultaat langer mooi tussen twee afspraken door.",
+   "Kies een behandeling en een moment. Je ziet direct welke tijden nog vrij zijn.",
+   "Werken op afspraak. Bel of app gerust als je vragen hebt over een behandeling of je nagels laat herstellen."
+  ]
+ },
+ "noor-pedicure-manicure": {
+  "slug": "noor-pedicure-manicure",
+  "legacy": true,
+  "title": "Noor Pedicure & Manicure",
+  "tel": "31657549486",
+  "addr": "De Hoge Hoeve 54\n6932 DJ Westervoort",
+  "book": "{\"key\": \"noor\", \"phone\": \"06 57 54 94 86\", \"step\": 30, \"location\": true, \"hours\": {\"1\": [540, 1020], \"2\": [540, 1020], \"3\": [540, 1020], \"4\": [540, 1020], \"5\": [540, 1020]}, \"services\": [{\"id\": \"pedi\", \"g\": \"Voeten\", \"name\": \"Pedicure\", \"min\": 45, \"d\": \"Nagels knippen en vijlen, eelt verwijderen en voeten verzorgen.\"}, {\"id\": \"cos\", \"g\": \"Voeten\", \"name\": \"Cosmetische pedicure\", \"min\": 60, \"d\": \"Verzorgde voeten met lak of nail art.\"}, {\"id\": \"sport\", \"g\": \"Voeten\", \"name\": \"Sportpedicure\", \"min\": 45, \"d\": \"Voor eelt, blaren en nagels door sport.\"}, {\"id\": \"onco\", \"g\": \"Voeten\", \"name\": \"Pedicure bij oncologie\", \"min\": 60, \"d\": \"Extra voorzichtige zorg tijdens of na behandeling.\"}, {\"id\": \"drukv\", \"g\": \"Voeten\", \"name\": \"Drukvrij maken\", \"min\": 30, \"d\": \"Ontlasten van pijnlijke drukplekken.\"}, {\"id\": \"mas\", \"g\": \"Voeten\", \"name\": \"Voetmassage\", \"min\": 30, \"d\": \"Even helemaal tot rust komen.\"}, {\"id\": \"mani\", \"g\": \"Handen\", \"name\": \"Manicure\", \"min\": 30, \"d\": \"Verzorgde nagelriemen en zachte handen.\"}, {\"id\": \"rep\", \"g\": \"Handen\", \"name\": \"Nagelreparatie\", \"min\": 20, \"d\": \"Een gescheurde of beschadigde nagel herstellen.\"}]}",
+  "h1": "Verzorgde handen en voeten, met licht en aandacht.",
+  "fonts": "family=Lustria&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700",
+  "root": "--bg:#faf5ee;--surface:#fffdf9;--fg:#24201b;--muted:#665d52;--line:#ece2d4;--sun:#e6a54a;--ink:#3b2f22;--accent:#3b2f22;--on-accent:#fdf8f1;--err:#a3243a;--display:'Lustria',Georgia,serif;--body:'Nunito Sans',system-ui,sans-serif;--bk-r:14px",
+  "paras": [
+   "Pedicure en manicure in Westervoort. In de salon of gewoon bij u thuis, ook voor ouderen en kwetsbare voeten.",
+   "Kunt u moeilijk weg? Noor komt ook aan huis, met dezelfde zorg.",
+   "Van een verzorgende pedicure tot hulp bij gevoelige of beschadigde nagels.",
+   "Kies een behandeling en een moment. Bij de laatste stap kiest u: in de salon of bij u thuis.",
+   "Op afspraak. Voor een behandeling aan huis spreken we een tijd af die u goed uitkomt."
+  ]
+ },
+ "pedicure-framoni": {
+  "slug": "pedicure-framoni",
+  "legacy": true,
+  "title": "Framoni",
+  "tel": "31622524014",
+  "addr": "Het Geerken 272\nWestervoort",
+  "book": "{\"key\": \"framoni\", \"phone\": \"06 22 52 40 14\", \"step\": 30, \"hours\": {\"1\": [540, 1050], \"2\": [540, 1050], \"3\": [540, 1050], \"4\": [540, 1200], \"5\": [540, 1050], \"6\": [540, 900]}, \"services\": [{\"id\": \"pedi\", \"g\": \"Voeten\", \"name\": \"Pedicure\", \"min\": 45, \"d\": \"Nagels knippen en vijlen, eelt verwijderen en voeten verzorgen.\"}, {\"id\": \"med\", \"g\": \"Voeten\", \"name\": \"Pedicure bij risicovoet\", \"min\": 60, \"d\": \"Zorgvuldige behandeling bij diabetes of reuma.\"}, {\"id\": \"beugel\", \"g\": \"Voeten\", \"name\": \"Nagelbeugel\", \"min\": 30, \"d\": \"Corrigeert ingegroeide of krullende nagels.\"}, {\"id\": \"orth\", \"g\": \"Voeten\", \"name\": \"Orthese op maat\", \"min\": 30, \"d\": \"Ontlast drukplekken en kromme tenen.\"}, {\"id\": \"onth\", \"g\": \"Ontharen & nagels\", \"name\": \"Definitief ontharen\", \"min\": 30, \"d\": \"Per zone, voor een blijvend gladde huid.\"}, {\"id\": \"art\", \"g\": \"Ontharen & nagels\", \"name\": \"Lak & nail art op de tenen\", \"min\": 20, \"d\": \"Een mooie afwerking na je pedicure.\"}]}",
+  "h1": "Gezonde voeten, gladde huid.",
+  "fonts": "family=Crimson+Pro:ital,wght@0,400;0,500;1,400&family=Figtree:wght@400;500;600",
+  "root": "--bg:#f2f3f5;--surface:#ffffff;--fg:#1f2733;--muted:#58616f;--line:#dde1e7;--slate:#2f3a48;--peach:#f0b49a;--accent:#2f3a48;--on-accent:#f5f7fa;--err:#a3243a;--display:'Crimson Pro',Georgia,serif;--body:'Figtree',system-ui,sans-serif;--bk-r:14px",
+  "paras": [
+   "Pedicure en definitief ontharen in Westervoort. Ook voor diabetische, reumatische en kwetsbare voeten.",
+   "Van een verzorgende pedicure tot hulp bij ingegroeide nagels en drukplekken.",
+   "Gladde huid zonder elke week te scheren, en mooie nagels als afwerking.",
+   "Kies een behandeling en een moment. Je ziet direct welke tijden nog vrij zijn.",
+   "Op afspraak. Heb je diabetes of reuma? Geef het even aan, dan houden we er rekening mee."
+  ]
+ },
+ "pedicuresalon-jeannette": {
+  "slug": "pedicuresalon-jeannette",
+  "legacy": true,
+  "title": "Pedicuresalon Jeannette",
+  "tel": "31620845388",
+  "addr": "Hof van Edinburgh 29\n7007 GW Doetinchem",
+  "book": "{key:'jeannette',phone:'06 20 84 53 88',step:30,location:true,hours:{1:[540,1050],2:[540,1050],3:[540,1050],4:[540,1050],5:[540,1050]},\nservices:[\n{id:'basis',g:'Pedicure',name:'Pedicure',min:45,d:'Nagels knippen en vijlen, eelt verwijderen en voeten verzorgen.'},\n{id:'med',g:'Pedicure',name:'Medische pedicure',min:60,d:'Voor diabetische, reumatische of oncologische voeten.'},\n{id:'sport',g:'Pedicure',name:'Sportpedicure',min:45,d:'Eelt, blaren en nagelproblemen door sport.'},\n{id:'corr',g:'Specialistisch',name:'Nagelcorrectie',min:45,d:'Hulp bij ingegroeide of krullende nagels, zonder snijden.'},\n{id:'schim',g:'Specialistisch',name:'Schimmelnagels',min:30,d:'Onderzoek en behandeladvies bij verkleurde of verdikte nagels.'},\n{id:'herst',g:'Specialistisch',name:'Nagelreparatie',min:30,d:'Een beschadigde of ontbrekende nagel herstellen.'},\n{id:'reflex',g:'Ontspanning',name:'Voetreflexmassage',min:45,d:'Ontspannende massage van de reflexzones.'},\n{id:'mas',g:'Ontspanning',name:'Voetmassage',min:30,d:'Even helemaal tot rust komen.'},\n{id:'cos',g:'Ontspanning',name:'Cosmetische pedicure met lak',min:60,d:'Verzorgde voeten met een mooie kleur op de tenen.'},\n{id:'mani',g:'Ontspanning',name:'Manicure',min:30,d:'Verzorgde handen en nagels.'}]}",
+  "h1": "Weer pijnvrij en met plezier lopen.",
+  "fonts": "family=Literata:opsz,wght@7..72,400;7..72,600&family=Source+Sans+3:wght@400;600;700",
+  "root": "\n  --bg:#f5f2ec; --surface:#fffdf9; --fg:#24221f; --muted:#625d55; --line:#e1dbd0;\n  --ochre:#9a6a1f; --deep:#2f3b36; --accent:var(--deep); --on-accent:#f6f3ee; --err:#a3243a;\n  --display:\"Literata\",Georgia,serif; --body:\"Source Sans 3\",system-ui,-apple-system,\"Segoe UI\",sans-serif; --bk-r:8px;\n",
+  "paras": [
+   "Pedicure en medische voetzorg in Doetinchem. Ook voor diabetische, reumatische en kwetsbare voeten. In de salon of bij u thuis.",
+   "Medische voetzorgDiabetes, reuma en oncologie\n    Ook aan huisVoor wie niet goed weg kan\n    Rustig en persoonlijkRuim de tijd voor elke behandeling\n  \n\n\n  Voor welke voeten?Elke voet is anders. Jeannette is opgeleid om ook kwetsbare voeten veilig en zorgvuldig te behandelen.",
+   "Zorgvuldige controle en verzorging, om wondjes en drukplekken te voorkomen.",
+   "Zachte behandeling met aandacht voor gevoelige gewrichten en drukpunten.",
+   "Extra voorzichtige zorg tijdens of na een behandeling tegen kanker.",
+   "Eelt, blaren en nagelproblemen door sport, zodat je weer fijn kunt trainen."
+  ]
+ },
+ "reus-beauty": {
+  "slug": "reus-beauty",
+  "legacy": true,
+  "title": "Reus Beauty",
+  "tel": "31634206787",
+  "addr": "Karrewiel 7\n6942 LK Didam",
+  "book": "{key:'reus',phone:'06 34 20 67 87',step:30,location:true,\n  hours:{1:[540,1050],2:[540,1050],3:[540,1050],4:[540,1050],5:[540,1050]},\n  services:[\n    {id:'gezicht',g:'Gezicht',name:'Gezichtsbehandeling',min:75,d:'Reinigen, peeling, masker en een ontspannende massage, afgestemd op je huid.'},\n    {id:'brauw',g:'Gezicht',name:'Wenkbrauwen epileren & verven',min:30,d:'Een verzorgde vorm die bij je gezicht past.'},\n    {id:'wimper',g:'Gezicht',name:'Wimpers verven',min:20,d:'Meer diepte in je oogopslag, zonder mascara.'},\n    {id:'pedi',g:'Handen & voeten',name:'Pedicure',min:60,d:'Nagels knippen, eelt verwijderen en voeten verzorgen. Ook aan huis.'},\n    {id:'mani',g:'Handen & voeten',name:'Manicure',min:45,d:'Verzorgde nagelriemen, mooi gevijlde nagels en zachte handen.'},\n    {id:'hars',g:'Ontharen',name:'Harsen',min:30,d:'Benen, oksels, bovenlip of gezicht. Glad voor weken.'},\n    {id:'knip',g:'Haar, ook aan huis',name:'Knippen',min:30,d:'Een frisse coupe, in de salon of thuis in je eigen stoel.'},\n    {id:'fohn',g:'Haar, ook aan huis',name:'Wassen, knippen & föhnen',min:45,d:'Compleet verzorgd en in model gebracht.'}\n  ]}",
+  "h1": "Reus BeautyLiesbeth de Reus, Didam",
+  "fonts": "family=Marcellus&family=Karla:wght@400;500;600",
+  "root": "\n  --bg:#eef0ea; --surface:#f8f9f5; --fg:#1d2822; --muted:#57655c; --line:#d3dacf;\n  --sage:#3c5a49; --mauve:#8a5869; --accent:var(--sage); --on-accent:#f4f7f2; --err:#a3243a;\n  --display:\"Marcellus\",\"Trajan Pro\",Georgia,serif;\n  --body:\"Karla\",system-ui,-apple-system,\"Segoe UI\",sans-serif;\n  --bk-r:4px;\n",
+  "paras": [
+   "Gezichtsverzorging, pedicure en kappersbehandelingen met rust en aandacht. In de salon aan het Karrewiel, of gewoon bij jou thuis.",
+   "sinds 2012\n      \n    \n  \n\n  \n    \n      \n        In de salon\n        Karrewiel 7, Didam\n        Een rustige ruimte waar je even helemaal niets hoeft. Je bent de enige klant, dus er is alle tijd voor jou.",
+   "Liever niet de deur uit, of lastig om te komen? Liesbeth komt ook langs voor knippen, pedicure en verzorging aan huis.",
+   "Elke behandeling begint met even kijken en luisteren. Wat heeft je huid, je haar of je voeten vandaag nodig?",
+   "Liesbeth de Reus begon in 2012 haar eigen salon in Didam. Ze combineert schoonheidsverzorging en pedicure met het kappersvak, en neemt die kennis ook mee naar mensen thuis.",
+   "Geen lopende band, maar één persoon die je kent en die weet wat je fijn vindt."
+  ]
+ },
+ "richelle-pedicure": {
+  "slug": "richelle-pedicure",
+  "legacy": true,
+  "title": "Richelle Pedicure en Schoonheidssalon",
+  "tel": "31612232164",
+  "addr": "Colignystraat 11B\n7001 GD Doetinchem",
+  "book": "{key:'richelle',phone:'06 12 23 21 64',step:30,hours:Object.fromEntries(Object.entries(HR).map(([d,r])=>[d,r[0]])),\nservices:[\n{id:'pedi',g:'Voeten',name:'Pedicure',min:45,d:'Nagels knippen en vijlen, eelt verwijderen en voeten verzorgen.'},\n{id:'med',g:'Voeten',name:'Medische pedicure',min:60,d:'Zorgvuldige behandeling bij diabetes, reuma of kwetsbare voeten.'},\n{id:'luxe',g:'Voeten',name:'Luxe pedicure met massage',min:75,d:'Pedicure met voetbad, scrub en voetmassage.'},\n{id:'lak',g:'Voeten',name:'Lak of gellak op de tenen',min:20,d:'Een mooie kleur als afwerking.'},\n{id:'gez',g:'Huid',name:'Gezichtsbehandeling',min:60,d:'Reinigen, peeling, masker en ontspannende massage.'},\n{id:'brauw',g:'Huid',name:'Wenkbrauwen & wimpers verven',min:30,d:'Epileren in model en verven.'},\n{id:'hars',g:'Huid',name:'Harsen',min:30,d:'Bovenlip, gezicht, oksels of benen.'},\n{id:'mani',g:'Huid',name:'Manicure',min:30,d:'Verzorgde handen en nagels.'}]}",
+  "h1": "RichellePedicure en schoonheidssalon in Doetinchem",
+  "fonts": "family=Bellefair&family=Work+Sans:wght@400;500;600",
+  "root": "\n  --bg:#f5f2f7; --surface:#fdfbfe; --fg:#2a2230; --muted:#665c6d; --line:#e2dbe7;\n  --lilac:#c9b6dc; --plum:#5a3f6e; --accent:var(--plum); --on-accent:#faf6fd; --err:#a3243a;\n  --display:\"Bellefair\",Georgia,serif; --body:\"Work Sans\",system-ui,-apple-system,\"Segoe UI\",sans-serif; --bk-r:10px;\n",
+  "paras": [
+   "Medische voetzorg en ontspannende schoonheidsbehandelingen onder één dak. Ook 's avonds en op zaterdag, zodat het altijd past.",
+   "Pedicure en medische pedicure. Pijnvrij lopen en verzorgde voeten.",
+   "Gezichtsbehandelingen, wenkbrauwen en ontharen. Even tijd voor jezelf.",
+   "Van een verzorgende pedicure tot medische voetzorg bij diabetes of reuma.",
+   "Op woensdag- en vrijdagavond kun je na je werk terecht. En op zaterdag tot drie uur.",
+   "Kies een behandeling en een moment. Je ziet direct welke tijden nog vrij zijn."
+  ]
+ },
+ "salon-binnenstebuiten": {
+  "slug": "salon-binnenstebuiten",
+  "legacy": true,
+  "title": "Salon Binnenstebuiten",
+  "tel": "31649965521",
+  "addr": "Westervoort",
+  "book": "{\"key\": \"binnen\", \"phone\": \"06 49 96 55 21\", \"step\": 30, \"hours\": {\"1\": [540, 1050], \"2\": [540, 1050], \"3\": [540, 1050], \"4\": [540, 1200], \"5\": [540, 1050], \"6\": [540, 900]}, \"services\": [{\"id\": \"gez\", \"g\": \"Buiten\", \"name\": \"Gezichtsbehandeling\", \"min\": 60, \"d\": \"Reinigen, masker en verzorging voor een stralende huid.\"}, {\"id\": \"brauw\", \"g\": \"Buiten\", \"name\": \"Wenkbrauwen & wimpers\", \"min\": 30, \"d\": \"Epileren en verven.\"}, {\"id\": \"mani\", \"g\": \"Buiten\", \"name\": \"Manicure\", \"min\": 30, \"d\": \"Verzorgde handen en nagels.\"}, {\"id\": \"pedi\", \"g\": \"Buiten\", \"name\": \"Pedicure\", \"min\": 45, \"d\": \"Verzorgde, zachte voeten.\"}, {\"id\": \"mas\", \"g\": \"Binnen\", \"name\": \"Ontspanningsmassage\", \"min\": 60, \"d\": \"Spanning eruit, rust erin.\"}, {\"id\": \"combi\", \"g\": \"Binnen\", \"name\": \"Binnen & buiten combi\", \"min\": 90, \"d\": \"Gezichtsbehandeling met massage.\"}]}",
+  "h1": "Binnen",
+  "fonts": "family=Epilogue:wght@400;600;800&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400",
+  "root": "--bg:#f2efe6;--surface:#fbf9f3;--fg:#262a1d;--muted:#5f6452;--line:#ddd8c8;--olive:#4b5636;--cream:#efe6cf;--accent:#4b5636;--on-accent:#f7f4ea;--err:#a3243a;--display:'Epilogue',system-ui,sans-serif;--body:'Newsreader',Georgia,serif;--bk-r:14px",
+  "paras": [
+   "Even tot rust komen. Ontspannen, opladen, aandacht voor jezelf.",
+   "Salon Binnenstebuiten in Westervoort. Persoonlijke verzorging in een rustige, warme sfeer.",
+   "Kies een behandeling en een moment. Je ziet direct welke tijden nog vrij zijn.",
+   "Op afspraak. Bel of app gerust als je vragen hebt over een behandeling."
+  ]
+ },
+ "skindy": {
+  "slug": "skindy",
+  "legacy": true,
+  "title": "Skindy",
+  "tel": "31617439761",
+  "addr": "Kersebloesem 74\n7006 MC Doetinchem",
+  "book": "{key:'skindy',phone:'06 17 43 97 61',step:30,hours:{1:[540,900],2:[540,960],3:[540,960],4:[1110,1260],6:[540,1020]},\nservices:[\n{id:'pure',g:'Gezicht',name:'Skin Pure gezichtsbehandeling',min:60,d:'Diepe reiniging voor een frisse, heldere huid.'},\n{id:'acne',g:'Gezicht',name:'Anti-acnebehandeling',min:60,d:'Gerichte aanpak van onzuiverheden en ontstekingen.'},\n{id:'peel',g:'Gezicht',name:'Peeling',min:45,d:'Een gladdere, stralende huid door exfoliatie.'},\n{id:'combi',g:'Gezicht',name:'Combideal gezicht + massage',min:75,price:'€83',d:'45 min gezicht, 30 min massage en een drankje.'},\n{id:'hot',g:'Lichaam',name:'Hot-stone massage',min:60,d:'Warme stenen voor diepe ontspanning.'},\n{id:'mas',g:'Lichaam',name:'Ontspanningsmassage',min:45,d:'Spanning eruit, rust erin.'},\n{id:'bind',g:'Lichaam',name:'Bindweefselmassage',min:45,d:'Gerichte massage van het bindweefsel.'},\n{id:'elek',g:'Ontharen',name:'Elektrisch ontharen',min:30,d:'Blijvend resultaat, per haartje behandeld.'},\n{id:'hars',g:'Ontharen',name:'Harsen',min:30,d:'Snel en glad voor weken.'},\n{id:'lash',g:'Ogen & visagie',name:'Wimperlifting',min:60,d:'Een mooie krul in je eigen wimpers, weken lang.'},\n{id:'visa',g:'Ogen & visagie',name:'Visagie',min:45,d:'Make-up voor een gelegenheid.'},\n{id:'coag',g:'Huidtherapie',name:'Coagulatie',min:30,d:'Verwijderen van kleine huidoneffenheden zoals couperose en steelwratjes.'},\n{id:'camo',g:'Huidtherapie',name:'Camouflagetherapie',min:60,d:'Advies en techniek om vlekken of littekens onzichtbaar te maken.'}]}",
+  "h1": "Huidverzorging met kennis van zaken.",
+  "fonts": "family=Tenor+Sans&family=Red+Hat+Text:wght@400;500;600",
+  "root": "\n  --bg:#f8f3ef; --surface:#fffcfa; --fg:#2d211c; --muted:#6c5d55; --line:#eadfd7;\n  --peach:#e9b9a0; --cocoa:#5b3a2c; --accent:var(--cocoa); --on-accent:#fff8f3; --err:#a3243a;\n  --display:\"Tenor Sans\",\"Optima\",Georgia,serif; --body:\"Red Hat Text\",system-ui,-apple-system,\"Segoe UI\",sans-serif; --bk-r:16px;\n",
+  "paras": [
+   "Schoonheidssalon in Doetinchem voor vrouwen en mannen. Van een diepe reiniging tot gerichte huidtherapie, uitgevoerd door een Medical Beauty Specialist.",
+   "Kies een categorie. Twijfel je wat je huid nodig heeft? Begin met een gezichtsbehandeling, dan krijg je meteen advies.",
+   "45 minuten gezichtsbehandeling, 30 minuten massage en iets lekkers te drinken. Het ideale moment voor jezelf, of om cadeau te doen.",
+   "Kies een behandeling en een moment. Je ziet direct welke tijden nog vrij zijn."
+  ]
+ },
+ "styling-84": {
+  "slug": "styling-84",
+  "legacy": true,
+  "title": "Styling 84",
+  "tel": "31617364809",
+  "addr": "Ranonkelstraat 1\n6942 VX Didam",
+  "book": "{key:'styling84',phone:'06 17 36 48 09',step:30,\n  hours:{2:[540,1050],3:[540,1050],4:[540,1200],5:[540,1050],6:[510,960]},\n  services:[\n    {id:'d-knip',g:'Dames',name:'Wassen, knippen & föhnen',min:60,d:'Complete beurt met een mooie afwerking.'},\n    {id:'d-fohn',g:'Dames',name:'Föhnen & stylen',min:30,d:'Strak gefoehnd of met volume en krul.'},\n    {id:'h-knip',g:'Heren',name:'Heren knippen',min:30,d:'Klassiek of modern, altijd strak afgewerkt.'},\n    {id:'k-knip',g:'Kinderen',name:'Kinderen knippen',min:30,d:'Vlot en ontspannen, ook voor de kleinsten.'},\n    {id:'kleur',g:'Kleur',name:'Kleuren',min:90,d:'Uitgroei of volledig, in een tint die bij je past.'},\n    {id:'high',g:'Kleur',name:'Highlights of lowlights',min:120,d:'Licht en diepte voor een natuurlijk effect.'},\n    {id:'mu',g:'Make-up',name:'Make-up voor een gelegenheid',min:45,d:'Feest, gala of fotoshoot.'},\n    {id:'op',g:'Make-up',name:'Opsteken & stylen',min:45,d:'Een opgestoken kapsel dat de hele dag blijft zitten.'}\n  ]}",
+  "h1": "Haar en make-up met stijl, in Didam.",
+  "fonts": "family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500;600",
+  "root": "\n  --bg:#efebe6; --surface:#f8f5f1; --fg:#1e1814; --muted:#685d55; --line:#dcd4cc;\n  --caramel:#9c6b3c; --accent:var(--fg); --on-accent:#f6f1ea; --err:#a3243a;\n  --s1:#3a271c; --s2:#7a4f2f; --s3:#b98754; --s4:#e0bf8f;\n  --display:\"Instrument Serif\",\"Didot\",Georgia,serif;\n  --body:\"Instrument Sans\",system-ui,-apple-system,\"Segoe UI\",sans-serif;\n  --bk-r:0px;\n",
+  "paras": [
+   "Knippen, kleuren en stylen voor dames, heren en kinderen. En make-up voor de dagen die ertoe doen.",
+   "Van een snelle knipbeurt tot een complete kleurbehandeling. Je krijgt eerlijk advies over wat bij jouw haar past.",
+   "Een bruiloft, feest, gala of fotoshoot. Je haar en make-up op elkaar afgestemd, zodat het hele plaatje klopt.",
+   "Kies een behandeling en een moment. Je ziet direct welke tijden nog vrij zijn.",
+   "Werken op afspraak. Voor make-up op een bruiloft of feest plannen we graag ruim van tevoren."
+  ]
+ },
+ "wendys-beauty-nails": {
+  "slug": "wendys-beauty-nails",
+  "legacy": true,
+  "title": "Wendy's Beauty & Nails",
+  "tel": "31644197770",
+  "addr": "Aragon 25\n7007 MX Doetinchem",
+  "book": "{key:'wendy',phone:'06 44 19 77 70',step:30,hours:{2:[540,1050],3:[540,1050],4:[540,1200],5:[540,1050],6:[540,960]},\nservices:[\n{id:'gez',g:'Gezicht',name:'Gezichtsbehandeling',min:75,d:'Reinigen, peeling, masker en een ontspannende massage, afgestemd op je huid.'},\n{id:'gez-k',g:'Gezicht',name:'Korte opfrisbehandeling',min:45,d:'Een frisse huid in een korte tijd.'},\n{id:'brauw',g:'Gezicht',name:'Wenkbrauwen & wimpers',min:30,d:'Epileren in model en verven.'},\n{id:'mas',g:'Massage',name:'Ontspanningsmassage',min:60,d:'Rug, nek en schouders los na een drukke week.'},\n{id:'mas-k',g:'Massage',name:'Rug-, nek- en schoudermassage',min:30,d:'Kort en doeltreffend.'},\n{id:'mani',g:'Nagels',name:'Manicure',min:45,d:'Verzorgde nagelriemen, gevijlde nagels en zachte handen.'},\n{id:'gellak',g:'Nagels',name:'Gellak',min:45,d:'Glanzende kleur die weken blijft.'},\n{id:'gel',g:'Nagels',name:'Gelnagels nieuwe set',min:90,d:'Sterke nagels in de lengte en vorm die je wilt.'},\n{id:'gel-o',g:'Nagels',name:'Gelnagels opvullen',min:75,d:'Uitgroei bijwerken, inclusief nieuwe kleur.'},\n{id:'mu',g:'Make-up',name:'Make-up voor een gelegenheid',min:45,d:'Feest, gala of fotoshoot.'},\n{id:'bruid',g:'Make-up',name:'Bruidsmake-up met proefsessie',min:90,d:'Rustig samen je bruidslook bepalen.'},\n{id:'ws',g:'Workshops',name:'Workshop make-up of nagels',min:120,d:'Alleen of in een klein groepje.'}]}",
+  "h1": "Even helemaal voor jezelf.",
+  "fonts": "family=DM+Serif+Display:ital@0;1&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700",
+  "root": "\n  --bg:#f6f4f2; --surface:#fffdfb; --fg:#1b1f33; --muted:#5c6077; --line:#e2dfe0;\n  --night:#1b1f33; --pink:#c97b8e; --accent:var(--night); --on-accent:#fbf8f6; --err:#a3243a;\n  --display:\"DM Serif Display\",Georgia,serif; --body:\"Nunito Sans\",system-ui,-apple-system,\"Segoe UI\",sans-serif; --bk-r:14px;\n",
+  "paras": [
+   "Gezichtsbehandelingen, massage, nagels en make-up in een rustige salon aan huis in Doetinchem. Het moment om bij te komen na een drukke dag.",
+   "Van een ontspannende gezichtsbehandeling tot strakke gelnagels en make-up voor je trouwdag. Kies een categorie.",
+   "Leer het zelf of laat je in de watten leggen op je grote dag. Wendy denkt mee over de look die bij je past.",
+   "Kies een behandeling en een moment. Je ziet direct welke tijden nog vrij zijn.",
+   "Werken op afspraak. Voor bruidsmake-up en workshops plannen we graag ruim van tevoren."
+  ]
+ },
+ "wimpers-by-laurie": {
+  "slug": "wimpers-by-laurie",
+  "legacy": true,
+  "title": "Wimperextensions by Laurie",
+  "tel": "31657549594",
+  "addr": "Heeghstraat 7\n6942 PG Didam",
+  "book": "{key:'laurie',phone:'06 57 54 95 94',step:30,\n  hours:{1:[540,1080],2:[540,1080],3:[540,1080],4:[540,1260],5:[540,1080],6:[540,960]},\n  services:[\n    {id:'classic',g:'Nieuwe set',name:'Classic set',min:120,d:'Eén extension per wimper, natuurlijk resultaat.'},\n    {id:'hybrid',g:'Nieuwe set',name:'Hybrid set',min:135,d:'Mix van classic en volume, voller met textuur.'},\n    {id:'volume',g:'Nieuwe set',name:'Volume set',min:150,d:'Handgemaakte waaiers voor een vol, donker effect.'},\n    {id:'fill2',g:'Opvullen',name:'Opvullen na 2 weken',min:60,d:'Je set weer helemaal vol en strak.'},\n    {id:'fill3',g:'Opvullen',name:'Opvullen na 3 weken',min:75,d:'Iets meer werk, hetzelfde volle resultaat.'},\n    {id:'weg',g:'Overig',name:'Extensions verwijderen',min:30,d:'Veilig verwijderen, zonder je eigen wimpers te beschadigen.'}\n  ]}",
+  "h1": "Wimperextensions by LaurieWakker worden met mooie wimpers.",
+  "fonts": "family=Italiana&family=Jost:wght@400;500;600",
+  "root": "\n  --bg:#f6f0ef; --surface:#fdf9f8; --fg:#161214; --muted:#665b5f; --line:#e6dbda;\n  --rose:#a8707d; --blush:#efdfde; --accent:var(--fg); --on-accent:#fbf6f5; --err:#a3243a;\n  --display:\"Italiana\",\"Didot\",\"Bodoni 72\",Georgia,serif;\n  --body:\"Jost\",system-ui,-apple-system,\"Segoe UI\",sans-serif;\n  --bk-r:20px;\n",
+  "paras": [
+   "Wimperextensions op maat in Didam. Van subtiel natuurlijk tot vol en uitgesproken, altijd afgestemd op jouw ogen.",
+   "Elke set wordt wimper voor wimper gezet. Samen kijken we naar je ogen, je eigen wimpers en hoe je ze wilt dragen.",
+   "Eén extension op elke eigen wimper. Natuurlijk, alsof je mascara draagt.",
+   "Een mix van losse extensions en kleine waaiertjes. Meer textuur, nog steeds zacht.",
+   "Handgemaakte waaiers van superfijne extensions op elke wimper. Licht en toch heel vol.",
+   "Met de juiste nazorg houd je je set weken lang strak. Dit zijn de belangrijkste momenten."
+  ]
+ },
+ "y-style": {
+  "slug": "y-style",
+  "legacy": true,
+  "title": "Y-Style Nails and Beauty",
+  "tel": "",
+  "addr": "Worpplein 23\n7006 AM Doetinchem",
+  "book": "{key:'ystyle',phone:'de studio',step:30,hours:{2:[570,1080],3:[570,1080],4:[570,1200],5:[570,1080],6:[570,960]},\nservices:[\n{id:'mani',g:'Nagels',name:'Manicure',min:30,d:'Verzorgde nagelriemen, vijlen en zachte handen.'},\n{id:'french',g:'Nagels',name:'French manicure',min:60,d:'Tijdloos en strak, op eigen nagels of verlenging.'},\n{id:'gel',g:'Nagels',name:'Gelnagels',min:90,d:'Sterk en glanzend, in jouw lengte en vorm.'},\n{id:'acryl',g:'Nagels',name:'Acrylnagels',min:90,d:'Extra sterk, ideaal voor lange sets.'},\n{id:'art',g:'Nagels',name:'Nail art & 3D nail art',min:30,d:'Van fijne lijntjes tot 3D-details.'},\n{id:'paraf',g:'Nagels',name:'Paraffinebehandeling & handmassage',min:30,d:'Warme paraffine voor zijdezachte handen.'},\n{id:'pedi',g:'Nagels',name:'Pedicure',min:45,d:'Verzorgde voeten, ook met kleur op de tenen.'},\n{id:'bruid',g:'Nagels',name:'Bruidsnagels',min:90,d:'Ontwerp op maat voor je trouwdag.'},\n{id:'lash-c',g:'Wimpers',name:'Wimperextensions nieuwe set',min:120,d:'Natuurlijk of vol, op maat.'},\n{id:'lash-f',g:'Wimpers',name:'Wimperextensions opvullen',min:60,d:'Na twee tot drie weken.'}]}",
+  "h1": "Nails &amp; beauty die opvallen.",
+  "fonts": "family=Unbounded:wght@300;500;800&family=Outfit:wght@400;500;600",
+  "root": "\n  --bg:#0c0c0e; --surface:#151518; --fg:#f2f1f4; --muted:#a6a4ad; --line:#2a2a30;\n  --c1:#e9e6ef; --c2:#9a97a6; --c3:#f7d9e8; --c4:#b9e3ef; --accent:#f2f1f4; --on-accent:#0c0c0e; --err:#ff9fae;\n  --display:\"Unbounded\",\"Arial Black\",sans-serif; --body:\"Outfit\",system-ui,-apple-system,\"Segoe UI\",sans-serif; --bk-r:18px;\n  color-scheme:dark;\n",
+  "paras": [
+   "Van strakke French tot 3D nail art, gelnagels, acryl en wimperextensions. Gezellig, vakkundig en met oog voor elk detail.",
+   "Elke set wordt met de hand gemaakt. Kom met een voorbeeld of laat je verrassen.",
+   "Een open blik zonder mascara. Natuurlijk of juist vol, afgestemd op jouw ogen en je eigen wimpers.",
+   "Je ring verdient de mooiste handen. We kiezen samen een ontwerp dat past bij je jurk, je boeket en je stijl, en plannen het zo dat je nagels op de dag zelf perfect zijn.",
+   "Kies een behandeling en een moment. Je ziet direct welke tijden nog vrij zijn.",
+   "Werken op afspraak. Neem gerust een foto mee van de nagels of wimpers die je mooi vindt."
+  ]
+ },
+ "yomy-pedicure": {
+  "slug": "yomy-pedicure",
+  "legacy": true,
+  "title": "Yomy Pedicure",
+  "tel": "31612605304",
+  "addr": "Wehlseweg 46\n6941 DM Didam",
+  "book": "{key:'yomy',phone:'06 12 60 53 04',step:30,\n  hours:{1:[540,1050],2:[540,1050],3:[540,1050],4:[540,1050],5:[540,1050],6:[540,780]},\n  services:[\n    {id:'basis',g:'Voeten',name:'Basis pedicure',min:45,d:'Voetbad, nagels knippen en vijlen, eelt verwijderen en verzorgende crème.'},\n    {id:'luxe',g:'Voeten',name:'Luxe pedicure',min:75,d:'Alles van de basis, met scrub, masker en een uitgebreide voetmassage.'},\n    {id:'eelt',g:'Voeten',name:'Eelt & likdoorns',min:30,d:'Gerichte behandeling van drukplekken voor pijnvrij lopen.'},\n    {id:'gel-t',g:'Voeten',name:'Gellak op de tenen',min:30,d:'Glanzende kleur die weken mooi blijft, los of na je pedicure.'},\n    {id:'mani',g:'Handen',name:'Manicure',min:30,d:'Nagelriemen verzorgen, vijlen en zachte handen.'},\n    {id:'gel-h',g:'Handen',name:'Gellak op de handen',min:45,d:'Een strakke gellaklaag op je eigen nagels.'}\n  ]}",
+  "h1": "Even helemaal op adem komen.",
+  "fonts": "family=Gilda+Display&family=Mulish:wght@400;500;600;700",
+  "root": "\n  --bg:#edf2f0; --surface:#f7faf9; --fg:#14302f; --muted:#4f6765; --line:#d2dedb;\n  --teal:#1f5254; --sand:#c7a77c; --accent:var(--teal); --on-accent:#eff7f6; --err:#a3243a;\n  --display:\"Gilda Display\",\"Didot\",Georgia,serif;\n  --body:\"Mulish\",system-ui,-apple-system,\"Segoe UI\",sans-serif;\n  --bk-r:18px;\n",
+  "paras": [
+   "Pedicure en voetverzorging in Didam. Verzorgde voeten en een uur rust, alleen voor jou.",
+   "Elke pedicure volgt een vaste volgorde, zodat je precies weet wat je kunt verwachten.",
+   "Je voeten weken in warm water. De huid wordt zacht en je kunt meteen ontspannen.",
+   "Knippen, vijlen en de nagelriemen verzorgen. Netjes en zonder pijn.",
+   "Eelt en drukplekken worden voorzichtig verwijderd, zodat je weer fijn loopt.",
+   "Een verzorgende crème en een korte massage. Desgewenst gellak op je tenen."
+  ]
+ }
+}
