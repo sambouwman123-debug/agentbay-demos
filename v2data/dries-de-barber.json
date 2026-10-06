@@ -1,0 +1,96 @@
+{
+ "slug": "dries-de-barber",
+ "status": "ok",
+ "checked": "2026-10-06",
+ "maps_url": "https://www.google.com/maps/place/Dries+De+Barber%F0%9F%92%88/@51.893162,5.8981801,17z",
+ "maps_name": "Dries De Barber💈",
+ "maps_category": "Barbier",
+ "address": "Buitengracht 6, 6681 JJ Bemmel",
+ "phone_maps": "06 58848548",
+ "rating": "5,0",
+ "rating_count": 11,
+ "reviews": [
+  {
+   "text": "Top service bij Dries De Barber!\n\nAltijd strak en precies zoals ik het wil. Dries werkt snel maar met aandacht voor detail. Aanrader voor iedereen die een goede barber zoekt!",
+   "name": "Mick v. d. Z.",
+   "year": "2025",
+   "date_rel": "een jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Al een aantal jaar bij Dries klant en nog steeds dik tevreden over zijn kennis, kunde en  klant vriendelijkheid. Hij weet precies wat ik als klant wil, of heeft goede suggesties wat goed bij mij zou passen.",
+   "name": "Loek G.",
+   "year": "2024",
+   "date_rel": "2 jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Goede service, knipt goed, denkt samen met je mee voor je haarstyle en altijd gezellig. Top Barber echt een aanrader!",
+   "name": "Jim M.",
+   "year": "2026",
+   "date_rel": "9 maanden geleden",
+   "stars": 5
+  },
+  {
+   "text": "Altijd fris, doet precies waar je om vraagt en geeft je eerlijke tips als je er om vraagt, top ervaring",
+   "name": "Borre B.",
+   "year": "2026",
+   "date_rel": "9 maanden geleden",
+   "stars": 5
+  },
+  {
+   "text": "Zeer fijne kapper die altijd de tijd voor je neemt en ook meekijkt welk tijdstip voor beiden het beste uitkomt!",
+   "name": "Georgie E.",
+   "year": "2024",
+   "date_rel": "2 jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Ontzettend professionele en fijne kapper, altijd snelle communicatie en maakt gebruik van goede producten 👌🏽",
+   "name": "Joel S.",
+   "year": "2024",
+   "date_rel": "2 jaar geleden",
+   "stars": 5
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmrGOzAi6sBhLrXCCG7DyH68cX9MJKfkHpvYMmxqxLpssmlTApRXxg1Gem5IJGf9JWl2_5aVT9SJL40Y1ZLpKSv5UDOG3e1bVsVj1oBSes_sLSelV224sTGABUcu7_BssK96fw",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmrGOzAi6sBhLrXCCG7DyH68cX9MJKfkHpvYMmxqxLpssmlTApRXxg1Gem5IJGf9JWl2_5aVT9SJL40Y1ZLpKSv5UDOG3e1bVsVj1oBSes_sLSelV224sTGABUcu7_BssK96fw",
+  "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlCrIz0rrWcsDWTKRdRdogM2Gvksout92rnasXjS0BSru82izughFknb7LdcZNd8ADzJdxNhMSCZt1Ldby7xXJSk9-oeD5bBKIV4z0r04Xsidt6nT0BHezFoHitcsDQ7mvQGO8TzA",
+  "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWmLgNmlyQRk9EXg8OtYxexxDEsRflwJEVniEuGkVQNLoUQgxmS6o0mKhcqrLa659-4tczEbwjcyveWdKW2BUPBfBeTAZSnA2ivbgPW1SJpcMuy1qegIb7yCV__5OjoyZrZVM36eUw"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlCrIz0rrWcsDWTKRdRdogM2Gvksout92rnasXjS0BSru82izughFknb7LdcZNd8ADzJdxNhMSCZt1Ldby7xXJSk9-oeD5bBKIV4z0r04Xsidt6nT0BHezFoHitcsDQ7mvQGO8TzA",
+ "hours": [
+  [
+   "Maandag",
+   "gesloten"
+  ],
+  [
+   "Dinsdag",
+   "gesloten"
+  ],
+  [
+   "Woensdag",
+   "10:00–20:00"
+  ],
+  [
+   "Donderdag",
+   "09:00–20:00"
+  ],
+  [
+   "Vrijdag",
+   "09:00–18:30"
+  ],
+  [
+   "Zaterdag",
+   "09:00–18:00"
+  ],
+  [
+   "Zondag",
+   "gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "https://dries-de-barber.salonized.com/",
+ "note": ""
+}
