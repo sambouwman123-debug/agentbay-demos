@@ -2,5 +2,19 @@
  "slug": "timmerbedrijf-joor",
  "status": "not_found",
  "checked": "2026-10-06",
- "note": "Niet (met gegevens) gevonden op Google Maps. Geen echte reviews/foto’s beschikbaar; site zonder score."
+ "note": "Niet (met gegevens) gevonden op Google Maps. Geen echte reviews/foto’s beschikbaar; site zonder score.",
+ "fb": {
+  "url": "https://www.facebook.com/TimmerbedrijfAJoor/",
+  "hero": "/home/claude/fbimg/timmerbedrijf-joor/08.jpg",
+  "gallery": [
+   "/home/claude/fbimg/timmerbedrijf-joor/08.jpg",
+   "/home/claude/fbimg/timmerbedrijf-joor/10.jpg",
+   "/home/claude/fbimg/timmerbedrijf-joor/12.jpg",
+   "/home/claude/fbimg/timmerbedrijf-joor/06.jpg",
+   "/home/claude/fbimg/timmerbedrijf-joor/13.jpg",
+   "/home/claude/fbimg/timmerbedrijf-joor/02.jpg",
+   "/home/claude/fbimg/timmerbedrijf-joor/09.jpg"
+  ],
+  "checked": "2026-10-06"
+ }
 }

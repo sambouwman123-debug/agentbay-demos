@@ -2,5 +2,18 @@
  "slug": "marlou-beauty-salon",
  "status": "not_found",
  "checked": "2026-10-06",
- "note": "Niet (met gegevens) gevonden op Google Maps. Geen echte reviews/foto’s beschikbaar; site zonder score."
+ "note": "Niet (met gegevens) gevonden op Google Maps. Geen echte reviews/foto’s beschikbaar; site zonder score.",
+ "fb": {
+  "url": "https://www.facebook.com/marloubeautysalonzelhem/",
+  "hero": "/home/claude/fbimg/marlou-beauty-salon/10.jpg",
+  "gallery": [
+   "/home/claude/fbimg/marlou-beauty-salon/10.jpg",
+   "/home/claude/fbimg/marlou-beauty-salon/11.jpg",
+   "/home/claude/fbimg/marlou-beauty-salon/08.jpg",
+   "/home/claude/fbimg/marlou-beauty-salon/09.jpg",
+   "/home/claude/fbimg/marlou-beauty-salon/12.jpg",
+   "/home/claude/fbimg/marlou-beauty-salon/13.jpg"
+  ],
+  "checked": "2026-10-06"
+ }
 }

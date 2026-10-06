@@ -2,5 +2,17 @@
  "slug": "sheas-klusbedrijf",
  "status": "not_found",
  "checked": "2026-10-06",
- "note": "Niet (met gegevens) gevonden op Google Maps. Geen echte reviews/foto’s beschikbaar; site zonder score."
+ "note": "Niet (met gegevens) gevonden op Google Maps. Geen echte reviews/foto’s beschikbaar; site zonder score.",
+ "fb": {
+  "url": "https://www.facebook.com/people/Sheas-Klusbedrijf/100067483284454/",
+  "hero": "/home/claude/fbimg/sheas-klusbedrijf/04.jpg",
+  "gallery": [
+   "/home/claude/fbimg/sheas-klusbedrijf/04.jpg",
+   "/home/claude/fbimg/sheas-klusbedrijf/03.jpg",
+   "/home/claude/fbimg/sheas-klusbedrijf/01.jpg",
+   "/home/claude/fbimg/sheas-klusbedrijf/02.jpg",
+   "/home/claude/fbimg/sheas-klusbedrijf/06.jpg"
+  ],
+  "checked": "2026-10-06"
+ }
 }

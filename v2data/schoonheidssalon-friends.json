@@ -31,5 +31,18 @@
  "hours": null,
  "socials": {},
  "website": "",
- "note": ""
+ "note": "",
+ "fb": {
+  "url": "https://www.facebook.com/schoonheidssalonfriends/",
+  "hero": "/home/claude/fbimg/schoonheidssalon-friends/05.jpg",
+  "gallery": [
+   "/home/claude/fbimg/schoonheidssalon-friends/05.jpg",
+   "/home/claude/fbimg/schoonheidssalon-friends/06.jpg",
+   "/home/claude/fbimg/schoonheidssalon-friends/07.jpg",
+   "/home/claude/fbimg/schoonheidssalon-friends/01.jpg",
+   "/home/claude/fbimg/schoonheidssalon-friends/08.jpg",
+   "/home/claude/fbimg/schoonheidssalon-friends/09.jpg"
+  ],
+  "checked": "2026-10-06"
+ }
 }

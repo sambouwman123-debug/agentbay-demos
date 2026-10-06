@@ -45,5 +45,19 @@
  ],
  "socials": {},
  "website": "http://www.vermeenttotaalcoatings.nl/",
- "note": ""
+ "note": "",
+ "fb": {
+  "url": "https://www.facebook.com/VermeentTotaalcoatings/",
+  "hero": "/home/claude/fbimg/vermeent/05.jpg",
+  "gallery": [
+   "/home/claude/fbimg/vermeent/05.jpg",
+   "/home/claude/fbimg/vermeent/07.jpg",
+   "/home/claude/fbimg/vermeent/03.jpg",
+   "/home/claude/fbimg/vermeent/06.jpg",
+   "/home/claude/fbimg/vermeent/12.jpg",
+   "/home/claude/fbimg/vermeent/01.jpg",
+   "/home/claude/fbimg/vermeent/08.jpg"
+  ],
+  "checked": "2026-10-06"
+ }
 }

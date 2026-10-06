@@ -16,5 +16,18 @@
  "hours": null,
  "socials": {},
  "website": "",
- "note": ""
+ "note": "",
+ "fb": {
+  "url": "https://www.facebook.com/sofischoonheidssalon/",
+  "hero": "/home/claude/fbimg/sofi-schoonheidssalon/09.jpg",
+  "gallery": [
+   "/home/claude/fbimg/sofi-schoonheidssalon/09.jpg",
+   "/home/claude/fbimg/sofi-schoonheidssalon/13.jpg",
+   "/home/claude/fbimg/sofi-schoonheidssalon/04.jpg",
+   "/home/claude/fbimg/sofi-schoonheidssalon/07.jpg",
+   "/home/claude/fbimg/sofi-schoonheidssalon/10.jpg",
+   "/home/claude/fbimg/sofi-schoonheidssalon/11.jpg"
+  ],
+  "checked": "2026-10-06"
+ }
 }

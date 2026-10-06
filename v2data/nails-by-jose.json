@@ -45,5 +45,19 @@
  ],
  "socials": {},
  "website": "",
- "note": ""
+ "note": "",
+ "fb": {
+  "url": "https://www.facebook.com/nbjnailsbyjose/",
+  "hero": "/home/claude/fbimg/nails-by-jose/00.jpg",
+  "gallery": [
+   "/home/claude/fbimg/nails-by-jose/00.jpg",
+   "/home/claude/fbimg/nails-by-jose/01.jpg",
+   "/home/claude/fbimg/nails-by-jose/02.jpg",
+   "/home/claude/fbimg/nails-by-jose/03.jpg",
+   "/home/claude/fbimg/nails-by-jose/04.jpg",
+   "/home/claude/fbimg/nails-by-jose/07.jpg",
+   "/home/claude/fbimg/nails-by-jose/08.jpg"
+  ],
+  "checked": "2026-10-06"
+ }
 }

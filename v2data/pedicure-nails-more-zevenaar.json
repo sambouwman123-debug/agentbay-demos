@@ -2,5 +2,19 @@
  "slug": "pedicure-nails-more-zevenaar",
  "status": "not_found",
  "checked": "2026-10-06",
- "note": "Niet (met gegevens) gevonden op Google Maps. Geen echte reviews/foto’s beschikbaar; site zonder score."
+ "note": "Niet (met gegevens) gevonden op Google Maps. Geen echte reviews/foto’s beschikbaar; site zonder score.",
+ "fb": {
+  "url": "https://www.facebook.com/NailsenMoreZevenaar/",
+  "hero": "/home/claude/fbimg/pedicure-nails-more-zevenaar/02.jpg",
+  "gallery": [
+   "/home/claude/fbimg/pedicure-nails-more-zevenaar/02.jpg",
+   "/home/claude/fbimg/pedicure-nails-more-zevenaar/04.jpg",
+   "/home/claude/fbimg/pedicure-nails-more-zevenaar/06.jpg",
+   "/home/claude/fbimg/pedicure-nails-more-zevenaar/08.jpg",
+   "/home/claude/fbimg/pedicure-nails-more-zevenaar/09.jpg",
+   "/home/claude/fbimg/pedicure-nails-more-zevenaar/12.jpg",
+   "/home/claude/fbimg/pedicure-nails-more-zevenaar/13.jpg"
+  ],
+  "checked": "2026-10-06"
+ }
 }

@@ -24,5 +24,15 @@
  "hours": null,
  "socials": {},
  "website": "",
- "note": ""
+ "note": "",
+ "fb": {
+  "url": "https://www.facebook.com/schoonheidssalonnina/",
+  "hero": "/home/claude/fbimg/schoonheidssalon-nina/01.jpg",
+  "gallery": [
+   "/home/claude/fbimg/schoonheidssalon-nina/01.jpg",
+   "/home/claude/fbimg/schoonheidssalon-nina/00.jpg",
+   "/home/claude/fbimg/schoonheidssalon-nina/07.jpg"
+  ],
+  "checked": "2026-10-06"
+ }
 }

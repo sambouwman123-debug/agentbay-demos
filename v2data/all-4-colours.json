@@ -55,5 +55,18 @@
     "&amp; zakelijk"
    ]
   ]
+ },
+ "fb": {
+  "url": "https://www.facebook.com/huissen2013/",
+  "hero": "/home/claude/fbimg/all-4-colours/05.jpg",
+  "gallery": [
+   "/home/claude/fbimg/all-4-colours/05.jpg",
+   "/home/claude/fbimg/all-4-colours/00.jpg",
+   "/home/claude/fbimg/all-4-colours/01.jpg",
+   "/home/claude/fbimg/all-4-colours/06.jpg",
+   "/home/claude/fbimg/all-4-colours/03.jpg",
+   "/home/claude/fbimg/all-4-colours/07.jpg"
+  ],
+  "checked": "2026-10-06"
  }
 }

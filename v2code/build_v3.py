@@ -11,7 +11,7 @@ import normalize, gen_v2
 
 MIN_COUNT = 3  # Google-score pas tonen vanaf 3 reviews
 MIN_RATING = 4.5  # lagere scores laten we weg (niet verzonnen, alleen niet getoond)
-CLAIM = re.compile(r'review|beoordeel|sterren|Trustoo|Treatwell|Telefoonboek|Stukadoorgids|Pedicure\.nl|Salonkee|Google|waarder|best bezochte|\b[1-9],\d\b|\b\d+ keer\b', re.I)
+CLAIM = re.compile(r'volger|volgen de|review|beoordeel|sterren|Trustoo|Treatwell|Telefoonboek|Stukadoorgids|Pedicure\.nl|Salonkee|Google|waarder|best bezochte|\b[1-9],\d\b|\b\d+ keer\b', re.I)
 SKIP = {'reviews','photo','gallery','maps','book','phone','hours','addr','tok','dark','fonts','alt','slug','cat','tags','trust','usps','proof','about_photo','socials','name','title','logo'}
 H1 = {
  'barbershop-yazan':'Strak geknipt <em>bij Yazan.</em>', 'mido-barbershop':'Precisie, rust <em>en een strakke coupe.</em>',
@@ -61,8 +61,33 @@ def sanitize(c, d):
     c.pop('rating', None); c.pop('rating_count', None)
     return c
 
+def apply_photos(c, hero, gallery, about=None, alt=None):
+    if hero:
+        c['photo'] = hero; c['alt'] = alt or f"{c['name']} in {c.get('place') or ''}".strip(); c['pos'] = 'center'
+    if gallery: c['gallery'] = gallery
+    if about: c['about_photo'] = about; c['about_alt'] = c['name']
+    P = []
+    for u in [hero] + (gallery or []) + [about]:
+        if u and u not in P: P.append(u)
+    if hero and len(P) >= 3: c['hero2'] = P[1]
+    if len(P) >= 2: c['home_about_photo'] = about or P[1]
+    if len(P) >= 5: c['svc_photo'] = P[3]
+    if len(P) >= 6: c['steps_photo'] = P[4]
+    return c
+
+def apply_fb(c, d):
+    fb = d.get('fb')
+    if not fb or d.get('gallery'): return c
+    c = apply_photos(c, fb.get('hero'), fb.get('gallery'))
+    c['gallery_src'] = 'Foto’s van de eigen Facebook-pagina'
+    if fb.get('followers'):
+        c['usps'] = [(str(fb['followers']), 'volgers op Facebook')] + c.get('usps', [])[:3]
+    so = dict(c.get('socials') or {}); so.setdefault('facebook', fb['url']); c['socials'] = so
+    return c
+
 def overlay(c, d):
     c = sanitize(c, d)
+    c = apply_fb(c, d)
     if d.get('status') != 'ok':
         c['no_rating'] = True
         for k, v in (d.get('copy') or {}).items(): c[k] = v
@@ -80,19 +105,7 @@ def overlay(c, d):
     else:
         c['no_rating'] = True
     if d.get('reviews'): c['reviews'] = d['reviews']
-    if d.get('hero'):
-        c['photo'] = d['hero']; c['alt'] = d.get('hero_alt') or f"{c['name']} in {c.get('place') or ''}".strip()
-        c['pos'] = 'center'
-    if d.get('gallery'): c['gallery'] = d['gallery']
-    if d.get('about_photo'):
-        c['about_photo'] = d['about_photo']; c['about_alt'] = f"{c['name']}"
-    P = []
-    for u in [d.get('hero')] + (d.get('gallery') or []) + [d.get('about_photo')]:
-        if u and u not in P: P.append(u)
-    if d.get('hero') and len(P) >= 3: c['hero2'] = P[1]
-    if len(P) >= 2: c['home_about_photo'] = d.get('about_photo') or P[1]
-    if len(P) >= 5: c['svc_photo'] = P[3]
-    if len(P) >= 6: c['steps_photo'] = P[4]
+    c = apply_photos(c, d.get('hero'), d.get('gallery'), d.get('about_photo'), d.get('hero_alt'))
     rv = [r for r in (d.get('reviews') or []) if 40 <= len(r['text']) <= 170 and '\n' not in r['text'].strip()]
     if rv: c['band_review'] = sorted(rv, key=lambda r: abs(len(r['text']) - 100))[0]
     if d.get('hours'): c['hours'] = d['hours']
@@ -117,6 +130,12 @@ def pack(outdir):
 IMG_KEYS = ('photo', 'hero2', 'about_photo', 'home_about_photo', 'svc_photo', 'steps_photo')
 
 def fetch(u, w):
+    if u.startswith('/'):
+        fn = os.path.join(CACHE, hashlib.md5(u.encode()).hexdigest() + f'_{w}.jpg')
+        if not os.path.exists(fn):
+            from PIL import Image
+            im = Image.open(u).convert('RGB'); im.thumbnail((w, w)); im.save(fn, 'JPEG', quality=78, optimize=True, progressive=True)
+        return fn
     base = u.split('=')[0]
     fn = os.path.join(CACHE, hashlib.md5(base.encode()).hexdigest() + f'_{w}.jpg')
     if not os.path.exists(fn) or os.path.getsize(fn) < 2000:
@@ -138,9 +157,9 @@ def localize(c):
     """Google-foto's downloaden en lokaal in de site zetten (images/pN.jpg) — zoals Richard."""
     urls = []
     for k in IMG_KEYS:
-        if 'googleusercontent' in (c.get(k) or '') and c[k] not in urls: urls.append(c[k])
+        if ('googleusercontent' in (c.get(k) or '') or (c.get(k) or '').startswith('/')) and c[k] not in urls: urls.append(c[k])
     for u in c.get('gallery') or []:
-        if 'googleusercontent' in u and u not in urls: urls.append(u)
+        if ('googleusercontent' in u or u.startswith('/')) and u not in urls: urls.append(u)
     if not urls: return c, {}
     jobs = {}
     with cf.ThreadPoolExecutor(8) as ex:
