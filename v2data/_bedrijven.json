@@ -1,0 +1,802 @@
+[
+ {
+  "slug": "all-4-colours",
+  "name": "All 4 Colours",
+  "place": "Huissen"
+ },
+ {
+  "slug": "rh-schilderwerken",
+  "name": "R.H. Schilderwerken",
+  "place": "Huissen"
+ },
+ {
+  "slug": "sb-civiel",
+  "name": "SB Civiel",
+  "place": "Bemmel"
+ },
+ {
+  "slug": "anthe-klussenbedrijf",
+  "name": "Anthé Klussenbedrijf",
+  "place": "Huissen"
+ },
+ {
+  "slug": "cornelisse-schilderwerken",
+  "name": "J. Cornelisse Schilderwerken",
+  "place": "Huissen"
+ },
+ {
+  "slug": "vermeent",
+  "name": "Vermeent Totaal Coatings",
+  "place": "Huissen"
+ },
+ {
+  "slug": "svk-klussen",
+  "name": "SvK Klussen",
+  "place": "Huissen"
+ },
+ {
+  "slug": "schuil-verbouw",
+  "name": "Schuil Verbouw",
+  "place": "Huissen"
+ },
+ {
+  "slug": "buitenhuis-onderhoud-montage",
+  "name": "D. Buitenhuis Onderhoud & Montage",
+  "place": "Huissen"
+ },
+ {
+  "slug": "rutten-montage",
+  "name": "Rutten Montage",
+  "place": "Huissen"
+ },
+ {
+  "slug": "gd-montage",
+  "name": "G &amp; D Montage",
+  "place": "Huissen"
+ },
+ {
+  "slug": "schildersbedrijf-ponsteen",
+  "name": "Schildersbedrijf Ponsteen",
+  "place": "Arnhem"
+ },
+ {
+  "slug": "klussenbedrijf-leenders",
+  "name": "Klussenbedrijf Leenders",
+  "place": "Huissen"
+ },
+ {
+  "slug": "metselbedrijf-hendriks-peters",
+  "name": "Metselbedrijf Hendriks-Peters",
+  "place": "Huissen"
+ },
+ {
+  "slug": "wiltink-schilderwerken",
+  "name": "Wiltink Schilderwerken",
+  "place": "Gendt"
+ },
+ {
+  "slug": "gijs-roording-klusbedrijf",
+  "name": "Gijs Roording Klusbedrijf",
+  "place": "Gendt"
+ },
+ {
+  "slug": "henk-van-haren-schilderwerken",
+  "name": "Henk van Haren Schilderwerken",
+  "place": "Millingen aan de Rijn"
+ },
+ {
+  "slug": "schildersbedrijf-frans-joseph",
+  "name": "Schildersbedrijf Frans Joseph",
+  "place": "Nijmegen"
+ },
+ {
+  "slug": "jos-schilderwerken",
+  "name": "Jos Schilderwerken",
+  "place": "Nijmegen"
+ },
+ {
+  "slug": "hovenier-richard-gerbert",
+  "name": "Hovenier Richard Gerbert",
+  "place": "Enschede"
+ },
+ {
+  "slug": "clemens-lubberink-hoveniers",
+  "name": "Clemens Lubberink Hoveniers",
+  "place": "Haaksbergen"
+ },
+ {
+  "slug": "jalloh-hoveniers",
+  "name": "Jalloh Hoveniers",
+  "place": "Haaksbergen"
+ },
+ {
+  "slug": "hovenier-de-hoge-veluwe",
+  "name": "Hovenier De Hoge Veluwe",
+  "place": "Den Haag"
+ },
+ {
+  "slug": "schults-hovenier",
+  "name": "Schults Hovenier",
+  "place": "Gouda"
+ },
+ {
+  "slug": "hoveniersbedrijf-de-tak",
+  "name": "Hoveniersbedrijf de Tak",
+  "place": "Eenrum"
+ },
+ {
+  "slug": "zeele-hoveniers",
+  "name": "Zeele Hoveniers",
+  "place": "Driebergen-Rijsenburg"
+ },
+ {
+  "slug": "heijink-klus-hoveniersbedrijf",
+  "name": "Heijink Klus- en Hoveniersbedrijf",
+  "place": "Barchem"
+ },
+ {
+  "slug": "hoveniersbedrijf-lindy-sikking",
+  "name": "Hoveniersbedrijf Lindy Sikking",
+  "place": "Purmerend"
+ },
+ {
+  "slug": "hoveniersbedrijf-niek-horstik",
+  "name": "Hoveniersbedrijf Niek Horstik",
+  "place": "Ulft"
+ },
+ {
+  "slug": "timmer-klusbedrijf-van-der-horst",
+  "name": "Timmer & Klusbedrijf K. van der Horst",
+  "place": "Tolkamer"
+ },
+ {
+  "slug": "bouwbedrijf-potjens",
+  "name": "Bouwbedrijf M. Potjens",
+  "place": "Groessen"
+ },
+ {
+  "slug": "schilderbedrijf-suli",
+  "name": "Schilderbedrijf Suli",
+  "place": "Sittard"
+ },
+ {
+  "slug": "timmerbedrijf-van-eldert",
+  "name": "Timmerbedrijf H. van Eldert",
+  "place": "Amersfoort"
+ },
+ {
+  "slug": "timmerbedrijf-marcel",
+  "name": "Timmerbedrijf Marcel",
+  "place": "Heukelum"
+ },
+ {
+  "slug": "timmerbedrijf-zoetemelk",
+  "name": "Timmerbedrijf N. Zoetemelk",
+  "place": "Rijpwetering"
+ },
+ {
+  "slug": "timmerbedrijf-joor",
+  "name": "Timmerbedrijf A. Joor",
+  "place": "Oosthuizen"
+ },
+ {
+  "slug": "sheas-klusbedrijf",
+  "name": "Shea's Klusbedrijf",
+  "place": "IJmuiden"
+ },
+ {
+  "slug": "aytu-klusbedrijf",
+  "name": "AyTu Klusbedrijf",
+  "place": "Rotterdam"
+ },
+ {
+  "slug": "jm-montage-klusbedrijf",
+  "name": "J.M. Montage &amp; Klusbedrijf",
+  "place": "Arnhem"
+ },
+ {
+  "slug": "walter-strockens-timmerwerken",
+  "name": "Walter Ströckens Timmerwerken",
+  "place": "Holtum"
+ },
+ {
+  "slug": "hondentrimsalon-patricia",
+  "name": "Hondentrimsalon Patricia",
+  "place": ""
+ },
+ {
+  "slug": "hondentrimsalon-kibo",
+  "name": "Hondentrimsalon Kibo",
+  "place": ""
+ },
+ {
+  "slug": "la-san-schoonheidssalon",
+  "name": "La San Schoonheidssalon",
+  "place": ""
+ },
+ {
+  "slug": "rijschool-kamp",
+  "name": "Rijschool Kamp",
+  "place": "Grave"
+ },
+ {
+  "slug": "de-bloemist-roosendaal",
+  "name": "De Bloemist",
+  "place": "Roosendaal"
+ },
+ {
+  "slug": "graumans-renovatie",
+  "name": "Graumans Renovatie",
+  "place": "Galder"
+ },
+ {
+  "slug": "graumans-onroerend-goed",
+  "name": "Graumans Onroerend Goed",
+  "place": "Galder"
+ },
+ {
+  "slug": "schoonheidssalon-nina",
+  "name": "Schoonheidssalon Nina",
+  "place": "Eygelshoven"
+ },
+ {
+  "slug": "beauty-anissa",
+  "name": "Schoonheidssalon Beauty Anissa",
+  "place": "Geleen"
+ },
+ {
+  "slug": "schoonheidssalon-veertje",
+  "name": "Schoonheidssalon Veertje",
+  "place": "Ransdaal"
+ },
+ {
+  "slug": "esthique-geulle",
+  "name": "Esthique",
+  "place": "Geulle"
+ },
+ {
+  "slug": "schoonheidssalon-joelle",
+  "name": "Schoonheidssalon Joëlle",
+  "place": "Sint Geertruid"
+ },
+ {
+  "slug": "schoonheidssalon-pedicure-margo",
+  "name": "Schoonheidssalon & Pedicure Margo",
+  "place": "Weert"
+ },
+ {
+  "slug": "schoonheidssalon-aphrodite",
+  "name": "Schoonheidssalon Aphrodite",
+  "place": "Empel"
+ },
+ {
+  "slug": "may-van-bilsen",
+  "name": "Schoonheidssalon May van Bilsen",
+  "place": "Buggenum"
+ },
+ {
+  "slug": "cassandra-fashion",
+  "name": "Cassandra Fashion",
+  "place": "Zevenaar"
+ },
+ {
+  "slug": "heleentje-beekbergen",
+  "name": "HéLeentje",
+  "place": "Beekbergen"
+ },
+ {
+  "slug": "sotalias-fashion",
+  "name": "Sotalia's Fashion",
+  "place": "Nijmegen"
+ },
+ {
+  "slug": "by-bien-vintage",
+  "name": "By Bien Vintage",
+  "place": "Nieuwkuijk"
+ },
+ {
+  "slug": "sanstreetwear",
+  "name": "SanStreetwear",
+  "place": "Santpoort-Zuid"
+ },
+ {
+  "slug": "van-der-heijden-hoveniers",
+  "name": "van der Heijden Hoveniers",
+  "place": "Sint-Oedenrode"
+ },
+ {
+  "slug": "kramer-berends-hoveniers",
+  "name": "Kramer en Berends Hoveniers",
+  "place": "Epe"
+ },
+ {
+  "slug": "tuin-id-venray",
+  "name": "Hoveniersbedrijf Tuin I.D.",
+  "place": "Venray"
+ },
+ {
+  "slug": "pedicure-nails-more-zevenaar",
+  "name": "Pedicure, Nails & More",
+  "place": "Zevenaar"
+ },
+ {
+  "slug": "schoonheidssalon-aurora",
+  "name": "Schoonheidssalon Aurora",
+  "place": "Enschede"
+ },
+ {
+  "slug": "schoonheidssalon-miranda",
+  "name": "Schoonheidssalon Miranda",
+  "place": "Enschede"
+ },
+ {
+  "slug": "sofi-schoonheidssalon",
+  "name": "Sofi Schoonheidssalon",
+  "place": "Arnhem"
+ },
+ {
+  "slug": "pedicure-salon-weerkamp",
+  "name": "Pedicure Salon Weerkamp",
+  "place": "Enschede"
+ },
+ {
+  "slug": "carolinas-schoonheidssalon",
+  "name": "Carolina's Schoonheidssalon",
+  "place": "Enschede"
+ },
+ {
+  "slug": "schoonheidssalon-friends",
+  "name": "Schoonheidssalon Friends",
+  "place": "Apeldoorn"
+ },
+ {
+  "slug": "petra-pedicure-arnhem",
+  "name": "Petra Pedicure",
+  "place": "Arnhem"
+ },
+ {
+  "slug": "sk-in-beauty-salon",
+  "name": "SK-in Beauty Salon",
+  "place": "Nijmegen"
+ },
+ {
+  "slug": "schoonheidssalon-t-egeltje",
+  "name": "Schoonheidssalon 't Egeltje",
+  "place": "Siddeburen"
+ },
+ {
+  "slug": "salon-senso-tilburg",
+  "name": "Salon Senso",
+  "place": "Tilburg"
+ },
+ {
+  "slug": "barbershop-de-schaar",
+  "name": "Barbershop de Schaar",
+  "place": "'s-Heerenberg"
+ },
+ {
+  "slug": "barber-shop-didam",
+  "name": "Barber Shop Didam",
+  "place": "Didam"
+ },
+ {
+  "slug": "barbershop-13-nijmegen",
+  "name": "Barbershop 13",
+  "place": "Nijmegen"
+ },
+ {
+  "slug": "kapsalon-bemmel",
+  "name": "Kapsalon Bemmel",
+  "place": "Bemmel"
+ },
+ {
+  "slug": "barbershop-velp",
+  "name": "Barbershop Velp",
+  "place": "Velp"
+ },
+ {
+  "slug": "slc-barber-westervoort",
+  "name": "SLC Barber",
+  "place": "Westervoort"
+ },
+ {
+  "slug": "barbershop-gelderland",
+  "name": "Barbershop Gelderland",
+  "place": "Hengelo (Gld)"
+ },
+ {
+  "slug": "barbershop-bics-art",
+  "name": "Barbershop BICS ART",
+  "place": "Gendt"
+ },
+ {
+  "slug": "barbershop-aalten",
+  "name": "Barbershop Aalten",
+  "place": "Aalten"
+ },
+ {
+  "slug": "dries-de-barber",
+  "name": "Dries De Barber",
+  "place": "Bemmel"
+ },
+ {
+  "slug": "nagelsalon-ela-doetinchem",
+  "name": "Perfecte Nagelsalon by Ela",
+  "place": "Doetinchem"
+ },
+ {
+  "slug": "vh-nails-spa-didam",
+  "name": "VH Nails & Spa",
+  "place": "Didam"
+ },
+ {
+  "slug": "marley-nailbar",
+  "name": "Marley Nailbar",
+  "place": "Wijchen"
+ },
+ {
+  "slug": "glossy-nails-latoya",
+  "name": "Glossy Nails by Latoya",
+  "place": "Zevenaar"
+ },
+ {
+  "slug": "bellavie-nails",
+  "name": "Bellavie Nails",
+  "place": "Elst"
+ },
+ {
+  "slug": "salon-blush-gendt",
+  "name": "Blush",
+  "place": "Gendt"
+ },
+ {
+  "slug": "silvana-beauty-ulft",
+  "name": "Silvana Beauty",
+  "place": "Ulft"
+ },
+ {
+  "slug": "trimsalon-beautify-duiven",
+  "name": "Trimsalon Beautify",
+  "place": "Duiven"
+ },
+ {
+  "slug": "trimsalon-diana-winterswijk",
+  "name": "Trimsalon Diana",
+  "place": "Winterswijk"
+ },
+ {
+  "slug": "nima-schildersbedrijf",
+  "name": "Nima Schildersbedrijf",
+  "place": "Didam"
+ },
+ {
+  "slug": "barbershop-yazan",
+  "name": "Barbershop Yazan",
+  "place": "Zutphen"
+ },
+ {
+  "slug": "unique-barber-ede",
+  "name": "Unique Barber",
+  "place": "Ede"
+ },
+ {
+  "slug": "aks-barbershop-almelo",
+  "name": "AK's Barbershop",
+  "place": "Almelo"
+ },
+ {
+  "slug": "walid-style-druten",
+  "name": "Walid Style",
+  "place": "Druten"
+ },
+ {
+  "slug": "hip-man-den-bosch",
+  "name": "Hip MAN",
+  "place": "’s-Hertogenbosch"
+ },
+ {
+  "slug": "mido-barbershop",
+  "name": "Mido Barbershop",
+  "place": "’s-Hertogenbosch"
+ },
+ {
+  "slug": "house-of-nofa",
+  "name": "House of NOFA",
+  "place": "Arnhem"
+ },
+ {
+  "slug": "hey-sister-beauty",
+  "name": "Hey Sister Beauty Studio",
+  "place": "Apeldoorn"
+ },
+ {
+  "slug": "your-glow-beauty-nails",
+  "name": "Your Glow Beauty & Nails",
+  "place": "Arnhem"
+ },
+ {
+  "slug": "lashmazing-enschede",
+  "name": "Lashmazing",
+  "place": "Enschede"
+ },
+ {
+  "slug": "twinkle-beauty-neede",
+  "name": "Twinkle Beauty",
+  "place": "Neede"
+ },
+ {
+  "slug": "beauty-obsession-neede",
+  "name": "Beauty Obsession",
+  "place": "Neede"
+ },
+ {
+  "slug": "vikkis-beauty-world",
+  "name": "Vikki's Beauty World",
+  "place": "Cuijk"
+ },
+ {
+  "slug": "nail-bar-isa-oss",
+  "name": "Nail bar Isa",
+  "place": "Oss"
+ },
+ {
+  "slug": "pedicure-monique-grefte",
+  "name": "Pedicurepraktijk Monique Grefte",
+  "place": "Neede"
+ },
+ {
+  "slug": "maryam-pedicure-oss",
+  "name": "Maryam Medisch Pedicure & Beauty",
+  "place": "Oss"
+ },
+ {
+  "slug": "redka-stucadoors",
+  "name": "Stucadoorsbedrijf Redka",
+  "place": "Arnhem"
+ },
+ {
+  "slug": "ruiter-tuin-timmer",
+  "name": "Ruiter Tuin- & Timmerwerk",
+  "place": "Apeldoorn"
+ },
+ {
+  "slug": "doggydogtrim-tiel",
+  "name": "Doggydogtrim",
+  "place": "Tiel"
+ },
+ {
+  "slug": "de-bakfriet",
+  "name": "De Bakfriet",
+  "place": "Enschede"
+ },
+ {
+  "slug": "barbershop-t-pleintje",
+  "name": "Barbershop ’t Pleintje",
+  "place": "Renkum"
+ },
+ {
+  "slug": "barbershop-alfa-ede",
+  "name": "Barbershop ALFA",
+  "place": "Ede"
+ },
+ {
+  "slug": "barbershop-0318",
+  "name": "Barbershop 0318",
+  "place": "Veenendaal"
+ },
+ {
+  "slug": "class-barber-nijkerk",
+  "name": "Class Barber Shop",
+  "place": "Nijkerk"
+ },
+ {
+  "slug": "barbershop-veenendaal",
+  "name": "Barbershop Veenendaal",
+  "place": "Veenendaal"
+ },
+ {
+  "slug": "barbershop-tiel",
+  "name": "Barbershop Tiel",
+  "place": "Tiel"
+ },
+ {
+  "slug": "elegant-barbershop",
+  "name": "Elegant Barbershop",
+  "place": "’s-Hertogenbosch"
+ },
+ {
+  "slug": "gokhans-barbershop-tiel",
+  "name": "Gokhan’s Barbershop",
+  "place": "Tiel"
+ },
+ {
+  "slug": "barber-sam-gouda",
+  "name": "Barber Sam",
+  "place": "Gouda"
+ },
+ {
+  "slug": "rayan-barbershop",
+  "name": "Rayan Barbershop",
+  "place": "Nieuwegein"
+ },
+ {
+  "slug": "unique-nails-hengelo",
+  "name": "Unique nails & beauty",
+  "place": "Hengelo"
+ },
+ {
+  "slug": "nails-beauty-aridj",
+  "name": "Nails & beauty by Aridj",
+  "place": "Nijkerk"
+ },
+ {
+  "slug": "mini-nails-breda",
+  "name": "Mini Nails",
+  "place": "Breda"
+ },
+ {
+  "slug": "helmonds-handjes",
+  "name": "Helmonds handjes",
+  "place": "Helmond"
+ },
+ {
+  "slug": "antonina-beauty-nails",
+  "name": "Antonina&Beauty Nails",
+  "place": "Alphen aan den Rijn"
+ },
+ {
+  "slug": "nzs-nails-art",
+  "name": "nzs nails art",
+  "place": "Zwolle"
+ },
+ {
+  "slug": "petite-paw-studio",
+  "name": "Trimsalon Petite Paw Studio",
+  "place": "Tiel"
+ },
+ {
+  "slug": "hondentrimsalon-utrecht",
+  "name": "HondenTrimSalon Utrecht",
+  "place": "Utrecht"
+ },
+ {
+  "slug": "beautiful-garden-oosterhout",
+  "name": "Beautiful Garden",
+  "place": "Oosterhout"
+ },
+ {
+  "slug": "loaded-by-bucko",
+  "name": "Loaded by BUCKO",
+  "place": "Utrecht"
+ },
+ {
+  "slug": "ashleys-haar-nagels",
+  "name": "Ashley's Haarmode & Nagelstudio",
+  "place": "'s-Heerenberg"
+ },
+ {
+  "slug": "beauty-by-aniek",
+  "name": "Beauty by Aniek",
+  "place": "Duiven"
+ },
+ {
+  "slug": "ellens-puur-voet",
+  "name": "Ellen's Puur Voet",
+  "place": "Doetinchem"
+ },
+ {
+  "slug": "head-spa-doetinchem",
+  "name": "Head Spa Doetinchem",
+  "place": "Doetinchem"
+ },
+ {
+  "slug": "marlou-beauty-salon",
+  "name": "Marlou Beauty Salon",
+  "place": "Zelhem"
+ },
+ {
+  "slug": "medisch-pedicure-verhoeven",
+  "name": "Medisch Pedicure Verhoeven",
+  "place": "Lichtenvoorde"
+ },
+ {
+  "slug": "melody-beauty",
+  "name": "Melody Beauty",
+  "place": "Doetinchem"
+ },
+ {
+  "slug": "merie-spijker",
+  "name": "Mérie Spijker",
+  "place": "Didam"
+ },
+ {
+  "slug": "mooi-bij-rianne",
+  "name": "Mooi bij Rianne",
+  "place": "Didam"
+ },
+ {
+  "slug": "moon-en-more",
+  "name": "Pedicuresalon Moon & More",
+  "place": "Huissen"
+ },
+ {
+  "slug": "nails-by-jose",
+  "name": "Nails By José",
+  "place": "Ulft"
+ },
+ {
+  "slug": "namaste-beauty",
+  "name": "Namasté Beauty",
+  "place": "Ulft"
+ },
+ {
+  "slug": "natasja-hair-nails",
+  "name": "Natasja Hair & Nailstyling",
+  "place": "Doetinchem"
+ },
+ {
+  "slug": "nathies-nails",
+  "name": "Nathie's Nails",
+  "place": "Didam"
+ },
+ {
+  "slug": "noor-pedicure-manicure",
+  "name": "Noor Pedicure & Manicure",
+  "place": "Westervoort"
+ },
+ {
+  "slug": "pedicure-framoni",
+  "name": "Framoni",
+  "place": "Westervoort"
+ },
+ {
+  "slug": "pedicuresalon-jeannette",
+  "name": "Pedicuresalon Jeannette",
+  "place": "Doetinchem"
+ },
+ {
+  "slug": "reus-beauty",
+  "name": "Reus Beauty",
+  "place": "Didam"
+ },
+ {
+  "slug": "richelle-pedicure",
+  "name": "Richelle Pedicure en Schoonheidssalon",
+  "place": "Doetinchem"
+ },
+ {
+  "slug": "salon-binnenstebuiten",
+  "name": "Salon Binnenstebuiten",
+  "place": "Westervoort"
+ },
+ {
+  "slug": "skindy",
+  "name": "Skindy",
+  "place": "Doetinchem"
+ },
+ {
+  "slug": "styling-84",
+  "name": "Styling 84",
+  "place": "Didam"
+ },
+ {
+  "slug": "wendys-beauty-nails",
+  "name": "Wendy's Beauty & Nails",
+  "place": "Doetinchem"
+ },
+ {
+  "slug": "wimpers-by-laurie",
+  "name": "Wimperextensions by Laurie",
+  "place": "Didam"
+ },
+ {
+  "slug": "y-style",
+  "name": "Y-Style Nails and Beauty",
+  "place": "Doetinchem"
+ },
+ {
+  "slug": "yomy-pedicure",
+  "name": "Yomy Pedicure",
+  "place": "Didam"
+ }
+]
