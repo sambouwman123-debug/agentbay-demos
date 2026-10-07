@@ -35,6 +35,7 @@ XCSS='''
 @media (min-width:980px){.wk.hasimg{grid-template-columns:.75fr 1.25fr;gap:64px;align-items:start}.wk.hasimg .steps{grid-template-columns:1fr}}
 .wk .wimg{width:100%;aspect-ratio:4/4.6;object-fit:cover;border-radius:calc(var(--r2) * 1.4)}
 .band.rq small{opacity:.85}
+.svc .sq{margin:6px 0 0;padding:2px 0 2px 14px;border-left:2px solid var(--accent);font-size:14.5px;font-style:italic;color:var(--fg);line-height:1.45}.svc .sq cite{display:block;margin-top:6px;font:600 11px var(--body);font-style:normal;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .svcs>*{min-width:0}.svc h3,.svcs h3{overflow-wrap:break-word;hyphens:auto}
 @media (max-width:979px){
 .hero{position:relative;overflow:hidden;isolation:isolate}
@@ -297,7 +298,9 @@ def svc_cards(c, n=6):
         meta=''
         if s.get('price') or s.get('min'):
             meta='<div class="meta">'+(f'<span>{s["price"]}</span>' if s.get('price') else '')+(f'<span class="muted">{s["min"]} min</span>' if s.get('min') else '')+'</div>'
-        out+=f'<article class="svc"><span class="n">{i+1:02d}</span><h3>{s["name"]}</h3><p>{s["d"]}</p>{meta}</article>'
+        q=s.get('quote')
+        qh=f'<blockquote class="sq">“{esc(q["text"])}”<cite>{esc(q["name"])} · Google-review</cite></blockquote>' if q else ''
+        out+=f'<article class="svc"><span class="n">{i+1:02d}</span><h3>{s["name"]}</h3><p>{s["d"]}</p>{meta}{qh}</article>'
     return out
 
 def steps(c, light=False):

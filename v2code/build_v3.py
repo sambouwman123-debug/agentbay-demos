@@ -87,6 +87,45 @@ def apply_fb(c, d):
     so = dict(c.get('socials') or {}); so.setdefault('facebook', fb['url']); c['socials'] = so
     return c
 
+STOP={'en','met','van','voor','de','het','een','in','op','je','jouw','of','tot','uit','bij','aan','nieuwe','klassieke','complete','extra'}
+SYN={'fade':['fade','fades'],'knip':['knip','geknipt','kapsel','coupe','haar'],'baard':['baard'],'nagel':['nagel','nagels','gellak','biab'],
+ 'gellak':['gellak','nagels'],'biab':['biab'],'pedicure':['pedicure','voet','voeten','nagels'],'manicure':['manicure','handen','nagels'],
+ 'wimper':['wimper','lash','lashes'],'lash':['lash','wimper'],'brow':['brow','wenkbrauw'],'wenkbrauw':['wenkbrauw','brow'],
+ 'gezicht':['gezicht','huid','behandeling'],'massage':['massage','ontspann'],'tuin':['tuin','hovenier','border','snoei','gras','bestrating','terras'],
+ 'schilder':['schilder','geschilderd','verf','lak'],'stuc':['stuc','muren','muur','plafond','wanden'],'trim':['trim','getrimd','vacht','hond'],
+ 'wassen':['gewassen','wassen','vacht'],'kleur':['kleur','highlights','blond'],'scheer':['scheer','geschoren','scheren'],'kind':['kind','zoon','zoontje','dochter','kids','jongens'],
+ 'timmer':['timmer','hout','schutting','overkapping'],'kozijn':['kozijn','deur','raam']}
+def svc_quotes(c, reviews):
+    if not reviews: return c
+    sents=[]
+    for r in reviews:
+        for sn in re.split(r'(?<=[.!?])\s+|\n+', r['text']):
+            sn=sn.strip()
+            if not (25<=len(sn)<=120): continue
+            if not sn[0].isupper() and not sn[0].isdigit(): continue
+            if re.match(r'(En|Maar|Zeker gezien|Ook|Dus|Want|Daarom|Omdat|Toen|Als|Wel|Nou|Echter|Verder|Tevens)\b',sn): continue
+            if not re.search(r'top|super|blij|tevreden|mooi|netjes|strak|aanrader|fijn|goed|vakkundig|geweldig|perfect|prachtig|heerlijk|knap|beste|vakman|professioneel|vriendelijk|lekker|aan te raden|zorgvuldig',sn.lower()): continue
+            sents.append((sn,r['name']))
+    used=set(); svcs=[]
+    for s in c.get('services',[]):
+        s=dict(s); s.pop('quote',None)
+        words=[w for w in re.findall(r'[a-zà-ÿ]+',s['name'].lower()) if w not in STOP and len(w)>=3]
+        keys=set()
+        for w in words:
+            for k,v in SYN.items():
+                if w.startswith(k) or k in w: keys.update(v)
+        for w in re.findall(r'[a-zà-ÿ]+',s['name'].lower()):
+            if len(w)>=5 and w not in STOP: keys.add(w[:6])
+        best=None
+        for sn,n in sents:
+            if sn in used: continue
+            low=sn.lower()
+            if any(k in low for k in keys): best=(sn,n); break
+        if best: used.add(best[0]); s['quote']={'text':best[0],'name':best[1]}
+        svcs.append(s)
+    c['services']=svcs
+    return c
+
 def overlay(c, d):
     c = sanitize(c, d)
     c = apply_fb(c, d)
@@ -106,7 +145,7 @@ def overlay(c, d):
         c['usps'] = [(rt, 'op Google'), (str(d['rating_count']), 'reviews')] + us[:2]
     else:
         c['no_rating'] = True
-    if d.get('reviews'): c['reviews'] = d['reviews']
+    if d.get('reviews'): c['reviews'] = d['reviews']; c = svc_quotes(c, d['reviews'])
     c = apply_photos(c, d.get('hero'), d.get('gallery'), d.get('about_photo'), d.get('hero_alt'))
     rv = [r for r in (d.get('reviews') or []) if 40 <= len(r['text']) <= 170 and '\n' not in r['text'].strip()]
     if rv: c['band_review'] = sorted(rv, key=lambda r: abs(len(r['text']) - 100))[0]
