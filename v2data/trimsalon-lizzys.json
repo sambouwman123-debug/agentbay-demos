@@ -1,0 +1,76 @@
+{
+ "slug": "trimsalon-lizzys",
+ "status": "ok",
+ "checked": "2026-10-08",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Trimsalon+Lizzy's+Zevenaar",
+ "maps_name": "Trimsalon Lizzy's",
+ "maps_category": "Hondentrimsalon",
+ "address": "",
+ "phone_maps": "06 48719773",
+ "rating": "4,9",
+ "rating_count": 13,
+ "reviews": [
+  {
+   "text": "Vandaag is onze Toby voor het eerst geknipt. En wij zijn echt mega blij ze weet toby lekker rustig te houden tijdens het trimmen en een mooi eindresultaat. Echt super !!!!! Dank je wel .",
+   "name": "manuela peters",
+   "year": "2026",
+   "date_rel": "4 maanden geleden",
+   "stars": 5
+  },
+  {
+   "text": "Deze vrouw is heel lief voor onze Cismo. Het is een bange kat maar hij voelt zich op zijn gemak daar. Komt nog veel mooier terug als hoe hij ernaar toe gaat. Echt een aanrader.",
+   "name": "Dana Leeuwesteijn",
+   "year": "2025",
+   "date_rel": "een jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Goede trimsalon\nLayka is een beetje nerveus maar wordt altyd op haar gemak gesteld.\nZeer vriendelijk mooi resultaat.",
+   "name": "heidi",
+   "year": "2025",
+   "date_rel": "een jaar geleden",
+   "stars": 5
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QBv6Chi8mvph7TLQ-BSGfLWNJIz3_fV96iPJmwsKbWDwDELtVMQrAxuzZeJkvKqeMWtUpay6_ORwaXi1Q7SgKw29gMBHb9ZmJ4h2Non7l3TBqc_jXsPX_ObpJ-a8g-0L6l5oA-v8rC9rjJ",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QBv6Chi8mvph7TLQ-BSGfLWNJIz3_fV96iPJmwsKbWDwDELtVMQrAxuzZeJkvKqeMWtUpay6_ORwaXi1Q7SgKw29gMBHb9ZmJ4h2Non7l3TBqc_jXsPX_ObpJ-a8g-0L6l5oA-v8rC9rjJ",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TDLkrBwXyJ5KeFvO2d8A0z5RtgUk6yfYOw-UfzUNxICiUfpALbmr047_AbzDXVAA2o2Y9eNHhF9xREZcF8Sm1RAjNdHx8ZNTcaS2bC4QDpbZ_N2avgcUo7N2Oge5PbabRYay_eP1qrEh4j",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QZ9U9r3A7uf-114mhjS4zgz_VzeeGwIU7Y-ttq6CvHyoxIFnntworvc-Z0FfJBJHw1gP4Fe1eNBWLjnlsM2OCyaZSmTv0IJLiBPljhXQsBHr6OZhXcGoLnBiURGg9lfYa0JmbljQXrtrU",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qp4sW__jn6-z8qEcqC9MTgu7slsBEU_XTg-YY0NcKiSHe9tWbNYfxdErd1YwVegBZc57k3PYGCfAhp0ZuaaX9L2h8PEVFNLGWqR23sUEszmiVe1GCHJ_B0XHbQv4Dt9ueLiOHo__Qs4c2J"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TDLkrBwXyJ5KeFvO2d8A0z5RtgUk6yfYOw-UfzUNxICiUfpALbmr047_AbzDXVAA2o2Y9eNHhF9xREZcF8Sm1RAjNdHx8ZNTcaS2bC4QDpbZ_N2avgcUo7N2Oge5PbabRYay_eP1qrEh4j",
+ "hours": [
+  [
+   "Maandag",
+   "09:00–18:00"
+  ],
+  [
+   "Dinsdag",
+   "09:00–18:00"
+  ],
+  [
+   "Woensdag",
+   "09:00–18:00"
+  ],
+  [
+   "Donderdag",
+   "09:00–18:00"
+  ],
+  [
+   "Vrijdag",
+   "09:00–18:00"
+  ],
+  [
+   "Zaterdag",
+   "gesloten"
+  ],
+  [
+   "Zondag",
+   "gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

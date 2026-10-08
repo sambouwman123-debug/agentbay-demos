@@ -1,0 +1,74 @@
+{
+ "slug": "annas-pedicure-nagelsalon",
+ "status": "ok",
+ "checked": "2026-10-08",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Anna's+pedicure+nagelsalon+Zutphen",
+ "maps_name": "Anna's pedicure&nagelsalon",
+ "maps_category": "Pedicure/Nagelsalon",
+ "address": "Industrieweg 85, 7202 CA Zutphen",
+ "phone_maps": "06 30412557",
+ "rating": "5,0",
+ "rating_count": 12,
+ "reviews": [
+  {
+   "text": "Anne was zo lief om vlak voor mijn vakantie nog te helpen aan een ingegroeide nagel. Zodat mijn vakantie niet in duigen viel.\nZe heeft hart voor haar klanten.",
+   "name": "Pauline Nijenhuis",
+   "year": "2024",
+   "date_rel": "2 jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Met veel geduld en heel voorzichtig is het Annet gelukt om twee verkeerd groeiende nagels weer goed te krijgen. Heel prettige omgeving en zeer aardige vrouw. Helemaal tevreden",
+   "name": "Ellen",
+   "year": "2024",
+   "date_rel": "2 jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Super salon!  door Annet nagelbijten afgeleerd. Ze is erg vakkundig..elke maand mijn nagels weer mooi..",
+   "name": "Trijntje Koers-Boersma",
+   "year": "2024",
+   "date_rel": "2 jaar geleden",
+   "stars": 5
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TVz5YIvAObRbeHJJrWAK6Q_zLb-yDDvJh9haG6Q5RyZf0An-1nlkFpk1tyDlVtXT2_sjJ0gxYnZAv8VrvIW-1Gm3RdlgcGSHneeKxFqBASa-O16c-mRd7Y98jV_HaKOY4E2cXl",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TVz5YIvAObRbeHJJrWAK6Q_zLb-yDDvJh9haG6Q5RyZf0An-1nlkFpk1tyDlVtXT2_sjJ0gxYnZAv8VrvIW-1Gm3RdlgcGSHneeKxFqBASa-O16c-mRd7Y98jV_HaKOY4E2cXl",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RhQMy5n8Ai8qTgv911SdIvmkSN5hJQnsmBJbwr-U7jPxegBWSiKQ9B6yJdeATx6ewmuu8-VhspTWAoSSeziyh9tr6R_UmNuuxo7ocEYNTHSwxTY7vFfNVRjWIH8o7-4xd8JIY"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RhQMy5n8Ai8qTgv911SdIvmkSN5hJQnsmBJbwr-U7jPxegBWSiKQ9B6yJdeATx6ewmuu8-VhspTWAoSSeziyh9tr6R_UmNuuxo7ocEYNTHSwxTY7vFfNVRjWIH8o7-4xd8JIY",
+ "hours": [
+  [
+   "Maandag",
+   "10:00–18:00"
+  ],
+  [
+   "Dinsdag",
+   "10:00–18:00"
+  ],
+  [
+   "Woensdag",
+   "10:00–18:00"
+  ],
+  [
+   "Donderdag",
+   "10:00–18:00"
+  ],
+  [
+   "Vrijdag",
+   "10:00–17:00"
+  ],
+  [
+   "Zaterdag",
+   "gesloten"
+  ],
+  [
+   "Zondag",
+   "gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "trimsalon-de-trimster",
+ "status": "ok",
+ "checked": "2026-10-08",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Honden+trimsalon+De+Trimster+Zevenaar",
+ "maps_name": "Honden trimsalon De Trimster",
+ "maps_category": "Hondentrimsalon",
+ "address": "Schepershof 37, 6902 AR Zevenaar",
+ "phone_maps": "06 18639068",
+ "rating": "4,7",
+ "rating_count": 11,
+ "reviews": [
+  {
+   "text": "Gemoedelijke diervriendelijke behandeling.De hond vond het heerlijk zoveel aandacht en liefde.",
+   "name": "lex hengst",
+   "year": "2021",
+   "date_rel": "5 jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Altijd weer zo perfect getrimd die twee moppies. Kundig en vertrouwd. Niet voor niets zoveel trouwe klanten.",
+   "name": "Anke Moonen",
+   "year": "2022",
+   "date_rel": "4 jaar geleden",
+   "stars": 5
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TtS6cba2fzJLDOo-tsiHTfcVZfwKH7Uqr5pmGSYUkD7PGMr3uDTO7OQHYalZb0rMeY8qk-fKr0loLDWbAojlQqxX296HQ0Re6_syBP1Rd8QazAtMaHH8NINkzRzA_-66OSqz-Q5A",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TtS6cba2fzJLDOo-tsiHTfcVZfwKH7Uqr5pmGSYUkD7PGMr3uDTO7OQHYalZb0rMeY8qk-fKr0loLDWbAojlQqxX296HQ0Re6_syBP1Rd8QazAtMaHH8NINkzRzA_-66OSqz-Q5A",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QpZDru2yArDeKaLv8lXvemuYDqyUlOwgAU-9n3tKhNKhRCtTE6QDyL2WHCA7hMxPCZ6pqIKatsWfjcDMMeNaBeq_EKDQboZqMG6oXE3BZMxGpJnfPorS7S4HhhaIl-QBDQHwJ8bBI0GTwP",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RE7ABRIzlv1ZojWnFLwCKl-ig35DC95GuXzzRYiRs_LuV42Gxzr7A_wM9tQVeiMat8WStpA4ElWdT4JZV52Aetv9Y4Y8Gd9fZMZafnm-qj8Q7HeehSKFTlP1hFHiPoRgH3JTP6",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T4K2CiRiB152hLq1M5on3pakEJBHfEttMD3BVRR-74ua3-X68e9LxOB2rQ6HLq0Kmyi1zeIcSwQkKqdR3l_S2A-U90eWaVVZxE0FcUxqgBufSTrAtG6_LmJXWTFvTzDt3ZCak",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TmBCKmxkUu3jXXnwjOmTXpu768Zzz-uTsJ7P8VbxUG60u08OGNn-CSGc_9y1ZWuA8haeFRNA8KqItSuAJzPrzGPJv5fPt4-h1k2YkjlfkpLhuJ2cvKO131goi8Adf0N29YCGcO",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SoAZ_gyN5VHXwpbuukVm82k2AuVc7wbfeywKbLqFW1xs92RBgFvoybo4Iytd5UPWTmyqvwC-wKn-m5IwLkuKDpr37MxCxg4akX3leq23mB7DgBaWloC5-znpTH7buD5lXKYSwa"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QpZDru2yArDeKaLv8lXvemuYDqyUlOwgAU-9n3tKhNKhRCtTE6QDyL2WHCA7hMxPCZ6pqIKatsWfjcDMMeNaBeq_EKDQboZqMG6oXE3BZMxGpJnfPorS7S4HhhaIl-QBDQHwJ8bBI0GTwP",
+ "hours": [
+  [
+   "Maandag",
+   "gesloten"
+  ],
+  [
+   "Dinsdag",
+   "gesloten"
+  ],
+  [
+   "Woensdag",
+   "gesloten"
+  ],
+  [
+   "Donderdag",
+   "09:00–17:00"
+  ],
+  [
+   "Vrijdag",
+   "09:00–17:00"
+  ],
+  [
+   "Zaterdag",
+   "gesloten"
+  ],
+  [
+   "Zondag",
+   "gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}
