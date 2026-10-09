@@ -1,0 +1,76 @@
+{
+ "slug": "the-house-of-nails",
+ "status": "ok",
+ "checked": "2026-10-09",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=The+House+of+Nails+Winterswijk",
+ "maps_name": "The House of Nails",
+ "maps_category": "Nagelstudio",
+ "address": "Dingstraat 8, 7101 GX Winterswijk",
+ "phone_maps": "06 19359992",
+ "rating": "4,9",
+ "rating_count": 12,
+ "reviews": [
+  {
+   "text": "Hele fijne salon, professioneel, netjes en vriendelijk. Goede adviezen fijn dat je online kunt inplannen.",
+   "name": "A:M Jansen",
+   "year": "2025",
+   "date_rel": "een jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Super mooie salon! Neemt echt de tijd voor je en is super secuur en creatief! Heel erg kundig en weet veel over alles wat met kunst/natuurlijke nagels te maken heeft, absoluut de beste uit de omgeving!",
+   "name": "jenay topp",
+   "year": "2024",
+   "date_rel": "2 jaar geleden",
+   "stars": 5
+  },
+  {
+   "text": "Fantastisch mooie nailart! Goeie service, klantvriendelijk en een prachtige salon. Ze gaat secuur te werk, altijd erg blij met het resultaat!",
+   "name": "Merel Geerdink",
+   "year": "2024",
+   "date_rel": "2 jaar geleden",
+   "stars": 5
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SK9dTVAZ4q2sR9JW5j2Tnzh50VQVYRjqETOOzs9-uLONzNj-mLKHdHcrBqxfAcNZ8X1cCKiEcnsUZARDG2SIoLDqylaftL-Saibxo_gMNQdv9ifJHDCnmmN7-9TvHXIB2MG9Jg",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SK9dTVAZ4q2sR9JW5j2Tnzh50VQVYRjqETOOzs9-uLONzNj-mLKHdHcrBqxfAcNZ8X1cCKiEcnsUZARDG2SIoLDqylaftL-Saibxo_gMNQdv9ifJHDCnmmN7-9TvHXIB2MG9Jg",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QSyle33Go3b5ms5I1gqRNsR86bMBQPv0Xpy3ejcsCkI4jk-8d9enekmi3MnxjrtBHAw4kH1QXO1WQDk6EEgefPAqJsa8azuDBNw48TPyAYvCCjZh2KvY71LsnObAe7R0WIOYdy",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R-_g3d0LhToVPSwBAK6a3EN_i5rJX856A_WBj_MwkD9XOqZ7gloC_-ynPdz72in-jLZxYDmDO6NATLmclChHQJCHBRKHpSd5Gs6ey7fgW6l-XI6MmMTwU3_KhcC7M6SDUqpRyU4ad9rv_A",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QT_Lial0u2FU608Au1-XHuPCirsJLUky5RTgv1aNEdKMnC7O7Zvza0B5bd2sUoCoqCJ60SgKiHM7igQUS1EBWHtxaHB-6ffnp5crGMawD43-Wqzsp9q_WzBzARq_RkCyBiGIIjEg"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QSyle33Go3b5ms5I1gqRNsR86bMBQPv0Xpy3ejcsCkI4jk-8d9enekmi3MnxjrtBHAw4kH1QXO1WQDk6EEgefPAqJsa8azuDBNw48TPyAYvCCjZh2KvY71LsnObAe7R0WIOYdy",
+ "hours": [
+  [
+   "Maandag",
+   "08:00–20:00"
+  ],
+  [
+   "Dinsdag",
+   "09:00–13:00"
+  ],
+  [
+   "Woensdag",
+   "08:00–17:00"
+  ],
+  [
+   "Donderdag",
+   "09:00–13:00"
+  ],
+  [
+   "Vrijdag",
+   "gesloten"
+  ],
+  [
+   "Zaterdag",
+   "gesloten"
+  ],
+  [
+   "Zondag",
+   "gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "salonized (booking)",
+ "note": ""
+}

@@ -242,6 +242,34 @@ def rating_of(c):
     if m: return m.group(1), None
     return c.get('rating'), c.get('rating_count')
 
+CSP_META=("default-src 'self'; base-uri 'self'; object-src 'none'; img-src 'self' data:; "
+ "font-src 'self' https://fonts.gstatic.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; "
+ "script-src 'self'; connect-src 'self'; form-action 'self'")
+CSP_HEADER=CSP_META+"; frame-ancestors 'none'; upgrade-insecure-requests"
+SEC_HEADERS=[
+ ("Content-Security-Policy",CSP_HEADER),
+ ("Strict-Transport-Security","max-age=63072000; includeSubDomains; preload"),
+ ("X-Content-Type-Options","nosniff"),
+ ("X-Frame-Options","DENY"),
+ ("Referrer-Policy","strict-origin-when-cross-origin"),
+ ("Permissions-Policy","geolocation=(), camera=(), microphone=(), payment=(), usb=(), magnetometer=(), gyroscope=(), accelerometer=(), browsing-topics=()"),
+ ("Cross-Origin-Opener-Policy","same-origin"),
+ ("Cross-Origin-Resource-Policy","same-origin"),
+ ("X-Permitted-Cross-Domain-Policies","none"),
+]
+def vercel_json():
+    return json.dumps({"headers":[{"source":"/(.*)","headers":[{"key":k,"value":v} for k,v in SEC_HEADERS]}]},indent=1)
+def app_js(c):
+    intl='31'+c['phone'].replace(' ','')[1:] if c.get('phone') else ''
+    js=["(function(){","\"use strict\";",
+     "document.querySelectorAll('[data-toggle]').forEach(function(b){b.addEventListener('click',function(){var d=document.getElementById(b.getAttribute('data-toggle'));if(!d)return;var o=d.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false')})});",
+     "var _hd=(new Date().getDay()+6)%7,_hr=document.querySelector('#hrs tr[data-d=\"'+_hd+'\"]');if(_hr)_hr.className='today';"]
+    if intl:
+        js.append("var WAINTRO="+json.dumps(strip(c.get('wa_intro','')))+",WAPHONE="+json.dumps(intl)+";")
+        js.append("document.querySelectorAll('form[data-wa]').forEach(function(f){f.addEventListener('submit',function(e){e.preventDefault();var v=function(n){return((f.elements[n]&&f.elements[n].value)||'').trim()};var er=f.querySelector('.err');if(!v('naam')){if(er)er.textContent='Vul je naam in.';if(f.elements.naam)f.elements.naam.focus();return}if(er)er.textContent='';var msg='Hoi, ik ben '+v('naam')+(v('plaats')?' uit '+v('plaats'):'')+'. '+WAINTRO+' '+v('soort').toLowerCase()+'.'+(v('tekst')?'\\n\\n'+v('tekst'):'');window.open('https://wa.me/'+WAPHONE+'?text='+encodeURIComponent(msg),'_blank','noopener')})});")
+    js.append("})();")
+    return "\n".join(js)
+
 def page(c, pg, title, body, prefix):
     intl='31'+c['phone'].replace(' ','')[1:] if c['phone'] else ''
     nav=[('', 'Home'),('diensten/','Diensten'),('over-ons/','Over ons')]+([('afspraak/','Afspraak')] if c.get('book') else [])+[('contact/','Contact')]
@@ -256,13 +284,14 @@ def page(c, pg, title, body, prefix):
     ])
     desc=esc(strip(c['lead'])[:155])
     return f'''<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="{CSP_META}"><meta name="referrer" content="strict-origin-when-cross-origin">
 <title>{esc(title)}</title><meta name="description" content="{desc}"><meta name="theme-color" content="#111">
 <meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{desc}"><meta property="og:image" content="{img(c["photo"],1200)}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?{c["fonts"]}&display=swap" rel="stylesheet">
 <style>{css(c)}{XCSS}</style></head><body>
 <header class="top"><div class="wrap"><a class="logo" href="{prefix or './'}"><b>{c["logo"]}</b><small>{c["logo_sub"]}</small></a>
-<nav class="nav" aria-label="Hoofdmenu">{links}{callbtn}<button class="burger" aria-label="Menu" aria-expanded="false" onclick="var d=document.getElementById('dr');d.classList.toggle('open');this.setAttribute('aria-expanded',d.classList.contains('open'))"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></nav></div></header>
+<nav class="nav" aria-label="Hoofdmenu">{links}{callbtn}<button class="burger" type="button" data-toggle="dr" aria-label="Menu" aria-expanded="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></nav></div></header>
 <div class="drawer" id="dr">{drawer}</div>
 <main>{body}</main>
 <footer><div class="wrap"><div><b>{c["name"]}</b><p>{esc(strip(c["lead"]))}</p>{f'<p style="margin-top:14px">{STAR.replace("<svg","<svg style=\"width:15px;height:15px;color:#f5b301;display:inline;vertical-align:-2px\"")} <strong style="color:#fff">{rt}</strong> {"uit "+rc+" reviews op Google" if rc else "op Google"}</p>' if rt else ''}</div>
@@ -270,12 +299,7 @@ def page(c, pg, title, body, prefix):
 <div><h4>Contact</h4><ul>{foot_contact}</ul>{socials(c)}</div></div>
 <div class="wrap"><div class="legal"><span>© {c["name"]}{", "+c["place"] if c.get("place") else ""}</span><span>Website door AgentBay</span></div></div></footer>
 {f'<div class="mbar"><a class="btn light" href="tel:+{intl}">{PH}Bellen</a><a class="btn wa" href="https://wa.me/{intl}" target="_blank" rel="noopener">{WA}WhatsApp</a></div>' if intl else ''}
-<script>
-document.querySelectorAll('form[data-wa]').forEach(f=>f.addEventListener('submit',e=>{{e.preventDefault();const v=n=>(f.elements[n]?.value||'').trim();const er=f.querySelector('.err');
-if(!v('naam')){{er.textContent='Vul je naam in.';f.elements.naam.focus();return}}er.textContent='';
-const msg='Hoi, ik ben '+v('naam')+(v('plaats')?' uit '+v('plaats'):'')+'. {esc(c["wa_intro"])} '+v('soort').toLowerCase()+'.'+(v('tekst')?'\\n\\n'+v('tekst'):'');
-window.open('https://wa.me/{intl}?text='+encodeURIComponent(msg),'_blank','noopener')}}));
-</script>{c.get("page_js","") if pg=="afspraak/" else ""}</body></html>'''
+<script src="IMGROOT/app.js" defer></script>{c.get("page_js","") if pg=="afspraak/" else ""}</body></html>'''
 
 def stars(): return '<span class="stars">'+STAR*5+'</span>'
 
@@ -363,7 +387,7 @@ def hours_map(c, light=True):
     if not H and not addr: return ''
     rows=''
     if H:
-        rows='<table class="hrs" id="hrs">'+''.join(f'<tr data-d="{k}"><td>{d}</td><td{" class=closed" if "gesloten" in t.lower() else ""}>{t}</td></tr>' for k,(d,t) in enumerate(H))+'</table><script>(function(){var d=(new Date().getDay()+6)%7,r=document.querySelector(\'#hrs tr[data-d="\'+d+\'"]\');if(r)r.className="today"})()</script>'
+        rows='<table class="hrs" id="hrs">'+''.join(f'<tr data-d="{k}"><td>{d}</td><td{" class=closed" if "gesloten" in t.lower() else ""}>{t}</td></tr>' for k,(d,t) in enumerate(H))+'</table>'
     q=up.quote(f'{c["name"]} {addr[0]} {addr[1]}' if addr else f'{c["name"]} {c.get("place","")}')
     mp=f'<iframe class="map" loading="lazy" title="Kaart" src="https://www.google.com/maps?q={q}&output=embed" referrerpolicy="no-referrer-when-downgrade"></iframe>'
     adr=f'<p style="margin-top:22px"><b>{addr[0]}</b><br>{addr[1]}</p><a class="more" href="{c["maps"]}" target="_blank" rel="noopener">Route plannen {ARROW}</a>' if addr else ''
@@ -385,6 +409,8 @@ def faq(c):
 
 def build(c, outdir):
     os.makedirs(outdir, exist_ok=True)
+    open(os.path.join(outdir,'app.js'),'w').write(app_js(c))
+    open(os.path.join(outdir,'vercel.json'),'w').write(vercel_json())
     P=lambda sub: os.path.join(outdir, sub, 'index.html') if sub else os.path.join(outdir,'index.html')
     stats_cls='stats s4' if len(c['usps'])>=4 else 'stats'
     stats='<div class="%s">'%stats_cls+''.join(f'<div><b>{a}</b><span>{b}</span></div>' for a,b in c['usps'][:4])+'</div>'

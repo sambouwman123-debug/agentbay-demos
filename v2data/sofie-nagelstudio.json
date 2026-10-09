@@ -1,0 +1,67 @@
+{
+ "slug": "sofie-nagelstudio",
+ "status": "ok",
+ "checked": "2026-10-09",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Sofie+Nagelstudio+Ede",
+ "maps_name": "Sofie Nagelstudio",
+ "maps_category": "Nagelstudio",
+ "address": "Molenstraat 39, 6711 AW Ede",
+ "phone_maps": "0318 306924",
+ "rating": "4,5",
+ "rating_count": 39,
+ "reviews": [
+  {
+   "text": "Al een aantal keer mijn nagels laten doen, en elke keer erg blij mee!",
+   "name": "Rachèl",
+   "year": "2026",
+   "date_rel": "6 maanden geleden",
+   "stars": 5
+  },
+  {
+   "text": "Kom er al meer dan een jaar en nog steeds onwijs tevreden. En ontzettend gezellige dames!",
+   "name": "Margriet",
+   "year": "2020",
+   "date_rel": "6 jaar geleden",
+   "stars": 5
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RzGwlxGhqcbf68TAlk4puPgr1poztePbhEh8fqasYtJedQXPK3pX7w9_V1oQ7IvfBAOD0UBKlWEEoSHyLWpMtV1-Dpbyz59wVIqp6iRZB-GzqaxaFYkJDSCG8QoEUVXmAckoc4",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RzGwlxGhqcbf68TAlk4puPgr1poztePbhEh8fqasYtJedQXPK3pX7w9_V1oQ7IvfBAOD0UBKlWEEoSHyLWpMtV1-Dpbyz59wVIqp6iRZB-GzqaxaFYkJDSCG8QoEUVXmAckoc4",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TZ7QsCoYnRdY3bk33CPmDh0TEBPC2kJdgpBIiayTjVo-QRodCiow5cYUQaNbCi6vzQn05tzYhVlNtOfAqF59sKCOTmxCJDX8IlxYdDTFnyqKd2y6J0D6ukshX4z-y6ZrkN2kXauwC-oyYS"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TZ7QsCoYnRdY3bk33CPmDh0TEBPC2kJdgpBIiayTjVo-QRodCiow5cYUQaNbCi6vzQn05tzYhVlNtOfAqF59sKCOTmxCJDX8IlxYdDTFnyqKd2y6J0D6ukshX4z-y6ZrkN2kXauwC-oyYS",
+ "hours": [
+  [
+   "Maandag",
+   "10:00–18:00"
+  ],
+  [
+   "Dinsdag",
+   "10:00–18:00"
+  ],
+  [
+   "Woensdag",
+   "10:00–18:00"
+  ],
+  [
+   "Donderdag",
+   "10:00–18:00"
+  ],
+  [
+   "Vrijdag",
+   "10:00–21:00"
+  ],
+  [
+   "Zaterdag",
+   "10:00–17:00"
+  ],
+  [
+   "Zondag",
+   "gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "ivof.com (geen eigen site)",
+ "note": ""
+}
