@@ -1774,3 +1774,62 @@ SITES.update({
  [("4,7","op Google"),("11","reviews"),("Trouwe","klanten"),("Op","afspraak")],("Schepershof 37","6902 AR Zevenaar"),"De Trimster",
  ["Zevenaar","Duiven","Westervoort","Didam","Babberich","Groessen","Angerlo","Lathum"]),
 })
+
+# ---- batch 2 nieuwe leads (okt 2026) ----
+SITES.update({
+'nagels-enzo':QN("Nagels enzo","Lathum","0313 437987","Nagels enzo","photo-1604654894610-df63bc536371","Hand met verzorgde nagels","Mooie nagels <em>bij Karin.</em>","4,7",15,("Watervogel 67","6988 CA Lathum"),"Karin",
+ ["Lathum","Giesbeek","Angerlo","Zevenaar","Duiven","Westervoort","Doesburg","Rheden"],
+ over="Over Karin",pal_=P_ROSE,title="Nagels enzo | Nagelstudio Lathum"),
+'beautynails-beautyfeets':QN("BeautyNails & BeautyFeets","Ede","06 41412811","BeautyNails","photo-1610992015762-45dca7fa3a85","Hand met lichtroze gemanicuurde nagels","Nagels en voeten, <em>met aandacht verzorgd.</em>","5,0",52,("Ambtsbos","6718 HM Ede"),"Elisabeth",
+ ["Ede","Bennekom","Wageningen","Veenendaal","Lunteren","Renkum","Barneveld","Otterlo"],
+ lead="Gellak, BIAB en voetverzorging in Ede. Elisabeth krijgt van klanten een 5,0 uit 52 reviews.",
+ services=[("Gellak","Glanzende kleur die weken mooi blijft."),("BIAB","Sterke, natuurlijke nagels met builder gel."),("Manicure","Verzorgde handen en nagels."),("Pedicure","Verzorgde, gezonde voeten."),("Voetverzorging","Aandacht voor gezonde, verzorgde voeten."),("Nail art","Van een accentnagel tot een compleet ontwerp.")],
+ over="Over Elisabeth",pal_=P_SAND,dark=DK("#f4cfb2","#f8ddc6"),fontset=F_BRIC,title="BeautyNails & BeautyFeets | Ede"),
+'xuyen-nails':QN("Xuyen Nails","Ede","","Xuyen Nails","photo-1519014816548-bf5fe059798b","Close-up van een roze manicure","Mooie nagels <em>bij Anna.</em>","4,5",46,("Boogstraat 16","6711 AH Ede"),"Anna",
+ ["Ede","Bennekom","Wageningen","Veenendaal","Lunteren","Renkum","Barneveld","Otterlo"],
+ over="Over Anna",pal_=P_PLUM,dark=DK("#e8c4e3","#efd3eb"),title="Xuyen Nails | Nagelstudio Ede"),
+'sofie-nagelstudio':QN("Sofie Nagelstudio","Ede","0318 306924","Sofie Nagelstudio","photo-1607779097040-26e80aa78e66","Hand met mauve, witte en glitter nagels","Mooie nagels, <em>al jaren vertrouwd.</em>","4,5",39,("Molenstraat 39","6711 AW Ede"),"Sofie",
+ ["Ede","Bennekom","Wageningen","Veenendaal","Lunteren","Renkum","Barneveld","Otterlo"],
+ over="Over Sofie",pal_=P_ROSE,fontset=F_CORM,title="Sofie Nagelstudio | Ede"),
+'nagels-bij-hanh':QN("Nagels bij Hanh","Apeldoorn","06 22424456","Nagels bij Hanh","photo-1600948836101-f9ffda59d250","Hand met verzorgde nagels","Nagels <em>zoals jij ze wilt.</em>","4,8",48,("Hofveld 124A","7333 BM Apeldoorn"),"Hanh",
+ ["Apeldoorn","Ugchelen","Beekbergen","Loenen","Vaassen","Twello","Wenum Wiesel","Klarenbeek"],
+ over="Over Hanh",pal_=P_GOLD,dark=DK("#ecd59d","#f1dfb3"),fontset=F_BRIC,title="Nagels bij Hanh | Nagelstudio Apeldoorn"),
+'eefje-beauty':QN("Eefje Beauty","Winterswijk","06 19479224","Eefje Beauty","photo-1589710751893-f9a6770ad71b","Hand met verzorgde nagels en wimpers","Nagels en wimpers, <em>tot in de puntjes.</em>","4,8",48,("Driemarkweg 6","7102 EM Winterswijk"),"Eefje",
+ ["Winterswijk","Meddo","Kotten","Aalten","Groenlo","Lichtenvoorde","Bredevoort","Eibergen"],
+ lead="Nagels en wimpers in Winterswijk. Eefje krijgt van klanten een 4,8 uit 48 reviews.",
+ services=[("Gellak","Glanzende kleur die weken mooi blijft."),("BIAB","Sterke, natuurlijke nagels met builder gel."),("Nail art","Van een accentnagel tot een compleet ontwerp."),("Wimperextensions","Vollere wimpers, per haartje opgebouwd."),("Manicure","Verzorgde handen en nagels."),("Opvullen","Na drie à vier weken weer strak.")],
+ over="Over Eefje",pal_=P_PLUM,dark=DK("#e8c4e3","#efd3eb"),fontset=F_FRA,title="Eefje Beauty | Winterswijk"),
+'the-house-of-nails':QN("The House of Nails","Winterswijk","06 19359992","House of Nails","photo-1607779097040-26e80aa78e66","Hand met mauve, witte en glitter nagels","Nagels, nailart <em>en permanente sieraden.</em>","4,9",12,("Dingstraat 8","7101 GX Winterswijk"),"The House of Nails",
+ ["Winterswijk","Meddo","Kotten","Aalten","Groenlo","Lichtenvoorde","Bredevoort","Eibergen"],
+ lead="Nagels, nailart en permanente sieraden in Winterswijk. Klanten geven een 4,9 uit 12 reviews.",
+ services=[("Gellak","Glanzende kleur die weken mooi blijft."),("BIAB","Sterke, natuurlijke nagels met builder gel."),("Nail art","Van een accentnagel tot een compleet ontwerp."),("Permanente sieraden","Een armband of ketting zonder slotje, op maat gesmeed."),("Manicure","Verzorgde handen en nagels."),("Opvullen","Na drie à vier weken weer strak.")],
+ over="Over The House of Nails",pal_=P_SAND,dark=DK("#f4cfb2","#f8ddc6"),fontset=F_CORM,title="The House of Nails | Winterswijk"),
+'bellemoz-nails':QN("Bellemoz nails","Lichtenvoorde","06 25540899","Bellemoz nails","photo-1604654894610-df63bc536371","Hand met verzorgde nagels","Nagels met <em>passie en precisie.</em>","5,0",11,("Van Ruysdaelhof 44","7131 TV Lichtenvoorde"),"Özlem",
+ ["Lichtenvoorde","Groenlo","Vragender","Lievelde","Harreveld","Aalten","Winterswijk","Zieuwent"],
+ over="Over Özlem",pal_=P_ROSE,fontset=F_BRIC,title="Bellemoz nails | Nagelstudio Lichtenvoorde"),
+})
+
+SITES.update({
+'tutti-beauty':BEAU("Tutti Beauty","Dieren","06 38520787","Tutti Beauty","photo-1544717304-a2db4a7b16ee","Vrouw ontspant tijdens een massage in een rustige salon","Even tot rust komen, <em>in Dieren.</em>",
+ "Massages, gezichtsbehandelingen en huidverbetering in Dieren. Klanten geven een 4,7 uit 59 reviews.",
+ "<span><b>4,7</b> uit 59 reviews</span><span><b>Massage</b> &amp; huid</span><span><b>Dieren</b></span>",
+ "<p>Tutti Beauty in Dieren is een schoonheidssalon voor ontspanning en huidverzorging. Van een heerlijke massage tot een verzorgende gezichtsbehandeling, met aandacht en de tijd voor jou.</p><p>59 klanten gaven gemiddeld een 4,7.</p>",
+ [("4,7","op Google"),("59","reviews"),("Rust","&amp; aandacht"),("Op","afspraak")],("Diderna 9","6951 CW Dieren"),"Tutti Beauty",
+ services=[("Ontspanningsmassage","Even helemaal tot rust komen, van top tot teen."),("Hot stone massage","Warme stenen die spanning laten wegsmelten."),("Lemon Bottle behandeling","Een populaire, vrijwel pijnloze behandeling."),("Gezichtsbehandeling","Reinigen, verzorgen en ontspannen voor je huid."),("Huidverbetering","Gerichte behandelingen voor een egalere huid."),("Harsen","Snel en verzorgd harsen.")],
+ palette=P_SAGE,dark=DK("#cfe3b8","#dcecc9"),fontset=F_CORM,quote="Even een uur alleen voor jou.",over="Over Tutti Beauty",svc_h="Behandelingen",title="Tutti Beauty | Schoonheidssalon Dieren"),
+})
+
+def QT2(slug,name,place,phone,logo,photo,alt,h1,lead,proof,about,usps,addr,owner,area):
+    return G(name,place,phone,logo,'Hondentrimsalon · '+place,F_BRIC,False,
+     bp('#f5f4f1','#ffffff','#1d1b17','#5d5a53','#e3e0d9','#b5541f','#9b4719','#ecebe6','#171613','#ffc58f','14px','20px'),DK('#ffc58f','#ffd2a6'),
+     photo,'center',alt,'Hondentrimsalon · '+place,h1,lead,proof,SV_TRIM,'Over ons','Elke hond verdient een trimster die de tijd neemt.',about,usps,addr,area,owner,STEPS_TRIM,
+     'Plan een trimbeurt',f'Vertel welke hond je hebt en wat je wilt. Het bericht gaat via WhatsApp naar {owner}.','Behandeling','Bijvoorbeeld: Labradoodle van 2 jaar, wassen en knippen in model.','Ik wil graag een afspraak voor','Verzorging voor elke vacht','Van een snelle wasbeurt tot een complete trim in model.',title=f'{name} | {place}',area_label='Baasjes uit')
+
+SITES.update({
+'trimsalon-morris':QT2('',"Trimsalon Morris","Ede","06 40944777","Trimsalon Morris","photo-1527526029430-319f10814151","Hond wordt vakkundig getrimd in een trimsalon","Vakkundig getrimd, <em>met rust en geduld.</em>",
+ "Wassen, knippen en verzorgen in Ede. Een trimsalon waar je hond rustig en met aandacht behandeld wordt, met een 4,8 uit 20 reviews.",
+ "<span><b>4,8</b> uit 20 reviews</span><span><b>Alle rassen</b></span><span><b>Ede</b></span>",
+ "<p>Bij Trimsalon Morris in Ede wordt je hond rustig gewassen, geknipt en verzorgd. Er is alle tijd om te wennen, en je krijgt deskundig advies mee.</p><p>20 klanten gaven gemiddeld een 4,8.</p>",
+ [("4,8","op Google"),("20","reviews"),("Rust","voor elke hond"),("Op","afspraak")],("Lorentzstraat 4","Ede"),"Trimsalon Morris",
+ ["Ede","Bennekom","Veenendaal","Lunteren","Wageningen","Otterlo","Harskamp","Renkum"]),
+})
