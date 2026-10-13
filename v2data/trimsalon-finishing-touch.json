@@ -1,0 +1,58 @@
+{
+ "slug": "trimsalon-finishing-touch",
+ "status": "ok",
+ "checked": "2026-10-13",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Hondentrimsalon%20Finishing%20Touch",
+ "maps_name": "Hondentrimsalon Finishing Touch",
+ "maps_category": "Hondentrimsalon",
+ "address": "Barendrechtstraat 12, 6843 NC Arnhem",
+ "phone_maps": "026 381 3988",
+ "rating": "4,9",
+ "rating_count": 23,
+ "reviews": [
+  {
+   "name": "Dorien Bongers-Bugter",
+   "stars": 5,
+   "text": "Petra lief voor onze hondjes. Al jaren krijgen we complimenten van mensen, omdat ze er zo mooi geknipt uit zien!",
+   "rel": "2 jaar geleden"
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9StEH89zYQRlpi6nLBZFzpO0Z_uQ2bPy8RvqsELu8-oNzXq3ZIczPM5LH0DbkAg-GE6kUXygG7SBOr3LMwj0E-9uhthpCdEluw-PyqfzldV7o_DsnSZqVp9BD5zUVe1kwBmFVHzuhOImM-T",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QsMFpta4ZRxp-67GXFa5X3rbkNN1MVvkokzIzD2XDirzw22BuSU-OAezzxeMhILnKCIHxxiCYMQV9eJKxDf-uNg4_yY0pRA-FOYb6tGOnKpPDT9EDBvgatb5PstKzTTgRWEH7SrQ"
+ ],
+ "about_photo": "",
+ "hours": [
+  [
+   "dinsdag",
+   "09:00–17:00"
+  ],
+  [
+   "woensdag",
+   "09:00–17:00"
+  ],
+  [
+   "donderdag",
+   "09:00–17:00"
+  ],
+  [
+   "vrijdag",
+   "09:00–17:00"
+  ],
+  [
+   "zaterdag",
+   "Gesloten"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ],
+  [
+   "maandag",
+   "09:00–17:00"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

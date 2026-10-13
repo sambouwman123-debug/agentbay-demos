@@ -1,0 +1,70 @@
+{
+ "slug": "barbershop-knipknip",
+ "status": "ok",
+ "checked": "2026-10-13",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Barbershop%20knipknip",
+ "maps_name": "Barbershop knipknip",
+ "maps_category": "Barbershop",
+ "address": "Willemsweg, 6531 DA Nijmegen",
+ "phone_maps": "06 84527052",
+ "rating": "5,0",
+ "rating_count": 28,
+ "reviews": [
+  {
+   "name": "Aryan 024j",
+   "stars": 5,
+   "text": "Echt een topkapper! Ik ben super tevreden met het resultaat. Je wordt vriendelijk geholpen, er wordt goed geluisterd naar wat je wilt en er wordt netjes en professioneel gewerkt. De sfeer is ook relaxed en gezellig. Zeker een aanrader als je op zoek bent naar een goede kapper. Ik kom hier zeker vaker terug!",
+   "rel": "2 maanden geleden"
+  },
+  {
+   "name": "Pistoe A",
+   "stars": 5,
+   "text": "Ik ben al jaren klant bij hem, erg tevreden met zijn goede service en kwaliteit. Altijd gezellig wanneer we bij hem knippen. Echte aanrader.",
+   "rel": "een maand geleden"
+  },
+  {
+   "name": "Jazzley Verhulsdonck",
+   "stars": 5,
+   "text": "Kom er vaak het is gezellig en goeie service",
+   "rel": "2 maanden geleden"
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TOJOB1qMl8mIMjERQ87DrrWRjBu8x0-1jkTd8YQ2ba3Zx_7bjYLJqsSLSorMGx4xYWNoZcUN60uHrW7vgdQIPH8RaQX1VAjdxRKJ4RUCoL-jRgyB3MEJDZHHNaStYEZyXGJ3-s10O-qAsi",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TXeQ2xXtQeCtA_3rHsveFiZXD2xQ82LTtExJjO5MV_FpZdvcAaUdmNYKlLMLn_U4rZvJVeizMFl1R9wo9wSH4-UowxMa0P7I1Z5Tqo6dT0APhftmvJrttQ7fFNhlAgmois-N0zDG8PBWx5"
+ ],
+ "about_photo": "",
+ "hours": [
+  [
+   "dinsdag",
+   "10:00–22:00"
+  ],
+  [
+   "woensdag",
+   "10:00–22:00"
+  ],
+  [
+   "donderdag",
+   "10:00–22:00"
+  ],
+  [
+   "vrijdag",
+   "10:00–22:00"
+  ],
+  [
+   "zaterdag",
+   "10:00–22:00"
+  ],
+  [
+   "zondag",
+   "10:00–22:00"
+  ],
+  [
+   "maandag",
+   "10:00–22:00"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

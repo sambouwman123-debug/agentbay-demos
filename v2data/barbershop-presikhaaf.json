@@ -1,0 +1,72 @@
+{
+ "slug": "barbershop-presikhaaf",
+ "status": "ok",
+ "checked": "2026-10-13",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Barbershop%20Presikhaaf",
+ "maps_name": "Barbershop Presikhaaf",
+ "maps_category": "Barbershop",
+ "address": "Hanzestraat 339, 6826 ML Arnhem",
+ "phone_maps": "06 87504606",
+ "rating": "5,0",
+ "rating_count": 173,
+ "reviews": [
+  {
+   "name": "Alan Sorane",
+   "stars": 5,
+   "text": "Ik raad deze kapper zeker aan. Ik ben hier inmiddels meerdere keren geweest en word altijd goed geknipt. Er wordt veel aandacht besteed aan de details en er wordt ruim de tijd genomen, zodat de klant tevreden de deur uit gaat. Dat is bij mij altijd het geval geweest. Zeker een aanrader!",
+   "rel": "3 maanden geleden"
+  },
+  {
+   "name": "Rick Gunsing",
+   "stars": 5,
+   "text": "Ik ben bij aardig wat kappers geweest, maar deze ervaring was top! Je krijgt goed advies over je haar en daarnaast is het resultaat aan het einde ook geweldig! Ik kom hier zeker terug",
+   "rel": "5 maanden geleden"
+  },
+  {
+   "name": "Jacco Rutten",
+   "stars": 5,
+   "text": "Ik kom nu al ruim een jaar bij Barbershop Presikhaaf en de service en knipbeurt zijn voortreffelijk. Echt een aanrader voor iedereen die een kapper zoekt!",
+   "rel": "4 maanden geleden"
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RKS0JUBvaeSyWNOJr9mYSDi0eW_EbW3XYoBYIA6bc2PH3ALWa35_Bl5Mf0OBHynhI7uFLKkKf4UrvNWHE-4RL5EVetRAzgpHj7lh46BO9xYfi65B1kIsw02g5p319aW8EWUWC1KMAnMQW2",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TCzw81gHeXDwu83LKE7jIucaJO8xXlalVcrcJPcGzOAfoMwo2j2WlamhCdqvA0yGibwQI-f2IAB5FYbKgjZ0WwckLb3__NsY7gR-9Pj3cT01nPMXtd6HZ1Vf4l-ArQXcXwtvRTGKRhx4Ht",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SJZ1fma2d7IT9hihJGEpb76SBiDiLU1PNS5Fec5DOELv06CqOsbR9A24k4G-zR_RoFGlH--Wm8yW_MbaCDyZHzeW6VGfiSX78Ta0b_yXPjcOYewSI6tGXIgeUEh-_iqnnRhjL8VHqOYaA",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T-d_4vgJ01LPHDf6naAm0smWrNdl2X4rMVqTcMGqeDgnYICg66cOrXh7wZWrYcqIuhCsjJebYdmxa1jR18mF5ICB-8dxbfplTK0gnCWRCp55tmtD_0Ws6PONsQ6Ba1BJjh0AQTwujxJhrx"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T-d_4vgJ01LPHDf6naAm0smWrNdl2X4rMVqTcMGqeDgnYICg66cOrXh7wZWrYcqIuhCsjJebYdmxa1jR18mF5ICB-8dxbfplTK0gnCWRCp55tmtD_0Ws6PONsQ6Ba1BJjh0AQTwujxJhrx",
+ "hours": [
+  [
+   "dinsdag",
+   "09:30–18:00"
+  ],
+  [
+   "woensdag",
+   "09:30–18:00"
+  ],
+  [
+   "donderdag",
+   "09:30–18:00"
+  ],
+  [
+   "vrijdag",
+   "09:30–18:00"
+  ],
+  [
+   "zaterdag",
+   "09:30–18:00"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ],
+  [
+   "maandag",
+   "11:00–18:00"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

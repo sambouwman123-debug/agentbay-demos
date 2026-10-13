@@ -1,0 +1,72 @@
+{
+ "slug": "lifted-by-jill",
+ "status": "ok",
+ "checked": "2026-10-13",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Lifted%20by%20Jill",
+ "maps_name": "Lifted by Jill",
+ "maps_category": "Schoonheidssalon",
+ "address": "Wassenaarweg 40, 6843 NW Arnhem",
+ "phone_maps": "",
+ "rating": "5,0",
+ "rating_count": 25,
+ "reviews": [
+  {
+   "name": "Iris Hulzebos",
+   "stars": 5,
+   "text": "Altijd geweldige service bij Jill! Resultaten blijven lang zichtbaar en ik ga altijd met mooie wimpers de deur weer uit.",
+   "rel": "2 maanden geleden"
+  },
+  {
+   "name": "Christine McMahon",
+   "stars": 5,
+   "text": "Ik ga al een tijdje naar Jill voor brow lamination en lash lifts, en ik ben elke keer weer superblij met het resultaat! Ze is echt heel goed in wat ze doet en weet precies wat bij je past.",
+   "rel": "een jaar geleden"
+  },
+  {
+   "name": "Michelle Rietbergen",
+   "stars": 5,
+   "text": "Ik ben inmiddels al een aantal keer bij Jill geweest voor een wimperlift en ik ben elke keer weer super tevreden! Ze is ontzettend vriendelijk en zorgt ervoor dat je je meteen op je gemak voelt.",
+   "rel": "11 maanden geleden"
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Sdvc_Kdv12pwDNSsDVQYa8Bj5vU_PMD4SSb2MQB1b07UCGZZu256Hf16pOKs7MrCeUTmN7e2bR_viS74DStVFFp20-8tJzW0Rr3BwtmXZv8Ddwcew8smR3RJyGPH-vbqaQ933tXbUHYr7z",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QZeg_QAhK4DJZB-1zEerYk-b2YjMVH9VzgrhxkPK6d2HbmyWMXaHZ5EwQaaI0mBk2RCndU7LAUE8VVALxPDnCxvaQDPyVZFpFrXYJsfQoUiXtwWzDQlPGYYbPSCvMRlknDCWuPvsUDoXzr",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R57r56ig6J-h8oi1yXC9VuA9aOeYvXJ6J39WULveHoyvPWnPHruYdGY1_PocAybpmRR2XvlwJ8hep9RgdDe-TQCyyOmjXZe5CXkuYrQIxxHdOXptMCU7y5DF6k425ajXqGICv82wYvM43x",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SCcdoI59--ht4ib61l3vE5XqIXuYWjPLR_0jvoGqgckW9G-Zqg-LyaOczzFhS8NJ21_R-0ylSdk1gRoqEII9lkyPofhommKIYDSmnReCxAFIVaoydoWIT_wRNDqWdUSv8a6pSj7_Zfi6U"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SCcdoI59--ht4ib61l3vE5XqIXuYWjPLR_0jvoGqgckW9G-Zqg-LyaOczzFhS8NJ21_R-0ylSdk1gRoqEII9lkyPofhommKIYDSmnReCxAFIVaoydoWIT_wRNDqWdUSv8a6pSj7_Zfi6U",
+ "hours": [
+  [
+   "dinsdag",
+   "09:00–18:00"
+  ],
+  [
+   "woensdag",
+   "09:00–18:00"
+  ],
+  [
+   "donderdag",
+   "09:00–18:00"
+  ],
+  [
+   "vrijdag",
+   "17:00–19:30"
+  ],
+  [
+   "zaterdag",
+   "Gesloten"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ],
+  [
+   "maandag",
+   "17:00–19:30"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

@@ -1,0 +1,73 @@
+{
+ "slug": "mk-beauty-maida",
+ "status": "ok",
+ "checked": "2026-10-13",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=MK%20beauty%20by%20maida",
+ "maps_name": "MK beauty by maida",
+ "maps_category": "Schoonheidssalon",
+ "address": "Juventastraat 342, 6846 XV Arnhem",
+ "phone_maps": "06 87986318",
+ "rating": "5,0",
+ "rating_count": 55,
+ "reviews": [
+  {
+   "name": "Loes de Ruiter",
+   "stars": 5,
+   "text": "Ze is echt geweldig. Ik heb een before en after foto toegevoegd. Echt een aanrader. Lief en super vakbekwaam ❤️",
+   "rel": "3 maanden geleden"
+  },
+  {
+   "name": "Liliana Abendanon",
+   "stars": 5,
+   "text": "Mijn wenkbrauwen zijn zo prachtig gedaan, en de wimperlift is echt zo mooi, echt een geweldig resultaat. Ze is ook erg vriendelijk! Echt de moeite waard om langs te gaan!",
+   "rel": "6 maanden geleden"
+  },
+  {
+   "name": "Sahar Malakouti",
+   "stars": 5,
+   "text": "Super goed geholpen, kon meteen vandaag terecht. En professioneel! Ben erg tevreden met mijn wenkbrauwen. Dank je wel!",
+   "rel": "5 maanden geleden"
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RGBwTo0N-rvmxbbKtlcqrrXF1w69NWOBpJ2J0DZI-QhCeTFSQOzVY_6WzCbFi3w6XlJTU6e4dO1tomMKRzWhL9rjVpX2nv2UkQRUzCR_6mcJZrfbOCG9KrgO4XvovGTwj0STqjvkFIEWM",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QCh-xnXQ2o0wwBslSCiQc2TRsALRVdVMpQ71_3h2f26sz3VqU71WlgsV50putkGNQ0WUFKn2d-ISTk-JVG2iXH5uW286VQWKnQKlGd_9z0NBUbGaDvnetiioIaOUayDZf4NrnPMkqBWquh",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TeYebPafuW0vikNJksDLO84FtFw8WGRrLyAFHS5uXRfuQaT_HaS3kpM1GnYq5d8BRdn-1pBZeHSy4akDa0VEq9Ww-OW7d6_VWrghCxtGM9R7RoNkJOB3Bf8cPB-7tGYtaMSwCiEcxsZpB2",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QBVNee_T3GtlmR8OMZZ7mv26gcwSNGqqRcnjlXD6xyOO2efANarMBW-h_2vUhFErIkGucB9cJQKdpwJPmHpAcJ9lwOD8ePRxkHcCyVVm6BgSd1KDQpPqS378jKMRI-d2Ie6KIqJwhzk5OL",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ST7lyLcN9kPbBpzHhMVq5-SjWZZDndxY2VPFqpf79TZgi4KsBc9s-PR2JBEOlQg3LU97QC86rYK-uOywzmsZ6eFcMhzwnBc9M0NrCWvE935Iu9dsF0ERjZyyOR-ydJJut_lzIk1f-rPyU"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ST7lyLcN9kPbBpzHhMVq5-SjWZZDndxY2VPFqpf79TZgi4KsBc9s-PR2JBEOlQg3LU97QC86rYK-uOywzmsZ6eFcMhzwnBc9M0NrCWvE935Iu9dsF0ERjZyyOR-ydJJut_lzIk1f-rPyU",
+ "hours": [
+  [
+   "dinsdag",
+   "10:00–17:30"
+  ],
+  [
+   "woensdag",
+   "10:00–19:00"
+  ],
+  [
+   "donderdag",
+   "10:00–19:00"
+  ],
+  [
+   "vrijdag",
+   "10:00–19:00"
+  ],
+  [
+   "zaterdag",
+   "10:00–19:00"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ],
+  [
+   "maandag",
+   "10:00–19:00"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

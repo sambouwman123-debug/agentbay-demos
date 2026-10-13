@@ -1,0 +1,65 @@
+{
+ "slug": "diamond-nails-elst",
+ "status": "ok",
+ "checked": "2026-10-13",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Diamond%20Nails%26More",
+ "maps_name": "Diamond Nails&More",
+ "maps_category": "Nagelstudio",
+ "address": "Hildo Kropstraat 21, 6661 GA Elst",
+ "phone_maps": "06 40180071",
+ "rating": "4,8",
+ "rating_count": 28,
+ "reviews": [
+  {
+   "name": "Monika Kepa",
+   "stars": 5,
+   "text": "Brenda is echt een topper! Niks is te gek, en werkt netjes, schoon en op tijd. Ga nooit meer ergens anders naartoe.",
+   "rel": "2 jaar geleden"
+  },
+  {
+   "name": "Siska Nendissa",
+   "stars": 5,
+   "text": "Blijft tevreden met Brenda, een aanrader! Blijf zo doorgaan lieve Brenda.",
+   "rel": "3 jaar geleden"
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QIbzXS5Qy2axtrS-M2yMg8Ti3TfAFQrKUBmpB03r9ViAef3xLEPQx6I07KXtSVY3vne61mvdfKk71-hZ6SAr1O-ZgfP1xU34Hsg5k286eIcrpCkEpN7vCRZcvMLpEDYw8_n126FjAhAl0",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RuPVqOVNrI-Y3J4XjGPItXt1o17Ryv1ZQjG1-JyFZVdZwR1VMNhlAAcylRsDqn-icmXC7WsvT4FqT9apAR460cFfTCPl7yxpe5AxWca3C1pLWfG_TgFsSoQIj6XXX2yd_t_6EgmqyHak1a",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TQvgWywgO8HDtIDO8ki5yCGKfuenHiS1kh8h6hnmvV1-S42sdrzmeTj-4E5b5a2Dyt6nJWuLt2iTN8qyJGHw-Ow7GXzuR6FSmA6WDEEZtuhS9BMmKtX7Q8zC936nBvt8f4nO5S1lUZpL58"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TQvgWywgO8HDtIDO8ki5yCGKfuenHiS1kh8h6hnmvV1-S42sdrzmeTj-4E5b5a2Dyt6nJWuLt2iTN8qyJGHw-Ow7GXzuR6FSmA6WDEEZtuhS9BMmKtX7Q8zC936nBvt8f4nO5S1lUZpL58",
+ "hours": [
+  [
+   "dinsdag",
+   "09:30–18:00"
+  ],
+  [
+   "woensdag",
+   "09:30–12:00"
+  ],
+  [
+   "donderdag",
+   "09:30–18:00"
+  ],
+  [
+   "vrijdag",
+   "09:30–18:00"
+  ],
+  [
+   "zaterdag",
+   "09:30–12:00"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ],
+  [
+   "maandag",
+   "09:30–18:00"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}
