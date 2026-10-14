@@ -1,0 +1,71 @@
+{
+ "slug": "beauty-lounge-lochem",
+ "status": "ok",
+ "checked": "2026-10-14",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Beauty%20Lounge%20Lochem",
+ "maps_name": "Beauty Lounge Lochem",
+ "maps_category": "Nagelstudio",
+ "address": "Henry Dunantweg 56, 7242 HK Lochem",
+ "phone_maps": "",
+ "rating": "5,0",
+ "rating_count": 14,
+ "reviews": [
+  {
+   "name": "Fadime Simsek",
+   "stars": 5,
+   "text": "Ik ben ontzettend tevreden over mijn ervaring bij Beauty Lounge Lochem. Vanaf het moment dat je binnenkomt word je vriendelijk ontvangen en voel je je direct op je gemak. De salon is mooi, schoon en heeft een ontspannen sfeer. De behandeling werd heel professioneel uitgevoerd en er werd echt de tijd genomen om naar mijn wensen te luisteren. Het resultaat is prachtig en overtrof mijn verwachtingen.",
+   "rel": "3 maanden geleden"
+  },
+  {
+   "name": "Sirvan Emekli",
+   "stars": 5,
+   "text": "Super tevreden met mijn nagels! Ze werkt heel netjes, neemt de tijd en heeft oog voor detail. Mijn nagels zien er prachtig uit en ik ben ontzettend blij met het resultaat. Ze is ook erg vriendelijk en zorgt ervoor dat je je op je gemak voelt. Zeker een aanrader, ik kom graag terug!",
+   "rel": "3 maanden geleden"
+  },
+  {
+   "name": "Susanne Engel",
+   "stars": 5,
+   "text": "Super gezellig. De cliënt wordt warm onthaald onder het genot van een bakkie koffie of thee met iets lekkers erbij. Ik ben professioneel en met veel liefde voor het vak behandeld. Ik ben dan ook uiterst tevreden en zal het zeer zeker iedereen aanraden.",
+   "rel": "3 maanden geleden"
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SrZlZa_xls5KrTTsniPE8qiJMtYV2uqn_UmEIySjEFfkkEM6Z_7DV1qHl1Ib2wNqzgP123M3oHxaszLi_yXTsR879Y5wxaTF9IQW-0TnvPRKXebsavJSmGrpskNLW-17N3FX53YCzV5VAz",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tlh9E3WUaygDnQChIRUSgarQX_4ydPitdFJ8SEopWnIW7trzmk5aC-E9Vnmbxm75117-9_KdX5ArdeAZl5elT_9sPSqAbPC4b8XcqEzzy8d9D2fr3a5KenF2UElgNP3wqpwEJ0JEVAW7Ej",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SlO3N-tjHIWciF1Hd_PszWHGhXrp7urXk5tRpM1phZtGHHGIStjhkhqivZ40Uwdo17ucldR0hFNRATDVY_ZjQ34pbZ5IaCxeAU6uoKQLJlsdKG4Ih_-L01dhvfMWPS3fZHE-eyQ3Hz1vYX"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SlO3N-tjHIWciF1Hd_PszWHGhXrp7urXk5tRpM1phZtGHHGIStjhkhqivZ40Uwdo17ucldR0hFNRATDVY_ZjQ34pbZ5IaCxeAU6uoKQLJlsdKG4Ih_-L01dhvfMWPS3fZHE-eyQ3Hz1vYX",
+ "hours": [
+  [
+   "woensdag",
+   "09:00–20:00"
+  ],
+  [
+   "donderdag",
+   "09:00–20:00"
+  ],
+  [
+   "vrijdag",
+   "09:00–20:00"
+  ],
+  [
+   "zaterdag",
+   "09:00–17:00"
+  ],
+  [
+   "zondag",
+   "07:00–20:00"
+  ],
+  [
+   "maandag",
+   "09:00–20:00"
+  ],
+  [
+   "dinsdag",
+   "09:00–20:00"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

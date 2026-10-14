@@ -1,0 +1,70 @@
+{
+ "slug": "nagelsalon-angelique",
+ "status": "ok",
+ "checked": "2026-10-14",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Nagelsalon%20Angelique%20Dieren",
+ "maps_name": "Nagelsalon Angelique",
+ "maps_category": "Nagelstudio",
+ "address": "Meidoornlaan 35, 6951 LP Dieren",
+ "phone_maps": "0313 422 781",
+ "rating": "4,7",
+ "rating_count": 20,
+ "reviews": [
+  {
+   "name": "Judith Ritsema",
+   "stars": 5,
+   "text": "Een zeer kundige nagelstyliste. De nagels zijn sterk en blijven echt zitten (zoals het hoort). Zeker aan te raden!",
+   "rel": "enkele jaren geleden"
+  },
+  {
+   "name": "Mick Vianen",
+   "stars": 5,
+   "text": "Fijne dame en erg vakkundig. Top service, echt een aanrader.",
+   "rel": "een jaar geleden"
+  },
+  {
+   "name": "Thea Winterink",
+   "stars": 5,
+   "text": "Gezellig en zeer vakkundig, ze maakt hele mooie nagels.",
+   "rel": "enkele jaren geleden"
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QwcFGwdnmC3yW-t-nOd-WpDqOKP0bsYB4JDZqXRnIaCpdle6CRTdBPU_-aDtf0xDFfReWcH3kApWFwL1W91SvGt-8teL54YlphUnxhYYIJ7wg7DOuc7qHsWrk7EeOV4CGuT1dl9Q",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RaWiyKMg3XmQAzLLu3bBQgJTi8OYvBNzx9Wle-XSCyWu60arek8MsATetr84NsjAE4r6TxcKyDJqvfpKfrILdyJVlUde83lEEl7sc9wUf_nhHSOaUfFpZbauml0UAOw-fiS-Ba"
+ ],
+ "about_photo": "",
+ "hours": [
+  [
+   "woensdag",
+   "09:00–22:00"
+  ],
+  [
+   "donderdag",
+   "09:00–22:00"
+  ],
+  [
+   "vrijdag",
+   "09:00–18:00"
+  ],
+  [
+   "zaterdag",
+   "09:00–17:00"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ],
+  [
+   "maandag",
+   "09:00–22:00"
+  ],
+  [
+   "dinsdag",
+   "09:00–22:00"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

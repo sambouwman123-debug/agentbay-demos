@@ -1,0 +1,72 @@
+{
+ "slug": "nieves-nailsalon",
+ "status": "ok",
+ "checked": "2026-10-14",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Nieves%20NAILSALON%20Lochem",
+ "maps_name": "Nieves NAILSALON",
+ "maps_category": "Nagelstudio",
+ "address": "Vordenseweg 6, 7241 SB Lochem",
+ "phone_maps": "06 53935428",
+ "rating": "5,0",
+ "rating_count": 89,
+ "reviews": [
+  {
+   "name": "Anita Bremmer",
+   "stars": 5,
+   "text": "Sinds een paar maanden woon ik in Lochem en tijdens mijn zoektocht naar een nagelstudio kwam ik bij Nieves. Heb haar gekozen omdat zij niet alleen maar nagels lakt, maar ook probleemnagels behandelt. Zij is een professionele, warme persoonlijkheid die meedenkt en heel servicegericht werkt. Daarnaast is het ook gezellig met haar, een aanrader voor iedereen die mooie, verzorgde nagels wil!",
+   "rel": "2 jaar geleden"
+  },
+  {
+   "name": "Marije Vermeulen",
+   "stars": 5,
+   "text": "Aanrader: Nieves zorgt voor prachtig verzorgde nagels. Naast een top nagelstyliste is ze vooral ook een heel open en warme vrouw. Ik ben fan!",
+   "rel": "2 jaar geleden"
+  },
+  {
+   "name": "Karin C",
+   "stars": 5,
+   "text": "Voor het eerst van mijn leven nagels laten zetten. En wat ben ik er blij mee! Nieves is een vakvrouw die heel professioneel werkt. Daarbij is zij een heel prettig persoon bij wie je je op je gemak voelt. M'n nagels zien er heel natuurlijk uit, maar wel heel mooi van vorm en glanzend. Kom zeker terug.",
+   "rel": "3 jaar geleden"
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qw2uS_w6Cyw46exYQqd_lvqx4dX5qfhw9dNvV56cElycYMEGAm5l8rdlLs7q7QPU5uA48LmR9AMW1XozJjxPy89vxxQqUPhzSgnCFwOZb5oKws59gBvlzVgDt02EbZ10YUWB9qmg",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q12JSEBBfLfx9csyezQnnc_2xZgpwyAVoWSfuGBfOOtG8XLTR2PZ-0gbkYPXzzZECSH6sAnIySVp8qPGIs4OrN98ggK1WJL11OSy6zJElX84zFX--IGqFuYa7daJtxmif4NTYHYg",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TNEOSN_AUjLAyErcz9Iu1B_P2ac7_CRo5qxe3p3463aT9xWFSimaRLZR-6r9Z9bbhaSfQ-uYJ8ZEa5EdR7XYJln3NMNtIDDyVPELsVy2TFfXqrSNIlaIPi75TaO6MaYmPRRYbv",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R-1I4xUCJkBn7-SCpX8xy5G2cNQkqD3vVmWBEiHDmBYnW5nobbcx3867aFPAo_95d7Z4nh4LE56AkGPwnKLIqcoDHjKz5IE1AYgSRBPDti63a9bx8r3w6NRAiQd-GVm4z08S72"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R-1I4xUCJkBn7-SCpX8xy5G2cNQkqD3vVmWBEiHDmBYnW5nobbcx3867aFPAo_95d7Z4nh4LE56AkGPwnKLIqcoDHjKz5IE1AYgSRBPDti63a9bx8r3w6NRAiQd-GVm4z08S72",
+ "hours": [
+  [
+   "woensdag",
+   "08:30–17:00"
+  ],
+  [
+   "donderdag",
+   "08:30–17:00"
+  ],
+  [
+   "vrijdag",
+   "08:30–17:00"
+  ],
+  [
+   "zaterdag",
+   "08:30–15:00"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ],
+  [
+   "maandag",
+   "08:30–16:45"
+  ],
+  [
+   "dinsdag",
+   "08:30–17:00"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

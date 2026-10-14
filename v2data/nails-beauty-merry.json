@@ -1,0 +1,72 @@
+{
+ "slug": "nails-beauty-merry",
+ "status": "ok",
+ "checked": "2026-10-14",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Nails%20%26%20Beauty%20By%20Merry%20Lochem",
+ "maps_name": "Nails & Beauty By Merry",
+ "maps_category": "Nagelstudio",
+ "address": "Frans Halslaan 19, 7242 DV Lochem",
+ "phone_maps": "06 26489202",
+ "rating": "4,8",
+ "rating_count": 42,
+ "reviews": [
+  {
+   "name": "Myrle Scholten",
+   "stars": 5,
+   "text": "Heel blij met super mooie nagels, super lieve meid & nam echt de tijd voor me.",
+   "rel": "7 maanden geleden"
+  },
+  {
+   "name": "Soraya Kuiper",
+   "stars": 5,
+   "text": "Super lieve meid, houdt van een praatje, doet geen pijn, past goed op wat ze doet. Super leuke studio en mooie nagels, en kijkt met je mee wat mooi is.",
+   "rel": "2 jaar geleden"
+  },
+  {
+   "name": "Hannah",
+   "stars": 5,
+   "text": "Prachtige nagels gekregen! Dank je wel Merry!",
+   "rel": "3 maanden geleden"
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SJPjL7woQWgbL1GKLZBO0FMVx2xViFa5pt2Pib9PbvsVF9tUfVAW-5rw5kqlBmqy7k1MFX4V9X37aN95vPSX4ptoTikNBpekLt0fbjq8-GyMmvbX7RuKBv_8MX8AM2L7wTYMNh",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SYcSzzeGrBKiMlCj-VP_miLY2PmjaNWERTClkHA6I1Z3cdh5yd1IBIFgXWBx6tlnpckJqKE5DX__rjcFIwL6BYysgfm11kcWxpoxdAfNTxCAxn0XR-bWCDd-98qH_3LF6KGUb3",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S5cFUMulpYHOl6eFhV2M5ywCbiSbc-d81oO63JD1gs0JBnDgXtSSk1JqtODC8sen9kiU_yVQAAFqA0i9WUR-hW6EhMMgWaQE46onq6xJLynLMLWL0WycreGFMT9mYV6Ids_7On",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T46MKebmDUtuxLNumM8Kk9zmopTLPmoeVJEodYIJ3pWSwh5BTYiM_aydw7WoyOSwB-Sm-rdTdDWz995g7XJ0lG0WzmKkG_d-grwRDg7jVysQcQeSTmujZ9S3tG1xhxTQFeQIpp"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T46MKebmDUtuxLNumM8Kk9zmopTLPmoeVJEodYIJ3pWSwh5BTYiM_aydw7WoyOSwB-Sm-rdTdDWz995g7XJ0lG0WzmKkG_d-grwRDg7jVysQcQeSTmujZ9S3tG1xhxTQFeQIpp",
+ "hours": [
+  [
+   "woensdag",
+   "09:00–20:00"
+  ],
+  [
+   "donderdag",
+   "09:00–20:00"
+  ],
+  [
+   "vrijdag",
+   "09:00–20:00"
+  ],
+  [
+   "zaterdag",
+   "09:00–20:00"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ],
+  [
+   "maandag",
+   "09:00–20:00"
+  ],
+  [
+   "dinsdag",
+   "Gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}
