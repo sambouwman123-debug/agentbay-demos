@@ -1,0 +1,71 @@
+{
+ "slug": "van-aagten-pedicure",
+ "status": "ok",
+ "checked": "2026-10-15",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Van%20Aagten%20Pedicure%20Doesburg",
+ "maps_name": "Van Aagten Pedicure",
+ "maps_category": "Nagelstudio",
+ "address": "Windmolenstraat 31, 6981 BD Doesburg",
+ "phone_maps": "06 53923689",
+ "rating": "4,9",
+ "rating_count": 18,
+ "reviews": [
+  {
+   "name": "Odi Derks",
+   "stars": 5,
+   "rel": "2 jaar geleden",
+   "text": "Gewéldig fijn geholpen, kwam eigenlijk tussendoor, maar Fleur heeft goed werk geleverd! Nieuwe afspraak staat in agenda."
+  },
+  {
+   "name": "Karlijn van Aagten",
+   "stars": 5,
+   "rel": "9 jaar geleden",
+   "text": "Gezellige sfeer! En voor de behandeling wordt goed de tijd genomen, met als eindresultaat heerlijke en mooie zachte voeten!!"
+  },
+  {
+   "name": "Ina Boegman-Massen",
+   "stars": 5,
+   "rel": "8 jaar geleden",
+   "text": "Heel goed, zelfs mijn nagels van de handen gelakt. Helemaal super."
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TqYqywt0cx36keDiU653wyfXVrrK1H6VylOIrlSurAtsnABIjjb2D4Dy20flrJFMBzhWUU-412y9Z4qDYKlONy2zcr0P7ubhfXdT7trG2cyFcXODPeilNhcuR3KAVeSOdhq54_",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tw9I_szxE4kHQpD3SxU5xio5eEk4fFsg7Pwe6erwpRg3ZlMPHdUHUFGguBfbGEkSHWEdfg6ZcBxTZbw0s5SjoCsC8m1RtJq8U_r_7FiJZCDk_zSdjXEevKjgW8gKnAO4HIOnOO",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QCbJmEm4CwQicJpU85hl9rfqGKH66kkppZm8HbiZOL7n-1rwqopSPuYzPNn0hEhhyfXK6jPkW_OEsUWfDxzdN0_1ZsoREdFEOZoBfV2PqR-nfEK_qjXiqi5TGwAU1iWmdnDVU"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QCbJmEm4CwQicJpU85hl9rfqGKH66kkppZm8HbiZOL7n-1rwqopSPuYzPNn0hEhhyfXK6jPkW_OEsUWfDxzdN0_1ZsoREdFEOZoBfV2PqR-nfEK_qjXiqi5TGwAU1iWmdnDVU",
+ "hours": [
+  [
+   "donderdag",
+   "09:00–18:00"
+  ],
+  [
+   "vrijdag",
+   "09:00–17:00"
+  ],
+  [
+   "zaterdag",
+   "Gesloten"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ],
+  [
+   "maandag",
+   "09:00–18:00"
+  ],
+  [
+   "dinsdag",
+   "09:00–21:00"
+  ],
+  [
+   "woensdag",
+   "09:00–18:00"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

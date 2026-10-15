@@ -1879,3 +1879,75 @@ SITES.update({
  services=[('Huidverbetering','Biopeeling voor een gladdere, strakkere huid.'),('Wenkbrauwen','In model met de touwtjestechniek (threading).'),('Bovenlip','Ontharen met touwtje, snel en precies.'),('Gezichtsbehandeling','Reinigen, verzorgen en ontspannen.')],
  palette=P_SAGE,dark=DK('#cfe3b8','#dcecc9'),over='Over Hülya',svc_h='Behandelingen',title='Mira Beauty | Schoonheidssalon Arnhem'),
 })
+# ---- batch 4/5 beauty configs (13) ----
+PH='photo-1632345031435-8727f6897d53'
+AL='Verzorgde nagels in een nagelstudio'
+PED_SV=NAIL_SV[:2]+[('Pedicure','Verzorgde, gezonde voeten met aandacht.'),('Eeltverwijdering','Eelt en likdoorns vakkundig behandeld.'),('Nagels knippen','Teennagels netjes geknipt en gevijld.'),('Voetmassage','Een ontspannende afsluiter voor je voeten.')]
+
+SITES.update({
+'nails-by-ise':QN('Nails by Ise','Deventer','06 83008137','Nails by Ise',PH,AL,
+ 'Strakke nagels <em>in Deventer.</em>','5,0',20,('Hoogeveenstraat 11','7424 GR Deventer'),'Ise',
+ ['Deventer','Colmschate','Diepenveen','Schalkhaar','Bathmen','Twello','Olst','Gorssel'],
+ pal_=P_ROSE,dark=DK('#f3c9d2','#f6d6dd'),title='Nails by Ise | Nagelstudio Deventer'),
+
+'nagelsalon-angelique':QN('Nagelsalon Angelique','Dieren','0313 422 781','Angelique',PH,AL,
+ 'Verzorgde nagels <em>in Dieren.</em>','4,7',20,('Meidoornlaan 35','6951 LP Dieren'),'Angelique',
+ ['Dieren','Rheden','Ellecom','Spankeren','Velp','Brummen','Laag-Soeren','Doesburg'],
+ fontset=F_CORM,pal_=P_PLUM,dark=DK('#e8c4e3','#efd3eb'),title='Nagelsalon Angelique | Dieren'),
+
+'nieves-nailsalon':QN('Nieves NAILSALON','Lochem','06 53935428','Nieves',PH,AL,
+ 'Nagels met <em>oog voor detail.</em>','5,0',89,('Vordenseweg 6','7241 SB Lochem'),'Nieves',
+ ['Lochem','Gorssel','Barchem','Almen','Laren','Eefde','Vorden','Zutphen'],
+ fontset=F_BRIC,pal_=P_GOLD,dark=DK('#ecd59d','#f1dfb3'),title='Nieves Nailsalon | Lochem'),
+
+'beauty-lounge-lochem':QN('Beauty Lounge Lochem','Lochem','','Beauty Lounge',PH,AL,
+ 'Jouw beauty-adres <em>in Lochem.</em>','5,0',14,('Henry Dunantweg 56','7242 HK Lochem'),'Beauty Lounge',
+ ['Lochem','Gorssel','Barchem','Epse','Almen','Laren','Eefde','Zutphen'],
+ pal_=P_SAGE,dark=DK('#cfe3b8','#d9ebc6'),title='Beauty Lounge Lochem'),
+
+'nails-beauty-merry':QN('Nails & Beauty By Merry','Lochem','06 26489202','Merry',PH,AL,
+ 'Nagels en beauty <em>bij Merry.</em>','4,8',42,('Frans Halslaan 19','7242 DV Lochem'),'Merry',
+ ['Lochem','Gorssel','Barchem','Almen','Laren','Eefde','Harfsen','Zutphen'],
+ fontset=F_CORM,pal_=P_ROSE,dark=DK('#f3c9d2','#f6d6dd'),title='Nails & Beauty By Merry | Lochem'),
+
+'sientje-beauty-pearl':QN('Sientje Beauty Pearl','Lochem','06 17678735','Sientje',PH,AL,
+ 'Een parel <em>voor je nagels.</em>','4,8',37,('Rembrandtlaan 9','7242 DA Lochem'),'Sientje',
+ ['Lochem','Gorssel','Barchem','Epse','Almen','Laren','Eefde','Zutphen'],
+ pal_=P_PLUM,dark=DK('#e8c4e3','#efd3eb'),title='Sientje Beauty Pearl | Lochem'),
+
+'naomis-dreamnails':QN("Naomi's Dreamnails",'Aalten','06 81673517',"Naomi's Dreamnails",PH,AL,
+ 'Droomnagels <em>in Aalten.</em>','4,7',20,('Knibbelweide 97','7122 TG Aalten'),'Naomi',
+ ['Aalten','Dinxperlo','Bredevoort','Lichtenvoorde','Varsseveld','Winterswijk','Groenlo','Barlo'],
+ fontset=F_BRIC,pal_=P_GOLD,dark=DK('#ecd59d','#f1dfb3'),title="Naomi's Dreamnails | Aalten"),
+
+'nagelstudio-and-nail':QN('Nagelstudio &NAIL','Didam','06 34407431','&NAIL',PH,AL,
+ 'Strakke nagels <em>bij Lianne.</em>','5,0',15,('De Meidoorn 12','6942 TD Didam'),'Lianne',
+ ['Didam','Zevenaar','Wehl','Loil','Nieuw-Dijk','Beek','Angerlo','Doetinchem'],
+ pal_=P_ROSE,dark=DK('#f3c9d2','#f6d6dd'),title='Nagelstudio &NAIL | Didam'),
+
+'van-aagten-pedicure':QN('Van Aagten Pedicure','Doesburg','06 53923689','Van Aagten',PH,AL,
+ 'Zorg voor je voeten <em>in Doesburg.</em>','4,9',18,('Windmolenstraat 31','6981 BD Doesburg'),'Fleur',
+ ['Doesburg','Angerlo','Drempt','Hummelo','Giesbeek','Dieren','Laag-Keppel','Doetinchem'],
+ lead='Pedicure, voetverzorging en nagellak in Doesburg. Fleur neemt rustig de tijd voor gezonde, verzorgde voeten.',
+ services=PED_SV,fontset=F_CORM,pal_=P_SAGE,dark=DK('#cfe3b8','#d9ebc6'),title='Van Aagten Pedicure | Doesburg'),
+
+'nail-studio-touch':QN('Nail studio Touch','Twello','06 49885347','Touch',PH,AL,
+ 'Nagels met <em>de perfecte touch.</em>','5,0',22,('Veilingstraat 22','7391 GM Twello'),'Olha',
+ ['Twello','Deventer','Voorst','Wilp','Klarenbeek','Terwolde','Teuge','Apeldoorn'],
+ fontset=F_BRIC,pal_=P_PLUM,dark=DK('#e8c4e3','#efd3eb'),title='Nail studio Touch | Twello'),
+
+'beauty-by-nadine':QN('Beauty by Nadine','Rijssen','06 22286773','Nadine',PH,AL,
+ 'Mooie nagels <em>bij Nadine.</em>','5,0',52,('Wattstraat 4','7461 AB Rijssen'),'Nadine',
+ ['Rijssen','Holten','Wierden','Enter','Nijverdal','Markelo','Hellendoorn','Almelo'],
+ pal_=P_GOLD,dark=DK('#ecd59d','#f1dfb3'),title='Beauty by Nadine | Rijssen'),
+
+'proud-nails-maris':QN('Proud Nails by Maris','Zelhem','','Proud Nails',PH,AL,
+ 'Nagels om <em>trots op te zijn.</em>','5,0',10,('Lemkesbeumken 2','7021 CL Zelhem'),'Mariska',
+ ['Zelhem','Hengelo Gld','Doetinchem','Ruurlo','Halle','Keijenborg','Vorden','Hummelo'],
+ fontset=F_CORM,pal_=P_ROSE,dark=DK('#f3c9d2','#f6d6dd'),title='Proud Nails by Maris | Zelhem'),
+
+'elegance-beautysalon':QN('Elégance Beautysalon','Silvolde','06 14780210','Elégance',PH,AL,
+ 'Elegant verzorgde <em>nagels.</em>','4,9',10,('Hazenhof 34','7064 CH Silvolde'),'Monique',
+ ['Silvolde','Terborg','Ulft','Gendringen','Varsseveld','Doetinchem','Etten','Dinxperlo'],
+ fontset=F_CORM,pal_=P_PLUM,dark=DK('#e8c4e3','#efd3eb'),title='Elégance Beautysalon | Silvolde'),
+})

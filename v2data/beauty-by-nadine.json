@@ -1,0 +1,41 @@
+{
+ "slug": "beauty-by-nadine",
+ "status": "ok",
+ "checked": "2026-10-15",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Beauty%20by%20Nadine%20Rijssen",
+ "maps_name": "Beauty by Nadine",
+ "maps_category": "Nagelstudio",
+ "address": "Wattstraat 4, 7461 AB Rijssen",
+ "phone_maps": "06 22286773",
+ "rating": "5,0",
+ "rating_count": 52,
+ "reviews": [
+  {
+   "name": "Machteld Haase",
+   "stars": 5,
+   "rel": "3 maanden geleden",
+   "text": "Ik heb een hele goede ervaring gehad bij Nadine. Ze is erg leuk en sociaal in de omgang, maar tegelijkertijd ook professioneel als het gaat om de nagels. Ook kijkt ze met je mee om een nieuwe afspraak te maken en is ze daar zelf ook flexibel in! Kortom, erg blij mee!"
+  },
+  {
+   "name": "Janien Blom",
+   "stars": 5,
+   "rel": "6 maanden geleden",
+   "text": "Super eerlijk advies. Mijn korte gebeten nagels erg mooi gedaan. Er is nog hoop. Ik kom zeker terug!"
+  },
+  {
+   "name": "Agnes Struis",
+   "stars": 5,
+   "rel": "3 maanden geleden",
+   "text": "Hele fijne salon. Nadine is heel aardig en kundig, en de prijs is ook heel goed."
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R22BZhZJmSOmG5GuJzJL05RUZ18LXJqQIrMy9mt4lKKheImLlOlaC-WMhCCuVVyk_ryFPD7hBfEDqiODTM4iWwrzuVQSwqwDmkXR_Mh_6JEAZXWBiL6ZCF8IvH2lABBDboW5Nmn1Yj0sp6",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T978J_wSpFYpg6pKD1l8R2UbiY9kJs334akI5Ncfmi3vY-rC8SmFpycean7yTPcARqh9w6k02ni7_xxK1tfVtSdxBu20Az0mjnamiMBZ4B498K2bMIcK9euvxiqZ9p0DS64AZtDUsskxh7"
+ ],
+ "about_photo": "",
+ "hours": [],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

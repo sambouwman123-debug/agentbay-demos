@@ -1,0 +1,71 @@
+{
+ "slug": "elegance-beautysalon",
+ "status": "ok",
+ "checked": "2026-10-15",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Elegance%20Beautysalon%20Silvolde",
+ "maps_name": "Elégance Beautysalon",
+ "maps_category": "Nagelstudio",
+ "address": "Hazenhof 34, 7064 CH Silvolde",
+ "phone_maps": "06 14780210",
+ "rating": "4,9",
+ "rating_count": 10,
+ "reviews": [
+  {
+   "name": "Anne Schoenmaker",
+   "stars": 5,
+   "rel": "4 maanden geleden",
+   "text": "Dit was voor mij de eerste keer dat ik mijn nagels liet doen. Monique zorgde ervoor dat ik mij gelijk op mijn gemak voelde en met een goed gevoel weer naar huis ben gegaan. Super fijne ervaring en heel blij met het resultaat!"
+  },
+  {
+   "name": "susanne van der Kemp",
+   "stars": 5,
+   "rel": "5 maanden geleden",
+   "text": "Dikke 5 sterren voor de deskundigheid van Monique. Mijn 1e ervaring met Biab, heel erg blij met het eindresultaat. En het was ook nog eens heel erg gezellig."
+  },
+  {
+   "name": "Tessa Brouwer",
+   "stars": 5,
+   "rel": "een jaar geleden",
+   "text": "Sinds februari kom ik bij Monique en ik ben echt zó blij dat ik haar heb gevonden! Ze is super spontaan, gezellig en mega goed in wat ze doet."
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QV7AqbB-lN7rmCFHeUJpq_WeVutOqpe1a6zMM6ERb9wc12NYr2VNl9WX6xhbhktpRzjSKCfvquQYUZFyIl1M237sskovYW1e-kA6StgQ4m5afGBc3WR70t-2Ho02Ux_jBx_EAcB5qa_f4",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TkkEv5roqrgET9c2-evJnoA3V2xK70s_f_8JUElxboRIS1xnoQDmU2uV9-taDufA1qNXCXQ0cSbwg_d-mJgaP5qswIaPmb7_MFGVve4w0mXQOAJ-KxjPR9rQqDL60z_FuPIAagmjOSnDI",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RRhO_BKZi6Uc-Jkz6N8fVlobJVrHENs6-Gw9fIGAm55zQpXRJdKmzJmsA_Kkt2Pgw2S4U8j3rS1zhVgBpS1bbVKCgwatTGFASYW5cyvbbuPDfJG1bnimOxWwKo5uSVaqlDyH4cps5hNck"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RRhO_BKZi6Uc-Jkz6N8fVlobJVrHENs6-Gw9fIGAm55zQpXRJdKmzJmsA_Kkt2Pgw2S4U8j3rS1zhVgBpS1bbVKCgwatTGFASYW5cyvbbuPDfJG1bnimOxWwKo5uSVaqlDyH4cps5hNck",
+ "hours": [
+  [
+   "donderdag",
+   "Gesloten"
+  ],
+  [
+   "vrijdag",
+   "08:30–17:00"
+  ],
+  [
+   "zaterdag",
+   "10:00–12:00"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ],
+  [
+   "maandag",
+   "Gesloten"
+  ],
+  [
+   "dinsdag",
+   "08:30–17:00, 18:30–21:30"
+  ],
+  [
+   "woensdag",
+   "08:30–17:00, 18:30–21:30"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

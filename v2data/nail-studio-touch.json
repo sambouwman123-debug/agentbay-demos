@@ -1,0 +1,72 @@
+{
+ "slug": "nail-studio-touch",
+ "status": "ok",
+ "checked": "2026-10-15",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Nail%20studio%20Touch%20Twello",
+ "maps_name": "Nail studio Touch",
+ "maps_category": "Nagelstudio",
+ "address": "Veilingstraat 22, 7391 GM Twello",
+ "phone_maps": "06 49885347",
+ "rating": "5,0",
+ "rating_count": 22,
+ "reviews": [
+  {
+   "name": "veronique slob",
+   "stars": 5,
+   "rel": "een maand geleden",
+   "text": "Mijn nagels zijn prachtig elke keer als ik hier vandaan kom. Er wordt echt netjes en zorgvuldig gewerkt. De salon is gezellig en schoon. Ik ben ontzettend blij met het resultaat en kom zeker terug!"
+  },
+  {
+   "name": "Anne Brouwer",
+   "stars": 5,
+   "rel": "3 maanden geleden",
+   "text": "Altijd super blij met het resultaat van mijn nagels, Olha is erg professioneel en weet wat ze doet. Daarnaast is het ook altijd heel gezellig!"
+  },
+  {
+   "name": "Kelly Westra",
+   "stars": 5,
+   "rel": "2 maanden geleden",
+   "text": "Ik kom inmiddels al een paar maanden bij Olha, elke keer loop ik weer de deur uit met nagels waar ik veel te vaak zelf naar zit te kijken. Mijn BIAB blijft perfect zitten, mijn nagels zijn sterk maar toch mooi dun en natuurlijk."
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TQSgvSK35L-Igg3P4VSI7NZjQBvf6YfCekTI4ziQb7GRPmh3DEtUodurqtGL9jhPnw_yL7pSBI2uHyh7NWk6qh-4eGLR4o1wLR1kPq-nuxtc4NkzusiRhLqhslzFdKsdsbQ73ctZdnL3mX",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QRr7ELCUBstuMy91ZuN101DUe7DYgXGFElUe1SXsq6HRWXN1PIZP7hssFKnXbnE3NzMRK9Esx5kH96kGTDNeWrmdBwya2Rn-sAq-BVCVbSOIw0TAqyHon3a5ryPj78ygdzwHdgAIuakOBk",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QU85bpaki2_x5nr0X1ozMcWqAKzDW26qf-E7_QUIh3fErJuFp7foog0h_qCykB9-OtldnJ8AwuQoSa5W0Ueq977A-npqWzP1sAaJ-8uTmZQKnDJmJ0tyrchmx-qWSeh6IObpUQR8EuF-8",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ShbdYhrfyfznaimX-v-jq70fiVyfop3L_WXjf9Jp59LgeA_aTZVxEbOm8Bte5CglYNzrFyd8_TXNawv8J9RFa1MO1LbLL9cq54xfxkY45GCbC4iB1fNrMGoUtlXx1cD6BaEtAnqjUPmh_8"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ShbdYhrfyfznaimX-v-jq70fiVyfop3L_WXjf9Jp59LgeA_aTZVxEbOm8Bte5CglYNzrFyd8_TXNawv8J9RFa1MO1LbLL9cq54xfxkY45GCbC4iB1fNrMGoUtlXx1cD6BaEtAnqjUPmh_8",
+ "hours": [
+  [
+   "donderdag",
+   "Gesloten"
+  ],
+  [
+   "vrijdag",
+   "09:00–18:00"
+  ],
+  [
+   "zaterdag",
+   "Gesloten"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ],
+  [
+   "maandag",
+   "09:00–18:00"
+  ],
+  [
+   "dinsdag",
+   "Gesloten"
+  ],
+  [
+   "woensdag",
+   "09:00–18:00"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}
