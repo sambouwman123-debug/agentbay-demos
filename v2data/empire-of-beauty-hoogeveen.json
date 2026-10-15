@@ -1,0 +1,72 @@
+{
+ "slug": "empire-of-beauty-hoogeveen",
+ "status": "ok",
+ "checked": "2026-10-15",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Empire%20of%20Beauty%20Hoogeveen",
+ "maps_name": "Empire of Beauty",
+ "maps_category": "Nagelstudio",
+ "address": "Raadhuisstraat 7, 7901 BK Hoogeveen",
+ "phone_maps": "06 16627801",
+ "rating": "5,0",
+ "rating_count": 10,
+ "reviews": [
+  {
+   "name": "karlien bremer",
+   "stars": 5,
+   "rel": "een maand geleden",
+   "text": "Ik kom met heel veel plezier bij Empire of Beauty. Hele schone en verzorgde salon midden in het centrum. Ze is ontzettend lief en maakt perfecte nagels. Lang en kort. Staat open voor elk idee en heeft een mega groot assortiment!"
+  },
+  {
+   "name": "Danisha",
+   "stars": 5,
+   "rel": "3 weken geleden",
+   "text": "Lieve vrouw die super mooie nagels zet! Zeker aan te bevelen. Neemt de tijd voor je en luistert naar je wensen."
+  },
+  {
+   "name": "Mia Vanl",
+   "stars": 5,
+   "rel": "3 weken geleden",
+   "text": "Via via bij Marta terechtgekomen. Een fijne mooie plek om je nagels te laten doen. Het is echt even een paar uurtjes ontspanning en tijd voor jezelf."
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SJXiEGRSAMKJpYqRvGt-E3QANSEFo4cm5VjA8WTpi1_dXKuNSsuLrzfzP0UU4s2BOtPJW5oUI4tgeTNrCuOp-FjA2XsgDbS1U-8Hddy92_7DY8QYeAvdH5ePSutcfx4xPLbWClBsNudjM",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T2d1wQE4XhMCvHQQKLCH-czjQYGvWV9vR7QHPvEMOtwGv7sln2Kpvcm4ZC2GktfJ47jMMO-2NM16VcbbvShtqHvFI_hWGeMx9nBlE_rL1dzoM8qiHtLTRgvmItstugVKM09C9pxpKd9ybq",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RkzgAQlChX5J-QwyGCwP_jweMD9ZwZQPkrys-sht-5ZjkSIJpzbeVTZytmzsX2XgTPWkgIBDUaudAwYf4N9Vzu0LoyOsuy8yUWzR7f9BadRW5YTCi73poEzu6UdEVVuB2eW49PKf_zRjqo",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TFJYZUvNuo8ca9EtHMUndE835HrjThBQqPOSmBdLYiNDTIDIm7zYGv24ezMJJn6Ze4uvTtQ7KGI_aRqZOc82G53VXduQIyMVCfCgF8QNLMClEhJK1_b4xSk_AorMEQSt1WPzqopCDPwwRM"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TFJYZUvNuo8ca9EtHMUndE835HrjThBQqPOSmBdLYiNDTIDIm7zYGv24ezMJJn6Ze4uvTtQ7KGI_aRqZOc82G53VXduQIyMVCfCgF8QNLMClEhJK1_b4xSk_AorMEQSt1WPzqopCDPwwRM",
+ "hours": [
+  [
+   "donderdag",
+   "09:00–18:00"
+  ],
+  [
+   "vrijdag",
+   "09:00–18:00"
+  ],
+  [
+   "zaterdag",
+   "10:00–15:00"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ],
+  [
+   "maandag",
+   "09:00–18:00"
+  ],
+  [
+   "dinsdag",
+   "09:00–18:00"
+  ],
+  [
+   "woensdag",
+   "Gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

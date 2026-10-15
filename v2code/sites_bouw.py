@@ -1951,3 +1951,26 @@ SITES.update({
  ['Silvolde','Terborg','Ulft','Gendringen','Varsseveld','Doetinchem','Etten','Dinxperlo'],
  fontset=F_CORM,pal_=P_PLUM,dark=DK('#e8c4e3','#efd3eb'),title='Elégance Beautysalon | Silvolde'),
 })
+# ---- batch 6 beauty configs (4) ----
+PH6='photo-1632345031435-8727f6897d53'; AL6='Verzorgde nagels in een nagelstudio'
+SITES.update({
+'beauty-lounge-sen':QN('Beauty lounge by Sen','Lelystad','06 20865507','by Sen',PH6,AL6,
+ 'Nagels met <em>oog voor detail.</em>','5,0',20,('Bongerd 33','8212 BB Lelystad'),'Sen',
+ ['Lelystad','Dronten','Biddinghuizen','Swifterbant','Almere','Zeewolde','Emmeloord','Nijkerk'],
+ pal_=P_ROSE,dark=DK('#f3c9d2','#f6d6dd'),title='Beauty lounge by Sen | Lelystad'),
+
+'zensationail-emmeloord':QN('ZensatioNail','Emmeloord','06 20608329','ZensatioNail',PH6,AL6,
+ 'Nagels en beauty <em>bij Wilma.</em>','4,9',27,('Korte Achterzijde 12-a','8302 DZ Emmeloord'),'Wilma',
+ ['Emmeloord','Marknesse','Ens','Kraggenburg','Urk','Creil','Bant','Nagele'],
+ fontset=F_CORM,pal_=P_PLUM,dark=DK('#e8c4e3','#efd3eb'),title='ZensatioNail | Emmeloord'),
+
+'nails-by-lisanne':QN('Nails By Lisanne','Hoogeveen','06 37287826','by Lisanne',PH6,AL6,
+ 'Strakke nagels <em>bij Lisanne.</em>','5,0',14,('Schweitzerstraat 44','7909 AX Hoogeveen'),'Lisanne',
+ ['Hoogeveen','Pesse','Fluitenberg','Noordscheschut','Hollandscheveld','Nieuweroord','Elim','Zuidwolde'],
+ fontset=F_BRIC,pal_=P_SAND,dark=DK('#f4cfb2','#f7dcc6'),title='Nails By Lisanne | Hoogeveen'),
+
+'empire-of-beauty-hoogeveen':QN('Empire of Beauty','Hoogeveen','06 16627801','Empire of Beauty',PH6,AL6,
+ 'Perfecte nagels <em>bij Marta.</em>','5,0',10,('Raadhuisstraat 7','7901 BK Hoogeveen'),'Marta',
+ ['Hoogeveen','Pesse','Fluitenberg','Noordscheschut','Hollandscheveld','Nieuweroord','Elim','Zuidwolde'],
+ pal_=P_GOLD,dark=DK('#ecd59d','#f1dfb3'),title='Empire of Beauty | Hoogeveen'),
+})

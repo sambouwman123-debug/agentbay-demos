@@ -1,0 +1,64 @@
+{
+ "slug": "zensationail-emmeloord",
+ "status": "ok",
+ "checked": "2026-10-15",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=ZensatioNail%20Emmeloord",
+ "maps_name": "ZensatioNail",
+ "maps_category": "Nagelstudio",
+ "address": "Korte Achterzijde 12-a, 8302 DZ Emmeloord",
+ "phone_maps": "06 20608329",
+ "rating": "4,9",
+ "rating_count": 27,
+ "reviews": [
+  {
+   "name": "MYLANO",
+   "stars": 5,
+   "rel": "een jaar geleden",
+   "text": "Altijd perfect geholpen. Hele mooie nagels die blijven zitten tot je toe bent aan een nieuwe set. Super vriendelijke en gezellige salon."
+  },
+  {
+   "name": "mirabella de graaf",
+   "stars": 5,
+   "rel": "een jaar geleden",
+   "text": "Ik kom al meer dan een jaar bij ZensatioNail voor mijn nagels. Elke keer is weer een feestje. Je wordt altijd hartelijk ontvangen. Wat ik ook wil aan nailart, niets is te gek."
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TZsU_FVULgoDIK0wQ9HyYZLBSH6AxzIvfTPTztakPtYhBJhZnOwjprYrs8l7ENSl5BAyfnR_IVZUMUi96opFk-PLDEGGsTnHoIytAh3d2mYybNhEuWBcwsHAuHD7kYnUro3u4gb7kAzhEJ",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RnTsBV8L_hIjo2eND50SnICR53FnCnkxZ1cK2f91_bgcw0BG6RGQaS2dLeo8Co4xNGZ_y01XvKuztDAOHiksmFglFxu8kJIZTkx8w7qrl2upl8azbSY3lEea2_-e2FGDBvNN8zKqYqJdjR"
+ ],
+ "about_photo": "",
+ "hours": [
+  [
+   "donderdag",
+   "09:00–14:00"
+  ],
+  [
+   "vrijdag",
+   "08:30–21:00"
+  ],
+  [
+   "zaterdag",
+   "Gesloten"
+  ],
+  [
+   "zondag",
+   "19:00–22:00"
+  ],
+  [
+   "maandag",
+   "13:00–17:30"
+  ],
+  [
+   "dinsdag",
+   "08:30–17:30"
+  ],
+  [
+   "woensdag",
+   "08:30–17:30"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

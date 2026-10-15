@@ -1,0 +1,71 @@
+{
+ "slug": "nails-by-lisanne",
+ "status": "ok",
+ "checked": "2026-10-15",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Nails%20By%20Lisanne%20Hoogeveen",
+ "maps_name": "Nails By Lisanne",
+ "maps_category": "Nagelstudio",
+ "address": "Schweitzerstraat 44, 7909 AX Hoogeveen",
+ "phone_maps": "06 37287826",
+ "rating": "5,0",
+ "rating_count": 14,
+ "reviews": [
+  {
+   "name": "Lilian Boers",
+   "stars": 5,
+   "rel": "3 maanden geleden",
+   "text": "Vandaag weer mijn nagels laten doen bij Lisanne. Zoals altijd supernetjes! Blij mee."
+  },
+  {
+   "name": "Dieni Van Dijk",
+   "stars": 5,
+   "rel": "4 maanden geleden",
+   "text": "Lisanne heeft gelnagels bij mij gemaakt. Super lief en geduldig gedaan. Het heeft ook weken gezeten."
+  },
+  {
+   "name": "Marissa",
+   "stars": 5,
+   "rel": "4 maanden geleden",
+   "text": "Goede service, vriendelijk en snel behandeld. Helemaal blij met mijn nieuwe nagels."
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TsLKXj2eqVajep-8Jpp1J-5N49DaGWpS9jCQgc2rQ_eenXXny5m6-rd5bXQx_9Nws1P01flNITi7YSi1twnDGj4EoyCOCH_ZQ30r7MA0vWrVmtAUNcZb4gmggr2HyZrNXl7MwADfVZOvRc",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q0RQ6hQnc3mzCfbJaPsVc3hZ584fMSjw9LYAfsGaerXEET1irrDolnMrfxuvOqYM8V0bqgced2rZ_5rcDROUVYC5wGeaXc5QslLR09zwnrJmXT6NO6mdrHnweFa4Eivay2YjYJKelukQ",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SG5as05vy-uRVYJY6I_dYSJH1_yUJMxV1hzuMTiq140ruI7Jkmmtx72sdN4nMhI28HJTPPhXc8cyy_vHa8Hj4AJNKzMHcl8bkkzE8nt95RH9dwPV95pz3OF5y1DW78sWB5VD-ZFB4JV3Hg"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SG5as05vy-uRVYJY6I_dYSJH1_yUJMxV1hzuMTiq140ruI7Jkmmtx72sdN4nMhI28HJTPPhXc8cyy_vHa8Hj4AJNKzMHcl8bkkzE8nt95RH9dwPV95pz3OF5y1DW78sWB5VD-ZFB4JV3Hg",
+ "hours": [
+  [
+   "donderdag",
+   "Gesloten"
+  ],
+  [
+   "vrijdag",
+   "08:00–14:00"
+  ],
+  [
+   "zaterdag",
+   "Gesloten"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ],
+  [
+   "maandag",
+   "Gesloten"
+  ],
+  [
+   "dinsdag",
+   "08:00–15:00"
+  ],
+  [
+   "woensdag",
+   "Gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

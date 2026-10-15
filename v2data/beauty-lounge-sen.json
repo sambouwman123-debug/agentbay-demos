@@ -1,0 +1,71 @@
+{
+ "slug": "beauty-lounge-sen",
+ "status": "ok",
+ "checked": "2026-10-15",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Beauty%20lounge%20by%20Sen%20Lelystad",
+ "maps_name": "Beauty lounge by Sen",
+ "maps_category": "Nagelstudio",
+ "address": "Bongerd 33, 8212 BB Lelystad",
+ "phone_maps": "06 20865507",
+ "rating": "5,0",
+ "rating_count": 20,
+ "reviews": [
+  {
+   "name": "Ilaysa",
+   "stars": 5,
+   "rel": "4 maanden geleden",
+   "text": "Ik doe mijn biab nagels bij Sen en ben elke keer tevreden. Mijn nagels blijven lang mooi zitten, ze werkt altijd netjes en ze besteedt aandacht aan detail. Daarnaast is ze ook heel gezellig en lief. Ik krijg altijd complimenten door mijn nagels, dus niet twijfelen maar gewoon boeken!"
+  },
+  {
+   "name": "Israa doufikar",
+   "stars": 5,
+   "rel": "4 maanden geleden",
+   "text": "Super tevreden met mijn acryl nagels! Ze zijn prachtig gezet, precies zoals ik wilde. Vriendelijke service en een fijne sfeer. Zeker een aanrader!"
+  },
+  {
+   "name": "Semiyah Vd Vegte",
+   "stars": 5,
+   "rel": "8 maanden geleden",
+   "text": "Lieve en leuke meid die goed helpt met wat je wilt met je nagels."
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TrIK3xSdxI5S73LYMBMInckgcOrwIZVVrHnHba7YHT0Z9ixDEqnvWaUvKe6E6X034YkAp0-c1ZcS2H_X4QSGNw2tCRO7m3IgK6jYXStDIROZCw4sSPxSvdL8Wab23ClRuNwNIzVdGot3Ia",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RSXMNxGLC4CflJNHvqZUjieyS6oCLEmJH-ySrpSoeu8IbQ8xW-X2xEDibMODluI_-L5FWZsT9yTeaBnI6MI919SEcB6JykjohTRpThYZywk0wKe5xtFJ2OQjtu0Uyj15amC-chrEK4U_2S",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TJECGOLjE4h3tvfKZ0ldP88_ucRrAl-LILnb6nvFpmlqubuDgt6iJdFh9G7rrCgJyi1QUmGziE3F12ZEkaFYue_9TSfsK0Jt-E3W49bBhxaA4yOtQX0Ejspsf7fXvXkbBd54SAiY7AiN6c"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TJECGOLjE4h3tvfKZ0ldP88_ucRrAl-LILnb6nvFpmlqubuDgt6iJdFh9G7rrCgJyi1QUmGziE3F12ZEkaFYue_9TSfsK0Jt-E3W49bBhxaA4yOtQX0Ejspsf7fXvXkbBd54SAiY7AiN6c",
+ "hours": [
+  [
+   "donderdag",
+   "10:00–21:00"
+  ],
+  [
+   "vrijdag",
+   "10:00–18:30"
+  ],
+  [
+   "zaterdag",
+   "Gesloten"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ],
+  [
+   "maandag",
+   "10:00–19:30"
+  ],
+  [
+   "dinsdag",
+   "10:00–21:00"
+  ],
+  [
+   "woensdag",
+   "10:00–21:00"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}
