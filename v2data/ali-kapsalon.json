@@ -1,0 +1,76 @@
+{
+ "slug": "ali-kapsalon",
+ "status": "ok",
+ "checked": "2026-10-19",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Ali%20Kapsalon",
+ "maps_name": "Ali Kapsalon",
+ "maps_category": "Barbier",
+ "address": "Symfoniestraat 136, 6544 TM Nijmegen",
+ "phone_maps": "+31 24 750 6545",
+ "rating": "4,8",
+ "rating_count": 140,
+ "reviews": [
+  {
+   "name": "Cindy Dal",
+   "stars": 5,
+   "rel": "3 maanden geleden",
+   "text": "Mijn zoontje van 3 wilde nergens naar de kapper altijd huilen en schreeuwen Tot dat we hier waren geweest Nu wil die nergens anders meer Hele lieve man top ✅ Raden zeker aan hier heen te gaan"
+  },
+  {
+   "name": "Sergiu Bivol",
+   "stars": 5,
+   "rel": "een jaar geleden",
+   "text": "Mijn ervaring was positief; ik ben uitstekend geholpen en vakkundig geknipt, met een bevredigend resultaat."
+  },
+  {
+   "name": "Sezer Emre",
+   "stars": 5,
+   "rel": "9 maanden geleden",
+   "text": "Goede kappers op loopafstand! Nette mensen die je met respect behandelen."
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RPccyqUnqAHbrAcSVCPgaj3S1kBrt9df0HAEVKAco2l6-6ywhvY-hbjMwvGeEhtjDFaz__vYZrNI_aHSzEiQ6nL7WprOBPHdWZBUO5OmAm-Lpukyg6j7P4ENH-uinvFigxenQt=w1920-h1080-k-no",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QlKkd00b2awqJEmZ_mdYuvMdPXwAuSUUKkfI5sL554Yv11yHwV3GBbnv_2UIaVOUXvYQJzDd_nLixLQ9zEEDAw0kZCOnRb7_7d4HYHdDhDJqtdTbnWgfUna5_ApuU8Q6lOHjYamA=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TGvT3lNEsacNNd8gOj6VSk64GtruASFVFsfWFD_oQCE2eYGtoaMBKu9zXV5_xIsZ6ignPHjwoqAEXYolUtSi-3B-RWoQRIB7iHk1w4K__7kJUVoVzlJNEmu9FBkzztEjdVzQExmQ=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QUTCphIR3xBavqUeg5C7KHGkGCPW2g64xTxXvVOhaUCJkklB-i1qbmfjDaq7Y6ccbW9k0KMlVBEa03pKjfxSo7_jPAPlE04tuiVMCgzHAQuodVRN-oyiz02j6LYN1Zb6tKMIAF=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QnDpYLKmTafF-dsWcn5UBnTjO9VdjmCEr-7Ui4-1wzU0qFdJ75CBhO8j_PCEggto_-Jgb5NpENBrfTJmOUHoz7BYuZqfg0HZOyObcZY3OpJ6propTgEUUmjW7ZV6OPOi51md2Ggw=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tmv41gxCOduC_EiKC1ZGqcWyZ-O_Cb0kbarlI6pkGOLQ-phJepcpBAXgWieLLAltGabSTIEldW2NZd4V-KqYY1k-Shq-lERIKj-OqqN1xv9Fb6ZtwIVoM4SC2cmVOv45rGyB0v=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TnlYhqJqAgzwDDUCjw3s2WVcBVMeG-2kB1WT2eO9pI1nGXpDw9Ajxr2alGA1RMP0QvZZXIsiei4-p3k62YEEq79mPlXla37OkZTjbxtnNILvTSTBrTv5H3PGo1JsYcTmfxDubC=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SUzMBe6lSJ29twzk00-Y5C11_6iQCg30WnBrw03E3A1En6kXaMMiLAvGJovzFk69u99c2SuKBZ-32TwvHccWWyPERzgPtM4pgcBgTCs4K8zkDbM-J3E-wsewx_uibKBKZtnCFMdknGyxwF=w1920-h1080-k-no"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SUzMBe6lSJ29twzk00-Y5C11_6iQCg30WnBrw03E3A1En6kXaMMiLAvGJovzFk69u99c2SuKBZ-32TwvHccWWyPERzgPtM4pgcBgTCs4K8zkDbM-J3E-wsewx_uibKBKZtnCFMdknGyxwF=w1920-h1080-k-no",
+ "hours": [
+  [
+   "maandag",
+   "09:30–19:00"
+  ],
+  [
+   "dinsdag",
+   "09:30–19:00"
+  ],
+  [
+   "woensdag",
+   "09:30–19:00"
+  ],
+  [
+   "donderdag",
+   "09:30–19:00"
+  ],
+  [
+   "vrijdag",
+   "09:30–19:00"
+  ],
+  [
+   "zaterdag",
+   "09:30–19:00"
+  ],
+  [
+   "zondag",
+   "11:00–18:00"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

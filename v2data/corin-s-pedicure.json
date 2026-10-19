@@ -1,0 +1,73 @@
+{
+ "slug": "corin-s-pedicure",
+ "status": "ok",
+ "checked": "2026-10-19",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Corin%27s%20pedicure",
+ "maps_name": "Corin's pedicure",
+ "maps_category": "Voetverzorging",
+ "address": "Weezenhof 2081, 6536 JL Nijmegen",
+ "phone_maps": "+31 6 18542437",
+ "rating": "4,9",
+ "rating_count": 55,
+ "reviews": [
+  {
+   "name": "Kimberly Steins",
+   "stars": 5,
+   "rel": "een maand geleden",
+   "text": "Ik ben ontzettend tevreden over de behandeling! Nadat mijn nagels bij een andere salon beschadigd waren, heeft deze pedicure ze heel vakkundig en netjes behandeld. Ze nam uitgebreid de tijd, gaf duidelijke uitleg en advies en ik kreeg ook goede informatie mee over de verdere verzorging. Ik voelde me meteen goed geholpen en had er alle vertrouwen in. Heel professioneel, vriendelijk en zorgvuldig. Ik ben ontzettend blij met het resultaat en kan haar zeker aanraden!"
+  },
+  {
+   "name": "Deviëntely Pieters",
+   "stars": 5,
+   "rel": "een week geleden",
+   "text": "Heel tevreden met mijn pedicure behandeling! Er werd heel netjes en zorgvuldig gewerkt, en ondertussen kreeg ik duidelijke uitleg over de stappen en handige tips voor de verzorging van mijn nagels. Er werd ook regelmatig gevraagd of alles comfortabel was, wat ik erg fijn vond. Mijn nagels zien er weer schoon en verzorgd uit. Ik ben heel blij met het resultaat en kijk uit naar mijn volgende afspraak! 💅✨"
+  },
+  {
+   "name": "Karin Schraven",
+   "stars": 5,
+   "rel": "Bewerkt: 2 maanden geleden",
+   "text": "Heel erg goed geholpen door Corine. Ik had haar gemaild en ik mocht dezelfde avond nog voor de eerste keer langs komen! Heel erg goed verzorgd en met mooie voetjes weer naar buiten gegaan! Aardige vrouw, kundig en heel professioneel. Meteen vervolgafspraak gemaakt."
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q0Rx_J6BEdofwVIjTfn2jOWAHgKeqqwiJ97fKlg9Tds6a1YycuOW54pVsK0a9snX5kBCUAJ4fbNJtYz07eO796b4uDHbTqv0IJRBzkSXvsmeU4zpBiyelcwn8XkLldQkmV0n1YwG9c0pI=w1920-h1080-k-no",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QvMSwmk7lnItv110RFDirymK_HWm78EI7bR47JLz9Cg6RdgLyfmytxpRMMdwAbYmPLukdrUGOaF-jaLjF7CY3jyw2GtBucCdurXKhyImhyveo9F6LDPL6KLN1eBDGFeZ1kqHtNj2bPyQm_=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QdnZMO3q7buTGmTEumVhaM6Qkkfyxm3wqGX5TQzOgfh9_hVInQOcRQGOMDUC6NAoWy9ldOaNI1D6_NUVE5bwT_BoG0dlr25gSB5vm0SLwxMg08O5qsxMXArnirYSMsL_eBWZ8jccg7hJA=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SfQpzgR2c4Gsw986B-HvgzqP8PFToA95wjRvMAIBSD8Ji7KkTYzguMXFaTcN4lDE3ZgU89Y9XTJq3jgiKJzLPULqpbBLoQPFp5Iowyu9SQRrnSSMfZZHXm55GiEz6K2mZk8VSfS0_sEJQ=w1920-h1080-k-no",
+  "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=voorYEjRhMTuLQ6peBqblA&cb_client=lu.gallery.gps&w=1920&h=1272&yaw=61.60099&pitch=0&thumbfov=100"
+ ],
+ "about_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=voorYEjRhMTuLQ6peBqblA&cb_client=lu.gallery.gps&w=1920&h=1272&yaw=61.60099&pitch=0&thumbfov=100",
+ "hours": [
+  [
+   "maandag",
+   "09:00–22:30"
+  ],
+  [
+   "dinsdag",
+   "09:00–23:00"
+  ],
+  [
+   "woensdag",
+   "09:00–23:00"
+  ],
+  [
+   "donderdag",
+   "09:00–23:00"
+  ],
+  [
+   "vrijdag",
+   "09:00–22:30"
+  ],
+  [
+   "zaterdag",
+   "09:00–22:30"
+  ],
+  [
+   "zondag",
+   "09:00–23:00"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

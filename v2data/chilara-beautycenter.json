@@ -1,0 +1,71 @@
+{
+ "slug": "chilara-beautycenter",
+ "status": "ok",
+ "checked": "2026-10-19",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Chilara%20Beautycenter",
+ "maps_name": "Chilara Beautycenter",
+ "maps_category": "Schoonheidssalon",
+ "address": "Kapiteelpad 2, 6543 LT Nijmegen",
+ "phone_maps": "+31 6 26324467",
+ "rating": "4,6",
+ "rating_count": 17,
+ "reviews": [
+  {
+   "name": "Martha Winters",
+   "stars": 5,
+   "rel": "een jaar geleden",
+   "text": "Ik kom al jaren bij Diana, zegt genoeg dus. Je merkt dat ze weet wat ze doet, heeft duidelijk erg veel ervaring én is ook nog heel erg vriendelijk! Top!"
+  },
+  {
+   "name": "Wilma Janssen",
+   "stars": 5,
+   "rel": "Bewerkt: een maand geleden",
+   "text": "Altijd heel erg gezellig, en ze det het heel goed en netjes."
+  },
+  {
+   "name": "Irene Kersten Janssen",
+   "stars": 5,
+   "rel": "5 jaar geleden",
+   "text": "Heerlijke, relaxte behandeling. 😍"
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SgW8WhbjWexoNOf_mJS0Nn8jpTFSSADkZJ1QV6Yxi_nnGX0AENG9sKQ7v-tmSq5R6_JIpXZNBzyGdQmqL2KpjH9gVfL7j6p7dzVC0dbocW1Ci3b1fkLb_-kNpDIwDLwRWXuyoRtg=w1920-h1080-k-no",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RfCYpIGBYxl1PW8U2qfiqne7VvVqSCZXCpVvpvLberAWTwpAgt_YLO9uMBwTPLqsT1GbFsFCTCzGRh9d3mk7MSlsvZDLKY_lMoQ7WDUAc2zJk9GMgVJ-O5ojUmlaagQt-J8Jmk=w1920-h1080-k-no",
+  "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=sMUCfb-HBN5vzi5oy1Q8iw&cb_client=lu.gallery.gps&w=1920&h=1272&yaw=339.34668&pitch=0&thumbfov=100"
+ ],
+ "about_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=sMUCfb-HBN5vzi5oy1Q8iw&cb_client=lu.gallery.gps&w=1920&h=1272&yaw=339.34668&pitch=0&thumbfov=100",
+ "hours": [
+  [
+   "maandag",
+   "09:30–18:00"
+  ],
+  [
+   "dinsdag",
+   "09:30–18:00"
+  ],
+  [
+   "woensdag",
+   "09:30–18:00"
+  ],
+  [
+   "donderdag",
+   "09:30–18:00"
+  ],
+  [
+   "vrijdag",
+   "09:30–18:00"
+  ],
+  [
+   "zaterdag",
+   "09:30–18:00"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

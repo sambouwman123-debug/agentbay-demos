@@ -1998,3 +1998,23 @@ SITES.update({
 'kapper-yasin-barbershop-arnhem':QB('kapper-yasin-barbershop-arnhem','Kapper Yasin | BARBERSHOP ARNHEM','Arnhem','0633030319','Yasin',PH7,AL7,
  'Strak geknipt <em>bij Yasin.</em>','4,8',343,('Waalstraat 28','6826 BR Arnhem'),'Yasin',['Arnhem','Velp','Oosterbeek','Elst','Huissen','Westervoort','Duiven','Rheden','Schaarsbergen','Zevenaar'],title='Kapper Yasin Barbershop | Arnhem'),
 })
+PH7B='photo-1632345031435-8727f6897d53'; AL7B='Verzorgde salon in Nijmegen'
+SITES.update({
+'ali-kapsalon':QB('ali-kapsalon','Ali Kapsalon','Nijmegen','0247506545','Ali',PH7B,AL7B,
+ 'Strak geknipt <em>bij Ali.</em>','4,8',140,('Symfoniestraat 136','6544 TM Nijmegen'),'Ali',['Nijmegen','Lent','Oosterhout','Beuningen','Wijchen','Malden','Elst','Bemmel','Groesbeek','Cuijk'],title='Ali Kapsalon | Nijmegen'),
+'hair-and-beauty-by-sema':QB('hair-and-beauty-by-sema','Hair and Beauty by Sema','Nijmegen','0640600384','Sema',PH7B,AL7B,
+ 'Haar en beauty <em>bij Sema.</em>','4,9',22,('Wedesteinbroek 2123','6546 RV Nijmegen'),'Sema',['Nijmegen','Lent','Oosterhout','Beuningen','Wijchen','Malden','Elst','Bemmel','Groesbeek','Cuijk'],title='Hair and Beauty by Sema | Nijmegen'),
+'chilara-beautycenter':BEAU('Chilara Beautycenter','Nijmegen','0626324467','Chilara',PH7B,AL7B,
+ 'Jouw beauty-moment <em>in Nijmegen.</em>','Gezichtsbehandelingen, wenkbrauwen en huidverbetering in Nijmegen.','<span><b>Beauty</b></span>','<p>Chilara Beautycenter in Nijmegen is de plek voor een verzorgde huid en een rustig moment voor jezelf.</p><p>Persoonlijke aandacht staat voorop.</p>',
+ [('Schoonheidssalon','Nijmegen'),('Op','afspraak'),('Huid','specialist'),('Persoonlijk','advies')],('Kapiteelpad 2','6543 LT Nijmegen'),'Chilara',fontset=F_CORM,palette=P_PLUM,dark=DK('#e8c4e3','#efd3eb'),
+ services=[('Gezichtsbehandeling','Een complete behandeling afgestemd op je huid.'),('Wenkbrauwen','Harsen, verven en in model.'),('Harsen','Ontharing, snel en zorgvuldig.'),('Huidverbetering','Advies en behandeling voor een stralende huid.'),('Wimpers','Lash lift of extensions.'),('Massage','Ontspanning voor gezicht en lichaam.')],quote='Een mooie huid begint bij aandacht.',area=['Nijmegen','Lent','Oosterhout','Beuningen','Wijchen','Malden','Elst','Bemmel','Groesbeek','Cuijk'],title='Chilara Beautycenter | Nijmegen'),
+'pedicure-hennie':QN('Pedicure Hennie','Nijmegen','0616805044','Hennie',PH7B,AL7B,
+ 'Zorg voor je voeten <em>bij Hennie.</em>','5,0',74,('Ligusterstraat 21','6543 ST Nijmegen'),'Hennie',['Nijmegen','Lent','Oosterhout','Beuningen','Wijchen','Malden','Elst','Bemmel','Groesbeek','Cuijk'],
+ pal_=P_SAGE,dark=DK('#cfe3b8','#d9ebc6'),fontset=F_CORM,services=NAIL_SV[:2]+[('Pedicure','Verzorgde, gezonde voeten met aandacht.'),('Eeltverwijdering','Eelt en likdoorns vakkundig behandeld.'),('Nagels knippen','Teennagels netjes geknipt.'),('Voetmassage','Een ontspannende afsluiter.')],title='Pedicure Hennie | Nijmegen'),
+'lory-pedicure':QN('Lory Pedicure','Nijmegen','0648517701','Lory',PH7B,AL7B,
+ 'Verzorgde voeten <em>bij Lory.</em>','4,9',133,('Heeskesacker 2117','6546 JS Nijmegen'),'Lory',['Nijmegen','Lent','Oosterhout','Beuningen','Wijchen','Malden','Elst','Bemmel','Groesbeek','Cuijk'],
+ pal_=P_SAND,dark=DK('#f4cfb2','#f7dcc6'),fontset=F_BRIC,services=NAIL_SV[:2]+[('Pedicure','Verzorgde, gezonde voeten met aandacht.'),('Eeltverwijdering','Eelt en likdoorns vakkundig behandeld.'),('Nagels knippen','Teennagels netjes geknipt.'),('Voetmassage','Een ontspannende afsluiter.')],title='Lory Pedicure | Nijmegen'),
+'corin-s-pedicure':QN("Corin's pedicure",'Nijmegen','0618542437','Corin',PH7B,AL7B,
+ 'Zorg voor je voeten <em>bij Corin.</em>','4,9',55,('Weezenhof 2081','6536 JL Nijmegen'),'Corin',['Nijmegen','Lent','Oosterhout','Beuningen','Wijchen','Malden','Elst','Bemmel','Groesbeek','Cuijk'],
+ pal_=P_GOLD,dark=DK('#ecd59d','#f1dfb3'),fontset=F_PLAY,services=NAIL_SV[:2]+[('Pedicure','Verzorgde, gezonde voeten met aandacht.'),('Eeltverwijdering','Eelt en likdoorns vakkundig behandeld.'),('Nagels knippen','Teennagels netjes geknipt.'),('Voetmassage','Een ontspannende afsluiter.')],title="Corin's Pedicure | Nijmegen"),
+})

@@ -1,0 +1,74 @@
+{
+ "slug": "lory-pedicure",
+ "status": "ok",
+ "checked": "2026-10-19",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Lory%20Pedicure%20%F0%9F%A6%B6",
+ "maps_name": "Lory Pedicure",
+ "maps_category": "Voetverzorging",
+ "address": "Heeskesacker 2117, 6546 JS Nijmegen",
+ "phone_maps": "+31 6 48517701",
+ "rating": "4,9",
+ "rating_count": 133,
+ "reviews": [
+  {
+   "name": "Marjolein G",
+   "stars": 5,
+   "rel": "3 weken geleden",
+   "text": "Lory is ontzettend vriendelijk en heel deskundig. Ik had veel last van eelt onder mijn voeten en zij heeft het vakkundig weggehaald en advies erbij gegeven hoe ik mijn voeten goed kan verzorgen. Ze voelen nu zacht aan en ik ervaar ook minder druk op bepaalde punten. Ik kan haar echt aanraden."
+  },
+  {
+   "name": "Karin Hoefs",
+   "stars": 5,
+   "rel": "een maand geleden",
+   "text": "Ze stelt je gerust en ze doet het heel secuur. Ze is heel aardig ( Evi 12 jaar) Ze heeft een professionele houding. Haar praktijk aan huis ziet er verzorgd uit. Lory is heel goed in het geruststellen van onze dochter en legt stap voor stap uit wat zij gaat doen. Een echte aanrader!"
+  },
+  {
+   "name": "Nicole Klomp",
+   "stars": 5,
+   "rel": "2 weken geleden",
+   "text": "Ik ging er een paar maanden geleden heen voor een spoedgeval, en sindsdien mijn vaste pedicure waar ik iedere 5 weken trouw kom. Sinds kort komt dochter lief ook mee."
+  }
+ ],
+ "hero": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6exTUXxUnp17wJWMubAQjA&cb_client=lu.gallery.gps&w=1920&h=1272&yaw=302.1965&pitch=0&thumbfov=100",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RxyvOcBas8DY8kaH1rTZc16XaUZHKjkJnfYPsL_YVqQObqzK66IusT7p0z9tDIU5fbZMC-s87C8BZcSiXFJ85VOAF6dbPlEl65Y5IfLthmJemOhiUdzJhGfaWylDKs1fEbCRpKwA=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QFOszxQzHkiz6pqeuBCEVEjY637xngydCfJyV5ak6V9JLAaYTHERIMAn76Ui44Nm4LwaHY0HT5fmvWxFgXSi_T28FPC4P7rsUYfGjfTeD3OVNwBGp9LaeJJ8ngdF8nTCYoWdCpnQ=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QgG0ZtAFfSbuXLCHTzo3Aaay_bfF7ZgsaNjuuMF9L30EKRaT3yr5vLrTRj7kDuiu2NmU0z8YOTwbSHzTHhxIBb9RyYnX-qeod8kojx1j2amgXlpXlNJgssu6JPY-iMJpf0ExhJfg=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RYnUAcplFBB6KupMfas1Mc1Vp4fyyqC14uhZvsKUJ9xbcIKxFSK-sUl2Bch7JDYEwuPUbfarQRief2hj4OwL-49-GIF0xkMBMrQtQr1gk4nNT64HgBl39-Ky7Ik9x5b0Nd2YdM1g=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TOyCh8QI-mbvqE2TneIL5BYmTRK4y7e9NcMDCIJQUTqKyLxPfxWygJ4FcIYe3TAtNsNI4Qy8APNwtU8-dnWvlMvYqxPq0oqYV0q2XghPK_bXVg9b-RMDEe8FklLIoj_385LZA=w1920-h1080-k-no"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TOyCh8QI-mbvqE2TneIL5BYmTRK4y7e9NcMDCIJQUTqKyLxPfxWygJ4FcIYe3TAtNsNI4Qy8APNwtU8-dnWvlMvYqxPq0oqYV0q2XghPK_bXVg9b-RMDEe8FklLIoj_385LZA=w1920-h1080-k-no",
+ "hours": [
+  [
+   "maandag",
+   "09:00–22:00"
+  ],
+  [
+   "dinsdag",
+   "09:00–22:00"
+  ],
+  [
+   "woensdag",
+   "09:00–22:00"
+  ],
+  [
+   "donderdag",
+   "09:00–22:00"
+  ],
+  [
+   "vrijdag",
+   "09:00–22:00"
+  ],
+  [
+   "zaterdag",
+   "10:00–18:00"
+  ],
+  [
+   "zondag",
+   "11:00–17:00"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}
