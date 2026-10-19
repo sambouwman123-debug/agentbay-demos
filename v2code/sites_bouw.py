@@ -1974,3 +1974,27 @@ SITES.update({
  ['Hoogeveen','Pesse','Fluitenberg','Noordscheschut','Hollandscheveld','Nieuweroord','Elim','Zuidwolde'],
  pal_=P_GOLD,dark=DK('#ecd59d','#f1dfb3'),title='Empire of Beauty | Hoogeveen'),
 })
+# ---- batch 7 Arnhem (Apify) ----
+PH7='photo-1632345031435-8727f6897d53'; AL7='Verzorgde salon in Arnhem'
+SITES.update({
+'ameeta-s-pedicure':QN("Ameeta's Pedicure",'Arnhem','0641832449','Ameeta',PH7,AL7,
+ 'Zorg voor je voeten <em>met aandacht.</em>','5',82,('Budelstraat 2','6844 AH Arnhem'),'Ameeta',['Arnhem','Velp','Oosterbeek','Elst','Huissen','Westervoort','Duiven','Rheden','Schaarsbergen','Zevenaar'],
+ pal_=P_SAGE,dark=DK('#cfe3b8','#d9ebc6'),fontset=F_CORM,services=NAIL_SV[:2]+[('Pedicure','Verzorgde, gezonde voeten met aandacht.'),('Eeltverwijdering','Eelt en likdoorns vakkundig behandeld.'),('Nagels knippen','Teennagels netjes geknipt.'),('Voetmassage','Een ontspannende afsluiter.')],title="Ameeta's Pedicure | Arnhem"),
+'anna-nails':QN('Anna Nails','Arnhem','0634500056','Anna',PH7,AL7,
+ 'Verzorgde nagels <em>in Arnhem.</em>','4,6',14,('Middelgraaflaan 55','6832 AN Arnhem'),'Anna',['Arnhem','Velp','Oosterbeek','Elst','Huissen','Westervoort','Duiven','Rheden','Schaarsbergen','Zevenaar'],
+ pal_=P_ROSE,dark=DK('#f3c9d2','#f6d6dd'),fontset=F_PLAY,title='Anna Nails | Arnhem'),
+'beauty-cabin':BEAU('Beauty Cabin','Arnhem','0850806969','Beauty Cabin',PH7,AL7,
+ 'Jouw moment <em>in de Beauty Cabin.</em>','Gezichtsbehandelingen, wenkbrauwen, harsen en huidverbetering in Arnhem.','<span><b>Beauty</b></span>','<p>Beauty Cabin in Arnhem is de plek voor een verzorgde huid en een rustig moment voor jezelf.</p><p>Persoonlijke aandacht staat voorop.</p>',
+ [('Schoonheidssalon','Arnhem'),('Op','afspraak'),('Huid','specialist'),('Persoonlijk','advies')],('Het Zwin 105','6826 VC Arnhem'),'Beauty Cabin',fontset=F_CORM,palette=P_PLUM,dark=DK('#e8c4e3','#efd3eb'),
+ services=[('Gezichtsbehandeling','Een complete behandeling afgestemd op je huid.'),('Wenkbrauwen','Harsen, verven en in model.'),('Harsen','Ontharing, snel en zorgvuldig.'),('Huidverbetering','Advies en behandeling voor een stralende huid.'),('Wimpers','Lash lift of extensions.'),('Massage','Ontspanning voor gezicht en lichaam.')],quote='Een mooie huid begint bij aandacht. Daar neem ik de tijd voor.',area=['Arnhem','Velp','Oosterbeek','Elst','Huissen','Westervoort','Duiven','Rheden','Schaarsbergen','Zevenaar'],svc_h='Behandelingen',svc_p='Elke behandeling afgestemd op jouw wensen.',title='Beauty Cabin | Arnhem'),
+'mira-beauty-schoonheidssalon':BEAU('Mira Beauty schoonheidssalon','Arnhem','','Mira',PH7,AL7,
+ 'Een stralende huid <em>bij Mira.</em>','Gezichtsbehandelingen, wenkbrauwen en huidverbetering in Arnhem.','<span><b>Beauty</b></span>','<p>Mira Beauty is een schoonheidssalon in Arnhem met aandacht voor jouw huid en wensen.</p><p>Je gaat ontspannen en verzorgd de deur uit.</p>',
+ [('Schoonheidssalon','Arnhem'),('Op','afspraak'),('Huid','specialist'),('Persoonlijk','advies')],('Huissensestraat 138','6833 JD Arnhem'),'Mira',fontset=F_PLAY,palette=P_GOLD,dark=DK('#ecd59d','#f1dfb3'),
+ services=[('Gezichtsbehandeling','Een complete behandeling afgestemd op je huid.'),('Wenkbrauwen','Harsen, verven en in model.'),('Harsen','Ontharing, snel en zorgvuldig.'),('Huidverbetering','Advies en behandeling voor een stralende huid.'),('Wimpers','Lash lift of extensions.'),('Massage','Ontspanning voor gezicht en lichaam.')],quote='Een stralende huid begint bij goede verzorging.',area=['Arnhem','Velp','Oosterbeek','Elst','Huissen','Westervoort','Duiven','Rheden','Schaarsbergen','Zevenaar'],svc_h='Behandelingen',svc_p='Elke behandeling afgestemd op jouw wensen.',title='Mira Beauty schoonheidssalon | Arnhem'),
+'sam-kapsalon':QB('sam-kapsalon','Sam Kapsalon','Arnhem','0617717718','Sam',PH7,AL7,
+ 'Strak geknipt <em>bij Sam.</em>','4,9',60,('Schuttersbergweg 22 A','6823 KJ Arnhem'),'Sam',['Arnhem','Velp','Oosterbeek','Elst','Huissen','Westervoort','Duiven','Rheden','Schaarsbergen','Zevenaar'],title='Sam Kapsalon | Arnhem'),
+'sado-kapper-arnhem':QB('sado-kapper-arnhem','Sado Kapper /Arnhem','Arnhem','0643445624','Sado',PH7,AL7,
+ 'Vakwerk <em>bij Sado.</em>','4,9',93,('Amsterdamseweg 187','6814 GE Arnhem'),'Sado',['Arnhem','Velp','Oosterbeek','Elst','Huissen','Westervoort','Duiven','Rheden','Schaarsbergen','Zevenaar'],title='Sado Kapper | Arnhem'),
+'kapper-yasin-barbershop-arnhem':QB('kapper-yasin-barbershop-arnhem','Kapper Yasin | BARBERSHOP ARNHEM','Arnhem','0633030319','Yasin',PH7,AL7,
+ 'Strak geknipt <em>bij Yasin.</em>','4,8',343,('Waalstraat 28','6826 BR Arnhem'),'Yasin',['Arnhem','Velp','Oosterbeek','Elst','Huissen','Westervoort','Duiven','Rheden','Schaarsbergen','Zevenaar'],title='Kapper Yasin Barbershop | Arnhem'),
+})

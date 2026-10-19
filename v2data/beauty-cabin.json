@@ -1,0 +1,76 @@
+{
+ "slug": "beauty-cabin",
+ "status": "ok",
+ "checked": "2026-10-19",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Beauty%20Cabin",
+ "maps_name": "Beauty Cabin",
+ "maps_category": "Schoonheidssalon",
+ "address": "Het Zwin 105, 6826 VC Arnhem",
+ "phone_maps": "+31 85 080 6969",
+ "rating": "4,9",
+ "rating_count": 94,
+ "reviews": [
+  {
+   "name": "L.S.",
+   "stars": 5,
+   "rel": "4 maanden geleden",
+   "text": "Super blij met mijn spraytan! Een hele lieve en professionele meid die duidelijk veel ervaring heeft. Ze werkt netjes, geeft goed advies en het resultaat is prachtig egaal. Geen gele of oranje gloed, maar een mooie natuurlijke bruine kleur. Zeker een aanrader!"
+  },
+  {
+   "name": "charmelle De randamie",
+   "stars": 5,
+   "rel": "4 maanden geleden",
+   "text": "Voor het eerst spraytan gedaan. Super tevreden met het eind resultaat en erg fijn geholpen. Super lieve meid en voelde me erg op mijn gemak!"
+  },
+  {
+   "name": "Tiffany P",
+   "stars": 5,
+   "rel": "4 maanden geleden",
+   "text": "Maakt tijd voor je, ook al heb je de afspraak verkeerd gepland🥹 en de tan is prachtig!! Dit ga ik zeker vaker doen!"
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ToUCaAEiVtjImz1SFrZ-C7lEArLe1KG25O-3NKxGsPvyu0hkuZgw4It4P9A_cb3G-54uGHOSOCXHw-gUrQxjx_gl8V5x1ptckQqMfL8fiZHzDYhKSd0lBVcc72Tt446yktq7ZvgN4UIFdO=w1920-h1080-k-no",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TqB6_sMVyg-pj63yp5Qa9VIODS2zVDGMQn9gqWI-n6qVVu1sBUb-MGGk9lCh6A90GZpEMEjIBgvnn_onbD8D6zi1Dg7uYaBnlykiQwY08K8L4TZe9zdH7FGrc2_FasV0GXs8CmhQ=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SpNwHB87MEeV1c69Qh_tQiaYYqU9mhzNqaZZF7wqTYNSMM0oi2JB-edMZJivoTCpm-jIMkob-gFc8dXNy2qIpr8f01DPLtzqRuBOVnPC1-BVvZvvPYWSVwqxPMnxOGgV-NH5hOqA=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QSoMHMTst9HsPuTn31GoRhib_-fPIKuSGQfC0XSdZKa446-UV0f3PdkRU4optUzUlPOBfLet64r3wUEk-cQkavdLTHTmAGaSAOvo7zXyvJrxNmGkginafTyl8ETJy_t3aGrL0sAZ86RHmf=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SUCYVOVpy0op0-WVrX6qvQO-AmGERFvqlAJ4RRNuBAes2OgaWZh41hebqPUgBSSKyGLf-pEihl0mz4w73kV9vu-Mc3mt06ltxE9Ypw9pN4da8U9Sp91BvHgq6VkpflyADhLr6TMw=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R7h48qrDqL882UGyItY3kkIAoZj18b3W0oHTRm9CM82_IP_4Ta5GfKmhA4cHdmZfBxJvB193vhOlR2eD4YfO9ALfeFHpI-EFj7Ql3xX6N6lZCcmdNfeQo7evoy8rkANBWb9NEX9-4HAns=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T96efLWLNpN8NtoNQKgnKMQkpY5RlbZ9S5akUxXJxdXDUTi6XDvTu8UJh5LW0kB9Y4FVwLNiiREttH43W5HE8W68Fh2IUkm4xYfBSr-lpMgRVksnbXq_k68TqL80yVYuhx6Z0QATyEZ_aT=w1920-h1080-k-no",
+  "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Cet63IOCe9vUjBVLPCATVQ&cb_client=lu.gallery.gps&w=1920&h=1272&yaw=353.49695&pitch=0&thumbfov=100"
+ ],
+ "about_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Cet63IOCe9vUjBVLPCATVQ&cb_client=lu.gallery.gps&w=1920&h=1272&yaw=353.49695&pitch=0&thumbfov=100",
+ "hours": [
+  [
+   "maandag",
+   "Gesloten"
+  ],
+  [
+   "dinsdag",
+   "19:00–22:30"
+  ],
+  [
+   "woensdag",
+   "19:00–22:30"
+  ],
+  [
+   "donderdag",
+   "19:30–22:30"
+  ],
+  [
+   "vrijdag",
+   "19:30–22:30"
+  ],
+  [
+   "zaterdag",
+   "13:00–22:30"
+  ],
+  [
+   "zondag",
+   "13:00–22:30"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

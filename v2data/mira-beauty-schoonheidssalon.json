@@ -1,0 +1,76 @@
+{
+ "slug": "mira-beauty-schoonheidssalon",
+ "status": "ok",
+ "checked": "2026-10-19",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Mira%20Beauty%20schoonheidssalon",
+ "maps_name": "Mira Beauty schoonheidssalon",
+ "maps_category": "Schoonheidsspecialist",
+ "address": "Huissensestraat 138, 6833 JD Arnhem",
+ "phone_maps": "",
+ "rating": "5,0",
+ "rating_count": 31,
+ "reviews": [
+  {
+   "name": "Maaike McMulkin",
+   "stars": 5,
+   "rel": "7 maanden geleden",
+   "text": "Ik ga nu voor derde keer naar Mira Beauty en ben zeer tevreden. Het resultaat van mijn wenkbrouwen en bovenlip met touwtje is erg naar wens. Fijne salon en aan te raden."
+  },
+  {
+   "name": "Khadija Taibi",
+   "stars": 5,
+   "rel": "2 jaar geleden",
+   "text": "Ik ben erste keer naar mira Beauty Schoondssalon voor gezicht epileren geweest en ben erg tevreden over"
+  },
+  {
+   "name": "Meia",
+   "stars": 5,
+   "rel": "Bewerkt: 2 jaar geleden",
+   "text": "Zorgvuldig, professioneel en vriendelijk! Mijn wimperlift heeft een natuurlijk resultaat."
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Q47UnUo9AvujRhXtRRgDdrYlYE-Kj9lwyx5mM6oJMMPImX5gw9BYKOkMb0nh_PlBPKFOEM6xfg_PWkppuzQrDZjWNYCQ0Z6YHsawFQGYPMDvxQ3-gJBwhqLeWTKOyFB0Aa1CZqtA=w1920-h1080-k-no",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T4m0dvM5HxmQqH1sWpAH1HNB85wWYc7eHC_FLUGl0X5NbUQqWcfPWsWtb5IA-wKDiObF6rc_5Wlt-9Z1PBq7S_hRqziPiPPiJZ9DuedE-q_1JPs5CiiSGcl2h-kQGYUQw2HddkygEW3Kvi=w1920-h1080-k-no",
+  "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=FiAhzn8-Gm4nijFVg--w4Q&cb_client=lu.gallery.gps&w=1920&h=1272&yaw=240.49948&pitch=0&thumbfov=100",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SQ25Um6UkkwDiOKxpjWyF7q3a84MZJ5PAyFUuBnWrdWNDfZO6WIdBkWbGElToSqvxM3Upk-2VAPBJcPZquFohjRKzeRQvRTHYabR-9HRK5ZKTg-aOojZAj7JkooTt7rw3Awitcxp9HKIQ=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SM_x5ID46-h1KjyLXZ13eEV6G7-xS40D0659Imkk2ie8HQtIKGu0WAa0zbfaxEPMSmhyz0SBL3MooxQLISv4YnJgoFa4zrVUr3NoNul3GqR60UoLlVmUfWEWkBPU74c07JHoTAkCRtnJRu=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TQZ7Ho3pdB17Tgju1BvsaoUhT_ixn9HSqu8oHsJpvcmLTZzW11vLYzPwUssWMCPNlpw8ExPEEQQlzjTwpaNzLCV1j-nb9XtDY30u3gaL8eEhOqy7IurzyGCIoDsFoW4BPM8kWN=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R0Zf5-XcIo8eNWkJOglBlFM-7Wo9ZDetDv3VfastuN3Wpg_SgL3zXFTN5fkfXPR29BJqIdj0mbvkzGxXd50LnkOAbM7rBRKFwiPLISkd58fza0h4KycfinFB-wshPkpEbXzE4z2_MAwCyj=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QdGDcZiqE2VrCYbkuU215x28Cg4cRt9LjH2Af1_0aXGBB9v56fC8sSBvlQRqfh9AppIZUW1QoHQZhTappgGJXLAAuHtXon6WWBzQYecOvqN5R4Er42Wn9-ApYuAnUuOoSOo2EkxW6Zm3La=w1920-h1080-k-no"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QdGDcZiqE2VrCYbkuU215x28Cg4cRt9LjH2Af1_0aXGBB9v56fC8sSBvlQRqfh9AppIZUW1QoHQZhTappgGJXLAAuHtXon6WWBzQYecOvqN5R4Er42Wn9-ApYuAnUuOoSOo2EkxW6Zm3La=w1920-h1080-k-no",
+ "hours": [
+  [
+   "maandag",
+   "16:00–19:00"
+  ],
+  [
+   "dinsdag",
+   "16:00–19:00"
+  ],
+  [
+   "woensdag",
+   "16:00–19:00"
+  ],
+  [
+   "donderdag",
+   "16:00–19:00"
+  ],
+  [
+   "vrijdag",
+   "16:00–19:00"
+  ],
+  [
+   "zaterdag",
+   "11:00–17:00"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

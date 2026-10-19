@@ -1,0 +1,76 @@
+{
+ "slug": "sam-kapsalon",
+ "status": "ok",
+ "checked": "2026-10-19",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Sam%20Kapsalon%20%E2%9C%82",
+ "maps_name": "Sam Kapsalon",
+ "maps_category": "Kapper",
+ "address": "Schuttersbergweg 22 A, 6823 KJ Arnhem",
+ "phone_maps": "+31 6 17717718",
+ "rating": "4,9",
+ "rating_count": 60,
+ "reviews": [
+  {
+   "name": "Jimmy Verbeek",
+   "stars": 5,
+   "rel": "een week geleden",
+   "text": "Beste kapper die je ma kan vinden zeker aan rader"
+  },
+  {
+   "name": "Umut Karakaya",
+   "stars": 5,
+   "rel": "4 dagen geleden",
+   "text": "Al jaren klant, en altijd tevreden ."
+  },
+  {
+   "name": "Nechirwan Salman",
+   "stars": 5,
+   "rel": "2 weken geleden",
+   "text": "Ik ben top geknipt super!!!!"
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RMoUDZJ2T6Z93zmZXmlyF4GIWUmQLJ0Y7W59xuAYa9ZSXNTkez7Bds_BFezZyGJvYA6kz_-cesBLUbmTw9t6NzFmv_-W2QfBeVucK9UmofHrZRjwK4KymWmyotN58lE6Eb3TjL=w1920-h1080-k-no",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R6MLI8utpZtrUQXN4iC5kxSnMkIOuWtXa7JJFtrNH8MiNYNwpUiHwPNAWsfndll1e8anfhBZ1tgkhNUBRjvktA2qZSHyIeTaGMJDOQKw65AzBBg7oHL5p9rzXO1D3xRXu6ExCyaw=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rgzc6QRV2hb2JOMp0oszrCgTXNPCIzNhyRSG2Ajhv-Lf08Ym9ZkD-mWRoniZRlXj-PF0Dw269PqlNKnzNg2GbRLaHIwhJLphebLrGXUAsNTTVoIonNNtp8eTjq6CVPGR21qYEi-w=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ScRKnokE2AWMaNWBsxq_SvdLubcdYSUfW0ccqD3Fl7ka0UvF67TzIpyDlNPvP3GQowTHEHMC2gees53aoT6IimMQd7QNfpAPmhs7JfuWjtfhBvM5MlLAGVoD2GjIi1xV50QVef7Q=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SkL99cI5eJO-1OZjbQOegbofXISnYh8ahHqAIB4lIsnGcBvpYIrZiVRpGNOM2ODyquEUW4AMQY9pLq2rstALSoRKz-9ADQzFBRSOHqYoBNnN9wBKjsZwO4IAaBoFwxLHfeABDt=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RXb3qK8I1_hFcbdj5vJQZi_JiIFW64dAxVHapte5XFsOpZMmyTstbuSIWHiD8R4knXePkvFb0LN-6aD-nsw8poTAOcYUC0Tc3asyebeAmmHD84EoSiUcPEXs5BfTe_v9-zu8A6=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QLjiZbcxf_0-YizFCqamiBncJ0M6nwvS8wZdPJLCYZzR6_c5K7S5evgDRGKmd0EAp5Pt88Jq7URVk9-r4oyWOQjXGRx9blA9L4y_NMdy_2rcsNArMUp_PIGeVa6yam__X4RC3FeK18CibT=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RAmnuVgk63gmannDL4Ju5DqueXknH8ZFDNfOCV0SRXkz-GDQ4WfeYB5CpQPauyBC1oRqrxD1WMUKwrWTUDAOFlOw5cUi_c1IIlRaao-KU0r-Ll3nUoRKVG1K2vwX2QnqmcPR3r=w1920-h1080-k-no"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RAmnuVgk63gmannDL4Ju5DqueXknH8ZFDNfOCV0SRXkz-GDQ4WfeYB5CpQPauyBC1oRqrxD1WMUKwrWTUDAOFlOw5cUi_c1IIlRaao-KU0r-Ll3nUoRKVG1K2vwX2QnqmcPR3r=w1920-h1080-k-no",
+ "hours": [
+  [
+   "maandag",
+   "11:00–18:00"
+  ],
+  [
+   "dinsdag",
+   "09:30–18:00"
+  ],
+  [
+   "woensdag",
+   "09:30–18:00"
+  ],
+  [
+   "donderdag",
+   "09:30–18:00"
+  ],
+  [
+   "vrijdag",
+   "09:30–18:00"
+  ],
+  [
+   "zaterdag",
+   "09:30–18:00"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}
