@@ -1,0 +1,76 @@
+{
+ "slug": "sk-kapsalon",
+ "status": "ok",
+ "checked": "2026-10-19",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=SK%20Kapsalon",
+ "maps_name": "SK Kapsalon",
+ "maps_category": "Kapper",
+ "address": "Hooge Molenstraat 22, 7001 AT Doetinchem",
+ "phone_maps": "+31 6 84561491",
+ "rating": "5,0",
+ "rating_count": 32,
+ "reviews": [
+  {
+   "name": "Martin Kwant",
+   "stars": 5,
+   "rel": "6 dagen geleden",
+   "text": "⭐⭐⭐⭐⭐ Fijne ervaring bij SK Kapsalon! Vriendelijke jongen, neemt de tijd voor je en maakt gezellig een praatje. Je wordt netjes en respectvol behandeld. Zeker een aanrader, ik kom hier graag nog eens terug!"
+  },
+  {
+   "name": "Laurens",
+   "stars": 5,
+   "rel": "een week geleden",
+   "text": "Denkt goed mee over het kapsel, neemt de tijd en is erg precies. Ik kom zeker terug!"
+  },
+  {
+   "name": "lucas dey",
+   "stars": 5,
+   "rel": "een week geleden",
+   "text": "Zeer tevreden. Mooie zaak, goed en snel geholpen. Zeker aanrader"
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9S5qbgg_9HHIgHpEcoMQXOZEYzGp9Ae_pLwcwYRvOCkiN4q0WBby6CWc8kLNHLl2_e7L9TMJ9JE7aGTHV7UQXoWMnzPZKineLsXQb1siMnUCwKyp-B71E3T8ou9_EzHegP9wxgrQkHQH4q5=w1920-h1080-k-no",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ROrDnlKGFZgWcBSbAPbh3m1DW3bX_MX33-dGZN1CkDv7A9AGo_0yLd3pLurt9shr1UVwgsEAr6fU5DSsr61dPfet-ZPjjV4SxgC-TNNVwA6EiXJi38-C94gZyYQmRWiBNcpk38w2bqzjEt=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9R9C_24fMA0Y24SkFVKPVSLZSg9nPVPg4yJXyNTeJyXyEV-89jzvoEOUB-oO5FP2IabWcGQiyC6bRBTA8jK8OgFopjbJUXsU8Ow_GQG-8lBL1yF10dQ2mCUFeSmXV4RgEGJk0wzVEE0yL2h=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TnDuASmJx-7btoMX_Sj4u0OmVfgLl71tYvAct2unxYE5V5dFLVCeGuy2-UrHkbhCnrtQyhK50l6QP7K227qsut85LZ8NOXnLPi1j5gPn2VBb4bxjgDgEMTL6xn3RJr2JRz-KYOuOroVBKr=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RNuCwO4E42emczzepyTZxAMNBWdkCMRj3LIkNP7pKvGirSHX91KOx5l87neiisvnXc7IUOWgaI9iu9bUCDWv6NBJJD0X9HponSfqpCR7WtI27Ljj8TgIjsTzQqudvxncYoHsCLcThiQyNG=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Qumm5Z7l25IFFtzYJ_pmpPYvVLxlmRlRRKHi4jvclcdtFQiI-BXszi7LtJUie_XQFDsgmz52ZamcKPcadJOvsmDPp2YXLXuOfmIL2_blaP9Jbs6-e6S_AThnJ-uJ6tYXro0zUhC9nR6lek=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SveOx0k7-qfzGuC2FTApzpUMmpe2nSYIiQcKMa1QcUZSyQK5A47i2aO4gUUVaa5JnBYzTWl3iMsoaIEGyXhnlAgggGD3W6TM8TwDWYziMwuxILfOry88KtWUXBHTp1Z8EiOeHc-QYjfrvc=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TnMiDu_9Uj7cWeC0NsuKSr-LAZVsoMo0Oom_Tvrvu-RvDBmdpfsXKOoY6pvT7t5hS5aFhesS62FSFVU8wItNQsmrU2cKAym812BLaHb4jwTLhnFqa3jUMA6IFPMf2imxFaAI8bQVqu7nLc=w1920-h1080-k-no"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TnMiDu_9Uj7cWeC0NsuKSr-LAZVsoMo0Oom_Tvrvu-RvDBmdpfsXKOoY6pvT7t5hS5aFhesS62FSFVU8wItNQsmrU2cKAym812BLaHb4jwTLhnFqa3jUMA6IFPMf2imxFaAI8bQVqu7nLc=w1920-h1080-k-no",
+ "hours": [
+  [
+   "maandag",
+   "12:30–18:00"
+  ],
+  [
+   "dinsdag",
+   "09:30–18:00"
+  ],
+  [
+   "woensdag",
+   "09:30–18:00"
+  ],
+  [
+   "donderdag",
+   "09:30–18:00"
+  ],
+  [
+   "vrijdag",
+   "09:30–20:00"
+  ],
+  [
+   "zaterdag",
+   "09:30–18:00"
+  ],
+  [
+   "zondag",
+   "12:30–18:00"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

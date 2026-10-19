@@ -1,0 +1,76 @@
+{
+ "slug": "barbershop-lunteren",
+ "status": "ok",
+ "checked": "2026-10-19",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Barbershop%20Lunteren",
+ "maps_name": "Barbershop Lunteren",
+ "maps_category": "Kapper",
+ "address": "Dorpsstraat 71, 6741 AC Lunteren",
+ "phone_maps": "+31 6 58855443",
+ "rating": "5,0",
+ "rating_count": 30,
+ "reviews": [
+  {
+   "name": "Machiel Heinen",
+   "stars": 5,
+   "rel": "Bewerkt: 4 maanden geleden",
+   "text": "Ben vandaag voor de tweede keer gegaan samen met mijn zoon, super tevreden. Snel aan de beurt en klassieke \"service with a smile\". Aanpassing 8 maanden later: Dit is mijn vaste barbier geworden. De mannen kennen hun vak en leren het ook aan een nieuwe generatie, altijd een glimlach, bieden altijd een kopje koffie of limonade aan. Als inwoner van Barneveld fiets ik graag naar Lunteren voor de service en het resultaat."
+  },
+  {
+   "name": "bob sprangers",
+   "stars": 5,
+   "rel": "4 maanden geleden",
+   "text": "Hele vakkundige en vriendelijke eigenaar. Kon zonder afspraak en kreeg wat drinken voor tijdens het wachten."
+  },
+  {
+   "name": "Ahmed Mohammed",
+   "stars": 5,
+   "rel": "8 maanden geleden",
+   "text": "Hartstikke gezellige lieve medewerkers mannen met talent met het schaar en tondeuses zeker een aanrader!"
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ShuOaqyibQAJ0AVhzfycRLM8vdUNmh-mLjUqU5SrvAzYA4J7gP8eJjRBZvO-wxS_XLf4FCSilxYN9Yy7ENfVSRiGTWmVigWtgFllXGI5gSP_HmbkGYuy_yvAhYfIE-lgHCzJTa=w1920-h1080-k-no",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TbIr0CZL9qG0jgcBnrZWNsMt95eH4uAQb44mUL-wUtfSajK5qEJ1vCkghQSXg_gw7V76r9lD93eQimjcdkEFtIFwbmZDPxBprK6Po_Xtxrj37cNZ_lBHQ48GkRNdV9mJo8I8dn=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QJWXOkbycC7qjf2JrgEyoE6yH2IMZhgdiOOxbfqw7UwTHJWlQSxIp9BhkGN0wolxvjTHN1VNQuEcAeU4V6Z8Fi2D1BlIdDz_CDj6iJH0cg_fNWmX9wGpoIw9MrU75vDXQeBsDt=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RRdtOHmb-lC6V6OjDZKzGBn4cZyXUVKSOYReUQkeo94bvkCIX_SpBfIuaERH3DCBevKr6r6NJZCbQXrvbtJJQRxcnUkuq0OPq4YvsFDII0HIWp_lcAEgoiEfNIydvreQmlRfETuQ=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9STe-bEfmkMUSFQjr9XeuasWsxLbi7Vio-HWSy-irdhqT3Fr-iC8d_jV20f9g4XeBLyrAvStA7EA_GeAQIZ2aEcWzh6SUMocWPQnjUifaOCW2qDfb7_tl-9aLuwrtMBOVxRrDY=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RHW6adJp8vZUCdhVa9nZyWa9W0l4HDmNxBV5sQ8r8ZeKvdyZ160fqHBkGu0688-M0QSzjt6GUnSeGwH2UEcikbOrhzqTJoYPG8yN9Fka_qdgYTNZXCS1CaLN50UkDfytopdJVCHJIbe13w=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QAv8YRxeiHzi9fxYfsQhXYgGiGL8jhT_4t70O1PZoo253axepil6wrBo5MCJAuvb4OOiqQm-nVjsvF6d3Utzfr5a7Ft4Z5wLn5faUvVtlA8cJzYnmkxLAOSn26QV88sE_QpDEmWA=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tx38x7vhTnhOrdgu3rMDL42O5Y4YCVwK0TRPqJtVcP7tuWDjN2jjLYU73s_-XZwkcFWOuQ76-RvIRIpdRHCdcT7mssFUGl7SVm06QfzY-r42PMlr1tDcc_uKd3_hIb9o9ewOeKep2QO8He=w1920-h1080-k-no"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Tx38x7vhTnhOrdgu3rMDL42O5Y4YCVwK0TRPqJtVcP7tuWDjN2jjLYU73s_-XZwkcFWOuQ76-RvIRIpdRHCdcT7mssFUGl7SVm06QfzY-r42PMlr1tDcc_uKd3_hIb9o9ewOeKep2QO8He=w1920-h1080-k-no",
+ "hours": [
+  [
+   "maandag",
+   "12:00–18:00"
+  ],
+  [
+   "dinsdag",
+   "10:00–20:00"
+  ],
+  [
+   "woensdag",
+   "10:00–20:00"
+  ],
+  [
+   "donderdag",
+   "10:00–20:00"
+  ],
+  [
+   "vrijdag",
+   "10:00–21:00"
+  ],
+  [
+   "zaterdag",
+   "10:00–18:00"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

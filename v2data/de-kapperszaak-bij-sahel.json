@@ -1,0 +1,72 @@
+{
+ "slug": "de-kapperszaak-bij-sahel",
+ "status": "ok",
+ "checked": "2026-10-19",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=De%20kapperszaak%20bij%20Sahel",
+ "maps_name": "De kapperszaak bij Sahel",
+ "maps_category": "Kapper",
+ "address": "Assendorperstraat 89, 8012 DH Zwolle",
+ "phone_maps": "+31 6 84880902",
+ "rating": "5,0",
+ "rating_count": 81,
+ "reviews": [
+  {
+   "name": "Ghayth Munwar",
+   "stars": 5,
+   "rel": "5 maanden geleden",
+   "text": "Geweldige service, vriendelijke medewerkers en ontspannen sfeer. De kapper luisterde goed naar mijn wensen en het resultaat is fantastisch Schone zaak en goede prijs-kwaliteitverhouding. Zeker een aanrader !"
+  },
+  {
+   "name": "Furkan Yildirim",
+   "stars": 5,
+   "rel": "7 maanden geleden",
+   "text": "Erg tevreden met deze kapper! Goede prijs kwaliteitverhouding en altijd een mooi resultaat. Het personeel is vriendelijk, neemt de tijd voor je en luistert goed naar wat je wilt. Zeker een aanrader!”"
+  },
+  {
+   "name": "Michel Matser",
+   "stars": 5,
+   "rel": "2 maanden geleden",
+   "text": "Strakke kapper. Nette prijs. Haaradvies voor de dunharigen onder ons."
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TjXKrhRH9OdcGqXc7J3yvig1r0XkdThTKxxm9V__4dDc2uWlj-ZBIIlnhq4FfdTYLnhRyp6GdP4TFkdpV6dYJ5QorC_F3n-WP3flch1FSWhj6W_3GLzc8g_hLL6eoLi5cf4eAgrbYA8B2L=w1920-h1080-k-no",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SbcbYZsq3e2vrnpcTGKc-W0CzXl-nZcykxDWke9IykXwxoQF_R_R8U_VEX3r2-45coukeo672QJo-nFfnMx05bPoZ5_uWgVCiVXC_3dr2EyVDvKSwwO0rtLl8HxD7vS1CTbpP_=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RjAl24avb-SgZOmp0rLa0QZx5bwGOesUgkLiqPtiGew-YtehntkPppcnaR0FdQuVnV7QNi2J57Z9LkLsNGBfD2raJ2_8JYSojVK7Vb3Rh9fKBxWj2H1_uaceysdisq-2NeX4srCVVOnLuf=w1920-h1080-k-no",
+  "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=4SiABZgmZ4_Ab56EdQefEw&cb_client=lu.gallery.gps&w=1920&h=1272&yaw=40.81697&pitch=0&thumbfov=100"
+ ],
+ "about_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=4SiABZgmZ4_Ab56EdQefEw&cb_client=lu.gallery.gps&w=1920&h=1272&yaw=40.81697&pitch=0&thumbfov=100",
+ "hours": [
+  [
+   "maandag",
+   "09:00–19:00"
+  ],
+  [
+   "dinsdag",
+   "09:00–19:00"
+  ],
+  [
+   "woensdag",
+   "09:00–19:00"
+  ],
+  [
+   "donderdag",
+   "10:00–21:00"
+  ],
+  [
+   "vrijdag",
+   "09:00–21:00"
+  ],
+  [
+   "zaterdag",
+   "09:00–19:00"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

@@ -1,0 +1,71 @@
+{
+ "slug": "barbershop-sameh",
+ "status": "ok",
+ "checked": "2026-10-19",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Barbershop%20Sameh",
+ "maps_name": "Barbershop Sameh",
+ "maps_category": "Kapper",
+ "address": "Adelaarslaan 90, 7331 GH Apeldoorn",
+ "phone_maps": "+31 55 785 9924",
+ "rating": "4,5",
+ "rating_count": 73,
+ "reviews": [
+  {
+   "name": "Kamal Balkhi",
+   "stars": 5,
+   "rel": "2 maanden geleden",
+   "text": "Ik ben heel blij met de kapper goede service ze zijn sociaal 👍"
+  },
+  {
+   "name": "oumar nemr",
+   "stars": 5,
+   "rel": "2 maanden geleden",
+   "text": "De beste kapper van de stad! 🔥"
+  },
+  {
+   "name": "Jalil Nuri",
+   "stars": 5,
+   "rel": "2 maanden geleden",
+   "text": "Ik vindt het beste kapper"
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9T4p4mixTRjlykfNTkA5Km6Ld3ZGhdUQ-XgjrG12kJiv3SbnHTnPOt-ORrORQGzF9_TK01Ergth6BuVASJeZZWchB4UHSw0PO8BoCoetP4KABgNnvo8_borT_8xJz7myzry3VO8=w1920-h1080-k-no",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RHKnAoDnzBjkre1ikSPoVzoYJSYY6fGJ7Kd5sdYsxDab0cS73maC3jx03ljMlgV7bpXib8oE_wOKHd_eLKteJiOd34-3Fnf1URIKwSyjXacQ6NJvnBTX9VI0WiFKI7gWIPicGuuT49-LVM=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SUiP_VEPS0F38VdHxqtTDnO-68VSV-XbBj_acrsaf4IofaIqG-XZzMsivA0x0jb4sabwwzHNDlJ5eCA7uWJkJPnsYDT0uyV6Py96cO6RPcgkLIHGBrXkdrP0Q_CVxvOK_fwr0=w1920-h1080-k-no"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SUiP_VEPS0F38VdHxqtTDnO-68VSV-XbBj_acrsaf4IofaIqG-XZzMsivA0x0jb4sabwwzHNDlJ5eCA7uWJkJPnsYDT0uyV6Py96cO6RPcgkLIHGBrXkdrP0Q_CVxvOK_fwr0=w1920-h1080-k-no",
+ "hours": [
+  [
+   "maandag",
+   "09:00–18:00"
+  ],
+  [
+   "dinsdag",
+   "09:00–18:00"
+  ],
+  [
+   "woensdag",
+   "09:00–18:00"
+  ],
+  [
+   "donderdag",
+   "09:00–18:00"
+  ],
+  [
+   "vrijdag",
+   "09:00–18:00"
+  ],
+  [
+   "zaterdag",
+   "09:00–18:00"
+  ],
+  [
+   "zondag",
+   "12:00–17:00"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

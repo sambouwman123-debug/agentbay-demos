@@ -1,0 +1,72 @@
+{
+ "slug": "beata-pedicure-salon",
+ "status": "ok",
+ "checked": "2026-10-19",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Beata%20Pedicure%20Salon",
+ "maps_name": "Beata Pedicure Salon",
+ "maps_category": "Medische organisatie",
+ "address": "Parkstraat 16, 8011 CJ Zwolle",
+ "phone_maps": "+31 6 23881219",
+ "rating": "5,0",
+ "rating_count": 10,
+ "reviews": [
+  {
+   "name": "Carline X",
+   "stars": 5,
+   "rel": "5 jaar geleden",
+   "text": "Hele vriendelijke vrouw, professionele behandeling. Praktijk aan huis, erg netjes en hygiënisch. Ik kwam voor mijn eerste pedicure, fijn geholpen, prettige behandeling. Mijn voeten zijn klaar voor de zomer ;-)."
+  },
+  {
+   "name": "Johan Vlijm",
+   "stars": 5,
+   "rel": "8 jaar geleden",
+   "text": "Heerlijk , zojuist een voetbehandeling gehad bij Beata medisch pedicure . Prima behandeling , door een rustige en vakbekwame dame . Ik heb dit als zeer prettig ervaren . Mijn vervolg afspraak is al geboekt ."
+  },
+  {
+   "name": "be kikkert",
+   "stars": 5,
+   "rel": "5 jaar geleden",
+   "text": "Eerste behandeling gehad wat een vakvrouw. Daarbij ook nog eens erg vriendelijk. Heb mijn eerste behandeling gehad, maar zie nu al uit naar de vervolgafspraak."
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QCT7C_pFczMIsIje6i1tZvoUokcW_RQpv5N7U1QnuIT8EUIV6KESrs7A50aAI2aH8PQ9pN1sjoMhK_3c_Cl1WmlZsWQ--JslArrA3QLEbOt_UOYtoJrS1v0AWC0Oz3OdcvMtdOwQ=w1920-h1080-k-no",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9Rzr9-LgLBrVR7SUNQY3xcT3CTdb3f7kLvtEbpZligvImm8ffIVAZLoXGquKWgLIHO3viQF_WuzJRP6lSVxLm2vi0D5OigNgM2VkFpO5BdkS40TScswFAEjg3QEPPr5UXhgdf5-=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QEL9IZDJEKwBqBkp55SBIcIOiJ2i60dTZxOrKAvvjRAxPVQ2M4FKNpSKcuV3jfNkH9yacQUsIhnq9hKjAGKXyA_4pU7keuwopAdWvVaRuk6Y98yBQtK6S_VpM8fQcd4s1_0nOPJA=w1920-h1080-k-no",
+  "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Yc_4C8wsh1SMXCy9xrReSw&cb_client=lu.gallery.gps&w=1920&h=1272&yaw=131.92366&pitch=0&thumbfov=100"
+ ],
+ "about_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Yc_4C8wsh1SMXCy9xrReSw&cb_client=lu.gallery.gps&w=1920&h=1272&yaw=131.92366&pitch=0&thumbfov=100",
+ "hours": [
+  [
+   "maandag",
+   "09:00–18:00"
+  ],
+  [
+   "dinsdag",
+   "09:00–18:00"
+  ],
+  [
+   "woensdag",
+   "09:00–18:00"
+  ],
+  [
+   "donderdag",
+   "09:00–18:00"
+  ],
+  [
+   "vrijdag",
+   "09:00–18:00"
+  ],
+  [
+   "zaterdag",
+   "Gesloten"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

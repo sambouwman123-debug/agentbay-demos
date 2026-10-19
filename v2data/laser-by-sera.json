@@ -1,0 +1,75 @@
+{
+ "slug": "laser-by-sera",
+ "status": "ok",
+ "checked": "2026-10-19",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Laser%20by%20Sera",
+ "maps_name": "Laser by Sera",
+ "maps_category": "Ontharing met laser",
+ "address": "Hof van Gent 41, 7007 JS Doetinchem",
+ "phone_maps": "+31 6 41888341",
+ "rating": "5,0",
+ "rating_count": 15,
+ "reviews": [
+  {
+   "name": "Lindsy Eijt",
+   "stars": 5,
+   "rel": "3 maanden geleden",
+   "text": "Super fijne vrouw! Ze houdt overal rekening mee, stelt je op je gemak en is ontzettend respectvol. Je kunt gezellig met haar kletsen, maar ze laat je ook helemaal in je waarde. De behandelingen verlopen professioneel en in een fijne, ontspannen sfeer. Ik kom altijd met een goed gevoel weer naar buiten. Echt een aanrader!"
+  },
+  {
+   "name": "Zerin Abdu",
+   "stars": 5,
+   "rel": "3 maanden geleden",
+   "text": "Ik ben heel blij met de laserbehandelingen , ik rij er 45 minuten voor, maar geen enkel spijt van. Ze doet haar werk heel goed !"
+  },
+  {
+   "name": "e krts",
+   "stars": 5,
+   "rel": "2 jaar geleden",
+   "text": "Fijne behandeling gehad zeer tevreden. Oksels vrij na 2e behandeling weinig haargroei👍🏻🫶🏻❤️"
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TAoGBTHOeRM78RwrSYyu1JgFagi8xf2LhIYl0SA4SRxQ3YIHFIOdgoMN_46PIGTRLeqz6s4NUIu_hzd7FN-M8F_iEkwPX5FGF1OyTkGmGZmZUt11UBzR-RndktkHPCfRs1aVnoTgAJ3o81=w1920-h1080-k-no",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9RGMtMlcT8DAt0pUvn2Ze5uJtgipAP9x7kGqRkiefZuVvD1YV0_1Ouco9GsLeCi33VCHNq2GlcKJIjW3SarTI-Vx8QWSew-Ui8qPq7rqqoqqpdp5s1hjdwTw1zoWjvJFastzHt-KdfhKQ2l=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QaQvPZmRheEBWjrGeJdlQNnaImHYUxUSgWcGftrSJ2OZ5XjRqnS_ZDx9zbkKyDXJiuot-xaE_M8bllqGixSGsOKP_2cj2huTyYzy5CFHVfEF4dNV_xGZzBksdi-KZJFWAa6tmE=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QMhaXRMKhr-297IbypCoGxXIH5HftE4BmfFASW2oqoOpKNNSsbcGwWUZRT6efbx-2quWca3in37oQWJ0zI0jBcxCGWMiu8c4MmAVmyvTYuUk890z_UAR-hiHKHSQ2Ka0UHauVPlf9UGiOh=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9ROHWDmmZ3hj3N6C6pXHuWB9I43GWxCRf8ltgXA88JyVOb0bEeqohF1-ZNI5cxItl1uYWqzIAPtEl_7KKLJjfHHjin39F9wOGCsOPnoZgQlPRnVbRrnXdEzjNDd7pfK-Hgtj1i4=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SMHx6WoNZpTGER0IfQ4uiXUCORTwfe0r0dF8KOUiXbjrcmTK7hrJLBfSYC3Uzprj8kV12hOX1iMpor8lvv1a-lVqRyWJPieeTSG6depJlXHXu_CKtLGzzR8txiZU2T_WikNV8=w1920-h1080-k-no",
+  "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=mTg2R75FOjUyUKswZuJySQ&cb_client=lu.gallery.gps&w=1920&h=1272&yaw=227.1452&pitch=0&thumbfov=100"
+ ],
+ "about_photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=mTg2R75FOjUyUKswZuJySQ&cb_client=lu.gallery.gps&w=1920&h=1272&yaw=227.1452&pitch=0&thumbfov=100",
+ "hours": [
+  [
+   "maandag",
+   "09:00–21:00"
+  ],
+  [
+   "dinsdag",
+   "09:00–21:00"
+  ],
+  [
+   "woensdag",
+   "Gesloten"
+  ],
+  [
+   "donderdag",
+   "09:00–21:00"
+  ],
+  [
+   "vrijdag",
+   "09:00–21:00"
+  ],
+  [
+   "zaterdag",
+   "Gesloten"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}

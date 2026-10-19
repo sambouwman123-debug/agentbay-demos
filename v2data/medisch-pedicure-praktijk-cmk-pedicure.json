@@ -1,0 +1,74 @@
+{
+ "slug": "medisch-pedicure-praktijk-cmk-pedicure",
+ "status": "ok",
+ "checked": "2026-10-19",
+ "maps_url": "https://www.google.com/maps/search/?api=1&query=Medisch%20pedicure%20praktijk%20CMK-pedicure",
+ "maps_name": "Medisch pedicure praktijk CMK-pedicure",
+ "maps_category": "Voetverzorging",
+ "address": "Boszichtlaan 17, 7314 EV Apeldoorn",
+ "phone_maps": "+31 6 25115103",
+ "rating": "5,0",
+ "rating_count": 12,
+ "reviews": [
+  {
+   "name": "Teuni de Ruiter",
+   "stars": 5,
+   "rel": "4 jaar geleden",
+   "text": "Vriendelijke en clientgerichte benadering. Uitstekende behandeling waaronder veel eelt verwijderen, likdoorn verwijderen, risico op ingroeien van nagels voorkomen. Praktische adviezen betreffende voetverzorging. Persoonlijke aandacht tijdens de behandeling."
+  },
+  {
+   "name": "Linda De Jager",
+   "stars": 5,
+   "rel": "6 jaar geleden",
+   "text": "Altijd super tevreden bij cindy. Ze is professioneel en erg kundig en vooral ook heel gezellig. Vind het heel fijn bij haar. Ga altijd weer weg met mooie voeten"
+  },
+  {
+   "name": "Henk Broekhuis",
+   "stars": 5,
+   "rel": "6 jaar geleden",
+   "text": "Een fijne pedicure waarbij je vriendelijk wordt ontvangen. Heerlijke basis behandeling gehad."
+  }
+ ],
+ "hero": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TcIxEvSdX8jJr4OvvFFxrozrKvCUgbnbkigrl0v2wDvbX6zbDh-cGcBYIPxjPNdRC_duVcxOLgTP2wY8MmXrfGaKMW-j0r5939CDxPDnnHg1-M1LxtjI3nSVac9Jx3poQAVbkR_Q=w1920-h1080-k-no",
+ "gallery": [
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TbsfKh-V94j0t7pb_scx40fSC1lPEPw2Fm5ZKn5yoD9OSwam-DTZGIzzbJmC0X14UQ6af7LtEwjGK5FuI_U-EeEcuos2MAx9t1Pqc9FTdUMs_f5fUtLyVnF5HjDMpaX3B2R-bTuQ=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9TL45hOff5VL9-KXJjrI-HVEIIvHocu9Yd2_23UvbWsuldYx7OUDEFvLAdzKNsYGlEPndIdLaJLp_SsNrRgw6ibjFF_J2KnIm2Q3G31k4hIK46z9UqmhmezCd-1-0eJ4B9PhQ0=w1920-h1080-k-no",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9QW-9HeSk62D4coTL2UwV2JBfJTb8zAvRGeBQmoUmXo8UZ6EpZrYesqztZjuCoXmWd2wAu56gqxGtWaZpJsD02dNQSGsNwDbEQCgHqmy2V5Egc44FXLEDGLfLBnleAOIxdApfVUIQ=w1920-h1080-k-no",
+  "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=9MI5tJFPh0ptlswGhSNhtQ&cb_client=lu.gallery.gps&w=1920&h=1272&yaw=150.57684&pitch=0&thumbfov=100",
+  "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SA0CPu-PO04zk52NUNARzBCLN5ajj4LIUkqnslTZT3XqrHTriJv2BjihVoVN8pjGvW-2bb6HjXm9BePZgCj7uEKyOWMsbx2T92JmjTo8Ckn3J4MMK60GpGCG_BdKBpKcZ2ox32=w1920-h1080-k-no"
+ ],
+ "about_photo": "https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SA0CPu-PO04zk52NUNARzBCLN5ajj4LIUkqnslTZT3XqrHTriJv2BjihVoVN8pjGvW-2bb6HjXm9BePZgCj7uEKyOWMsbx2T92JmjTo8Ckn3J4MMK60GpGCG_BdKBpKcZ2ox32=w1920-h1080-k-no",
+ "hours": [
+  [
+   "maandag",
+   "09:00–15:00, 19:00–21:00"
+  ],
+  [
+   "dinsdag",
+   "09:00–17:00"
+  ],
+  [
+   "woensdag",
+   "09:00–12:00"
+  ],
+  [
+   "donderdag",
+   "09:00–15:00"
+  ],
+  [
+   "vrijdag",
+   "09:00–15:00"
+  ],
+  [
+   "zaterdag",
+   "Gesloten"
+  ],
+  [
+   "zondag",
+   "Gesloten"
+  ]
+ ],
+ "socials": {},
+ "website": "NONE",
+ "note": ""
+}
