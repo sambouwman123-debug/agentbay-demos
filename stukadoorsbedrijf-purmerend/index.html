@@ -37,19 +37,28 @@
   .menu-btn{display:none;background:none;border:0;cursor:pointer;padding:6px}
   .menu-btn span{display:block;width:22px;height:2px;background:var(--ink);margin:5px 0;transition:.25s}
 
-  .hero{position:relative;overflow:hidden}
-  .hero-inner{display:grid;grid-template-columns:1.05fr .95fr;gap:0;align-items:stretch;min-height:calc(100vh - 70px)}
-  .hero-text{padding:70px 56px 70px 0;display:flex;flex-direction:column;justify-content:center}
   .eyebrow{font-size:12.5px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);margin-bottom:18px}
-  h1{font-family:var(--serif);font-weight:600;font-size:clamp(38px,5vw,62px);line-height:1.03;letter-spacing:-.02em}
+  h1{font-family:var(--serif);font-weight:600;font-size:clamp(40px,5.4vw,66px);line-height:1.03;letter-spacing:-.02em}
   h1 em{font-style:italic;color:var(--accent)}
   .lead{font-size:18px;color:var(--muted);margin:22px 0 32px;max-width:470px}
   .hero-actions{display:flex;gap:14px;flex-wrap:wrap}
-  .hero-img{position:relative;border-radius:var(--r);overflow:hidden;margin:28px 0;box-shadow:0 30px 60px -30px rgba(28,25,22,.35)}
-  .hero-img img{width:100%;height:100%;object-fit:cover;min-height:440px}
-  .trust{display:flex;gap:34px;margin-top:42px;flex-wrap:wrap}
-  .trust b{font-family:var(--serif);font-size:22px;display:block;color:var(--ink)}
-  .trust small{font-size:13px;color:var(--muted)}
+  /* full-bleed hero */
+  .hero{position:relative;min-height:calc(100vh - 70px);display:flex;align-items:center;background:#171310;overflow:hidden}
+  .hero-bg{position:absolute;inset:0;background-image:url('images/p16.jpg');background-size:cover;background-position:center;z-index:0}
+  .hero-ov{position:absolute;inset:0;z-index:1;background:linear-gradient(90deg,rgba(20,16,12,.9),rgba(20,16,12,.62) 48%,rgba(20,16,12,.3))}
+  .hero .wrap{position:relative;z-index:2}
+  .hero-text{max-width:640px;color:#f6f0e4;padding:74px 0}
+  .hero .eyebrow{color:var(--accent-soft)}
+  .hero h1{color:#fff}
+  .hero h1 em{color:var(--accent-soft)}
+  .hero .lead{color:#e6ddcd;max-width:500px}
+  .hero .btn.wa{background:#f5efe3;color:var(--dark)}
+  .hero .btn.wa:hover{background:#fff}
+  .hero .btn.ghost{color:#f6f0e4;border-color:rgba(255,255,255,.32)}
+  .hero .btn.ghost:hover{background:rgba(255,255,255,.07);border-color:var(--accent-soft)}
+  .trust{display:flex;gap:36px;margin-top:46px;flex-wrap:wrap}
+  .trust b{font-family:var(--serif);font-size:22px;display:block;color:#fff}
+  .trust small{font-size:13px;color:#cfc5b4}
 
   section{padding:88px 0}
   .sec-head{max-width:640px;margin-bottom:48px}
@@ -85,7 +94,10 @@
   .area-card h3{font-family:var(--serif);font-size:24px;margin-bottom:10px}
   .area-card p{color:var(--muted);margin-bottom:22px}
 
-  .cta{background:var(--dark);color:#f5efe3;text-align:center;border-radius:24px;padding:70px 30px;position:relative;overflow:hidden}
+  .cta{background:#171310;color:#f5efe3;text-align:center;border-radius:24px;padding:76px 30px;position:relative;overflow:hidden}
+  .cta-bg{position:absolute;inset:0;z-index:0;background-image:url('images/p14.jpg');background-size:cover;background-position:center}
+  .cta-ov{position:absolute;inset:0;z-index:1;background:linear-gradient(rgba(20,16,12,.84),rgba(20,16,12,.86))}
+  .cta-inner{position:relative;z-index:2}
   .cta .eyebrow{color:var(--accent-soft)}
   .cta h2{color:#fff}
   .cta p{color:#cfc5b4;font-size:18px;margin:14px auto 30px;max-width:520px}
@@ -101,9 +113,9 @@
   @media(max-width:860px){
     .nav-links{display:none}
     .menu-btn{display:block}
-    .hero-inner{grid-template-columns:1fr;min-height:auto}
-    .hero-text{padding:48px 0 10px}
-    .hero-img{min-height:340px;margin:12px 0 42px}
+    .hero{min-height:82vh}
+    .hero-text{padding:60px 0}
+    .hero-ov{background:linear-gradient(rgba(20,16,12,.78),rgba(20,16,12,.62))}
     .svc-grid{grid-template-columns:1fr}
     .grid-ph{grid-template-columns:repeat(2,1fr)}
     .area-grid{grid-template-columns:1fr;gap:28px}
@@ -142,30 +154,29 @@
   </div>
 </header>
 
-<div class="hero">
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-ov"></div>
   <div class="wrap">
-    <div class="hero-inner">
-      <div class="hero-text">
-        <div class="eyebrow">Stucwerk &amp; Schilderwerk · Purmerend e.o.</div>
-        <h1>Een strakke muur begint bij <em>vakwerk.</em></h1>
-        <p class="lead">Vakkundig stucwerk, sierstucwerk, beton ciré, marmerstuc en schilderwerk — voor een verzorgde, luxe afwerking bij u thuis, in Purmerend en omstreken.</p>
-        <div class="hero-actions">
-          <a class="btn wa" href="https://wa.me/31618372505" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.39c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2zm0 18.15c-1.48 0-2.93-.4-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.39c0-4.54 3.7-8.24 8.24-8.24s8.24 3.7 8.24 8.24-3.7 8.25-8.24 8.25z"/></svg>
-            Vraag een offerte aan
-          </a>
-          <a class="btn ghost" href="#werk">Bekijk mijn werk</a>
-        </div>
-        <div class="trust">
-          <div><b>Purmerend</b><small>en omstreken</small></div>
-          <div><b>Vakwerk</b><small>net en op tijd</small></div>
-          <div><b>Gratis</b><small>offerte op maat</small></div>
-        </div>
+    <div class="hero-text">
+      <div class="eyebrow">Stucwerk &amp; Schilderwerk · Purmerend e.o.</div>
+      <h1>Een strakke muur begint bij <em>vakwerk.</em></h1>
+      <p class="lead">Vakkundig stucwerk, sierstucwerk, beton ciré, marmerstuc en schilderwerk — voor een verzorgde, luxe afwerking bij u thuis, in Purmerend en omstreken.</p>
+      <div class="hero-actions">
+        <a class="btn wa" href="https://wa.me/31618372505" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.39c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2zm0 18.15c-1.48 0-2.93-.4-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.39c0-4.54 3.7-8.24 8.24-8.24s8.24 3.7 8.24 8.24-3.7 8.25-8.24 8.25z"/></svg>
+          Vraag een offerte aan
+        </a>
+        <a class="btn ghost" href="#werk">Bekijk mijn werk</a>
       </div>
-      <div class="hero-img"><img src="images/p16.jpg" alt="Luxe beton ciré wandafwerking met visgraatvloer"></div>
+      <div class="trust">
+        <div><b>Purmerend</b><small>en omstreken</small></div>
+        <div><b>Vakwerk</b><small>net en op tijd</small></div>
+        <div><b>Gratis</b><small>offerte op maat</small></div>
+      </div>
     </div>
   </div>
-</div>
+</section>
 
 <section id="diensten">
   <div class="wrap">
@@ -237,14 +248,18 @@
 <section id="contact">
   <div class="wrap">
     <div class="cta">
-      <div class="eyebrow">Direct contact</div>
-      <h2>Klaar voor strak stucwerk?</h2>
-      <p>App of bel gerust — ik denk met u mee en maak een vrijblijvende offerte op maat.</p>
-      <a class="btn wa" href="https://wa.me/31618372505?text=Hallo,%20ik%20heb%20interesse%20in%20stucwerk/schilderwerk.%20Kunt%20u%20mij%20meer%20vertellen%3F" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.39c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2z"/></svg>
-        App via WhatsApp
-      </a>
-      <span class="cta-phone">Of bel direct: <b>06 - 18 37 25 05</b></span>
+      <div class="cta-bg"></div>
+      <div class="cta-ov"></div>
+      <div class="cta-inner">
+        <div class="eyebrow">Direct contact</div>
+        <h2>Klaar voor strak stucwerk?</h2>
+        <p>App of bel gerust — ik denk met u mee en maak een vrijblijvende offerte op maat.</p>
+        <a class="btn wa" href="https://wa.me/31618372505?text=Hallo,%20ik%20heb%20interesse%20in%20stucwerk/schilderwerk.%20Kunt%20u%20mij%20meer%20vertellen%3F" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24"><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.3-1.39c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2z"/></svg>
+          App via WhatsApp
+        </a>
+        <span class="cta-phone">Of bel direct: <b>06 - 18 37 25 05</b></span>
+      </div>
     </div>
   </div>
 </section>
